@@ -1,0 +1,6 @@
+"","ID","Filum","Clase","Orden","Familia","Género","Especie.trófica","Nombre.común","Hábitat","Dominio","Expertise","Referencia","Enlace","X","X.1"
+"1",10,"Echinodermata","Holothuroidea ","Dendrochirotida","Psolidae","Psolus","Psolus_patagonicus","Pepino de roca Patagónico","Bentónico","CB","Holoturoideos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
+"2",11,"Echinodermata","Holothuroidea ","Dendrochirotida",NA,NA,"Dendrochirotida*","Dendroquirótidos","Bentónico","CB","Holoturoideos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
+"3",15,"Echinodermata","Holothuroidea","Apodida",NA,NA,"Apodida*","Apódidos","Bentónico","CB","Holoturoideos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
+"4",61,"Echinodermata","Holothuroidea","Aspidochirotida","Cymatiidae","Fussitriton","Fussitriton*",NA,NA,"","Holoturoideos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
+"5",66,"Echinodermata","Holothuroidea ","Dendrochirotida",NA,NA,"Dendrochirotida*",NA,NA,"","Holoturoideos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""

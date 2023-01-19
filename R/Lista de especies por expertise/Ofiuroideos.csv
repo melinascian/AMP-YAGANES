@@ -1,0 +1,7 @@
+"","ID","Filum","Clase","Orden","Familia","Género","Especie.trófica","Nombre.común","Hábitat","Dominio","Expertise","Referencia","Enlace","X","X.1"
+"1",14,"Echinodermata","Ophiruidea",NA,NA,NA,"Ophiruidea*","Ofiuras","Bentopelágico","CB","Ofiuroideos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
+"2",40,"Echinodermata","Ophiruidea","Ophiacanthida ","Ophiacanthidae","Ophiacantha","Ophiacantha_vivipara","Ofiura","","","Ofiuroideos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
+"3",67,"Echinodermata","Ophiuroidea","Ophiurida ","Ophiuridae","Ophiuroglypha","Ophiuroglypha_lymani","Ofiura rosada","Bentónico","","Ofiuroideos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
+"4",69,"Echinodermata","Ophiuroidea","Ophiurida ","Ophiuridae","Ophiocten","Ophiocten_amitinum",NA,"Bentónico","","Ofiuroideos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
+"5",106,"Echinodermata","Ophiuroidea","Ophioscolecida ","Ophioscolecidae ","Ophioscolex","Ophioscolex_nutrix",NA,"","","Ofiuroideos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
+"6",107,"Echinodermata","Ophiuroidea","Euryalida ","Gorgonocephalidae ","Gorgonocephalus","Gorgonocephalus_chilensis",NA,"","","Ofiuroideos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
