@@ -1,0 +1,13 @@
+"","ID","Presa","Grupo.funcional.presa","Depredador","Grupo.funcional.depredador","Estrategia","Fuente","Expertise.depredador","Expertise.presa","Referencia","Enlace","Referente"
+"1",62,"Calanus_australis","Copepoda ","Lagenorhynchus_cruciger","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos",8,"https://doi.org/10.3354/meps08826",NA
+"2",108,"Calanus_australis","Copepoda ","Pseudorca_crassidens","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos",8,"https://doi.org/10.3354/meps08826",NA
+"3",152,"Calanus_australis","Copepoda ","Phocoena_dioptrica","Phocoenidae","","Heterótrofo","Mamiferos marinos","Crustaceos",8,"https://doi.org/10.3354/meps08826",NA
+"4",175,"Themisto_gaudichaudii","Malacostraca","Spheniscus_magellanicus_female","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"5",176,"Euphausiacea*","Malacostraca","Spheniscus_magellanicus_female","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"6",177,"Amphipoda* ","Malacostraca","Spheniscus_magellanicus_female","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"7",178,"Themisto_gaudichaudii","Malacostraca","Spheniscus_magellanicus_male","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"8",179,"Euphausiacea*","Malacostraca","Spheniscus_magellanicus_male","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"9",180,"Amphipoda* ","Malacostraca","Spheniscus_magellanicus_male","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"10",183,"Munida_gregaria","Malacostraca","Spheniscus_magellanicus_male","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"11",184,"Munida_gregaria","Malacostraca","Spheniscus_magellanicus_female","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"12",524,"Natantia*","Crustacea","Lamna_nasus","Lamniformes","Cazador","Heterótrofo","Condrictios","Crustaceos",26,"https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866",NA

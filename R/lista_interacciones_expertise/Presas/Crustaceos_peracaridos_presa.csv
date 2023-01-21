@@ -1,0 +1,56 @@
+"","ID","Presa","Grupo.funcional.presa","Depredador","Grupo.funcional.depredador","Estrategia","Fuente","Expertise.depredador","Expertise.presa","Referencia","Enlace","Referente"
+"1",17,"Galiteuthis_glacialis","Malacostraca","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"2",18,"Taonius","Malacostraca","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"3",19,"Gammaridea","Malacostraca","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"4",20,"Themisto_gaudicahudii","Malacostraca","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"5",21,"Anuropus_antarcticus","Malacostraca","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"6",22,"Acanthephyra _pelagica","Malacostraca","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"7",23,"Acanthephyra ","Malacostraca","Grampus_griseus","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"8",24,"Pasiphaea_longispina","Malacostraca","Grampus_griseus","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"9",25,"Euphausia_superba","Malacostraca","Grampus_griseus","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"10",26,"Gnathophausiidae","Malacostraca","Grampus_griseus","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"11",59,"Campylognathus_vagans","Malacostraca","Lagenorhynchus_cruciger","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"12",60,"Munida_gregaria","Malacostraca","Lagenorhynchus_cruciger","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"13",61,"Euphausia_lucens","Malacostraca","Lagenorhynchus_cruciger","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"14",63,"Themisto_gaudichaudii","Malacostraca","Lagenorhynchus_cruciger","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"15",105,"Campylognathus_vagans","Malacostraca","Pseudorca_crassidens","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"16",106,"Munida_gregaria","Malacostraca","Pseudorca_crassidens","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"17",107,"Euphausia_lucens","Malacostraca","Pseudorca_crassidens","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"18",109,"Themisto_gaudichaudii","Malacostraca","Pseudorca_crassidens","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"19",149,"Campylognathus_vagans","Malacostraca","Phocoena_dioptrica","Phocoenidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"20",150,"Munida_gregaria","Malacostraca","Phocoena_dioptrica","Phocoenidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"21",151,"Euphausia_lucens","Malacostraca","Phocoena_dioptrica","Phocoenidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"22",153,"Themisto_gaudichaudii","Malacostraca","Phocoena_dioptrica","Phocoenidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",8,"https://doi.org/10.3354/meps08826",NA
+"23",195,"Euphausia_lucens","Malacostraca","Berardius_arnuxii","Ziphiidae ","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",13,"",NA
+"24",196,"Euphausia_superba","Malacostraca","Berardius_arnuxii","Ziphiidae ","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",13,"",NA
+"25",221,"Euphausia_lucens","Malacostraca","Hyperoodon_planifrons","Ziphiidae ","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",13,"",NA
+"26",222,"Euphausia_superba","Malacostraca","Hyperoodon_planifrons","Ziphiidae ","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",13,"",NA
+"27",247,"Euphausia_lucens","Malacostraca","Mesoplodon_bowdoini","Ziphiidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",13,"",NA
+"28",248,"Euphausia_superba","Malacostraca","Mesoplodon_bowdoini","Ziphiidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",13,"",NA
+"29",273,"Euphausia_lucens","Malacostraca","Mesoplodon_grayi","Ziphiidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",13,"",NA
+"30",274,"Euphausia_superba","Malacostraca","Mesoplodon_grayi","Ziphiidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",13,"",NA
+"31",299,"Euphausia_lucens","Malacostraca","Mesoplodon_hectori","Ziphiidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",13,"",NA
+"32",300,"Euphausia_superba","Malacostraca","Mesoplodon_hectori","Ziphiidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",13,"",NA
+"33",325,"Euphausia_lucens","Malacostraca","Mesoplodon_layardii","Ziphiidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",13,"",NA
+"34",326,"Euphausia_superba","Malacostraca","Mesoplodon_layardii","Ziphiidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",13,"",NA
+"35",351,"Euphausia_lucens","Malacostraca","Tasmacetus_shepherdi","Ziphiidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",13,"https://doi.org/10.3354/meps12296",NA
+"36",352,"Euphausia_superba","Malacostraca","Tasmacetus_shepherdi","Ziphiidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",13,"https://doi.org/10.3354/meps12296",NA
+"37",377,"Euphausia_lucens","Malacostraca","Ziphius_cavirostris","Ziphiidae ","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",19,"https://doi.org/10.1007/s00300-019-02607-z",NA
+"38",378,"Euphausia_superba","Malacostraca","Ziphius_cavirostris","Ziphiidae ","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",19,"https://doi.org/10.1007/s00300-019-02607-z",NA
+"39",403,"Euphausia_lucens","Malacostraca","Cephalorhynchus_commersonii","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",19,"https://doi.org/10.1007/s00300-019-02607-z",NA
+"40",404,"Euphausia_superba","Malacostraca","Cephalorhynchus_commersonii","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",19,"https://doi.org/10.1007/s00300-019-02607-z",NA
+"41",429,"Euphausia_lucens","Malacostraca","Eubalaena_australis","Balaenidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",19,"https://doi.org/10.1007/s00300-019-02607-z",NA
+"42",430,"Euphausia_superba","Malacostraca","Eubalaena_australis","Balaenidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",19,"https://doi.org/10.1007/s00300-019-02607-z",NA
+"43",450,"Munida_gregaria","Malacostraca","Aves","","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",15,"https://doi.org/10.1007/s00300-018-2394-2",NA
+"44",452,"Munida_gregaria","Malacostraca","Peces","","Cazador","Heterótrofo","Peces","Crustaceos peracaridos",15,"https://doi.org/10.1007/s00300-018-2394-2",NA
+"45",454,"Munida_gregaria","Malacostraca","Mamiferos marinos","","Cazador","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",15,"https://doi.org/10.1007/s00300-018-2394-2",NA
+"46",455,"Munida_gregaria","Malacostraca","Spheniscus_magellanicus","Sphenisciformes","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",16,"https://doi.org/10.1111/ibi.12547",NA
+"47",458,"Euphausiacea","Malacostraca","Megaptera_novaeangliae","Balaenopteridae","Filtrador","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",19,"https://doi.org/10.1007/s00300-019-02607-z",NA
+"48",459,"Euphausiacea","Malacostraca","Balaenoptera_borealis","Balaenopteridae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",19,"https://doi.org/10.1007/s00300-019-02607-z",NA
+"49",460,"Euphausiacea","Malacostraca","Lagenorhynchus_cruciger","Delphinidae","","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",19,"https://doi.org/10.1007/s00300-019-02607-z",NA
+"50",502,"Euphausia_superba","Malacostraca","Balaenoptera_physalus","Balaenopteridae","Filtrador","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",24,"https://doi.org/10.1007/s00300-022-03080-x",NA
+"51",503,"Euphausia_superba","Malacostraca","Megaptera_novaeangliae","Balaenopteridae","Filtrador","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",24,"https://doi.org/10.1007/s00300-022-03080-x",NA
+"52",504,"Euphausia_superba","Malacostraca","Balaenoptera_bonaerensis","Balaenopteridae","Filtrador","Heterótrofo","Mamiferos marinos","Crustaceos peracaridos",24,"https://doi.org/10.1007/s00300-022-03080-x",NA
+"53",525,"Lithodes_santolla","Malacostraca","Lamna_nasus","Lamniformes","Cazador","Heterótrofo","Condrictios","Crustaceos peracaridos",26,"https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866",NA
+"54",526,"Euphausia*","Malacostraca","Lamna_nasus","Lamniformes","Cazador","Heterótrofo","Condrictios","Crustaceos peracaridos",26,"https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866",NA
+"55",527,"Munida_gregaria","Malacostraca","Lamna_nasus","Lamniformes","Cazador","Heterótrofo","Condrictios","Crustaceos peracaridos",26,"https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866",NA

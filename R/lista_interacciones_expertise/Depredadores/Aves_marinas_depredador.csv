@@ -1,0 +1,49 @@
+"","ID","Presa","Grupo.funcional.presa","Depredador","Grupo.funcional.depredador","Estrategia","Fuente","Expertise.depredador","Expertise.presa","Referencia","Enlace","Referente"
+"1",1,"Electrona_antartica","Myctophiformes","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Peces",4,"https://doi.org/10.1017/S095410200400207X",NA
+"2",2,"Electrona_carlsbergi","Myctophiformes","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Peces",4,"https://doi.org/10.1017/S095410200400207X",NA
+"3",3,"Gymnoscopelus_fraseri","Myctophiformes","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Peces",4,"https://doi.org/10.1017/S095410200400207X",NA
+"4",4,"Gymnoscopelus_hintonoides","Myctophiformes","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Peces",4,"https://doi.org/10.1017/S095410200400207X",NA
+"5",5,"Gymnoscopelus_nicholsi","Myctophiformes","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Peces",4,"https://doi.org/10.1017/S095410200400207X",NA
+"6",6,"Gymnoscopelus*","Myctophiformes","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Peces",4,"https://doi.org/10.1017/S095410200400207X",NA
+"7",7,"Krefftichthys_andersoni","Myctophiformes","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Peces",4,"https://doi.org/10.1017/S095410200400207X",NA
+"8",8,"Macrouridae","Gadiformes","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Peces",4,"https://doi.org/10.1017/S095410200400207X",NA
+"9",9,"Melanonus_gracilis","Gadiformes","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Peces",4,"https://doi.org/10.1017/S095410200400207X",NA
+"10",10,"Gonatus_antarcticus","Cephalopoda","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Cefalopodos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"11",11,"Kondakovia _longimana","Cephalopoda","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Cefalopodos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"12",12,"Batoteuthis_skolops","Cephalopoda","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Cefalopodos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"13",13,"Histioteuthis","Cephalopoda","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Cefalopodos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"14",14,"Alluroteuthis_antarcticus","Cephalopoda","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Cefalopodos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"15",15,"Martialia_hyadesi","Cephalopoda","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Cefalopodos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"16",16,"Mastigoteuthis_psychrophila","Cephalopoda","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Cefalopodos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"17",17,"Galiteuthis_glacialis","Malacostraca","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"18",18,"Taonius","Malacostraca","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"19",19,"Gammaridea","Malacostraca","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"20",20,"Themisto_gaudicahudii","Malacostraca","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"21",21,"Anuropus_antarcticus","Malacostraca","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"22",22,"Acanthephyra _pelagica","Malacostraca","Thalassarche_chrysostoma","Procellariiformes","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",4,"https://doi.org/10.1017/S095410200400207X",NA
+"23",165,"Ancistrocheirus*","Cephalopoda ","Thalassarche_chrysostoma","Procellariiformes","","Heterótrofo","Aves marinas","Cefalopodos",9,"https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary",NA
+"24",166,"Ancistrocheirus*","Cephalopoda ","Thalassarche_melanophris","Procellariiformes","","Heterótrofo","Aves marinas","Cefalopodos",11,"https://doi.org/10.3354/meps11689",NA
+"25",167,"Zooplankton*","Zooplankton","Spheniscus_magellanicus_female","Sphenisciformes","","Heterótrofo","Aves marinas","Zooplancton",11,"https://doi.org/10.3354/meps11689",NA
+"26",168,"Cephalopods*","Cephalopoda ","Spheniscus_magellanicus_female","Sphenisciformes","","Heterótrofo","Aves marinas","Cefalopodos",11,"https://doi.org/10.3354/meps11689",NA
+"27",169,"Zooplankton*","Zooplankton","Spheniscus_magellanicus_male","Sphenisciformes","","Heterótrofo","Aves marinas","Zooplancton",11,"https://doi.org/10.3354/meps11689",NA
+"28",170,"Cephalopods*","Cephalopoda ","Spheniscus_magellanicus_male","Sphenisciformes","","Heterótrofo","Aves marinas","Cefalopodos",11,"https://doi.org/10.3354/meps11689",NA
+"29",175,"Themisto_gaudichaudii","Malacostraca","Spheniscus_magellanicus_female","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"30",176,"Euphausiacea*","Malacostraca","Spheniscus_magellanicus_female","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"31",177,"Amphipoda* ","Malacostraca","Spheniscus_magellanicus_female","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"32",178,"Themisto_gaudichaudii","Malacostraca","Spheniscus_magellanicus_male","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"33",179,"Euphausiacea*","Malacostraca","Spheniscus_magellanicus_male","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"34",180,"Amphipoda* ","Malacostraca","Spheniscus_magellanicus_male","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"35",181,"Sprattus_fuegensis","Clupeiformes ","Spheniscus_magellanicus_male","Sphenisciformes","","Heterótrofo","Aves marinas","Sardinas",11,"https://doi.org/10.3354/meps11689",NA
+"36",182,"Sprattus_fuegensis","Clupeiformes ","Spheniscus_magellanicus_female","Sphenisciformes","","Heterótrofo","Aves marinas","Sardinas",11,"https://doi.org/10.3354/meps11689",NA
+"37",183,"Munida_gregaria","Malacostraca","Spheniscus_magellanicus_male","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"38",184,"Munida_gregaria","Malacostraca","Spheniscus_magellanicus_female","Sphenisciformes","","Heterótrofo","Aves marinas","Crustaceos",11,"https://doi.org/10.3354/meps11689",NA
+"39",185,"Loligo_gahi","Cephalopoda ","Spheniscus_magellanicus_male","Sphenisciformes","","Heterótrofo","Aves marinas","Cefalopodos",11,"https://doi.org/10.3354/meps11689",NA
+"40",186,"Loligo_gahi","Cephalopoda ","Spheniscus_magellanicus_female","Sphenisciformes","","Heterótrofo","Aves marinas","Cefalopodos",11,"https://doi.org/10.3354/meps11689",NA
+"41",187,"Engraulidae*","Clupeiformes ","Spheniscus_magellanicus_male","Sphenisciformes","","Heterótrofo","Aves marinas","Sardinas",11,"https://doi.org/10.3354/meps11689",NA
+"42",188,"Engraulidae*","Clupeiformes ","Spheniscus_magellanicus_female","Sphenisciformes","","Heterótrofo","Aves marinas","Sardinas",11,"https://doi.org/10.3354/meps11689",NA
+"43",449,"Sprattus_fuegensis","Clupeiformes ","Aves","","Cazador","Heterótrofo","Aves marinas","Sardinas",15,"https://doi.org/10.1007/s00300-018-2394-2",NA
+"44",450,"Munida_gregaria","Malacostraca","Aves","","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",15,"https://doi.org/10.1007/s00300-018-2394-2",NA
+"45",455,"Munida_gregaria","Malacostraca","Spheniscus_magellanicus","Sphenisciformes","Cazador","Heterótrofo","Aves marinas","Crustaceos peracaridos",16,"https://doi.org/10.1111/ibi.12547",NA
+"46",456,"Sprattus_fuegensis","Clupeiformes ","Spheniscus_magellanicus","Sphenisciformes","Cazador","Heterótrofo","Aves marinas","Sardinas",16,"https://doi.org/10.1111/ibi.12547",NA
+"47",457,"Loligo_gahi","Cephalopoda ","Spheniscus_magellanicus","Sphenisciformes","Cazador","Heterótrofo","Aves marinas","Cefalopodos",16,"https://doi.org/10.1111/ibi.12547",NA
+"48",505,"Eudyptes_filholi","Sphenisciformes","Phalcoboenus_australis","Falconiformes","Cazador","Heterótrofo","Aves marinas","Aves marinas",21,"https://doi.org/10.1007/s00300-021-02908-2",NA

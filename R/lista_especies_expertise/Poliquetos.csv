@@ -1,0 +1,7 @@
+"","ID","Filum","Clase","Orden","Familia","Género","Especie.trófica","Nombre.común","Hábitat","Dominio","Expertise","Referencia","Enlace","X","X.1"
+"1",21,"Annelida","Polychaeta","Terebellida","Terebellidae","Lanice","Lanice*","Gusanos de cerdas","Bentónico","CB","Poliquetos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
+"2",23,"Annelida","Polychaeta","Canalipalpata","Chaetopteridae","Chaetopterus","Chaetopterus*","Gusano tubo de pergamino","Bentónico","CB","Poliquetos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
+"3",24,"Annelida","Polychaeta","Canalipalpata","Serpulidae",NA,"Serpulidae*","Serpúlidos","Bentónico","CB","Poliquetos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
+"4",62,"Annelida","Polychaeta","Sabellida","Serpulidae","Serpula","Serpula_narconensis",NA,"Bentónico","","Poliquetos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
+"5",99,"Annelida","Polychaeta","Echiuroidea",NA,NA,"Echiuroidea*",NA,NA,"","Poliquetos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
+"6",100,"Annelida","Polychaeta ",NA,"Maldanidae","Praxilla","Praxilla*",NA,NA,"","Poliquetos",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
