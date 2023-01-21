@@ -1,10 +1,18 @@
 library(dplyr)
 
+#
+## Al crear un R project el working directory se setea automáticamente
+#
 #Seteo carpeta de trabajo
 setwd("C:/AMPYAGANES/R")
 
+#
+## Cuando intento cargar el archivo me tira el error "Error in make.names(col.names, unique = TRUE) : invalid multibyte string 6"
+# Las últimas dos columnas están casi vacías. Modifiqué el archivo y cree uno nuevo "listaespecies_TIM.csv"
+#
 #Llamo a los datos
 datos<-read.csv("listaespecies.csv")
+<<<<<<< HEAD
 datos2<-read.csv("listainteracciones.csv")
 
 #Filtro lista de especies por Expertise
@@ -60,6 +68,9 @@ write.csv(Fitoplancton, "Fitoplancton.csv")
 write.csv(Zooplancton, "Zooplancton.csv")
 write.csv(Ictioplancton, "Ictioplancton.csv")
 write.csv(Peces_demersales, "Peces_demersales.csv")
+=======
+datos <- read.csv("listaespecies_TIM.csv")
+>>>>>>> 3da45d414887e6245854a5f18fb20ab2f359b14f
 
 
 #Filtro lista de interacciones por expertise

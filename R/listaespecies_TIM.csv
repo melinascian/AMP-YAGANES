@@ -1,0 +1,517 @@
+ID,Filum,Clase,Orden,Familia,Género,Especie trófica,Nombre común,Hábitat,Dominio,Expertise,Referencia,Enlace
+1,Bryozoa,Gymnolaemata ,Cheilostomatida ,Celleporidae ,NA,Celleporidae* ,NA,Bentónico,CB,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+2,Echinodermata,Asteroidea,NA,NA,NA,Asteroidea*,NA,Bentónico,CB,Asteroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+3,Bryozoa,Gymnolaemata ,Cheilostomatida ,Celleporidae ,Osthimosia,Osthimosia*,NA,Bentónico,CB,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+4,Echinodermata,Echinoidea,Cidaroida,Cidaridae,NA,Cidaridae*,NA,Bentónico,CB,Erizos de mar,1,https://doi.org/10.3989/scimar.1999.63s1155
+5,Arthropoda,Crustacea,Decapoda,Malacostracea,Natantia,Natantia*,NA,Bentónico,CB,Crustáceos,1,https://doi.org/10.3989/scimar.1999.63s1155
+6,Mollusca,Gastropoda,NA,NA,NA,Gastropoda*,NA,Bentónico,CB,Gasteropodos,1,https://doi.org/10.3989/scimar.1999.63s1155
+7,Bryozoa,Gymnolaemata ,Cheilostomatida,Smittinidae,Smittina,Smittina*,NA,Bentónico,CB,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+8,Echinodermata,Asteroidea,Velatida,Pterasteridae,Colyptraster,Colyptraster_tenuissimus,NA,Bentónico,CB,Asteroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+9,Porifera,NA,NA,NA,NA,Porifera*,NA,Bentónico ,CB,Porifera,1,https://doi.org/10.3989/scimar.1999.63s1155
+10,Echinodermata,Holothuroidea ,Dendrochirotida,Psolidae,Psolus,Psolus_patagonicus,Pepino de roca Patagónico,Bentónico,CB,Holoturoideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+11,Echinodermata,Holothuroidea ,Dendrochirotida,NA,NA,Dendrochirotida*,Dendroquirótidos,Bentónico,CB,Holoturoideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+12,Cnidaria,Anthozoa,Alcyonacea,Gorgoniidae,Gorgonaria,Gorgonaria*,Gorgonia,Bentónico,CB,Cnidarios,1,https://doi.org/10.3989/scimar.1999.63s1155
+13,Cnidaria,Anthozoa,Alcyonacea,Alcyoniidae,NA,Alcyoniidae*,Alciónidos,Bentónico,CB,Cnidarios,1,https://doi.org/10.3989/scimar.1999.63s1155
+14,Echinodermata,Ophiruidea,NA,NA,NA,Ophiruidea*,Ofiuras,Bentopelágico,CB,Ofiuroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+15,Echinodermata,Holothuroidea,Apodida,NA,NA,Apodida*,Apódidos,Bentónico,CB,Holoturoideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+16,Mollusca,Bivalvia,Mytiloidea,Mytilidae,Mytilus,Mytilus_chilensis,Mejillón,Bentónico,CB,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+17,Echinodermata,Crinoidea,NA,NA,NA,Crinoidea*,Lirios de mar,Bentónico,CB,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+18,Chordata,Ascidiacea,Synascidian,NA,NA,Synascidian*,NA,Bentónico,CB,Ascidias,1,https://doi.org/10.3989/scimar.1999.63s1155
+19,Chordata,Ascidiacea,NA,NA,NA,Ascidiacea*,NA,Bentónico,CB,Ascidias,1,https://doi.org/10.3989/scimar.1999.63s1155
+20,Mollusca,Polyplacophora,NA,NA,NA,Polyplacophora*,Poliplacóforos,Bentónico,CB,Polipacóforos,1,https://doi.org/10.3989/scimar.1999.63s1155
+21,Annelida,Polychaeta,Terebellida,Terebellidae,Lanice,Lanice*,Gusanos de cerdas,Bentónico,CB,Poliquetos,1,https://doi.org/10.3989/scimar.1999.63s1155
+22,Rhodophyta,Florideophyceae,Corallinales,Hapalidiaceae,Lithothamnion,Lithothamnion*,Alga roja,Bentónico,CB,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+23,Annelida,Polychaeta,Canalipalpata,Chaetopteridae,Chaetopterus,Chaetopterus*,Gusano tubo de pergamino,Bentónico,CB,Poliquetos,1,https://doi.org/10.3989/scimar.1999.63s1155
+24,Annelida,Polychaeta,Canalipalpata,Serpulidae,NA,Serpulidae*,Serpúlidos,Bentónico,CB,Poliquetos,1,https://doi.org/10.3989/scimar.1999.63s1155
+25,Echinodermata,Echinoidea,NA,NA,NA,Echinoidea*,NA,Bentónico,CB,Erizos de mar,1,https://doi.org/10.3989/scimar.1999.63s1155
+26,Rhodophyta,Florideophyceae,Corallinales,Hapalidiaceae,Messophyllum,Messophyllum*,Alga roja,Bentónico,CB,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+27,Rhodophyta,Florideophyceae,Gigartinales,Kallymeniaceae,Callophyllis,Callophyllis_variegata,Carola,Bentónico,CB,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+28,Rhodophyta,Florideophyceae,Gigartinales,Kallymeniaceae,Callophyllis,Callophyllis_astrosanguinea,NA,Bentónico,CB,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+29,Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Iridaea,Iridaea_codata,NA,Bentónico,CB,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+30,Arthropoda,Malacostraca,Decapoda,Munididae,Munida,Munida_subrugosa,Langosta,Bentónico,CB,Crustaceos peracaridos,1,https://doi.org/10.3989/scimar.1999.63s1155
+31,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Macrocystis,Macrocystis_pyrifera,Kelp,Bentónico,CB,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+32,Arthropoda,Malacostraca,Decapoda,Atelecyclidae,Peltarion,Peltarion_spinosulum,Cangrejo peludo,Bentónico,CB,Crustaceos peracaridos,1,https://doi.org/10.3989/scimar.1999.63s1155
+33,Chordata,Actinopterygii,Perciformes,Nototeniidae,NA,Nototeniidae*,NA,Pelágico,,Peces,1,https://doi.org/10.3989/scimar.1999.63s1155
+34,Echinodermata,Asteroidea,Forcipulatida,Stichasteridae,Cosmasterias,Cosmasterias_lurida,Estrella vioeta,Bentónico,CB,Asteroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+35,Cnidaria,Anthozoa,NA,NA,NA,Anthozoa*,NA,Bentónico,,Cnidarios,1,https://doi.org/10.3989/scimar.1999.63s1155
+36,Mollusca,Gastropoda,Neogastropoda,Muricidae,Trophon,Trophon*,NA,Bentónico,,Gasteropodos,1,https://doi.org/10.3989/scimar.1999.63s1155
+37,Echiodermata,Echinoidea,Temnopleuroida,Temnopleuridae,Pseudechinus ,Pseudechinus_magellanicus,Erizo de mar ,Bentónico,CB,Erizos de mar,1,https://doi.org/10.3989/scimar.1999.63s1155
+38,Echiodermata,Echinoidea,Echinoida,Echinidae,Loxechinus,Loxechinus_albus,Erizo de mar chileno,Bentónico,CB,Erizos de mar,1,https://doi.org/10.3989/scimar.1999.63s1155
+39,Mollusca,Gastropoda,Trochida,Calliostomatidae,Photinula,Photinula_caerulescens,NA,,,Gasteropodos,1,https://doi.org/10.3989/scimar.1999.63s1155
+40,Echinodermata,Ophiruidea,Ophiacanthida ,Ophiacanthidae,Ophiacantha,Ophiacantha_vivipara,Ofiura,,,Ofiuroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+41,Arthropoda,Malacostraca,Decapoda,Paguridae,Pagurus,Pagurus_gaudichaudii,Cangrejo ermitaño,Bentónico,CB,Crustaceos peracaridos,1,https://doi.org/10.3989/scimar.1999.63s1155
+42,Arthropoda,Malacostraca,Decapoda,Paguridae,Pagurus,Pagurus_comptus,Cangrejo eritaño patagónico,Bentónico,CB,Crustaceos peracaridos,1,https://doi.org/10.3989/scimar.1999.63s1155
+43,Brachiopoda,Rhynchonellata,Terebratulida,Terebratellidae,Terebratula,Terebratula_dorsata,NA,Bentónico,,Braquiópodos,1,https://doi.org/10.3989/scimar.1999.63s1155
+44,Brachiopoda,Rhynchonellata,Terebratulida,Terebratellidae,Magellonia,Magellonia_venosa,NA,Bentónico,,Braquiópodos,1,https://doi.org/10.3989/scimar.1999.63s1155
+45,Mollusca,Gastropoda,Littorinimorpha,Calyptraeidae,Caliptraea,Caliptraea_pileolus,Sombreritos chinos,Bentónico,,Gasteropodos,1,https://doi.org/10.3989/scimar.1999.63s1155
+46,Mollusca,Bivalvia,Pectinoida,Pectinidae,Chlamys,Chlamys_patagonica,Vieira patagónica,Bentónico,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+47,Mollusca,Bivalvia,Pectinoida,Pectinidae,Chlamys,Chlamys_vitrea,Vieira,Bentónico,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+48,Bryozoa,Cyclostomata,NA,NA,NA,Cyclostomata*,NA,NA,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+49,Bryozoa,Gymnolaemata,Cheilostomatida,Phidoloporidae,Reteporella,Reteporella_magellenesis,NA,NA,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+50,Chlorophyta,Ulvophyceae,Ulvales,Ulvaceae,Ulva,Ulva_lactuca,Lechuga de mar,NA,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+51,Arthropoda,Malacostraca,Brachyura,NA,NA,Brachyura*,NA,NA,,Crustaceos peracaridos,1,https://doi.org/10.3989/scimar.1999.63s1155
+52,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Polisiphonia,Polisiphonia_anisogona,NA,Bentónico,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+53,Arthropoda,Malacostraca,Decapoda,Inachidae,Eurypodius,Eurypodius_latreilli,Cangrejo,Bentónico,,Crustaceos peracaridos,1,https://doi.org/10.3989/scimar.1999.63s1155
+54,Mollusca,Gastropoda ,Neogastropoda,Cominellidae ,Pareuthria,Pareuthria_plumbea,NA,Bentónico,,Gasteropodos,1,https://doi.org/10.3989/scimar.1999.63s1155
+55,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Macrocystis,Macrocystis*,NA,Bentónico,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+56,Ochrophyta,Phaeophyceae ,Laminariales ,Lessoniaceae,Lessonia,Lessonia*,NA,NA,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+57,Mollusca,Bivalvia,Veneridae ,Venerida,Venus,Venus_antiqua,NA,NA,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+58,Mollusca,Bivalvia,Anomalodesmata ,Laternulidae,Laternula,Laternula*,NA,NA,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+59,Cnidaria,Hydrozoa,NA,NA,NA,Hydrozoa*,NA,NA,,Cnidarios,1,https://doi.org/10.3989/scimar.1999.63s1155
+60,Bryozoa,Gymnolaemata ,Cheilostomatida,Flustridae ,Carbasea,Carbasea_ovoidea,NA,NA,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+61,Echinodermata,Holothuroidea,Aspidochirotida,Cymatiidae,Fussitriton,Fussitriton*,NA,NA,,Holoturoideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+62,Annelida,Polychaeta,Sabellida,Serpulidae,Serpula,Serpula_narconensis,NA,Bentónico,,Poliquetos,1,https://doi.org/10.3989/scimar.1999.63s1155
+63,Bryozoa ,Stenolaemata ,Cyclostomatida,Horneridae ,Hornera,Hornera*,NA,NA,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+64,Bryozoa ,Gymnolaemata ,Cheilostomatida,Adeonidae ,Adeonella,Adeonella*,NA,NA,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+65,Echinodermata,Asteroidea,Valvatida,Solasteridae,Solaster,Solaster_regularis,Estrella de sol,Bentónico,,Asteroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+66,Echinodermata,Holothuroidea ,Dendrochirotida,NA,NA,Dendrochirotida*,NA,NA,,Holoturoideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+67,Echinodermata,Ophiuroidea,Ophiurida ,Ophiuridae,Ophiuroglypha,Ophiuroglypha_lymani,Ofiura rosada,Bentónico,,Ofiuroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+68,Echinodermata,Echinoidea,Spatangoida ,Schizasteridae,Trypilaster,Trypilaster*,NA,NA,,Erizos de mar,1,https://doi.org/10.3989/scimar.1999.63s1155
+69,Echinodermata,Ophiuroidea,Ophiurida ,Ophiuridae,Ophiocten,Ophiocten_amitinum,NA,Bentónico,,Ofiuroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+70,Porifera,Demospongiae,Haplosclerida,NA,NA,Haplosclerida*,NA,NA,,Porifera,1,https://doi.org/10.3989/scimar.1999.63s1155
+71,Echinodermata,Asteroidea,Valvatida,Solasteridae,Lophaster,Lophaster*,NA,NA,,Asteroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+72,Mollusca,Gastropoda,Neogastropoda,Volutidae,Odontocymbiola,Odontocymbiola*,NA,NA,,Gasteropodos,1,https://doi.org/10.3989/scimar.1999.63s1155
+73,Bryozoa,Gymnolaemata ,Cheilostomatida ,Flustridae,NA,Flustridae*,NA,NA,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+74,Arthropoda,Malacostraca,Isopoda,Serolidae,NA,Serolidae*,NA,NA,,Crustaceos isopodos,1,https://doi.org/10.3989/scimar.1999.63s1155
+75,Rhodophyta ,Florideophyceae,Gelidiales ,Gelidiaceae,Gellidus,Gellidus_rudis,NA,Bentónico,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+76,Echinodermata,Asteroidea,Forcipulatida ,Heliasteridae,Labidiaster,Labidiaster_radiosus,Estrella de rayos pegajosos,NA,,Asteroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+77,Echinodermata,Asteroidea,Valvatida ,Poraniidae,Porania,Porania_antartica,NA,Bentónico,,Asteroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+78,Cnidaria,Anthozoa,Malacalcyonacea ,Alcyoniidae,Alcyonidium,Alcyonidium_australe,NA,Bentónico,,Cnidarios,1,https://doi.org/10.3989/scimar.1999.63s1155
+79,Echinodermata,Asteroidea,Valvatida,Asterinidae ,Ganeria,Ganeria*,NA,NA,,Asteroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+80,Echinodermata,Asteroidea,Valvatida,Odontasteridae,Asterodon,Asterodon*,NA,NA,,Asteroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+81,Arthropoda,Malacostraca ,Decapoda,Campylonotidae,Campylonotus,Campylonotus_vagans,Camarón pintado,Bentónico,,Crustaceos peracaridos,1,https://doi.org/10.3989/scimar.1999.63s1155
+82,Echinodermata,Asteroidea,Paxillosida ,Astropectinidae,Bathybiaster,Bathybiaster_loripes,NA,Bentónico,,Asteroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+83,Mollusca,Gastropoda,Neogastropoda ,Fasciolariidae,Trophon,Trophon_geversianus,NA,Bentónico,,Gasteropodos,1,https://doi.org/10.3989/scimar.1999.63s1155
+84,Mollusca,Gastropoda,Neogastropoda ,Conidae,Ximeniconus,Ximeniconus_muriciformis,NA,Bentónico,,Gasteropodos,1,https://doi.org/10.3989/scimar.1999.63s1155
+85,Bryozoa,Gymnolaemata ,Cheilostomatida,Flustridae ,Carbasea,Carbasea_darwini,NA,Bentónico,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+86,Cnidaria,Hydrozoa,Anthoathecata,Stylasteridae ,Errinopora,Errinopora*,NA,NA,,Cnidarios,1,https://doi.org/10.3989/scimar.1999.63s1155
+87,Porifera,Demospongiae ,Axinellida,Axinellidae,NA,Axinellidae*,NA,Bentónico,,Porifera,1,https://doi.org/10.3989/scimar.1999.63s1155
+88,Porifera,Demospongiae ,Tetractinellida,Tetillidae ,Cinachyra,Cinachyra*,NA,Bentónico,,Porifera,1,https://doi.org/10.3989/scimar.1999.63s1155
+89,Porifera,Demospongiae ,Poecilosclerida,Mycalidae ,Mycale,Mycale_magellonica,NA,Bentónico,,Porifera,1,https://doi.org/10.3989/scimar.1999.63s1155
+90,Bryozoa,Gymnolaemata ,Cheilostomatida,Smittinidae ,Parasmittina,Parasmittina*,NA,NA,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+91,Bryozoa,Gymnolaemata ,Cheilostomatida,Smittinidae,NA,Smittinidae*,NA,NA,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+92,Bryozoa,Gymnolaemata ,Cheilostomatida,Cellariidae,Cellaria,Cellaria*,NA,NA,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+93,Bryozoa,Gymnolaemata ,Cheilostomatida,Adeonidae ,Adeonella,Adeonella*,NA,NA,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+94,Cnidaria,Hydrozoa,Anthoathecata ,Stylasteridae,NA,Stylasteridae*,NA,NA,,Cnidarios,1,https://doi.org/10.3989/scimar.1999.63s1155
+95,Cnidaria,Anthozoa,Scleractinaria,NA,NA,Scleractinaria*,NA,NA,,Cnidarios,1,https://doi.org/10.3989/scimar.1999.63s1155
+96,Cnidaria,Anthozoa,Pennatularia,NA,NA,Pennatularia*,NA,NA,,Cnidarios,1,https://doi.org/10.3989/scimar.1999.63s1155
+97,Mollusca,Bivalvia,Mytilida,Mytilidae ,Aulacomya,Aulacomya_ater,NA,Bentónico,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+98,Mollusca,Cephalopoda,Octopoda,NA,NA,Octopoda*,NA,NA,,Cefalopodos,1,https://doi.org/10.3989/scimar.1999.63s1155
+99,Annelida,Polychaeta,Echiuroidea,NA,NA,Echiuroidea*,NA,NA,,Poliquetos,1,https://doi.org/10.3989/scimar.1999.63s1155
+100,Annelida,Polychaeta ,NA,Maldanidae,Praxilla,Praxilla*,NA,NA,,Poliquetos,1,https://doi.org/10.3989/scimar.1999.63s1155
+101,Arthropoda,Malacostraca,Decapoda ,Lithodidae,Paralomis,Paralomis_granulosa,Centollón patagónico,Bentónico,,Crustaceos peracaridos,1,https://doi.org/10.3989/scimar.1999.63s1155
+102,Echinodermata,Asteroidea,Valvatida,Asterinidae ,Cycethra,Cycethra_verrucosa,NA,NA,,Asteroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+103,Echinodermata,Asteroidea,Valvatida,Asterinidae ,Ganeria,Ganeria_falklandica,NA,Bentónico,,Asteroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+104,Echinodermata,Asteroidea,Valvatida,Goniasteridae,Ceramaster,Ceramaster*,NA,NA,,Asteroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+105,Echinodermata,Asteroidea,Valvatida,Odontasteridae,Odontaster,Odontaster*,NA,NA,,Asteroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+106,Echinodermata,Ophiuroidea,Ophioscolecida ,Ophioscolecidae ,Ophioscolex,Ophioscolex_nutrix,NA,,,Ofiuroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+107,Echinodermata,Ophiuroidea,Euryalida ,Gorgonocephalidae ,Gorgonocephalus,Gorgonocephalus_chilensis,NA,,,Ofiuroideos,1,https://doi.org/10.3989/scimar.1999.63s1155
+108,Chordata,Actinopteri,Perciformes ,Congiopodidae ,Congiopodus,Congiopodus_peruvianus,NA,,,Peces,1,https://doi.org/10.3989/scimar.1999.63s1155
+109,Chordata,Actinopteri,Gadiformes,Macrouridae,Coelorhinchus,Coelorhinchus_fasciatus,NA,,,Peces,1,https://doi.org/10.3989/scimar.1999.63s1155
+110,Chordata,Actinopteri,Gadiformes,Moridae ,Lepidion,Lepidion_ensiferus,,,,Peces,1,https://doi.org/10.3989/scimar.1999.63s1155
+111,Chordata,Actinopteri,Gadiformes,Macrouridae,NA,Macrouridae*,,,,Peces,1,https://doi.org/10.3989/scimar.1999.63s1155
+112,Chordata,Myxini,Myxiniformes,Myxinidae,NA,Myxinidae*,,,,Peces,1,https://doi.org/10.3989/scimar.1999.63s1155
+113,Chordata,Actinopteri,Perciformes ,Bovichtidae ,NA,Bovichtidae* ,,,,Peces,1,https://doi.org/10.3989/scimar.1999.63s1155
+114,Chordata,Elasmobranchii ,Rajiformes,Rajidae,NA,Rajidae*,,,,Condrictios,1,https://doi.org/10.3989/scimar.1999.63s1155
+115,Ochrophyta ,Phaeophyceae ,Desmarestiales ,Desmarestiaceae,Desmarestia,Desmarestia_confervoides,,,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+116,Ochrophyta ,Phaeophyceae ,Desmarestiales ,Desmarestiaceae,Desmarestia,Desmarestia_distans,,,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+117,Ochrophyta ,Phaeophyceae ,Desmarestiales ,Desmarestiaceae,Desmarestia,Desmarestia_anceps,,,,Bentos,1,https://doi.org/10.3989/scimar.1999.63s1155
+118,Chordata,Actinopteri,Clupeiformes,Clupeidae,Sprattus,Sprattus_fueguensis,Sardina fueguina,Pelágico,"CCH, CB",Sardinas,3,https://www.researchgate.net/profile/Fernando-Balbontin-2/publication/285663113_Distribution_and_abundance_of_fish_larvae_from_the_Strait_of_Magellan_to_the_Cape_Horn_Chile/links/596f584daca27280fda310ab/Distribution-and-abundance-of-fish-larvae-from-the-Strait-of-Magellan-to-the-Cape-Horn-Chile.pdf
+119,Chordata,Actinopteri,Argentiniformes ,Bathylagidae ,Bathylagichthys,Bathylagichthys_parini,,,,Peces,3,https://www.researchgate.net/profile/Fernando-Balbontin-2/publication/285663113_Distribution_and_abundance_of_fish_larvae_from_the_Strait_of_Magellan_to_the_Cape_Horn_Chile/links/596f584daca27280fda310ab/Distribution-and-abundance-of-fish-larvae-from-the-Strait-of-Magellan-to-the-Cape-Horn-Chile.pdf
+120,Chordata,Actinopteri,Gadiformes,Muraenolepididae,Muraenolepis,Muraenolepis*,,,,Peces,3,https://www.researchgate.net/profile/Fernando-Balbontin-2/publication/285663113_Distribution_and_abundance_of_fish_larvae_from_the_Strait_of_Magellan_to_the_Cape_Horn_Chile/links/596f584daca27280fda310ab/Distribution-and-abundance-of-fish-larvae-from-the-Strait-of-Magellan-to-the-Cape-Horn-Chile.pdf
+121,Chordata,Actinopteri,Gadiformes,Merlucciidae,Macruronus,Macruronus_magellanicus,Merluza de cola,Demersal,,Peces,3,https://www.researchgate.net/profile/Fernando-Balbontin-2/publication/285663113_Distribution_and_abundance_of_fish_larvae_from_the_Strait_of_Magellan_to_the_Cape_Horn_Chile/links/596f584daca27280fda310ab/Distribution-and-abundance-of-fish-larvae-from-the-Strait-of-Magellan-to-the-Cape-Horn-Chile.pdf
+122,Chordata,Actinopteri,Perciformes ,Sebastidae ,Sebastes,Sebastes_capensis,,,,Peces,3,https://www.researchgate.net/profile/Fernando-Balbontin-2/publication/285663113_Distribution_and_abundance_of_fish_larvae_from_the_Strait_of_Magellan_to_the_Cape_Horn_Chile/links/596f584daca27280fda310ab/Distribution-and-abundance-of-fish-larvae-from-the-Strait-of-Magellan-to-the-Cape-Horn-Chile.pdf
+123,Chordata,Actinopteri,Perciformes ,Agonidae ,Agonopsis,Agonopsis_chiloensis,,,,Peces,3,https://www.researchgate.net/profile/Fernando-Balbontin-2/publication/285663113_Distribution_and_abundance_of_fish_larvae_from_the_Strait_of_Magellan_to_the_Cape_Horn_Chile/links/596f584daca27280fda310ab/Distribution-and-abundance-of-fish-larvae-from-the-Strait-of-Magellan-to-the-Cape-Horn-Chile.pdf
+124,Chordata,Actinopteri,Perciformes ,Liparidae,Paraliparis,Paraliparis_anarthractae,,,,Peces,3,https://www.researchgate.net/profile/Fernando-Balbontin-2/publication/285663113_Distribution_and_abundance_of_fish_larvae_from_the_Strait_of_Magellan_to_the_Cape_Horn_Chile/links/596f584daca27280fda310ab/Distribution-and-abundance-of-fish-larvae-from-the-Strait-of-Magellan-to-the-Cape-Horn-Chile.pdf
+125,Chordata,Actinopteri,Perciformes ,Nototheniidae,NA,Nototheniidae*,,,,Peces,3,https://www.researchgate.net/profile/Fernando-Balbontin-2/publication/285663113_Distribution_and_abundance_of_fish_larvae_from_the_Strait_of_Magellan_to_the_Cape_Horn_Chile/links/596f584daca27280fda310ab/Distribution-and-abundance-of-fish-larvae-from-the-Strait-of-Magellan-to-the-Cape-Horn-Chile.pdf
+126,Chordata,Actinopteri,Perciformes ,Harpagiferidae,Harpagifer ,Harpagifer_bispinnis,,,,Peces,3,https://www.researchgate.net/profile/Fernando-Balbontin-2/publication/285663113_Distribution_and_abundance_of_fish_larvae_from_the_Strait_of_Magellan_to_the_Cape_Horn_Chile/links/596f584daca27280fda310ab/Distribution-and-abundance-of-fish-larvae-from-the-Strait-of-Magellan-to-the-Cape-Horn-Chile.pdf
+127,Chordata,Actinopteri,Blenniiformes ,Clinidae ,Blennioclinus ,Blennioclinus* ,,,,Peces,3,https://www.researchgate.net/profile/Fernando-Balbontin-2/publication/285663113_Distribution_and_abundance_of_fish_larvae_from_the_Strait_of_Magellan_to_the_Cape_Horn_Chile/links/596f584daca27280fda310ab/Distribution-and-abundance-of-fish-larvae-from-the-Strait-of-Magellan-to-the-Cape-Horn-Chile.pdf
+128,Chordata,Actinopteri,Pleuronectiformes,Paralichthyidae,Hippoglossina,Hippoglossina*,,,,Peces,3,https://www.researchgate.net/profile/Fernando-Balbontin-2/publication/285663113_Distribution_and_abundance_of_fish_larvae_from_the_Strait_of_Magellan_to_the_Cape_Horn_Chile/links/596f584daca27280fda310ab/Distribution-and-abundance-of-fish-larvae-from-the-Strait-of-Magellan-to-the-Cape-Horn-Chile.pdf
+129,Chordata,Actinopterygii,Myctophiformes,Myctophidae,Electrona,Electrona_antartica,,,,Peces,4,https://doi.org/10.1017/S095410200400207X
+130,Chordata,Actinopterygii,Myctophiformes,Myctophidae,Electrona,Electrona_carlsbergi,,,,Peces,4,https://doi.org/10.1017/S095410200400207X
+131,Chordata,Actinopterygii,Myctophiformes,Myctophidae,Gymnoscopelus,Gymnoscopelus_fraseri,,,,Peces,4,https://doi.org/10.1017/S095410200400207X
+132,Chordata,Actinopterygii,Myctophiformes,Myctophidae,Gymnoscopelus,Gymnoscopelus_hintonoides,,,,Peces,4,https://doi.org/10.1017/S095410200400207X
+133,Chordata,Actinopterygii,Myctophiformes,Myctophidae,Gymnoscopelus,Gymnoscopelus_nicholsi,,,,Peces,4,https://doi.org/10.1017/S095410200400207X
+134,Chordata,Actinopterygii,Myctophiformes,Myctophidae,Gymnoscopelus,Gymnoscopelus*,,,,Peces,4,https://doi.org/10.1017/S095410200400207X
+135,Chordata,Actinopterygii,Myctophiformes,Myctophidae,Krefftichthys,Krefftichthys_andersoni,,,,Peces,4,https://doi.org/10.1017/S095410200400207X
+136,Chordata,Actinopterygii,Gadiformes,Macrouridae,NA,Macrouridae*,,,,Peces,4,https://doi.org/10.1017/S095410200400207X
+137,Chordata,Actinopterygii,Gadiformes,Melanonidae,Melanonus,Melanonus_gracilis,,,,Peces,4,https://doi.org/10.1017/S095410200400207X
+138,Mollusca,Cephalopoda,Teuthida,Gonatidae,Gonatus,Gonatus_antarcticus,,,,Cefalopodos,4,https://doi.org/10.1017/S095410200400207X
+139,Mollusca,Cephalopoda,Oegopsida,Onychoteuthidae,Kondakovia ,Kondakovia _longimana,,,,Cefalopodos,4,https://doi.org/10.1017/S095410200400207X
+140,Mollusca,Cephalopoda,Oegopsida,Batotheutidae,Batoteuthis,Batoteuthis_skolops,,,,Cefalopodos,4,https://doi.org/10.1017/S095410200400207X
+141,Mollusca,Cephalopoda,Teuthida,Histioteuthidae,Histioteuthis,Histioteuthis*,,,,Cefalopodos,4,https://doi.org/10.1017/S095410200400207X
+142,Mollusca,Cephalopoda,Oegopsida,Neoteuthidae,Alluroteuthis,Alluroteuthis_antarcticus,,,,Cefalopodos,4,https://doi.org/10.1017/S095410200400207X
+143,Mollusca,Cephalopoda,Oegopsida,Ommastrephidae,Martialia,Martialia_hyadesi,,,,Cefalopodos,4,https://doi.org/10.1017/S095410200400207X
+144,Mollusca,Cephalopoda,Oegopsida,Mastigoteuthidae,Mastigoteuthis,Mastigoteuthis_psychrophila,,,,Cefalopodos,4,https://doi.org/10.1017/S095410200400207X
+145,Mollusca,Cephalopoda,Oegopsida,Cranchiidae,Galiteuthis,Galiteuthis_glacialis,,,,Cefalopodos,4,https://doi.org/10.1017/S095410200400207X
+146,Mollusca,Cephalopoda,Oegopsida,Cranchiidae,Taonius,Taonius*,,,,Cefalopodos,4,https://doi.org/10.1017/S095410200400207X
+147,Arthropoda,Malacostraca,Gammaridea,NA,NA,Gammaridea*,,,,Crustaceos peracaridos,4,https://doi.org/10.1017/S095410200400207X
+148,Arthropoda,Malacostraca,Amphipoda,Hyperiidae,Themisto,Themisto_gaudicahudii,,,,Crustaceos peracaridos,4,https://doi.org/10.1017/S095410200400207X
+149,Arthropoda,Malacostraca,Isopoda,Anuropidae,Anuropus,Anuropus_antarcticus,,,,Crustaceos isopodos,4,https://doi.org/10.1017/S095410200400207X
+150,Arthropoda,Malacostraca,Decapoda,Acanthephyridae,Acanthephyra ,Acanthephyra _pelagica,,,,Crustaceos peracaridos,4,https://doi.org/10.1017/S095410200400207X
+151,Arthropoda,Malacostraca,Decapoda,Acanthephyridae,Acanthephyra ,Acanthephyra* ,,,,Crustaceos peracaridos,4,https://doi.org/10.1017/S095410200400207X
+152,Arthropoda,Malacostraca,Decapoda,Pasiphaeidae,Pasiphaea,Pasiphaea_longispina,,,,Crustaceos peracaridos,4,https://doi.org/10.1017/S095410200400207X
+153,Arthropoda,Malacostraca,Euphausiacea,Euphausiacea,Euphausia,Euphausia_superba,Krill,Planctónico,"CCA, CCH",Crustaceos peracaridos,4,https://doi.org/10.1017/S095410200400207X
+154,Arthropoda,Malacostraca,Mysidacea,Gnathophausiidae,NA,Gnathophausiidae*,,,,Crustaceos peracaridos,4,https://doi.org/10.1017/S095410200400207X
+155,Chordata,Aves,Procellariiformes,Diomedeidae,Thalassarche,Thalassarche_chrysostoma,,,,Aves marinas,4,https://doi.org/10.1017/S095410200400207X
+156,Chordata,Actinopterygii,Anguiliformes,Synaphobranchidae,Diastobranchus,Diastobranchus_capensis,,,,Peces,6,http://dx.doi.org/10.4067/S0718-19572009000100006
+157,Chordata,Actinopterygii,Gadiformes,Macrouridae,Macrourus,Macrourus_carinatus,,,,Peces,6,http://dx.doi.org/10.4067/S0718-19572009000100006
+158,Chordata,Actinopterygii,Gadiformes,Macrouridae,Macrourus,Macrourus_holotrachys,,,,Peces,6,http://dx.doi.org/10.4067/S0718-19572009000100006
+159,Chordata,Actinopterygii,Gadiformes,Macrouridae,Caelorinchus,Caelorinchus_fasciatus,,,,Peces,6,http://dx.doi.org/10.4067/S0718-19572009000100006
+160,Chordata,Actinopterygii,Gadiformes,Macrouridae,Caelorinchus,Caelorinchus_chilensis,,,,Peces,6,http://dx.doi.org/10.4067/S0718-19572009000100006
+161,Chordata,Actinopterygii,Gadiformes,Moridae,Antimora,Antimora_rostrata,,,,Peces,6,http://dx.doi.org/10.4067/S0718-19572009000100006
+162,Chordata,Actinopterygii,Gadiformes,Moridae,Lepidion,Lepidion_ensiferus,,,,Peces,6,http://dx.doi.org/10.4067/S0718-19572009000100006
+163,Chordata,Actinopterygii,Perciformes,Nototheniidae,Dissostichus,Dissostichus_eleginoides,Merluza negra,Demersal,,Peces demersales,6,http://dx.doi.org/10.4067/S0718-19572009000100006
+164,Chordata,Actinopterygii,Scorpaeniformes,Liparidae,NA,Liparidae*,,,,Peces,6,http://dx.doi.org/10.4067/S0718-19572009000100006
+165,Chordata,Mammalia,Artiodactyla,Delphinidae,Lagenorhynchus ,Lagenorhynchus_australis,Delfín Austral,,,Mamiferos marinos,7,https://doi.org/10.1016/B978-0-12-373553-9.00196-6
+166,Chordata,Mammalia,Cetartiodactyla ,Delphinidae,Grampus,Grampus_griseus,,,CB,Mamiferos marinos,8,https://doi.org/10.3354/meps08826
+167,Chordata,Mammalia,Artiodactyla,Delphinidae,Lagenorhynchus ,Lagenorhynchus_cruciger,Delfín cruzado,,CB,Mamiferos marinos,8,https://doi.org/10.3354/meps08826
+168,Chordata,Mammalia,Artiodactyla,Delphinidae,Lagenorhynchus ,Lagenorhynchus_australis,Delfín Austral,,CB,Mamiferos marinos,8,https://doi.org/10.3354/meps08826
+169,Chordata,Mammalia,Cetartiodactyla ,Delphinidae,Lissodelphis,Lissodelphis_peronii,,,CB,Mamiferos marinos,8,https://doi.org/10.3354/meps08826
+170,Chordata,Mammalia,Cetartiodactyla ,Delphinidae,Pseudorca,Pseudorca_crassidens,,,CB,Mamiferos marinos,8,https://doi.org/10.3354/meps08826
+171,Chordata,Mammalia,Cetartiodactyla ,Delphinidae,Cephalorhynchus,Cephalorhynchus_commersonii,Tonina overa,,CB,Mamiferos marinos,8,https://doi.org/10.3354/meps08826
+172,Chordata,Mammalia,Artiodactyla,Phocoenidae,Phocoena,Phocoena_dioptrica,Marsopa de anteojos,,CB,Mamiferos marinos,8,https://doi.org/10.3354/meps08826
+173,Chordata,Mammalia,Artiodactyla,Phocoenidae,Phocoena,Phocoena_spinipinnis,Marsopa espinosa,Pelágico,CB,Mamiferos marinos,8,https://doi.org/10.3354/meps08826
+174,Chordata,Actinopteri ,Gadiformes ,Merlucciidae ,Merluccius,Merluccius_hubbsi,Merluza Argentina,Demersal,,Peces demersales,8,https://doi.org/10.3354/meps08826
+175,Chordata,Actinopteri ,Gadiformes ,Merlucciidae ,Merluccius,Merluccius_australis,Merluza austral,Demersal,,Peces demersales,8,https://doi.org/10.3354/meps08826
+176,Chordata,Actinopteri ,Gadiformes ,Moridae ,Salilota,Salilota_australis,Bacalao criollo,Pelágico,,Peces,8,https://doi.org/10.3354/meps08826
+177,Chordata,Actinopteri ,Gadiformes ,Merlucciidae ,Macruronus,Macruronus_magellanicus,Merluza de cola,Demersal,,Peces demersales,8,https://doi.org/10.3354/meps08826
+178,Chordata,Actinopteri ,Perciformes,Bovichtidae,Cottoperca,Cottoperca_gobio,,,,Peces,8,https://doi.org/10.3354/meps08826
+179,Chordata,Actinopteri ,Gadiformes ,Macrouridae,Coelorinchus,Coelorinchus_fasciatus,Granadero chico,Pelágico,,Peces,8,https://doi.org/10.3354/meps08826
+180,Chordata,Actinopteri ,Perciformes,Zoarcidae,Iluocoetes,Iluocoetes_fimbriatus,,Demersal,"CB, CCH",Peces demersales,8,https://doi.org/10.3354/meps08826
+181,Chordata,Actinopteri ,Perciformes,Psychrolutidae ,Cottunculus,Cottunculus_granulosus,,,,Peces,8,https://doi.org/10.3354/meps08826
+182,Chordata,Actinopteri ,Perciformes,Nototheniidae,Dissostichus,Dissostichus_eleginoides,Merluza negra,Demersal,,Peces demersales,8,https://doi.org/10.3354/meps08826
+183,Chordata,Actinopteri ,Ophidiiformes,Ophidiidae ,Genypterus,Genypterus_blacodes,Congrio dorado,,,Peces,8,https://doi.org/10.3354/meps08826
+184,Chordata,Actinopteri ,Perciformes,Nototheniidae,NA,Nototheniidae*,,,,Peces,8,https://doi.org/10.3354/meps08826
+185,Chordata,Actinopteri ,Gadiformes ,Gadidae,Micromesistius,Micromesistius_australis,Bacaladilla,Pelágico,,Peces,8,https://doi.org/10.3354/meps08826
+186,Chordata,Actinopteri ,Perciformes,Nototheniidae,Patagonotothen,Patagonotothen_ramsayi,,,,Peces,8,https://doi.org/10.3354/meps08826
+187,Chordata,Actinopteri ,Zeiformes ,Oreosomatidae ,Pseudocyttus,Pseudocythus_maculatus,,,,Peces,8,https://doi.org/10.3354/meps08826
+188,Chordata,Actinopteri ,Myctophiformes ,Myctophidae ,NA,Myctophidae* ,,,,Peces,8,https://doi.org/10.3354/meps08826
+189,Chordata,Elasmobranchii,Rajiformes,Arhynchobatidae ,Bathyraja,Bathyraja_macloviana,,,,Condrictios,8,https://doi.org/10.3354/meps08826
+190,Chordata,Actinopteri ,Perciformes,Nototheniidae,Eleginops,Eleginops_maclovinus,,,,Peces,8,https://doi.org/10.3354/meps08826
+191,Chordata,Actinopteri ,Perciformes,Zoarcidae,NA,Zoarcidae*,,,,Peces,8,https://doi.org/10.3354/meps08826
+192,Chordata,Actinopteri ,Perciformes,Nototheniidae,Patagonotothen ,Patagonotothen* ,,,,Peces,8,https://doi.org/10.3354/meps08826
+193,Chordata,Actinopteri ,Perciformes,Nototheniidae,Patagonotothen ,Patagonotothen_sima,,,,Peces,8,https://doi.org/10.3354/meps08826
+194,Chordata,Actinopteri ,Perciformes,Nototheniidae,Patagonotothen ,Patagonotothen_tessellata,,,,Peces,8,https://doi.org/10.3354/meps08826
+195,Chordata,Actinopteri ,Atheriniformes,Atherinidae,Odonthestes,Odonthestes*,,,,Peces,8,https://doi.org/10.3354/meps08826
+196,Chordata,Actinopteri ,Clupeiformes ,Clupeidae,Sprattus,Sprattus_fuegensis,Sardina fueguina,Pelágico,"CCH, CB",Sardinas,8,https://doi.org/10.3354/meps08826
+197,Mollusca,Cephalopoda ,Myopsida,Loliginidae ,Loligo,Loligo_gahi,,,,Cefalopodos,8,https://doi.org/10.3354/meps08826
+198,Mollusca,Cephalopoda ,Oegopsida ,Ommastrephidae ,llex,llex*,,,,Cefalopodos,8,https://doi.org/10.3354/meps08826
+199,Mollusca,Cephalopoda ,Oegopsida ,Ommastrephidae ,llex,Ilex_argentinus,Calamar argentino,,,Cefalopodos,8,https://doi.org/10.3354/meps08826
+200,Mollusca,Cephalopoda ,Oegopsida ,Onychoteuthidae ,Moroteuthis,Moroteuthis_ingens,,,,Cefalopodos,8,https://doi.org/10.3354/meps08826
+201,Mollusca,Cephalopoda ,Sepioidea,Sepiolidae,Semirrosia,Semirrosia_tenera,,,,Cefalopodos,8,https://doi.org/10.3354/meps08826
+202,Mollusca,Cephalopoda ,Octopoda,Enteroctopodidae,Enteroctopus,Enteroctopus_megalocyathus,Pulpo rojo patagónico,,,Cefalopodos,8,https://doi.org/10.3354/meps08826
+203,Arthropoda,Malacostraca,Decapoda,Campylonotidae ,Campylognathus,Campylognathus_vagans,,,,Crustaceos peracaridos,8,https://doi.org/10.3354/meps08826
+204,Arthropoda,Malacostraca,Decapoda,Munididae,Munida,Munida_gregaria,Langosta gregaria,Bentopelágico,,Crustaceos peracaridos,8,https://doi.org/10.3354/meps08826
+205,Arthropoda,Malacostraca,Euphausiacea ,Euphausiidae ,Euphausia,Euphausia_lucens,,,,Crustaceos peracaridos,8,https://doi.org/10.3354/meps08826
+206,Arthropoda,Copepoda ,Calanoida,Calanidae,Calanus,Calanus_australis,,,,Crustáceos,8,https://doi.org/10.3354/meps08826
+207,Arthropoda,Malacostraca,Amphipoda,Hyperiidae ,Themisto,Themisto_gaudichaudii,,,,Crustaceos peracaridos,8,https://doi.org/10.3354/meps08826
+208,Chordata,Mammalia,Cetartiodactyla,Physeteridae ,Physeter,Physeter_macrocephalus,Cachalote,Pelágico,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+209,Chordata,Mammalia,Cetartiodactyla,Kogiidae,Kogia,Kogia_breviceps,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+210,Chordata,Mammalia,Cetartiodactyla,Delphinidae,Orcinus,Orcinus_orca,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+211,Chordata,Mammalia,Cetartiodactyla,Delphinidae,Globicephala,Globicephala_melas,,,CAA,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+212,Chordata,Mammalia,Cetartiodactyla,Delphinidae,Pseudorca,Pseudorca_crassidens,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+213,Chordata,Mammalia,Cetartiodactyla,Delphinidae,Lagenorhynchus,Lagenorhynchus_obscurus,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+214,Chordata,Mammalia,Cetartiodactyla,Delphinidae,Lagenorhynchus,Lagenorhynchus_cruciger,Delfín cruzado,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+215,Chordata,Mammalia,Cetartiodactyla,Delphinidae,Lissodelphis,Lissodelphis_peronii,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+216,Chordata,Mammalia,Cetartiodactyla,Delphinidae,Cephalorhynchus,Cephalorhynchus_commersonii,Tonina overa,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+217,Chordata,Mammalia,Cetartiodactyla,Delphinidae,Cephalorhynchus,Cephalorhynchus_hectori,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+218,Chordata,Mammalia,Cetartiodactyla,Delphinidae,Tursiops,Tursiops_truncatus,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+219,Chordata,Mammalia,Cetartiodactyla,Delphinidae,Delphinus,Delphinus_delphis,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+220,Chordata,Mammalia,Cetartiodactyla,Phocoenidae,Phocoena,Phocoena_dioptrica,Marsopa de anteojos,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+221,Chordata,Mammalia,Cetartiodactyla,Ziphiidae ,Hyperoodon,Hyperoodon_planifrons,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+222,Chordata,Mammalia,Cetartiodactyla,Ziphiidae ,Berardius,Berardius_arnuxii,Delfín picudo de Arnoux,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+223,Chordata,Mammalia,Cetartiodactyla,Ziphiidae ,Ziphius,Ziphius_cavirostris,Ballena de Cuvier,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+224,Chordata,Mammalia,Cetartiodactyla,Ziphiidae ,Tasmacetus,Tasmacetus_shepherdi,Zifio de Shepherd,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+225,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Mesoplodon,Mesoplodon_layardii,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+226,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Mesoplodon,Mesoplodon_traversii,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+227,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Mesoplodon,Mesoplodon_grayi,Delfín picudo de Gray,,CAA,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+228,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Mesoplodon,Mesoplodon_bowdoini,Zifio de Andrew,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+229,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Mesoplodon,Mesoplodon_hectori,Zifio de Hector,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+230,Chordata,Mammalia,Cetartiodactyla,Kogiidae,Kogia,Kogia_sima,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+231,Chordata,Mammalia,Cetartiodactyla,Delphinidae,Grampus,Grampus_griseus,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+232,Chordata,Mammalia,Cetartiodactyla,Delphinidae,Steno,Steno_bredanensis,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+233,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Mesoplodon,Mesoplodon_peruvianus,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+234,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Mesoplodon,Mesoplodon_densirostris,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+235,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Mesoplodon,Mesoplodon_mirus,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+236,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Mesoplodon,Mesoplodon_ginkgodens,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+237,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Mesoplodon,Mesoplodon_mirus,,,,Mamiferos marinos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+238,Mollusca,Cephalopoda ,Oegopsida,Ancistrocheiridae ,Ancistrocheirus,Ancistrocheirus*,,,,Cefalopodos,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+239,Chordata,Aves,Procellariiformes ,Diomedeidae ,Thalassarche,Thalassarche_melanophris,,,,Aves marinas,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+240,Chordata,Actinopteri,Perciformes,Nototheniidae ,Notothenia,Notothenia_rossii,,,,Peces,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+241,Chordata,Actinopterygii,Perciformes,Nototheniidae,Dissostichus,Dissostichus_eleginoides,Merluza negra,Demersal,,Peces demersales,9,https://www.researchgate.net/publication/235993961_Odontocetes_of_the_Southern_Ocean_Sanctuary
+242,Chordata,Aves,Sphenisciformes,Spheniscidae ,Eudyptes ,Eudyptes_chrysocome_chrysocome,,,CCH,Aves marinas,11,https://doi.org/10.3354/meps11689
+243,Chordata,Aves,Sphenisciformes,Spheniscidae ,Spheniscus,Spheniscus_magellanicus_female,Pinguino Magallánico,Pelágico,"CCH, CB",Aves marinas,11,https://doi.org/10.3354/meps11689
+244,Chordata,Aves,Sphenisciformes,Spheniscidae ,Spheniscus,Spheniscus_magellanicus_male,Pinguino Magallánico,Pelágico,"CCH, CB",Aves marinas,11,https://doi.org/10.3354/meps11689
+245,Chordata,Actinopteri ,Gadiformes,Macrouridae,Macrurus,Macrurus*,,,,Peces,11,https://doi.org/10.3354/meps11689
+246,Chordata,Aves,Pelecaniformes,Phalacrocoracidae ,Phalacrocorax ,Phalacrocorax* ,,,,Aves marinas,11,https://doi.org/10.3354/meps11689
+247,Chordata,Aves,Procellariiformes,NA,NA,Procellariiformes*,,,,Aves marinas,11,https://doi.org/10.3354/meps11689
+248,Chordata,Aves,Procellariiformes,Procellariidae,NA,Procellariidae*,,,,Aves marinas,11,https://doi.org/10.3354/meps11689
+249,Chordata,Mammalia,Cetartiodactyla,Delphinidae ,Delphinus,Delphinus*,,,,Mamiferos marinos,11,https://doi.org/10.3354/meps11689
+250,Chordata,Mammalia,Carnivora,Otariidae ,Otaria,Otaria*,,,,Mamiferos marinos,11,https://doi.org/10.3354/meps11689
+251,Mollusca,Cephalopoda,NA,NA,NA,Cephalopoda*,,,,Cefalopodos,11,https://doi.org/10.3354/meps11689
+252,Arthropoda,Malacostraca,Amphipoda,Hyperiidae ,Themisto,Themisto_gaudichaudii,,,,Crustaceos peracaridos,11,https://doi.org/10.3354/meps11689
+253,Arthropoda,Malacostraca,Euphausiacea,NA,NA,Euphausiacea*,,,,Crustaceos peracaridos,11,https://doi.org/10.3354/meps11689
+254,Arthropoda,Malacostraca,Amphipoda ,NA,NA,Amphipoda* ,,,,Crustaceos peracaridos,11,https://doi.org/10.3354/meps11689
+255,Mollusca,Cephalopoda,NA,NA,NA,Cephalopoda_juvenil,,,,Cefalopodos,11,https://doi.org/10.3354/meps11689
+256,Chordata,Vertebrata,NA,NA,NA,Larva_peces,,,,Ictioplancton,11,https://doi.org/10.3354/meps11689
+257,Chordata,Actinopteri ,Clupeiformes ,Clupeidae,Sprattus,Sprattus_fuegensis,Sardina fueguina,Pelágico,"CCH, CB",Sardinas,11,https://doi.org/10.3354/meps11689
+258,Mollusca,Cephalopoda ,Myopsida,Loliginidae ,Loligo,Loligo_gahi,,,,Cefalopodos,11,https://doi.org/10.3354/meps11689
+259,Arthropoda,Malacostraca,Decapoda,Munididae,Munida,Munida_gregaria,Langosta gregaria,Bentopelágico,,Crustaceos peracaridos,11,https://doi.org/10.3354/meps11689
+260,Chordata,Mammalia,Cetartiodactyla,Delphinidae ,Lagenorhynchus,Lagenorhynchus_australis,Delfín Austral,Pelágico,,Mamiferos marinos,11,https://doi.org/10.3354/meps11689
+261,Chordata,Actinopteri ,Clupeiformes ,Engraulidae,NA,Engraulidae*,,,,Peces,11,https://doi.org/10.3354/meps11689
+262,Chordata,Mammalia,Carnivora ,Phocidae ,Mirounga,Mirounga_leonina,,,CAA,Mamiferos marinos,10,https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.974.9404&rep=rep1&type=pdf
+263,Chordata,Mammalia,Cetartiodactyla,Ziphiidae ,Berardius,Berardius_arnuxii,Delfín picudo de Arnoux,,,Mamiferos marinos,13,https://doi.org/10.3354/meps12296
+264,Chordata,Mammalia,Cetartiodactyla,Ziphiidae ,Hyperoodon,Hyperoodon_planifrons,,,,Mamiferos marinos,13,https://doi.org/10.3354/meps12296
+265,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Mesoplodon,Mesoplodon_bowdoini,Zifio de Andrew,,,Mamiferos marinos,13,https://doi.org/10.3354/meps12296
+266,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Mesoplodon,Mesoplodon_grayi,Delfín picudo de Gray,,,Mamiferos marinos,13,https://doi.org/10.3354/meps12296
+267,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Mesoplodon,Mesoplodon_hectori,Zifio de Hector,,,Mamiferos marinos,13,https://doi.org/10.3354/meps12296
+268,Chordata,Mammalia,Cetartiodactyla,Ziphiidae,Mesoplodon,Mesoplodon_layardii,,,CAA,Mamiferos marinos,13,https://doi.org/10.3354/meps12296
+269,Chordata,Mammalia,Cetartiodactyla,Ziphiidae ,Tasmacetus,Tasmacetus_shepherdi,Zifio de Shepherd,,,Mamiferos marinos,13,https://doi.org/10.3354/meps12296
+270,Chordata,Mammalia,Cetartiodactyla,Ziphiidae ,Ziphius,Ziphius_cavirostris,Ballena de Cuvier,,CAA,Mamiferos marinos,13,https://doi.org/10.3354/meps12296
+271,Chordata,Mammalia,Cetartiodactyla,Delphinidae,Cephalorhynchus,Cephalorhynchus_commersonii,Tonina overa,,,Mamiferos marinos,13,https://doi.org/10.3354/meps12296
+272,Chordata,Mammalia,Cetartiodactyla ,Balaenidae,Eubalaena,Eubalaena_australis,Ballena franca asutral,,,Mamiferos marinos,13,https://doi.org/10.3354/meps12296
+273,Mollusca,Cephalopoda ,Myopsida,Loliginidae ,Loligo,Loligo_gahi,,,,Cefalopodos,13,https://doi.org/10.3354/meps12296
+274,Mollusca,Cephalopoda ,Oegopsida ,Ommastrephidae ,llex,Ilex_argentinus,Calamar argentino,,,Cefalopodos,13,https://doi.org/10.3354/meps12296
+275,Chordata,Actinopteri ,Gadiformes ,Merlucciidae ,Macruronus,Macruronus_magellanicus,Merluza de cola,Demersal,,Peces demersales,13,https://doi.org/10.3354/meps12296
+276,Chordata,Actinopteri ,Gadiformes ,Merlucciidae ,Merluccius,Merluccius_australis,Merluza austral,Demersal,,Peces demersales,13,https://doi.org/10.3354/meps12296
+277,Chordata,Actinopteri ,Perciformes,Channichthyidae ,Champsocephalus,Champsocephalus_aceratus,,,,Peces,13,https://doi.org/10.3354/meps12296
+278,Mollusca,Cephalopoda ,Oegopsida,Cranchiidae ,Galiteuthis,Galiteuthis_glacialis,,,,Cefalopodos,13,https://doi.org/10.3354/meps12296
+279,Arthropoda,Malacostraca,Euphausiacea,Euphausiidae ,Euphausia,Euphausia_lucens,,,,Crustaceos peracaridos,13,https://doi.org/10.3354/meps12296
+280,Arthropoda,Malacostraca,Euphausiacea ,Euphausiidae ,Euphausia,Euphausia_superba,Krill,Planctónico,"CCA, CCH",Crustaceos peracaridos,13,https://doi.org/10.3354/meps12296
+281,Mollusca,Cephalopoda ,Oegopsida,Cranchiidae ,Taonius,Taonius*,,,,Cefalopodos,13,https://doi.org/10.3354/meps12296
+282,Mollusca,Cephalopoda ,Oegopsida,Histioteuthidae ,Histioteuthis,Histioteuthis_atlantica,,,,Cefalopodos,13,https://doi.org/10.3354/meps12296
+283,Mollusca,Cephalopoda ,Oegopsida,Histioteuthidae ,Histioteuthis,Histioteuthis_macrohista,,,,Cefalopodos,13,https://doi.org/10.3354/meps12296
+284,Mollusca,Cephalopoda ,Oegopsida,Gonatidae ,Gonatus,Gonatus_antarcticus,,,,Cefalopodos,13,https://doi.org/10.3354/meps12296
+285,Mollusca,Cephalopoda ,Oegopsida,Onychoteuthidae,Kondakovia,Kondakovia_longimana,,,,Cefalopodos,13,https://doi.org/10.3354/meps12296
+286,Mollusca,Cephalopoda ,Oegopsida,Batoteuthidae,Batoteuthis,Batoteuthis_skolops,,,,Cefalopodos,13,https://doi.org/10.3354/meps12296
+287,Mollusca,Cephalopoda ,Oegopsida,Cranchiidae ,Galiteuthis,Galiteuthis_glacialis,,,,Cefalopodos,13,https://doi.org/10.3354/meps12296
+288,Chordata,Actinopteri ,Perciformes ,Nototheniidae,Dissostichus,Dissostichus_eleginoides,Merluza negra,Demersal,,Peces demersales,13,https://doi.org/10.3354/meps12296
+289,Chordata,Actinopteri ,Gadiformes ,Gadidae,Micromesistius,Micromesistius_australis,Bacaladilla,Pelágico,,Peces,13,https://doi.org/10.3354/meps12296
+290,Chordata,Actinopteri ,Gadiformes ,Merlucciidae ,Macruronus,Macruronus_magellanicus,Merluza de cola,Demersal,,Peces demersales,13,https://doi.org/10.3354/meps12296
+291,Chordata,Actinopteri ,Gadiformes ,Merlucciidae ,Merluccius,Merluccius_australis,Merluza austral,Demersal,,Peces demersales,13,https://doi.org/10.3354/meps12296
+292,Chordata,Actinopteri ,Perciformes ,Nototheniidae,Gobionotothen,Gobionotothen_gibberifrons,,,,Peces,13,https://doi.org/10.3354/meps12296
+293,Chordata,Actinopteri ,Perciformes ,Channichthyidae,Chaenocephalus,Chaenocephalus_aceratus,,,,Peces,13,https://doi.org/10.3354/meps12296
+294,Chordata,Actinopteri ,Perciformes ,Channichthyidae,Champsocephalus,Champsocephalus_gunnari,,,,Peces,13,https://doi.org/10.3354/meps12296
+295,Chordata,Actinopteri ,Perciformes ,Channichthyidae,Chionodraco,Chionodraco_rastrospinosus,,,,Peces,13,https://doi.org/10.3354/meps12296
+296,Chordata,Actinopteri ,Perciformes ,Nototheniidae,Lepidonotothen,Lepidonotothen_kempi,,,,Peces,13,https://doi.org/10.3354/meps12296
+297,Chordata,Actinopteri ,Perciformes ,Nototheniidae,Nototheniops,Nototheniops_larseni,,,,Peces,13,https://doi.org/10.3354/meps12296
+298,Chordata,Actinopteri ,Perciformes ,Channichthyidae,Pseudochaenichthys,Pseudochaenichthys_georgianus,,,,Peces,13,https://doi.org/10.3354/meps12296
+299,Chordata,Mammalia,Cetartiodactyla,Delphinidae,Lagenorhynchus,Lagenorhynchus_obscurus,,Pelágico,"CCH, CB",Mamiferos marinos,14,https://doi.org/10.1007/s00300-018-2315-4
+300,Chordata,Mammalia,Cetartiodactyla,Delphinidae ,Lagenorhynchus,Lagenorhynchus_australis,Delfín Austral,Pelágico,CB,Mamiferos marinos,14,https://doi.org/10.1007/s00300-018-2315-4
+301,Chordata,Actinopteri ,Clupeiformes ,Clupeidae,Sprattus,Sprattus_fuegensis,Sardina fueguina,Pelágico,"CCH, CB",Sardinas,15,https://doi.org/10.1007/s00300-018-2394-2
+302,Arthropoda,Malacostraca,Decapoda,Munididae,Munida,Munida_gregaria,Langosta gregaria,Bentopelágico,CB,Crustaceos peracaridos,15,https://doi.org/10.1007/s00300-018-2394-2
+303,Arthropoda,Malacostraca,Decapoda,Lithodidae ,Lithodes,Lithodes_santolla,Centolla patagónica,Bentónico,"CCH, CB",Crustaceos peracaridos,15,https://doi.org/10.1007/s00300-018-2394-2
+304,Arthropoda,Malacostraca,Decapoda,Lithodidae ,Paralomis,Paralomis_granulosa,Centollón patagónico,Bentónico,"CCH, CB",Crustaceos peracaridos,15,https://doi.org/10.1007/s00300-018-2394-2
+305,Chordata,Aves,Sphenisciformes,Spheniscidae ,Spheniscus,Spheniscus_magellanicus,Pinguino Magallánico,Pelágico,"CCH, CB",Aves marinas,16,https://doi.org/10.1111/ibi.12547
+306,Chordata,Aves,Sphenisciformes,Spheniscidae ,Pygoscelis,Pygoscelis_adeliae,Pinguino Adelia,Pelágico,"CCH, CB",Aves marinas,16,https://doi.org/10.1111/ibi.12547
+307,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Macrocystis,Macrocystis_pyrifera,Alga parda,Bentónico,CB,,16,https://doi.org/10.1111/ibi.12547
+308,Echinodermata ,Echinoidea,Camarodonta ,Parechinidae,Loxechinus,Loxechinus_albus,Erizo de mar chileno,Bentónico,CB,Erizos de mar,16,https://doi.org/10.1111/ibi.12547
+309,Ochrophyta,Phaeophyceae ,Laminariales ,Lessoniaceae,Lessonia,Lessonia_vadosa,Alga parda,Bentónico,CB,Bentos,16,https://doi.org/10.1111/ibi.12547
+310,Ochrophyta,Phaeophyceae ,Laminariales ,Lessoniaceae,Lessonia,Lessonia_flavicans,Alga parda,Bentónico,CB,Bentos,16,https://doi.org/10.1111/ibi.12547
+311,Echiodermata,Echinoidea,Temnopleuroida,Temnopleuridae,Pseudechinus ,Pseudechinus_magellanicus,Erizo de mar ,Bentónico,CB,Erizos de mar,17,https://doi.org/10.1371/journal.pone.0229259
+312,Echiodermata,Echinoidea,Cidaroida ,Cidaridae,Austrocidaris,Austrocidaris_canaliculatum,Erizo de mar ,Bentónico,CB,Erizos de mar,17,https://doi.org/10.1371/journal.pone.0229259
+313,Echiodermata,Echinoidea,Arbacioida ,Arbaciidae ,Arbacia,Arbacia_dufresnii,Erizo de mar ,Bentónico,CB,Erizos de mar,17,https://doi.org/10.1371/journal.pone.0229259
+314,Echiodermata,Echinoidea,Forcipulatida ,Asteriidae ,Anasterias,Anasterias_antarctica,Estrella de mar cenicienta,Bentónico,CB,Erizos de mar,17,https://doi.org/10.1371/journal.pone.0229259
+315,Echiodermata,Echinoidea,Forcipulatida ,Stichasteridae ,Cosmasterias,Cosmasterias_lurida,Estrella vioeta,Bentónico,CB,Erizos de mar,17,https://doi.org/10.1371/journal.pone.0229259
+316,Echiodermata,Echinoidea,Valvatida ,Asterinidae ,Asterina,Asterina_fimbriata,,Bentónico,CB,Erizos de mar,17,https://doi.org/10.1371/journal.pone.0229259
+317,Arthropoda,Thecostraca,Balanomorpha ,Balanidae ,Balanus,Balanus_laevis,Bellota de mar,Bentónico,CB,Bentos,17,https://doi.org/10.1371/journal.pone.0229259
+318,Mollusca,Bivalvia,Imparidentia ,Gaimardiidae,Gaimardia,Gaimardia_trapesina,,Bentónico,CB,Bentos,17,https://doi.org/10.1371/journal.pone.0229259
+319,Bryozoa,Gymnolaemata ,Cheilostomatida ,NA,NA,Lepraliomorpha* ,,Bentónico,CB,Bentos,17,https://doi.org/10.1371/journal.pone.0229259
+320,Mollusca,Gastropoda,Trochida ,Calliostomatidae,Margarella,Margarella_violacea ,,Bentónico,CB,Gasteropodos,17,https://doi.org/10.1371/journal.pone.0229259
+321,Haptophyta ,Prymnesiophyceae ,Isochrysidales ,Noelaerhabdaceae,Emiliania,Emiliania_huxleyi,Cocolitofóridos,Pelágico,CB y CCH,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+322,Myzozoa ,Dinophyceae,Dinophysiales ,Dinophysaceae ,Dinophysis,Dinophysis_acuminata,Mixozoos,Pelágico,CB y CCH,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+323,Cyanobacteria ,Cyanophyceae ,Synechococcales ,Synechococcaceae,Synechococcus,Synechococcus*,Picofitoplancton,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+324,Arthropoda,Malacostraca,Decapoda,Lithodidae ,Lithodes,Lithodes_santolla,Centolla patagónica,Bentónico,"CCH, CB",Crustaceos peracaridos,18,https://doi.org/10.1371/journal.pone.0233156
+325,Arthropoda,Malacostraca,Decapoda,Lithodidae ,Paralomis,Paralomis_granulosa,Centollón patagónico,Bentónico,"CCH, CB",Crustaceos peracaridos,18,https://doi.org/10.1371/journal.pone.0233156
+326,Chordata,Actinopteri ,Clupeiformes ,Clupeidae,Sprattus,Sprattus_fuegensis,Sardina fueguina,Pelágico,"CCH, CB",Sardinas,18,https://doi.org/10.1371/journal.pone.0233156
+327,Chordata,Actinopteri,Perciformes,Nototheniidae ,Dissostichus,Dissostichus_eleginoides,Merluza negra,Demersal,,Peces demersales,18,https://doi.org/10.1371/journal.pone.0233156
+328,Ochrophyta ,Bacillariophyceae,NA,NA,NA,Bacillariophyceae*,Diatomeas,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+329,Haptophyta ,Prymnesiophyceae ,NA,NA,NA,Coccolithophorales* ,Cocolitofóridos,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+330,Bryozoa,Gymnolaemata,Cheilostomatida ,Escharinidae ,Mastigophora,Mastigophora*,Flagelados,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+331,Dinophyta,NA,NA,NA,NA,Dinophyta*,Dinoflagelados,,CB,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+332,Myzozoa,Dinophyceae,Dinophyceae,Amphidomataceae,Azadinium,Azadinium*,Dinoflagelados,,CB,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+333,Myzozoa,Dinophyceae,Prorocentrales,Prorocentraceae,Prorocentrum,Prorocentrum*,Dinoflagelados,,CB,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+334,Myzozoa,Dinophyceae,Gonyaulacales,Ostreopsidaceae,Alexandrium,Alexandrium*,Dinoflagelados,,CB,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+335,Myzozoa,Dinophyceae,Gonyaulacales,Ceratiaceae,Ceratium,Ceratium*,Dinoflagelados,,CB,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+336,Myzozoa,Dinophyceae,Peridiniales,Oxytoxaceae ,Oxytoxum,Oxytoxum*,Dinoflagelados,,CB,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+337,Myzozoa,Dinophyceae,Gymnodiniales,Gymnodiniaceae,Gymnodinium,Gymnodinium*,Dinoflagelados heterótrofos,,,Zooplancton,18,https://doi.org/10.1371/journal.pone.0233156
+338,Myzozoa,Dinophyceae,Peridiniales,Protoperidiniaceae,Protoperidinium,Protoperidinium*,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+339,Myzozoa,Dinophyceae,Gymnodiniales,Gymnodiniaceae,Gyrodinium,Gyrodinium*,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+340,Myzozoa,Dinophyceae,Amphidiniales,Amphidiniaceae,Amphidinium,Amphidinium*,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+341,Myzozoa,Dinophyceae,Gymnodiniales,Gymnodiniaceae,Torodinium,Torodinium_robustum,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+342,Ciliophora,Litostomatea,Cyclotrichiida,Mesodiniidae,Mesodinium,Mesodinium_rubrum,Ciliados,,CB,Zooplancton,18,https://doi.org/10.1371/journal.pone.0233156
+343,Myzozoa ,Dinophyceae,Dinophysiales ,Dinophysaceae ,Dinophysis,Dinophysis*,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+344,Ciliophora,Oligotrichea,Oligotrichida,Strombidiidae,Strombidium,Strombidium*,,,,Zooplancton,18,https://doi.org/10.1371/journal.pone.0233156
+345,Ciliophora,Oligotrichea,Choreotrichida,Strobilidiidae,Strobilidium,Strobilidium*,,,,Zooplancton,18,https://doi.org/10.1371/journal.pone.0233156
+346,Ciliophora,Oligotrichea,Choreotrichida,Strombidinopsidae,Strombidinopsis,Strombidinopsis*,,,,Zooplancton,18,https://doi.org/10.1371/journal.pone.0233156
+347,Ciliophora,Oligotrichea,Choreotrichida,Codonellidae,Tintinnopsis,Tintinnopsis*,Tintínidos,,,Zooplancton,18,https://doi.org/10.1371/journal.pone.0233156
+348,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Shionodiscus,Shionodiscus_gaarderae,Diatomeas,,CCH,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+349,Ciliophora,Oligotrichea,Oligotrichida,Cyrtostrombidiidae,Cyrtostrombidium,Cyrtostrombidium*,,,"CB, CCH",Zooplancton,18,https://doi.org/10.1371/journal.pone.0233156
+350,Ciliophora,Oligotrichea,Oligotrichida,Tontoniidae,Laboea,Laboea_strobila,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+351,Ciliophora,Oligotrichea,Oligotrichida,Strombidiidae,Strombidium,Strombidium_conicum,,,,Zooplancton,18,https://doi.org/10.1371/journal.pone.0233156
+352,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Nitzschia,Nitzschia*,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+353,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Pseudonitzschia,Pseudonitzschia*,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+354,Myzozoa ,Dinophyceae,Dinophysiales ,Dinophysaceae ,Dinophysis,Dinophysis_acuminata,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+355,Ochrophyta,Bacillariophyceae,Chaetocerotanae,Chaetocerotaceae,Chaetoceros,Chaetoceros*,Diatomeas,"CB, CCH",,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+356,Ochrophyta,Bacillariophyceae,Thalassiosirales,Thalassiosiraceae,Thalassiosira ,Thalassiosira* ,Diatomeas,"CB, CCH",,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+357,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Dactyliosolen,Dactyliosolen*,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+358,Ochrophyta,Bacillariophyceae,Rhizosoleniales,Rhizosoleniaceae,Guinardia,Guinardia*,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+359,Ochrophyta,Bacillariophyceae,Bacillariales,Bacillariaceae,Fragilariopsis,Fragilariopsis _kerguelensis,,CB,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+360,Ochrophyta,Bacillariophyceae,Naviculales,Naviculaceae,Navicula,Navicula*,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+361,Ochrophyta,Bacillariophyceae,Paraliales,Paraliaceae,Paralia,Paralia_sulcata,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+362,Haptophyta,rymnesiophyceae,Phaeocystales,Phaeocystaceae,Phaeocystis,Phaeocystis*,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+363,Haptophyta,rymnesiophyceae,Phaeocystales,Phaeocystaceae,Phaeocystis,Phaeocystis_antactica,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+364,Myzozoa ,Dinophyceae,Gonyaulacales,Ostreopsidaceae,Alexandrium,Alexandrium_catenella,Dinoflagelado,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+365,Mollusca,Bivalvia,Mytiloidea,Mytilidae,Mytilus,Mytilus_chilensis,Mejillón,Bentónico,CB,Bentos,18,https://doi.org/10.1371/journal.pone.0233156
+366,Myzozoa ,Dinophyceae,Dinophyceae,Amphidomataceae,Azadinium,Azadinium_poporum,,,,Fitoplancton,18,https://doi.org/10.1371/journal.pone.0233156
+367,Chordata,Mammalia ,Cetartiodactyla ,Balaenopteridae,Megaptera,Megaptera_novaeangliae,Ballena jorobada,Pelágico,"CCH, CCA",Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+368,Chordata,Mammalia ,Cetartiodactyla ,Balaenopteridae,Balaenoptera,Balaenoptera_borealis,Rorcual mediano,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+369,Chordata,Mammalia,Artiodactyla,Delphinidae,Lagenorhynchus ,Lagenorhynchus_cruciger,Delfín cruzado,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+370,Arthropoda ,Malacostraca,Euphausiacea,NA,NA,Euphausiacea*,Krill,,,Crustaceos peracaridos,19,https://doi.org/10.1007/s00300-019-02607-z
+371,Chordata,Mammalia ,Cetartiodactyla ,Balaenopteridae,Balaenoptera,Balaenoptera_physalus,Rorcual común,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+372,Chordata,Mammalia ,Cetartiodactyla ,Balaenopteridae,Balaenoptera,Balaenoptera_borealis,Rorcual mediano,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+373,Chordata,Mammalia ,Cetartiodactyla ,Balaenidae,Eubalaena,Eubalaena_australisa,Ballena franca asutral,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+374,Chordata,Mammalia ,Cetartiodactyla ,Physeteridae,Physeter,Physeter_macrocephalus,Cachalote,Pelágico,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+375,Chordata,Mammalia ,Cetartiodactyla ,Delphinidae ,Orcinus,Orcinus_orcaa,Orca,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+376,Chordata,Mammalia ,Cetartiodactyla ,Delphinidae ,Globicephala,Globicephala_melasa,Delfín calderón,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+377,Chordata,Mammalia ,Cetartiodactyla ,Delphinidae ,Lissodelphis,Lissodelphis_peroniia,Delfín liso del sur,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+378,Chordata,Mammalia,Artiodactyla,Delphinidae,Lagenorhynchus,Lagenorhynchus_australis,Delfín Austral,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+379,Chordata,Mammalia,Artiodactyla,Delphinidae,Lagenorhynchus,Lagenorhynchus_cruciger,Delfín cruzado,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+380,Chordata,Mammalia,Artiodactyla,Delphinidae,Lagenorhynchus,Lagenorhynchus_obscurus,Delfín oscuro,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+381,Chordata,Mammalia,Artiodactyla,Delphinidae,Cephalorhynchus,Cephalorhynchus_commersonii,Tonina overa,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+382,Chordata,Mammalia,Artiodactyla,Delphinidae,Cephalorhynchus,Cephalorhynchus_eutropia,Delfín chileno,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+383,Chordata,Mammalia,Artiodactyla,Delphinidae,Delphinus,Delphinus_delphis,Delfín común,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+384,Chordata,Mammalia,Artiodactyla,Delphinidae,Tursiops,Tursiops_truncatus,Delfín nariz de botella,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+385,Chordata,Mammalia ,Cetartiodactyla ,Ziphiidae ,Hyperoodon,Hyperoodon_planifronsa,Delfín nariz de botella del sur,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+386,Chordata,Mammalia ,Cetartiodactyla ,Ziphiidae ,Berardius,Berardius_arnuxii,Delfín picudo de Arnoux,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+387,Chordata,Mammalia ,Cetartiodactyla ,Ziphiidae ,Ziphius,Ziphius_cavirostris,Ballena de Cuvier,,,Mamiferos marinos,19,https://doi.org/10.1007/s00300-019-02607-z
+388,Chordata,Actinopteri,Myctophiformes,Myctophidae ,NA,Myctophidae* ,,,,Peces,19,https://doi.org/10.1007/s00300-019-02607-z
+389,Chordata,Mammalia,Artiodactyla,Delphinidae,Globicephala,Globicephala_melas_edwardii,Calderón común,"CCH, CB",,Mamiferos marinos,21,https://doi.org/10.1007/s00300-021-02908-2
+390,Mollusca,Cephalopoda ,Oegopsida ,Onychoteuthidae ,Onykia,Onykia_ingens,Calamar anzuelo mayor,"CCH, CB",,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+391,Mollusca,Cephalopoda ,Oegopsida ,Ommastrephidae,Martialia,Martialia_hyadesi,Calamar volador,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+392,Mollusca,Cephalopoda ,Oegopsida ,Chiroteuthidae ,Chiroteuthis,Chiroteuthis_veranyi,Calamar de brazos largos,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+393,Mollusca,Cephalopoda ,Myopsida,Loliginidae ,Doryteuthis,Doryteuthis_gahi,Calamar patagónico,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+394,Mollusca,Cephalopoda ,Oegopsida ,Ommastrephidae ,llex,Ilex_argentinus,Calamar argentino,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+395,Mollusca,Cephalopoda ,Octopoda,Enteroctopodidae,Enteroctopus,Enteroctopus_megalocyathus,Pulpo rojo patagónico,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+396,Chordata,Actinopteri ,Gadiformes ,Merlucciidae ,Merluccius,Merluccius_hubbsi,Merluza Argentina,Demersal,,Peces demersales,21,https://doi.org/10.1007/s00300-021-02908-2
+397,Chordata,Actinopteri ,Gadiformes ,Merlucciidae ,Merluccius,Merluccius_australis,Merluza austral,Demersal,,Peces demersales,21,https://doi.org/10.1007/s00300-021-02908-2
+398,Chordata,Actinopteri ,Gadiformes ,Merlucciidae ,Macruronus,Macruronus_magellanicus,Merluza de cola,Demersal,,Peces demersales,21,https://doi.org/10.1007/s00300-021-02908-2
+399,Chordata,Actinopteri ,Gadiformes ,Moridae,Salilota,Salilota_australis,Bacalao criollo,Pelágico,,Peces,21,https://doi.org/10.1007/s00300-021-02908-2
+400,Chordata,Actinopteri ,Gadiformes ,Gadidae ,Micromesistius,Micromesistius_australis,Bacaladilla,Pelágico,,Peces,21,https://doi.org/10.1007/s00300-021-02908-2
+401,Chordata,Actinopteri ,Perciformes,Nototheniidae,Dissostichus,Dissostichus_eleginoides,Merluza negra,Demersal,,Peces demersales,21,https://doi.org/10.1007/s00300-021-02908-2
+402,Chordata,Actinopteri ,Perciformes,Bovichtidae ,Cottoperca,Cottoperca_trigloides,Pez piedra,Demersal,CB,Peces demersales,21,https://doi.org/10.1007/s00300-021-02908-2
+403,Chordata,Actinopteri ,Perciformes,Zoarcidae,Iluocoetes,Iluocoetes_fimbriatus,,Demersal,"CB, CCH",Peces demersales,21,https://doi.org/10.1007/s00300-021-02908-2
+404,Mollusca,Cephalopoda ,Oegopsida,Ommastrephidae,Martialia,Martialia_hyadesi,,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+405,Mollusca,Cephalopoda ,Oegopsida,Cranchiidae,Galiteuthis,Galiteuthis_glacialis,,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+406,Mollusca,Cephalopoda ,Oegopsida,Cranchiidae,Taonius,Taonius*,,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+407,Mollusca,Cephalopoda ,Oegopsida,Histioteuthidae ,Histioteuthis,Histioteuthis_eltaninae,,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+408,Mollusca,Cephalopoda ,Oegopsida,Histioteuthidae ,Histioteuthis,Histioteuthis_atlantica,,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+409,Mollusca,Cephalopoda ,Oegopsida,Neoteuthidae ,Alluroteuthis,Alluroteuthis_antarcticus,,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+410,Mollusca,Cephalopoda ,Oegopsida,Onychoteuthidae,Kondakovia,Kondakovia_longimana,,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+411,Mollusca,Cephalopoda ,Oegopsida,Onychoteuthidae,Filippovia,Filippovia_knipovitchi,,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+412,Mollusca,Cephalopoda ,Sepiida,Sepiolidae ,Semirossia,Semirossia_tenera,,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+413,Mollusca,Cephalopoda ,Oegopsida,Gonatidae,Gonatus,Gonatus_antarcticus,,,,Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+414,Chordata,Actinopteri ,Perciformes,Gonatidae,Gobionotothen,Gobionotothen_gibberifrons,,,,Peces,21,https://doi.org/10.1007/s00300-021-02908-2
+415,Chordata,Actinopteri ,Perciformes,Channichthyidae ,Chaenocephalus,Chaenocephalus_aceratus,,,,Peces,21,https://doi.org/10.1007/s00300-021-02908-2
+416,Chordata,Actinopteri ,Perciformes,Channichthyidae ,Chaenocephalus,Chaenocephalus_gunnari,,,,Peces,21,https://doi.org/10.1007/s00300-021-02908-2
+417,Chordata,Actinopteri ,Perciformes,Channichthyidae ,Chionodraco,Chionodraco_rastrospinosus,,,,Peces,21,https://doi.org/10.1007/s00300-021-02908-2
+418,Chordata,Actinopteri ,Perciformes,Nototheniidae,Lepidonotothen,Lepidonotothen_kempi,,,,Peces,21,https://doi.org/10.1007/s00300-021-02908-2
+419,Chordata,Actinopteri ,Perciformes,Nototheniidae,Nototheniops,Nototheniops_larseni,,,,Peces,21,https://doi.org/10.1007/s00300-021-02908-2
+420,Chordata,Actinopteri ,Perciformes,Channichthyidae ,Pseudochaenichthys,Pseudochaenichthys_georgianus,,,,Peces,21,https://doi.org/10.1007/s00300-021-02908-2
+421,Chordata,Actinopteri ,Perciformes,Nototheniidae,Patagonotothen ,Patagonotothen_ramsayi,,,,Peces,21,https://doi.org/10.1007/s00300-021-02908-2
+422,Chordata,Actinopteri ,Perciformes,Bovichtidae ,Cottoperca,Cottoperca_trigloides,Pez piedra,Demersal,CB,Peces demersales,21,https://doi.org/10.1007/s00300-021-02908-2
+423,Chordata,Actinopteri ,Perciformes,Nototheniidae,Dissostichus,Dissostichus_eleginoides,Merluza negra,Demersal,,Peces demersales,21,https://doi.org/10.1007/s00300-021-02908-2
+424,Chordata,Actinopteri ,Gadiformes ,Moridae,Salilota,Salilota_australis,Bacalao criollo,Pelágico,,Peces,21,https://doi.org/10.1007/s00300-021-02908-2
+425,Chordata,Actinopteri ,Perciformes,Nototheniidae,Patagonotothen,Patagonotothen_guntheri,Róbalo,Bentopelágico,"CCH, CB",Peces,21,https://doi.org/10.1007/s00300-021-02908-2
+426,Chordata,Petromyzonti,Petromyzontiformes,Geotriidae ,Geotria,Geotria_australis,Lamprea de boca ancha,Demersal,CCH,Peces demersales,21,https://doi.org/10.1007/s00300-021-02908-2
+427,Mollusca,Cephalopoda ,Myopsida,Loliginidae ,Doryteuthis,Doryteuthis_gahi,Calamar patagónico,Pelágico,"CCH, CCA",Cefalopodos,21,https://doi.org/10.1007/s00300-021-02908-2
+428,Chordata,Mammalia ,Cetartiodactyla ,Balaenopteridae,Balaenoptera,Balaenoptera_physalus,"rorcual común, COMMON RORQUAL",,,Mamiferos marinos,24,https://doi.org/10.1007/s00300-022-03080-x
+429,Chordata,Mammalia ,Cetartiodactyla ,Balaenopteridae,Megaptera,Megaptera_novaeangliae,Ballena jorobada,Pelágico,"CCH, CCA",Mamiferos marinos,24,https://doi.org/10.1007/s00300-022-03080-x
+430,Arthropoda,Malacostraca,Euphausiacea ,Euphausiidae ,Euphausia,Euphausia_superba,Krill,Planctónico,"CCA, CCH",Crustaceos peracaridos,24,https://doi.org/10.1007/s00300-022-03080-x
+431,Chordata,Mammalia ,Cetartiodactyla ,Balaenopteridae,Balaenoptera,Balaenoptera_bonaerensis,Rorcual austral,Pelágico,CCA,Mamiferos marinos,24,https://doi.org/10.1007/s00300-022-03080-x
+432,Chordata,Actinopterygii,Clupeiformes ,Clupeidae,Sprattus,Sprattus_fuegensis,Sardina fueguina,Pelágico,"CCH, CB",Sardinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+433,Chordata,Actinopterygii,Perciformes,Nototheniidae,Dissostichus,Dissostichus_eleginoides,Merluza negra,Demersal,CCA,Peces demersales,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+434,Chordata,Aves,Charadriiformes,Laridae,Larus,Larus_dominicanus,Gaviota Cocinera,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+435,Chordata,Aves,Charadriiformes,Laridae,Sterna,Sterna_hirundinacea,Gaviotín sudamericano,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+436,Chordata,Aves,Charadriiformes,Stercorariidae,Stercorarius,Stercorarius_antarcticus,Escúa Parda,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+437,Chordata,Aves,Charadriiformes,Stercorariidae,Stercorarius,Stercorarius_chilensis,Escúa Común,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+438,Chordata,Aves,Procellariiformes,Diomedeidae,Diomedea,Diomedea_epomophora,Albatros real,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+439,Chordata,Aves,Procellariiformes,Diomedeidae,Diomedea,Diomedea_exulans,Albatros errante,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+440,Chordata,Aves,Procellariiformes,Diomedeidae,Diomedea,Diomedea_sanfordi,Albatros real del norte,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+441,Chordata,Aves,Procellariiformes,Diomedeidae,Phoebetria,Phoebetria_fusca,Albatros oscuro,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+442,Chordata,Aves,Procellariiformes,Diomedeidae,Phoebetria,Phoebetria_palpebrata,Albatros manto claro,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+443,Chordata,Aves,Procellariiformes,Diomedeidae,Thalassarche,Thalassarche_Bulleri,,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+444,Chordata,Aves,Procellariiformes,Diomedeidae,Thalassarche,Thalassarche_chlororhynchos,Albatros de nariz amarilla,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+445,Chordata,Aves,Procellariiformes,Diomedeidae,Thalassarche,Thalassarche_chrysostoma,Albatros de cabeza gris,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+446,Chordata,Aves,Procellariiformes,Diomedeidae,Thalassarche,Thalassarche_melanophris,Albatros de ceja negra,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+447,Chordata,Aves,Procellariiformes,Diomedeidae,Thalassarche,Thalassarche_salvini,Albatros de Salvin,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+448,Chordata,Aves,Procellariiformes,Hydrobatidae,Fregetta,Fregetta_tropica,Petrel Vientre Negro,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+449,Chordata,Aves,Procellariiformes,Hydrobatidae,Oceanites,Oceanites_gracilis,Petrel de Elliot,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+450,Chordata,Aves,Procellariiformes,Hydrobatidae,Oceanites,Oceanites_oceanicus,Petrel común,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+451,Chordata,Aves,Procellariiformes,Pelecanoididae,Pelecanoides,Pelecanoides_urinatrix,"Yunco Común,",Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+452,Chordata,Aves,Procellariiformes,Procellariidae,Ardenna,Ardenna_creatopus,Pardela patirrosa,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+453,Chordata,Aves,Procellariiformes,Procellariidae,Ardenna,Ardenna_gravis,Pardela cabeza negra,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+454,Chordata,Aves,Procellariiformes,Procellariidae,Ardenna,Ardenna_grisea,Pardela oscura,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+455,Chordata,Aves,Procellariiformes,Procellariidae,Daption,Daption_capense,Petrel pintado,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+456,Chordata,Aves,Procellariiformes,Procellariidae,Fulmarus,Fulmarus_glacialoides,Petrel Plateado,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+457,Chordata,Aves,Procellariiformes,Procellariidae,Halobaena,Halobaena_caerulea,Petrel Azulado,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+458,Chordata,Aves,Procellariiformes,Procellariidae,Macronectes,Macronectes_giganteus,Petrel Gigante Común,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+459,Chordata,Aves,Procellariiformes,Procellariidae,Macronectes,Macronectes_halli,Petrel Gigante Oscuro,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+460,Chordata,Aves,Procellariiformes,Procellariidae,Pachyptila,Pachyptila_belcheri,Petrel paloma de pico delgado,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+461,Chordata,Aves,Procellariiformes,Procellariidae,Pachyptila,Pachyptila_desolata,Pato petrel antártico,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+462,Chordata,Aves,Procellariiformes,Procellariidae,Procellaria,Procellaria_aequinoctialis,Petrel Barba Blanca,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+463,Chordata,Aves,Procellariiformes,Procellariidae,Procellaria,Procellaria_cinerea,Petrel gris,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+464,Chordata,Aves,Procellariiformes,Procellariidae,Procellaria,Procellaria_westlandica,Petrel Negro,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+465,Chordata,Aves,Procellariiformes,Procellariidae,Pterodroma,Pterodroma_incerta,Petrel Cabeza Parda,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+466,Chordata,Aves,Procellariiformes,Procellariidae,Pterodroma,Pterodroma_mollis,Petrel Collar Gris,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+467,Chordata,Aves,Sphenisciformes,Spheniscidae,Aptenodytes,Aptenodytes_patagonicus,Pingüino Rey,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+468,Chordata,Aves,Sphenisciformes,Spheniscidae,Eudyptes,Eudyptes_chrysocome,Pingüino Penacho Amarillo,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+469,Chordata,Aves,Sphenisciformes,Spheniscidae,Spheniscus,Spheniscus_magellanicus,Pingüino Magallánico,Pelágico,,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+470,Chordata,Elasmobranchii,Carcharhiniformes,Triakidae,Mustelus,Mustelus_schmitti,Gatuso,Pelágico,,Condrictios,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+471,Chordata,Elasmobranchii,Rajiformes,Rajidae,Dipturus,Dipturus_chilensis,Raya hosicuda,Pelágico,,Condrictios,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+472,Chordata,Elasmobranchii,Squaliformes,Squalidae,Squalus,Squalus_acanthias,Galludo,Pelágico,,Condrictios,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+473,Chordata,Mammalia,Carnivora,Otariidae,Arctocephalus,Arctocephalus_gazella,lobo marino antártico,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+474,Chordata,Mammalia,Carnivora,Otariidae,Arctocephalus,Arctocephalus_tropicalis,Lobo fino subantártico,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+475,Chordata,Mammalia,Carnivora,Otariidae,Arctophoca,Arctophoca_australis,Lobo de dos pelos,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+476,Chordata,Mammalia,Carnivora,Otariidae,Otaria,Otaria_flavescens,Lobo de un pelo,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+477,Chordata,Mammalia,Carnivora,Phocidae,Hydrurga,Hydrurga_leptonyx,Foca leopardo,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+478,Chordata,Mammalia,Carnivora,Phocidae,Lobodon,Lobodon_carcinophaga,Foca cangrejera,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+479,Chordata,Mammalia,Carnivora,Phocidae,Mirounga,Mirounga_leonina,Elefante marino,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+480,Chordata,Mammalia,Cetacea,Balaenidae,Balaenoptera,Balaenoptera_borealis,Rorcual mediano,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+481,Chordata,Mammalia,Cetacea,Balaenidae,Balaenoptera,Balaenoptera_musculus,Rorcual azul,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+482,Chordata,Mammalia,Cetacea,Balaenidae,Balaenoptera,Balaenoptera_physalus,Rorcual común,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+483,Chordata,Mammalia,Cetacea,Balaenidae,Megaptera,Megaptera_novaeangliae,"ballena yubarta, jorobada",Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+484,Chordata,Mammalia,Cetacea,Delphinidae,Globicephala,Globicephala_melas_edwardii,Calderón común,Pelágico,"CCH, CB",Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+485,Chordata,Mammalia,Cetacea,Delphinidae,Lagenorhynchus,Lagenorhynchus_cruciger,delfín cruzado,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+486,Chordata,Mammalia,Cetacea,Delphinidae,Lagenorhynchus,Lagenorhynchus_obscurus,Delfín oscuro,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+487,Chordata,Mammalia,Cetacea,Phocoenidae,Phocoena,Phocoena_dioptrica,Marsopa de anteojos,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+488,Chordata,Mammalia,Cetacea,Phocoenidae,Phocoena,Phocoena_spinipinnis,Marsopa espinosa,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+489,Chordata,Mammalia,Cetacea,Physeteridae,Physeter,Physeter_macrocephalus,Cachalote,Pelágico,,Mamiferos marinos,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+490,Chordata,Aves,Sphenisciformes,Spheniscidae ,Eudyptes,Eudyptes_chrysocome,Pinguino penacho amarillo,Pelágico,CCA,Aves marinas,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+500,Chordata,Aves,Sphenisciformes,Spheniscidae ,Eudyptes,Eudyptes_chrysocome,Pinguino penacho amarillo,Pelágico,,Aves marinas,21,https://doi.org/10.1007/s00300-021-02908-2
+501,Chordata,Aves,Sphenisciformes,Spheniscidae ,Eudyptes,Eudyptes_filholi,,Pelágico,,Aves marinas,21,https://doi.org/10.1007/s00300-021-02908-2
+502,Chordata,Aves,Falconiformes,Falconidae,Phalcoboenus,Phalcoboenus_australis,Carancho austral,Pelágico,,Aves marinas,21,https://doi.org/10.1007/s00300-021-02908-2
+503,Chordata,Elasmobranchii ,Lamniformes,Lamnidae ,Lamna,Lamna_nasus,Tiburon sardinero,Pelágico,"CCA, CH",Condrictios,25,https://sib.gob.ar/#!/area-protegida/area-marina-protegida-yaganes
+504,Chordata,Elasmobranchii ,Lamniformes,Lamnidae ,Lamna,Lamna_nasus,Tiburon sardinero,Pelágico,"CCA, CH",Condrictios,26,
+505,Chordata,Actinopteri ,Gadiformes ,Merlucciidae ,Macruronus,Macruronus_magellanicus,Merluza de cola,Demersal,,Peces demersales,26,
+506,Chordata,Teleostei,Stomiiformes,Stomiidae,Malacosteus,Malacosteus_australis,Pez demonio,Pelágico,,Peces,26,
+507,Chordata,Actinopteri ,Gadiformes ,Moridae ,Notophycis,Notophycis_marginata,Bacalao pequeño,Pelágico,,Peces,26,
+508,Chordata,Actinopteri ,Gadiformes ,Moridae ,Salilota,Salilota_australis,Bacalao criollo,Pelágico,,Peces,26,
+509,Chordata,Actinopteri ,Gadiformes ,Macrouridae ,Macrourus,Macrourus_holotrachys,,Pelágico,,Peces,26,
+510,Chordata,Actinopteri ,Gadiformes ,Macrouridae,Coelorinchus,Coelorinchus_fasciatus,Granadero chico,Pelágico,,Peces,26,
+511,Chordata,Actinopterygii,Perciformes,Nototheniidae,Dissostichus,Dissostichus_eleginoides,Merluza negra,Demersal,,Peces demersales,26,
+512,Chordata,Actinopteri ,Perciformes,Nototheniidae,Patagonotothen ,Patagonotothen_ramsayi,Bacalao del sur de cola larga,Pelágico,,Peces,26,
+513,Chordata,Actinopteri ,Gadiformes ,Merlucciidae ,Merluccius,Merluccius_australis,Merluza austral,Demersal,,Peces demersales,26,
+514,Chordata,Actinopteri ,Ophidiiformes,Ophidiidae ,Genypterus,Genypterus_blacodes,Congrio dorado,Pelágico,,Peces,26,
+515,Chordata,Elasmobranchii,Rajiformes,Arhynchobatidae ,Bathyraja,Bathyraja*,,Pelágico,,Condrictios,26,
+516,Chordata,Elasmobranchii,Rajiformes,Rajidae,Dipturus,Dipturus*,,Pelágico,,Condrictios,26,
+517,Chordata,Actinopteri ,Gadiformes ,Gadidae ,Micromesistius,Micromesistius_australis,Bacaladilla,Pelágico,,Peces,26,
+518,Chordata,Actinopterygii,Clupeiformes ,Clupeidae,Sprattus,Sprattus_fuegensis,Sardina fueguina,Pelágico,,Sardinas,26,
+519,Mollusca,Cephalopoda ,Oegopsida ,Ommastrephidae ,llex,Ilex_argentinus,Calamar argentino,Pelágico,,Cefalopodos,26,
+520,Mollusca,Cephalopoda ,Octopoda,Octopodidae,Octopus,Octopus*,,Pelágico,,Cefalopodos,26,
+521,Mollusca,Cephalopoda ,Oegopsida,Onychoteuthidae,Moroteuthopsis,Moroteuthopsis_ingens,Calamar anzuelo,Pelágico,,Cefalopodos,26,
+522,Arthropoda,Crustacea,Decapoda,Malacostracea,Natantia,Natantia*,,NA,NA,Crustáceos,26,
+523,Arthropoda,Malacostraca,Decapoda,Lithodidae ,Lithodes,Lithodes_santolla,Centolla patagónica,Bentónico,"CCH, CB",Crustaceos peracaridos,26,
+524,Arthropoda,Malacostraca,Euphausiacea ,Euphausiidae ,Euphausia,Euphausia*,,,,Crustaceos peracaridos,26,
+525,Arthropoda,Malacostraca,Decapoda,Munididae,Munida,Munida_gregaria,Langosta gregaria,Bentopelágico,,Crustaceos peracaridos,26,
