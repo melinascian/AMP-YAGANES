@@ -1,5 +1,0 @@
-"","ID","Presa","Grupo.funcional.presa","Depredador","Grupo.funcional.depredador","Estrategia","Fuente","Expertise.depredador","Expertise.presa","Referencia","Enlace","Referente"
-"1",167,"Zooplankton*","Zooplankton","Spheniscus_magellanicus_female","Sphenisciformes","","Heterótrofo","Aves marinas","Zooplancton",11,"https://doi.org/10.3354/meps11689",NA
-"2",169,"Zooplankton*","Zooplankton","Spheniscus_magellanicus_male","Sphenisciformes","","Heterótrofo","Aves marinas","Zooplancton",11,"https://doi.org/10.3354/meps11689",NA
-"3",171,"Zooplankton*","Zooplankton","Otaria*","Otariidae ","","Heterótrofo","Mamiferos marinos","Zooplancton",11,"https://doi.org/10.3354/meps11689",NA
-"4",173,"Zooplankton*","Zooplankton","Delphinus","Delphinidae","","Heterótrofo","Mamiferos marinos","Zooplancton",11,"https://doi.org/10.3354/meps11689",NA
