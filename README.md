@@ -1,10 +1,12 @@
-## Revisión bibliografica AMP Yaganes
+## Revisión bibliografica interacciones presa-depredador AMP Yaganes
 
-## Obejivo: establecer red de interacciones troficas
+Objetivo: construir la red de interacciones presa-depredador (tróficas) para el Área Marina Protegida Yaganes
 
-##Biblografia:
-##Datos:  contiene lista de especies y lista de interaccioes construida a partir la revision bibliografica realizada
-##R: codigos utilizados para construir y analizar la red trofica
-##Referentes: listado de profesionales expertos en los distitnos grupos funcionales a los que se les consulto acerca de las especies e interacciones encontradas en la bibliografía
-##Resultados; resutados obtenidos tras el analisis de la red trofica
+El directorio Bibliografia contiene...
 
+El directorio Datos contiene las listas de especies e interaccioes tróficas como resultado de la revision bibliografica realizada.
+
+El directorio R contiene los códigos utilizados para construir y analizar la red trofica.
+El directorio Referentes contiene un listado de profesionales expertos en los distintos grupos funcionales (fitoplancton, zooplancton, equinodermos, peces, etc.) a los que se les consulto acerca de las especies e interacciones recopiladas de la bibliografía.
+
+El directorio Resultados presenta los resultados obtenidos del análisis de la red trófica.
