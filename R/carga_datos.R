@@ -7,17 +7,18 @@ install.packages("dplyr")
 install.packages("igraph") #IGRAPH (Tutorial paquete IGRAPH: igraph.org/R
 install.packages("devtools") #esto me permite instalar paquetes desde GitHub
 #hay algunos paquetes que no estan en la libreria oficial de R.
+# TIM: es la librería base en realidad no la oficial, todos los paquetes que descargas de CRAN son oficiales.
 require(devtools)
 install_github("lsaravia/multiweb")
 #Para Markdown
-install.packages("rticles")
+install.packages("rticles")  # TIM: no hace falta que instales esto ahora.
 #Para niveles troficos
 install.packages("NetIndices")
 library(NetIndices)
 library (multiweb)
 library(dplyr)
 library(igraph)
-library(multiweb)
+library(multiweb)  # TIM: repetido en línea 17
 
 
 ## CARGO DATOS ##
@@ -39,7 +40,7 @@ save(interacciones1, file="interacciones.rda") #para usar en Markdown
 ## OBJETO G ##
 #PRIMERO: Creo tabla con columna presa y predador nada mas, para crear el objeto g
 #(a partir de la columna nº3, los toma como atributos de la interaccion,
-#para agrgegar atributos: por ejemplo, cantidad de interacciones por especie).
+#para agregar atributos: por ejemplo, cantidad de interacciones por especie).
 
 df<-interacciones1 %>% dplyr::select(Presa, Depredador)%>% distinct()
 nrow(df)
@@ -66,6 +67,6 @@ plot(g,
      edge.color="black")      # color de las aristas
 
 
-save(objeto R, file = "nombre.rda") #generar archivo rda
-load("nombre.rda") #para cargar obejto rda, esto lo uso en el markdown
+#save(objeto R, file = "nombre.rda") #generar archivo rda
+load("nombre.rda") #para cargar objeto rda, esto lo uso en el markdown
 
