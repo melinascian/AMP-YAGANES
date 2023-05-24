@@ -1,19 +1,7 @@
 ## SETEO CARPETA DE TRABAJO ##
-setwd("C:/AMPYAGANES/Datos")
+setwd("C:/AMP-YAGANES")
 
-## INSTALO PAQUETES ##
-install.packages("pillar")
-install.packages("dplyr")
-install.packages("igraph") #IGRAPH (Tutorial paquete IGRAPH: igraph.org/R
-install.packages("devtools") #esto me permite instalar paquetes desde GitHub
-#hay algunos paquetes que no estan en la libreria oficial de R.
-# TIM: es la librería base en realidad no la oficial, todos los paquetes que descargas de CRAN son oficiales.
-require(devtools)
-install_github("lsaravia/multiweb")
-#Para Markdown
-install.packages("rticles")  # TIM: no hace falta que instales esto ahora.
-#Para niveles troficos
-install.packages("NetIndices")
+
 library(NetIndices)
 library (multiweb)
 library(dplyr)
@@ -21,9 +9,9 @@ library(igraph)
 
 
 ## CARGO DATOS ##
-#lista_interacciones <- read.delim("lista_interacciones.csv", delim = ",", escape_double = FALSE, trim_ws = TRUE)
-lista_interacciones<-read.csv("lista_interacciones.csv", header = T)  # 'header = T' indica que la 1era fila corresponde a los nombres de las columnas 
-lista_especies<-read.csv("lista_especies.csv", header = T)
+#lista_interacciones <- read.delim("Datos/lista_interacciones.csv", delim = ",", escape_double = FALSE, trim_ws = TRUE)
+lista_interacciones<-read.csv("Datos/lista_interacciones.csv", header = T)  # 'header = T' indica que la 1era fila corresponde a los nombres de las columnas 
+lista_especies<-read.csv("Datos/lista_especies.csv", header = T)
 
 
 ## Elimino duplicados segun columna especie trofica
