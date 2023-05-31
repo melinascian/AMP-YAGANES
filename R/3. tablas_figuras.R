@@ -7,14 +7,16 @@ smallworld<-sample(c("TRUE"))
 propcomplejidad<-cbind(propcomplejidad, smallworld)
 
 #Tabla propiedades de estructura + nivel trofico
-ID<-sample(c())
+
+ID<-sample(1:192,size=192,replace=TRUE)
+propestructura<-data.frame(ID,niveles_troficos)
+
 rbind(coeficientes_centralidad,niveles_troficos)
 
 ## GRAFICOS DE LA RED ##
 
 #Graffito general
 plot(gok)
-
 plot(gok,
      vertex.size=3,
      vertex.color="blue",

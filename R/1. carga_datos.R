@@ -37,6 +37,7 @@ df
 
 #SEGUNDO: a partir de df, creo objeto g
 
+
 g <- graph_from_data_frame(df, directed=TRUE)
 g
 
