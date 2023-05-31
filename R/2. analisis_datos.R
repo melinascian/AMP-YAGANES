@@ -1,60 +1,27 @@
 ## ANALISIS DE DATOS ##
 
-## INSTALO PAQUETES ##
-install.packages("pillar")
-install.packages("dplyr")
-install.packages("igraph") #IGRAPH (Tutorial paquete IGRAPH: igraph.org/R
-install.packages("devtools") #esto me permite instalar paquetes desde GitHub
-#hay algunos paquetes que no estan en la libreria oficial de R.
-require(devtools)
-install_github("lsaravia/multiweb")
-#Para Markdown
-install.packages("rticles")
-#Para niveles troficos
-install.packages("NetIndices")
-
+load("Datos/datosdepurados.rda")
 library(dplyr)
 library(igraph)
 library(multiweb)
 library(NetIndices)
-library(multiweb)
+
 ## PROPIEDADES DE COMPLEJIDAD DE LA RED ##
 
-# Orden (S) = riqueza especifica
-vcount(g)
 
-# Numero de interacciones (L)
-ecount(g)
-E(g)
-
-# Densidad (L/S)
-den<-ecount(g)/vcount(g)
-den
-#hay 2,36 interacciones por nodo
-
-# Conectividad (L/S^2)
-con<-ecount(g)/(vcount(g)^2)
-con
-#quiere decir que el 0,85% de las interacciones posibles, existen para Yaganes.
-
-
-#Matriz de disntancias
-distances(g) 
-
-#Diametro de la red
-diameter(g)
+propcomplejidad<-calc_topological_indices(gok)
 
 
 ## PROPIEDADES DE ESTRUCTURA DE LA RED ##
 
-### Grado = numero de interacciones de cada nodo 
-degree(g)
-degree(g, "Carnivora*") #numero de interacciones para un nodo especifico
-which.max(degree(g)) #especie con mas interacciones (mayor grdo)
-which.min(degree(g)) #especie con menos interacciones (menor grado)
+### GRADO = numero de interacciones de cada nodo 
+hist(degree(gok,mode="all"))
+grado<-as.data.frame(degree(gok))
 
 
-### Coeficiente de agrupamiento = probabilidad que se formen clusters o modulos
+### COEFICIENTE DE CLUSTERIZACION O AGRUPAMIENTO = probabilidad que se formen clusters o modulos
+
+
 # se calcula para cada nodo, se refiere a la cantidad de interacciones entre los vecinos de un nodo
 # indica que tan cerca estan los vecinos de un nodo
 # se espera que haya relacion entre coeficiente de agrupamiento y modularidad
@@ -65,52 +32,56 @@ which.min(degree(g)) #especie con menos interacciones (menor grado)
 #se debe comparar con redes aleatorias con mismo numero de interacciones y especes, pero eso debo gererarlo
 #para redes aleatorias, uso esta funcion, pongo que redes aleatorias me generan, se hace con 100 redes y se compara la estadisitca
 
-calc_swness_zscore(g)
-### Modularidad= que especies hay en cada modulo
 
-clusters(g)
+rnd_g <- lapply(1:100, function (x) {
+  e <- sample_gnm(propcomplejidad$Size, propcomplejidad$Links, directed = TRUE)#defino redes aleatorias que voy a generar
+  
+  # Check that the ER networks has only one connected component
+  while(components(e)$no > 1)
+    e <- erdos.renyi.game(propcomplejidad$Size, propcomplejidad$Links, type = "gnm", 
+                          directed = TRUE)
+  return(e) 
+})
+mundopeque<-multiweb::calc_swness_zscore(gok, nullDist = rnd_g, weights = NA, ncores = 4)
+datosmundopeque<-as.data.frame(mundopeque["da"])
+tablamundopeque<-datosmundopeque %>% rename (Clustering = da.Clustering,PathLength = da.PathLength, zCC=da.zCC, zCP=da.zCP, CClow=da.CClow,CChigh=da.CChigh, CPlow=da.CPlow, CPhigh=da.CPhigh, SWness=da.SWness, SWnessCI=da.SWnessCI, isSW=da.isSW, isSWness=da.isSWness)
+
+
+
+#nulldist = distancia de las redes aleatorias con la mia
 
 
 # CENTRALIDAD
+#calculo los diferentes coeficientes de centralidad para los vertices de gok:
 
-# centralidad por cercania = mide la proximidad de una especie a todo el resto de especies de la red 
-closeness(g)
-which.max(closeness(g))
-which.min(closeness(g))
-
-
-# centralidad por intermediacion = describe el número de veces que una especie está entre un par de otras especies 
+V(gok)$degree.total<-degree(gok,mode="all") 
+V(gok)$degree.in<-degree(gok, mode="in") 
+V(gok)$degree.out<-degree(gok,mode="out")
+V(gok)$closeness<-closeness(gok,mode="all") #centralidad por cercania = mide la proximidad de una especie a todo el resto de especies de la red 
+V(gok)$betweeness<-betweenness(gok)# centralidad por intermediacion = describe el número de veces que una especie está entre un par de otras especies 
 #(es decir, cuántos caminos llevan a esa especie)
 
-betweenness(g)
-ebs <- edge_betweenness(g)
-as_edgelist(g)[ebs == max(ebs), ] #me dice que nodos tienen la mayor de intermediacion
+ave(gok, file = "gatributos.rda")
+a<-intergraph::asDF(gok)
+atributos<-as.data.frame(a["vertexes"])#creo el data frame utilizando los vertex de la lista "a"
 
-# grado de centralidad
-evcent(g)
+coeficientes_centralidad<-atributos %>% rename (ID=vertexes.intergraph_id, name=vertexes.name, degree.total=vertexes.degree.total, degree.in=vertexes.degree.in, degree.out=vertexes.degree.out, closeness=vertexes.closeness, betweeness=vertexes.betweeness) 
+
 ## NIVELES TROFICOS ##
 #https://www.rdocumentation.org/packages/NetIndices/versions/1.4.4.1/topics/TrophInd
-
-## Funcion TrophInd: me permite calcular los niveles troficos (tl) y el indice de omnivoria (IO)
+# Funcion TrophInd: me permite calcular los niveles troficos (tl) y el indice de omnivoria (IO)
 
 #1) Genero matriz para funcion TrophInd
 
-m <- get.adjacency(g, sparse = FALSE) #matriz de adyacencia
+m <- get.adjacency(gok, sparse = FALSE) #matriz de adyacencia
 tl <- round(TrophInd(m), digits = 3)
-tl
+
 # tl es el nivel trofico, y OI es el indice de omnivoria
 # especies con mayor IO, tienen presas dentro de diferentes niveles troficos
 
-calc_topological_indices(g)
-TrophInd(m)
-
-m<-TrophInd(as_adjacency_matrix(m,sparse=TRUE))
-as_adjacency_matrix(g,sparse=TRUE) #sparse quiere decir que es una matriz que esta poco completa, es laxa (la mayoria va a ser 0)
+niveles_troficos<- TrophInd(m)
 
 
-TrophInd(m)
-
-plot_troph_level(g)
-
+save(propcomplejidad, tablamundopeque, coeficientes_centralidad, niveles_troficos, file="Datos/analisisdatos.rda")
 
 

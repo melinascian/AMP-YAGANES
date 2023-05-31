@@ -1,9 +1,5 @@
-## SETEO CARPETA DE TRABAJO ##
-setwd("C:/AMP-YAGANES")
 
 
-library(NetIndices)
-library (multiweb)
 library(dplyr)
 library(igraph)
 
@@ -17,7 +13,7 @@ lista_especies<-read.csv("Datos/lista_especies.csv", header = T)
 ## Elimino duplicados segun columna especie trofica
 especies1 <- lista_especies %>% group_by(Especie.trófica) %>% filter (!duplicated(Especie.trófica))
 especies1
-save(especies1, file = "especies.rda")#para usar en Markdown
+
 
 interacciones1 <- lista_interacciones %>% group_by(Presa,Depredador) %>% filter (!duplicated(Presa,Depredador))
 interacciones1
@@ -27,7 +23,7 @@ interacciones_ok <- interacciones1 %>%
   filter(!str_detect(Presa, "\\*$")) %>% 
   filter(!str_detect(Depredador, "\\*$")) %>% 
   distinct(Presa, Depredador, .keep_all = TRUE)
-save(interacciones_ok, file="interacciones.rda") #para usar en Markdown
+
 # TIM: podés guardar varios objetos R en el mismo .rda. save(especies1, interacciones1, file = "spint_tidy.rda")
 
 ## OBJETO G ##
@@ -42,24 +38,18 @@ df
 #SEGUNDO: a partir de df, creo objeto g
 
 g <- graph_from_data_frame(df, directed=TRUE)
-as.matrix(df)
 g
-save(g, file="obejtog.rda")
 
 
 # TERCERO: creo red de un solo componente
-g <- decompose(g, mode = "weak")  #me dice que hay 4 componentes
-g
+gcomp <- decompose(g, mode = "weak")  #me dice que hay 4 componentes
+gcomp
 
-g <- g[[1]] #permite seleccionar un item dentro de una lista
-g #red con un solo componente, el mas grande
-
-plot(g,
-     vertex.color="coral",    # color de los nodos
-     vertex.size=20,          # tamaño de los nodos
-     edge.color="black")      # color de las aristas
+gok<- gcomp[[1]] #permite seleccionar un item dentro de una lista
+gok #red con un solo componente, el mas grande
 
 
-#save(objeto R, file = "nombre.rda") #generar archivo rda
-load("nombre.rda") #para cargar objeto rda, esto lo uso en el markdown
+
+save(interacciones1, interacciones_ok, gok, df,  file = "Datos/datosdepurados.rda") #generar archivo rda
+
 

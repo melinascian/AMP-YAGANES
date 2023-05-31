@@ -1,9 +1,21 @@
+load("Datos/analisisdatos.rda")
+
+##TABLAS
+#Tabla propiedades de complejidad + mundo pequeño:
+
+smallworld<-sample(c("TRUE"))
+propcomplejidad<-cbind(propcomplejidad, smallworld)
+
+#Tabla propiedades de estructura + nivel trofico
+ID<-sample(c())
+rbind(coeficientes_centralidad,niveles_troficos)
+
 ## GRAFICOS DE LA RED ##
 
 #Graffito general
-plot(g)
+plot(gok)
 
-plot(g,
+plot(gok,
      vertex.size=3,
      vertex.color="blue",
      edge.color="black",
@@ -11,66 +23,73 @@ plot(g,
      edge.arrow.size=0,2)
 
 #Grafico segun grado
-v<-as.data.frame(vertex_attr(g))
-V(g)$degree <- degree(g)
-get.data.frame(g,what="vertices") %>% head() 
-plot(g,
-     vertex.size=5*sqrt(V(g)$degree),
+v<-as.data.frame(vertex_attr(gok))
+V(gok)$degree <- degree(gok)
+get.data.frame(gok,what="vertices") %>% head() 
+plot(gok,
+     vertex.size=5*sqrt(V(gok)$degree),
      vertex.color="blue",
      vertex.label=NA,
      edge.arrow.size=0.1)
-hist(degree(g))
+hist(degree(gok))
 
 #Grafico segun cercania
-V(g)$closeness <- closeness(g, vids = V(g), mode = c("total"), weights = NULL, 
+V(gok)$closeness <- closeness(gok, vids = V(gok), mode = c("total"), weights = NULL, 
                             normalized = FALSE, cutoff = -1)
 
 closeness(
-  g,
-  vids = V(g),
+  gok,
+  vids = V(gok),
   mode = c("total"),
   weights = NULL,
   normalized = FALSE,
   cutoff = -1)
 
 
-plot(g,
-     vertex.size=log(V(g)$closeness),
+plot(gok,
+     vertex.size=log(V(gok)$closeness),
      vertex.color="blue",
      vertex.label=NA,
      edge.arrow.size=0.1)
 
-which.max(closeness(g))
-which.min(closeness(g))
+which.max(closeness(gok))
+which.min(closeness(gok))
 
 #Grafico segun indeterminacion
-betweenness(g)
-ebs <- edge_betweenness(g)
-as_edgelist(g)[ebs == max(ebs), ] #me dice que nodos tienen la mayor de intermediacion
+betweenness(gok)
+ebs <- edge_betweenness(gok)
+as_edgelist(gok)[ebs == max(ebs),] #me dice que nodos tienen la mayor de intermediacion
 
-V(g)$betweenness <- betweenness(g)
+V(gok)$betweenness <- betweenness(gok)
 
-plot(g,
-     vertex.size=sqrt(V(g)$betweenness),
+plot(gok,
+     vertex.size=sqrt(V(gok)$betweenness),
      vertex.color="blue",
      vertex.label=NA,
      edge.arrow.size=0.1)
 
 ## GRAFICO SEGUN NIVELES TROFICOS ##
-m <- get.adjacency(g, sparse = FALSE)
-as_adjacency_matrix(g,sparse=TRUE) #sparse quiere decir que es una matriz que esta poco completa, es laxa (la mayoria va a ser 0)
+m <- get.adjacency(gok, sparse = FALSE)
+as_adjacency_matrix(gok,sparse=TRUE) #sparse quiere decir que es una matriz que esta poco completa, es laxa (la mayoria va a ser 0)
 
 
 TrophInd(m)
 
-vertex.attributes(g)
+vertex.attributes(gok)
+
+load("gatributos.rda")
+
 
 # Gráfico comparativo índices de centralidad
 par(mfrow = c(1,3))
 set.seed(1)  # mantiene la posición de las especies
-plot_troph_level(g, vertex.size=sqrt(V(g)$degree), main = "Degree")
+plot_troph_level(gok, vertex.size=sqrt(V(gok)$degree), main = "Degree")
 set.seed(1)
-plot_troph_level(g, vertex.size=sqrt(V(g)$betweenness), main = "Betweenness")
+plot_troph_level(gok, vertex.size=sqrt(V(gok)$betweenness), main = "Betweenness")
 set.seed(1)
-plot_troph_level(g, vertex.size=10^3*V(g)$closeness, main = "Closeness")
+plot_troph_level(gok, vertex.size=10^3*V(gok)$closeness,main = "Closeness")
 
+
+#plot_troph_level(gok)#si no mantengo posicion de las especies se grafica siempre un grafico distinto
+
+#Graficos poner: 3 graficos en una figura + histograma.
