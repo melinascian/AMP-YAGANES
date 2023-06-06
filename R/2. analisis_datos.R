@@ -61,7 +61,6 @@ V(gok)$closeness<-closeness(gok,mode="all") #centralidad por cercania = mide la 
 V(gok)$betweeness<-betweenness(gok)# centralidad por intermediacion = describe el número de veces que una especie está entre un par de otras especies 
 #(es decir, cuántos caminos llevan a esa especie)
 
-ave(gok, file = "gatributos.rda")
 a<-intergraph::asDF(gok)
 atributos<-as.data.frame(a["vertexes"])#creo el data frame utilizando los vertex de la lista "a"
 
@@ -82,6 +81,6 @@ tl <- round(TrophInd(m), digits = 3)
 niveles_troficos<- TrophInd(m)
 
 
-save(propcomplejidad, tablamundopeque, coeficientes_centralidad, niveles_troficos, file="Datos/analisisdatos.rda")
+save(gok, propcomplejidad, tablamundopeque, coeficientes_centralidad, niveles_troficos, file="Datos/analisisdatos.rda")
 
 
