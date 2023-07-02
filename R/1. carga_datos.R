@@ -39,6 +39,7 @@ df
 
 
 g <- graph_from_data_frame(df, directed=TRUE)
+
 g
 
 
