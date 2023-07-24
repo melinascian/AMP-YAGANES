@@ -17,6 +17,7 @@ especies1
 
 interacciones1 <- lista_interacciones %>% group_by(Presa,Depredador) %>% filter (!duplicated(Presa,Depredador))
 interacciones1
+
 # TIM: hay que eliminar las interacciones de baja resolución (*):
 library(tidyverse)
 interacciones_ok <- interacciones1 %>% 
@@ -39,7 +40,6 @@ df
 
 
 g <- graph_from_data_frame(df, directed=TRUE)
-
 g
 
 
@@ -53,5 +53,4 @@ gok #red con un solo componente, el mas grande
 
 
 save(interacciones1, interacciones_ok, gok, df,  file = "Datos/datosdepurados.rda") #generar archivo rda
-
 

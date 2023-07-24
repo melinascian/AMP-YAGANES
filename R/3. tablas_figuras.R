@@ -13,13 +13,17 @@ propcomplejidad<-cbind(propcomplejidad, smallworld)
 borrar<-c("Top","Basal","TLmax","LOmnivory","Components","Vulnerability","VulSD","Generality","GenSD", "Cannib")
 Tabla1<- propcomplejidad[ , !(names(propcomplejidad) %in% borrar)]
 Tabla1ok<-Tabla1 %>% rename (Species = Size, Interactions=Links, Omn=Omnivory, Clus.coef=Clustering, SW=smallworld)
+names(Tabla1ok)
+Tabla1final = Tabla1ok [ , c(1,3,4,5,2,8,6,7,9)]
 
-#Tabla lista de interacciones: Material Suplementario
+
+
+#LISTA DE INTERACCIONES (material suplementario) 
 #Columnas = Presa, Depredador, Referencia, Enlace
 borrar_int<-c("Grupo.funcional.presa","Expertise.presa","Grupo.funcional.depredador","Expertise.depredador","Estrategia","Fuente", "Confirmado.por.profesional")
 listadeinteracciones<-interacciones_ok[ , !(names(interacciones_ok) %in% borrar_int)]
 
-#Tabla lista de especies: Material Suplementario
+#LISTA DE ESPECOIES (material suplementario)
 #Columnas = Especie trofica, Resolucion, referencia, enlace
 borrar_sp<-c("Filum", "Clase", "Orden", "Familia","Género","Nombre.común","Hábitat","Dominio.CB","Dominio.CCA","Dominio.CCH","Expertise")
 listadeespecies<-especies1[ , !(names(especies1) %in% borrar_sp)]
@@ -41,11 +45,38 @@ datosmundopeque<-as.data.frame(mundopeque["da"])
 tablamundopeque<-datosmundopeque %>% rename (Clustering = da.Clustering,PathLength = da.PathLength, zCC=da.zCC, zCP=da.zCP, CClow=da.CClow,CChigh=da.CChigh, CPlow=da.CPlow, CPhigh=da.CPhigh, SWness=da.SWness, SWnessCI=da.SWnessCI, isSW=da.isSW, isSWness=da.isSWness)
 
 
-#Tabla propiedades de estructura + nivel trofico: Material Suplementario
-ID<-sample(1:192,size=192,replace=TRUE)
+#TABLA PROPIEDADES DE ESTRUCTURA + NIVEL TRÓFICO (material suplementario)
+ID<-sample(1:204,size=204,replace=TRUE)
 propestructura<-data.frame(ID,niveles_troficos)
 propestructura_tot <- cbind(coeficientes_centralidad,niveles_troficos)
 
+#INDICE DE ESPECIES CLAVE
+spclave<-propestructura_tot %>% mutate(indice_spclave=(degree.total+closeness+betweeness/3))
+spclave
+
+
+#TABLA COMPARATIVA ENTRE REDES (material suplementario)
+#Cargo redes:
+red_beaglechannel <- read.csv("Datos/BeagleChannel_links_original.csv")
+red_burdwoodbank <-read.csv("Datos/BurdwoodBank_links_original.csv")
+red_northernscotia<-read.csv("Datos/NorthernScotia_links_original.csv")
+red_pottercove<-read.csv("Datos/PotterCove_links_original.csv")
+red_southernscotia<-read.csv("Datos/SouthernScotia_links_original.csv")                                
+
+#creo objetos g
+
+g_beagle <- graph_from_data_frame(red_beaglechannel, directed=TRUE)
+g_burdwood<-graph_from_data_frame(red_burdwoodbank, directed=TRUE)
+g_northernscotia<-graph_from_data_frame(red_northernscotia, directed=TRUE)
+g_pottercove<-graph_from_data_frame(red_pottercove, directed=TRUE)
+g_southernscotia<-graph_from_data_frame(red_southernscotia, directed=TRUE)
+
+#calculo los indices:
+beagle_propcomplej<-calc_topological_indices(g_beagle)
+burdwood_propcomplej<-calc_topological_indices(g_burdwood)
+northernscotia_propcomplej<-calc_topological_indices(g_northernscotia)
+pottercove_propcomplej<-calc_topological_indices(g_pottercove)
+southernscotia_propcomplej<-calc_topological_indices(g_southernscotia)
 
 ## GRAFICOS DE LA RED ##
 ## GRAFICO SEGUN NIVELES TROFICOS ##

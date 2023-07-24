@@ -12,6 +12,7 @@ library(NetIndices)
 propcomplejidad<-calc_topological_indices(gok)
 
 
+
 ## PROPIEDADES DE ESTRUCTURA DE LA RED ##
 
 ### GRADO = numero de interacciones de cada nodo 
