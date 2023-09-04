@@ -6,7 +6,7 @@ library(igraph)
 
 ## CARGO DATOS ##
 #lista_interacciones <- read.delim("Datos/lista_interacciones.csv", delim = ",", escape_double = FALSE, trim_ws = TRUE)
-lista_interacciones<-read.csv("Datos/lista_interacciones.csv", header = T)  # 'header = T' indica que la 1era fila corresponde a los nombres de las columnas 
+lista_interacciones<-read.csv("Datos/lista_interacciones_sep23.csv", header = T)  # 'header = T' indica que la 1era fila corresponde a los nombres de las columnas 
 lista_especies<-read.csv("Datos/lista_especies.csv", header = T)
 
 
@@ -52,5 +52,5 @@ gok #red con un solo componente, el mas grande
 
 
 
-save(interacciones1, interacciones_ok, gok, df,  file = "Datos/datosdepurados.rda") #generar archivo rda
+save(interacciones1, interacciones_ok, gok, df,  file = "Datos/datosdepurados_sep23.rda") #generar archivo rda
 

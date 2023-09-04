@@ -1,6 +1,6 @@
 ## ANALISIS DE DATOS ##
 
-load("Datos/datosdepurados.rda")
+load("Datos/datosdepurados_sep23.rda")
 library(dplyr)
 library(igraph)
 library(multiweb)

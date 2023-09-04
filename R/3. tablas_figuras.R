@@ -84,12 +84,19 @@ southernscotia_propcomplej<-calc_topological_indices(g_southernscotia)
 library(multiweb)
 par(mfrow = c(1,3))
 set.seed(1)  # mantiene la posición de las especies
-plot_troph_level(gok, vertex.size=sqrt(V(gok)$degree.total), ylab = "Trophic level", main = "Degree")
+deg_plot <- plot_troph_level(gok, vertex.size=sqrt(V(gok)$degree.total), ylab = "Nivel trófico", main = "Degree")
 set.seed(1)
-plot_troph_level(gok, vertex.size=sqrt(V(gok)$betweeness), main = "Betweenness")
+btw_plot <- plot_troph_level(gok, vertex.size=sqrt(V(gok)$betweeness), main = "Betweenness")
 set.seed(1)
-plot_troph_level(gok, vertex.size=10^3*V(gok)$closeness,main = "Closeness")
+clo_plot <- plot_troph_level(gok, vertex.size=10^3*V(gok)$closeness, main = "Closeness")
 #plot_troph_level(gok)#si no mantengo posicion de las especies se grafica siempre un grafico distinto
+
+# library(ggpubr)
+# ggarrange(deg_plot, btw_plot, clo_plot, ncol = 3, nrow = 1)
+library(gridExtra)
+grid.arrange(deg_plot, btw_plot, clo_plot, ncol = 3, nrow = 1)
+
+  
 
 #Histograma
 par(mfrow = c(1,1))
@@ -103,6 +110,19 @@ pl2 <- pl + geom_histogram(binwidth = 1,col='black', fill='black', alpha=0.6)
 
 pl2
 pl2 + xlab('Grado') + ylab('Frecuencia') + ggtitle('Distribucion de grado')
+
+(pl_ok <- ggplot(grado, aes(x = degree(gok))) +
+  geom_histogram(binwidth = 1, col='black', fill='black', alpha=0.6) +
+    xlab('Grado (número de interacciones)') + ylab('Frecuencia') +
+    theme(axis.title.x = element_text(face = "bold", size = 16),
+          axis.title.y = element_text(face = "bold", size = 16),
+          axis.text.x = element_text(size = 12),
+          axis.text.y = element_text(size = 12),
+          panel.background = element_blank(),
+          axis.line = element_line(colour = "black")))
+
+ggsave(filename = "Figuras/Fig1.png", plot = pl_ok,
+       width = 10, units = "in", dpi = 600, bg = "white")
 
 # Incluir en el manuscrito y material suplementario
 # TABLAS
