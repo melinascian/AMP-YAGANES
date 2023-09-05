@@ -82,6 +82,6 @@ tl <- round(TrophInd(m), digits = 3)
 niveles_troficos<- TrophInd(m)
 
 
-save(gok, propcomplejidad, tablamundopeque, coeficientes_centralidad, niveles_troficos, file="Datos/analisisdatos.rda")
+save(gok, propcomplejidad, tablamundopeque, coeficientes_centralidad, niveles_troficos, file="Datos/analisisdatos_sep23.rda")
 
 

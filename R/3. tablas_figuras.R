@@ -1,4 +1,4 @@
-load("Datos/analisisdatos.rda")
+load("Datos/analisisdatos_sep23.rda")
 
 library(ggplot2)
 
@@ -82,21 +82,16 @@ southernscotia_propcomplej<-calc_topological_indices(g_southernscotia)
 ## GRAFICO SEGUN NIVELES TROFICOS ##
 # Gráfico comparativo índices de centralidad
 library(multiweb)
+library(igraph)
 par(mfrow = c(1,3))
 set.seed(1)  # mantiene la posición de las especies
-deg_plot <- plot_troph_level(gok, vertex.size=sqrt(V(gok)$degree.total), ylab = "Nivel trófico", main = "Degree")
+deg_plot <- plot_troph_level(gok, vertex.size=.5*(V(gok)$degree.total), ylab = "Nivel trófico")
 set.seed(1)
-btw_plot <- plot_troph_level(gok, vertex.size=sqrt(V(gok)$betweeness), main = "Betweenness")
+btw_plot <- plot_troph_level(gok, vertex.size=sqrt(V(gok)$betweeness))
 set.seed(1)
-clo_plot <- plot_troph_level(gok, vertex.size=10^3*V(gok)$closeness, main = "Closeness")
+clo_plot <- plot_troph_level(gok, vertex.size=sqrt(V(gok)$closeness))
 #plot_troph_level(gok)#si no mantengo posicion de las especies se grafica siempre un grafico distinto
 
-# library(ggpubr)
-# ggarrange(deg_plot, btw_plot, clo_plot, ncol = 3, nrow = 1)
-library(gridExtra)
-grid.arrange(deg_plot, btw_plot, clo_plot, ncol = 3, nrow = 1)
-
-  
 
 #Histograma
 par(mfrow = c(1,1))
