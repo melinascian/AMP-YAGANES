@@ -1,4 +1,4 @@
-## Revisión bibliografica interacciones presa-depredador AMP Yaganes
+## Revisión bibliográfica interacciones presa-depredador AMP Yaganes
 
 Objetivo: construir la red de interacciones presa-depredador (tróficas) para el Área Marina Protegida Yaganes
 
