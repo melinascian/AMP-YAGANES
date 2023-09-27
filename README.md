@@ -2,7 +2,7 @@
 
 Objetivo: construir la red de interacciones presa-depredador (tróficas) para el Área Marina Protegida Yaganes
 
-El directorio Bibliografia contiene...
+El directorio Bibliografia contiene una lista de las referencias utilizadas para construir la red trófica.
 
 El directorio Datos contiene las listas de especies e interaccioes tróficas como resultado de la revision bibliografica realizada.
 
