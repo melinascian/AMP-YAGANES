@@ -66,6 +66,14 @@ a<-intergraph::asDF(gok)
 atributos<-as.data.frame(a["vertexes"])#creo el data frame utilizando los vertex de la lista "a"
 
 coeficientes_centralidad<-atributos %>% rename (ID=vertexes.intergraph_id, name=vertexes.name, degree.total=vertexes.degree.total, degree.in=vertexes.degree.in, degree.out=vertexes.degree.out, closeness=vertexes.closeness, betweeness=vertexes.betweeness) 
+coef_centralidad<-mutate(coeficientes_centralidad,ranking_degree = rank(degree.total),ranking_closeness=rank(closeness),ranking_betweeness=rank(betweeness), keysp_index=((ranking_degree+ranking_closeness + ranking_betweeness)/3))
+
+#RANKING:
+#mayor grado, mayor ranking
+#mayor cercania, mayor ranking
+#mayor intermediación, mayor ranking
+#mayor keysp_index, mayor importancia
+
 
 ## NIVELES TROFICOS ##
 #https://www.rdocumentation.org/packages/NetIndices/versions/1.4.4.1/topics/TrophInd
