@@ -1,88 +1,44 @@
-load("Datos/analisisdatos_sep23.rda")
+load("Datos/analisisdatos.rda")
 
 library(ggplot2)
-
-##TABLAS
-# Manuscrito
-#Tabla propiedades de complejidad + mundo pequeño:
-# Columnas: Species, Interactions, Linkage density (LD), Connectance, Omnivory (Omn), 
-# Path length, Clustering coefficient (Clus. coef.), TL mean, Small world (SW)
 library(tidyverse)
+
+
+# ---- MANUSCRIUTO ----
+## ---- TABLAS ----
+### ---- Propiedades de complejidad ----
+
+
 smallworld<-sample(c("TRUE"))
 propcomplejidad<-cbind(propcomplejidad, smallworld)
-borrar<-c("Top","Basal","TLmax","LOmnivory","Components","Vulnerability","VulSD","Generality","GenSD", "Cannib")
-Tabla1<- propcomplejidad[ , !(names(propcomplejidad) %in% borrar)]
-Tabla1ok<-Tabla1 %>% rename (Species = Size, Interactions=Links, Omn=Omnivory, Clus.coef=Clustering, SW=smallworld)
-names(Tabla1ok)
-Tabla1final = Tabla1ok [ , c(1,3,4,5,2,8,6,7,9)]
+Tabla_propcomplejidad<-as.data.frame(select(propcomplejidad,"Size","Links","LD","Connectance"))
+Tabla_propcomplejidad<-Tabla_propcomplejidad %>% rename (Species=Size,Interactions=Links)
 
+### ---- Propiedades de estructura ----
 
+Tabla_propestructura<-as.data.frame(select(propcomplejidad, "Top","Basal","Clustering","PathLength","smallworld"))
+Tabla_propestructura<-Tabla_propestructura %>% rename (CC=Clustering,CPL=PathLength,SW=smallworld)
 
-#LISTA DE INTERACCIONES (material suplementario) 
-#Columnas = Presa, Depredador, Referencia, Enlace
-borrar_int<-c("Grupo.funcional.presa","Expertise.presa","Grupo.funcional.depredador","Expertise.depredador","Estrategia","Fuente", "Confirmado.por.profesional")
-listadeinteracciones<-interacciones_ok[ , !(names(interacciones_ok) %in% borrar_int)]
+#propcomplejidad<-cbind(propcomplejidad, smallworld)
+#borrar<-c("Top","Basal","TLmax","LOmnivory","Components","Vulnerability","VulSD","Generality","GenSD", "Cannib")
+#Tabla1<- propcomplejidad[ , !(names(propcomplejidad) %in% borrar)]
+#Tabla1ok<-Tabla1 %>% rename (Species = Size, Interactions=Links, Omn=Omnivory, Clus.coef=Clustering, SW=smallworld)
+#names(Tabla1ok)
+#Tabla1final = Tabla1ok [ , c(1,3,4,5,2,8,6,7,9)]
 
-#LISTA DE ESPECOIES (material suplementario)
-#Columnas = Especie trofica, Resolucion, referencia, enlace
-borrar_sp<-c("Filum", "Clase", "Orden", "Familia","Género","Nombre.común","Hábitat","Dominio.CB","Dominio.CCA","Dominio.CCH","Expertise")
-listadeespecies<-especies1[ , !(names(especies1) %in% borrar_sp)]
-Listofspecies<-listadeespecies %>% rename (Species = Especie.trófica, Reference=Referencia, Link=Enlace)
+### ---- Top 10 IEC ----
 
+borrar<-c("ID","degree.total", "degree.in","degree.out","closeness","betweeness","ranking_degree","ranking_closeness","ranking_betweeness")
+keysp_index<- coef_centralidad[ , !(names(coef_centralidad) %in% borrar)]
+keysp_index<-mutate(keysp_index,Ranking=rank(IEC))
+ranking_IEC<-keysp_index%>%rename(Trophic_Specie = name)
+Top10_IEC<-as.data.frame(subset(ranking_IEC,Ranking>=117))
+#mayor keysp_index, mayor importancia
 
-#Tabla mundo pequeño: Material Suplementario
-rnd_g <- lapply(1:100, function (x) {
-  e <- sample_gnm(propcomplejidad$Size, propcomplejidad$Links, directed = TRUE)#defino redes aleatorias que voy a generar
-  
-  # Check that the ER networks has only one connected component
-  while(components(e)$no > 1)
-    e <- erdos.renyi.game(propcomplejidad$Size, propcomplejidad$Links, type = "gnm", 
-                          directed = TRUE)
-  return(e) 
-})
-mundopeque<-multiweb::calc_swness_zscore(gok, nullDist = rnd_g, weights = NA, ncores = 4)
-datosmundopeque<-as.data.frame(mundopeque["da"])
-tablamundopeque<-datosmundopeque %>% rename (Clustering = da.Clustering,PathLength = da.PathLength, zCC=da.zCC, zCP=da.zCP, CClow=da.CClow,CChigh=da.CChigh, CPlow=da.CPlow, CPhigh=da.CPhigh, SWness=da.SWness, SWnessCI=da.SWnessCI, isSW=da.isSW, isSWness=da.isSWness)
+## ---- GRAFICOS ----
 
+### ---- Gráficos comparativos índices de centralidad ----
 
-#TABLA PROPIEDADES DE ESTRUCTURA + NIVEL TRÓFICO (material suplementario)
-ID<-sample(1:204,size=204,replace=TRUE)
-propestructura<-data.frame(ID,niveles_troficos)
-propestructura_tot <- cbind(coeficientes_centralidad,niveles_troficos)
-
-#INDICE DE ESPECIES CLAVE
-spclave<-propestructura_tot %>% mutate(indice_spclave=(degree.total+closeness+betweeness/3))
-spclave
-
-
-#TABLA COMPARATIVA ENTRE REDES (material suplementario)
-#Cargo redes:
-red_beaglechannel <- read.csv("Datos/BeagleChannel_links_original.csv")
-red_burdwoodbank <-read.csv("Datos/BurdwoodBank_links_original.csv")
-red_northernscotia<-read.csv("Datos/NorthernScotia_links_original.csv")
-red_pottercove<-read.csv("Datos/PotterCove_links_original.csv")
-red_southernscotia<-read.csv("Datos/SouthernScotia_links_original.csv")                                
-
-#creo objetos g
-
-g_beagle <- graph_from_data_frame(red_beaglechannel, directed=TRUE)
-g_burdwood<-graph_from_data_frame(red_burdwoodbank, directed=TRUE)
-g_northernscotia<-graph_from_data_frame(red_northernscotia, directed=TRUE)
-g_pottercove<-graph_from_data_frame(red_pottercove, directed=TRUE)
-g_southernscotia<-graph_from_data_frame(red_southernscotia, directed=TRUE)
-
-#calculo los indices:
-beagle_propcomplej<-calc_topological_indices(g_beagle)
-burdwood_propcomplej<-calc_topological_indices(g_burdwood)
-northernscotia_propcomplej<-calc_topological_indices(g_northernscotia)
-pottercove_propcomplej<-calc_topological_indices(g_pottercove)
-southernscotia_propcomplej<-calc_topological_indices(g_southernscotia)
-
-## GRAFICOS DE LA RED ##
-## GRAFICO SEGUN NIVELES TROFICOS ##
-# Gráfico comparativo índices de centralidad
-library(multiweb)
-library(igraph)
 par(mfrow = c(1,3))
 set.seed(1)  # mantiene la posición de las especies
 deg_plot <- plot_troph_level(gok, vertex.size=.5*(V(gok)$degree.total), ylab = "Nivel trófico")
@@ -93,7 +49,7 @@ clo_plot <- plot_troph_level(gok, vertex.size=sqrt(V(gok)$closeness))
 #plot_troph_level(gok)#si no mantengo posicion de las especies se grafica siempre un grafico distinto
 
 
-#Histograma
+### ---- Histograma ----
 par(mfrow = c(1,1))
 hist(degree(gok,mode="all"))
 grado<-as.data.frame(degree(gok))
@@ -107,7 +63,7 @@ pl2
 pl2 + xlab('Grado') + ylab('Frecuencia') + ggtitle('Distribucion de grado')
 
 (pl_ok <- ggplot(grado, aes(x = degree(gok))) +
-  geom_histogram(binwidth = 1, col='black', fill='black', alpha=0.6) +
+    geom_histogram(binwidth = 1, col='black', fill='black', alpha=0.6) +
     xlab('Grado (número de interacciones)') + ylab('Frecuencia') +
     theme(axis.title.x = element_text(face = "bold", size = 16),
           axis.title.y = element_text(face = "bold", size = 16),
@@ -119,17 +75,65 @@ pl2 + xlab('Grado') + ylab('Frecuencia') + ggtitle('Distribucion de grado')
 ggsave(filename = "Figuras/Fig1.png", plot = pl_ok,
        width = 10, units = "in", dpi = 600, bg = "white")
 
-# Incluir en el manuscrito y material suplementario
-# TABLAS
-# Manuscrito:
-# 1. Propiedades de complejidad y estructura de la red
-# Material Suplementario:
-# 1. Tabla lista de interacciones
-# 2. Tabla lista de especies
-# 3. Tabla mundo pequeño
-# 4.Tabla propiedades de estructura + nivel trofico
-# GRAFICOS
-# 1. Histograma (ggplot2)
-# 2. Graficos índices de centralidad (3): degree, closeness, betweenness
 
+### ---- Ajsute a la distribución de grado ----
+dist_fit <- DegreeDistribution(g_net)
+dist_fit
+
+# ---- MATERIAL SUPLEMENTARIO ----
+
+## ---- Lista de interacciones ----
+#Lista de interacciones (Columnas = Presa, Depredador, Referencia, Enlace)
+##lista de interacciones completa, sin eliminar los duplicados, para conservar las referencias
+borrar_int<-c("Prey.funtional.group","Prey.expertise","Predator.funtional.group","Predator.expertise","Strategy","Source", "Observations")
+listadeinteracciones<-lista_interacciones[ , !(names(lista_interaccionesok) %in% borrar_int)]
+
+## ---- Lista de especies ----
+#(Columnas = Especie trofica, Resolucion, referencia, enlace)
+lista_especies<-read.csv("Datos/lista_especies.csv", header = T, sep=",")
+
+## ---- Tabla mundo pequeño ----
+
+rnd_g <- lapply(1:100, function (x) {
+  e <- sample_gnm(propcomplejidad$Size, propcomplejidad$Links, directed = TRUE)#defino redes aleatorias que voy a generar
+  
+  # Check that the ER networks has only one connected component
+  while(components(e)$no > 1)
+    e <- erdos.renyi.game(propcomplejidad$Size, propcomplejidad$Links, type = "gnm", 
+                          directed = TRUE)
+  return(e) 
+})
+mundopeque<-multiweb::calc_swness_zscore(gok, nullDist = rnd_g, weights = NA, ncores = 4)
+datosmundopeque<-as.data.frame(mundopeque["da"])
+tablamundopeque<-datosmundopeque %>% rename (Clustering = da.Clustering,PathLength = da.PathLength, zCC=da.zCC, zCP=da.zCP, CClow=da.CClow,CChigh=da.CChigh, CPlow=da.CPlow, CPhigh=da.CPhigh, SWness=da.SWness, SWnessCI=da.SWnessCI, isSW=da.isSW, isSWness=da.isSWness)
+
+## ---- Tabla coeficientes de centralidad + nivrel trófico + IEC ----
+ID<-sample(1:127,size=127,replace=TRUE)
+
+datos_coef_centralidad<- cbind(coef_centralidad,niveles_troficos)
+borrar<-c("ranking_degree","ranking_closeness","ranking_betweeness", "ID.1","OI")
+tablacoefcentr_preliminar<-datos_coef_centralidad[ , !(names(datos_coef_centralidad) %in% borrar)]
+tabla_coeficientes_centralidad<-tablacoefcentr_preliminar %>% rename (Trophic_species = name, Total_degree=degree.total, In_degree=degree.in, Out_degree=degree.out, Trophic_level=TL)
+tabla_coeficientes_centralidad = tabla_coeficientes_centralidad [ , c(1,2,9,3,4,5,6,7,8)]
+
+
+## ---- Tabla comparativa entre redes pelágicas ----
+#Cargo redes y creo objeto g de cada una
+red_beaglechannel <- read.csv("Datos/BeagleChannel_links_original.csv")
+red_burdwoodbank <-read.csv("Datos/BurdwoodBank_links_original.csv")
+red_northernscotia<-read.csv("Datos/NorthernScotia_links_original.csv")
+red_pottercove<-read.csv("Datos/PotterCove_links_original.csv")
+red_southernscotia<-read.csv("Datos/SouthernScotia_links_original.csv")                                
+g_beagle <- graph_from_data_frame(red_beaglechannel, directed=TRUE)
+g_burdwood<-graph_from_data_frame(red_burdwoodbank, directed=TRUE)
+g_northernscotia<-graph_from_data_frame(red_northernscotia, directed=TRUE)
+g_pottercove<-graph_from_data_frame(red_pottercove, directed=TRUE)
+g_southernscotia<-graph_from_data_frame(red_southernscotia, directed=TRUE)
+
+#calculo los indices para cada red
+beagle_propcomplej<-calc_topological_indices(g_beagle)
+burdwood_propcomplej<-calc_topological_indices(g_burdwood)
+northernscotia_propcomplej<-calc_topological_indices(g_northernscotia)
+pottercove_propcomplej<-calc_topological_indices(g_pottercove)
+southernscotia_propcomplej<-calc_topological_indices(g_southernscotia)
 
