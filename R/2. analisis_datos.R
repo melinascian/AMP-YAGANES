@@ -33,6 +33,14 @@ g_net <- as.network(as.matrix(gok))# ajusto a distribución de grado
 dist_fit <- DegreeDistribution(g_net)
 dist_fit
 
+#logLik    AIC    BIC model    Normal.Resid family     
+#<dbl>  <dbl>  <dbl> <chr>    <chr>        <chr>      
+#  1   82.5 -159.  -154.  Exp      No           Exponential
+#  2   23.9  -41.8  -36.8 Power    No           PowerLaw   
+#  3   18.6  -31.2  -26.2 LogExp   No           Exponential
+#  4  -37.3   80.5   85.5 LogPower No           PowerLaw   
+
+
 ### ---- CERCANÍA ----
 ### mide la proximidad de una especie a todo el resto de especies de la red 
 V(gok)$closeness<-closeness(gok,mode="all")
@@ -42,9 +50,8 @@ V(gok)$closeness<-closeness(gok,mode="all")
 #(es decir, cuántos caminos llevan a esa especie)
 V(gok)$betweeness<-betweenness(gok)
 
-a<-intergraph::asDF(gok)
-atributos<-as.data.frame(a["vertexes"])#creo el data frame utilizando los vertex de la lista "a"
-
+a<-intergraph::asDF(gok) # creo lista a compuesta por nodos e interacciones del obejto g
+atributos<-as.data.frame(a["vertexes"])#creo el data frame utilizando solo los vertex de la lista "a"
 coeficientes_centralidad<-atributos %>% rename (ID=vertexes.intergraph_id, name=vertexes.name, degree.total=vertexes.degree.total, degree.in=vertexes.degree.in, degree.out=vertexes.degree.out, closeness=vertexes.closeness, betweeness=vertexes.betweeness)
 
 ## ---- INDICE DE ESPECIES CLAVE ----
@@ -72,9 +79,10 @@ rnd_g <- lapply(1:100, function (x) {
                           directed = TRUE)
   return(e) 
 })
-mundopeque<-multiweb::calc_swness_zscore(gok, nullDist = rnd_g, weights = NA, ncores = 4)
-datosmundopeque<-as.data.frame(mundopeque["da"])
-tablamundopeque<-datosmundopeque %>% rename (Clustering = da.Clustering,PathLength = da.PathLength, zCC=da.zCC, zCP=da.zCP, CClow=da.CClow,CChigh=da.CChigh, CPlow=da.CPlow, CPhigh=da.CPhigh, SWness=da.SWness, SWnessCI=da.SWnessCI, isSW=da.isSW, isSWness=da.isSWness) #nulldist = distancia de las redes aleatorias con la mia
+sw<-multiweb::calc_swness_zscore(gok, nullDist = rnd_g, weights = NA, ncores = 4)
+datossw<-as.data.frame(sw["da"])
+#nulldist = distancia de las redes aleatorias con la mia
+
 
 ## ---- NIVELES TRÓFICOS ----
 

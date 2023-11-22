@@ -1,22 +1,32 @@
 load("Datos/analisisdatos.rda")
 
 library(ggplot2)
+library(MASS)
 library(tidyverse)
-
+library(dplyr)
+mtcars %>% 
+  dplyr::select(cyl, mpg) %>% 
+  group_by(cyl) %>% 
+  summarize(avg_mpg = mean(mpg))
 
 # ---- MANUSCRIUTO ----
 ## ---- TABLAS ----
 ### ---- Propiedades de complejidad ----
 
+propcomplejidad
 
-smallworld<-sample(c("TRUE"))
-propcomplejidad<-cbind(propcomplejidad, smallworld)
-Tabla_propcomplejidad<-as.data.frame(select(propcomplejidad,"Size","Links","LD","Connectance"))
+
+
+Tabla_propcomplejidad <- propcomplejidad %>%
+  dplyr::select(Size,Links,LD,Connectance)
 Tabla_propcomplejidad<-Tabla_propcomplejidad %>% rename (Species=Size,Interactions=Links)
 
 ### ---- Propiedades de estructura ----
+smallworld<-sample(c("TRUE"))
+propcomplejidad<-cbind(propcomplejidad, smallworld)
 
-Tabla_propestructura<-as.data.frame(select(propcomplejidad, "Top","Basal","Clustering","PathLength","smallworld"))
+Tabla_propestructura<-propcomplejidad %>%
+  dplyr::select(Top,Basal,Clustering,PathLength,smallworld)
 Tabla_propestructura<-Tabla_propestructura %>% rename (CC=Clustering,CPL=PathLength,SW=smallworld)
 
 #propcomplejidad<-cbind(propcomplejidad, smallworld)
@@ -103,18 +113,18 @@ rnd_g <- lapply(1:100, function (x) {
                           directed = TRUE)
   return(e) 
 })
-mundopeque<-multiweb::calc_swness_zscore(gok, nullDist = rnd_g, weights = NA, ncores = 4)
-datosmundopeque<-as.data.frame(mundopeque["da"])
-tablamundopeque<-datosmundopeque %>% rename (Clustering = da.Clustering,PathLength = da.PathLength, zCC=da.zCC, zCP=da.zCP, CClow=da.CClow,CChigh=da.CChigh, CPlow=da.CPlow, CPhigh=da.CPhigh, SWness=da.SWness, SWnessCI=da.SWnessCI, isSW=da.isSW, isSWness=da.isSWness)
+sw<-multiweb::calc_swness_zscore(gok, nullDist = rnd_g, weights = NA, ncores = 4)
+datossw<-as.data.frame(sw["da"])
+Tabla_sw<-datossw %>% rename (Clustering = da.Clustering,PathLength = da.PathLength, zCC=da.zCC, zCP=da.zCP, CClow=da.CClow,CChigh=da.CChigh, CPlow=da.CPlow, CPhigh=da.CPhigh, SWness=da.SWness, SWnessCI=da.SWnessCI, isSW=da.isSW, isSWness=da.isSWness)
 
-## ---- Tabla coeficientes de centralidad + nivrel trófico + IEC ----
+## ---- Tabla coeficientes de centralidad + >TL + IEC ----
 ID<-sample(1:127,size=127,replace=TRUE)
 
-datos_coef_centralidad<- cbind(coef_centralidad,niveles_troficos)
+datoscc<- cbind(coef_centralidad,niveles_troficos)
 borrar<-c("ranking_degree","ranking_closeness","ranking_betweeness", "ID.1","OI")
-tablacoefcentr_preliminar<-datos_coef_centralidad[ , !(names(datos_coef_centralidad) %in% borrar)]
-tabla_coeficientes_centralidad<-tablacoefcentr_preliminar %>% rename (Trophic_species = name, Total_degree=degree.total, In_degree=degree.in, Out_degree=degree.out, Trophic_level=TL)
-tabla_coeficientes_centralidad = tabla_coeficientes_centralidad [ , c(1,2,9,3,4,5,6,7,8)]
+datoscc<-datoscc[ , !(names(datoscc) %in% borrar)]
+tablacc<-datoscc %>% rename (Trophic_species = name, Total_degree=degree.total, In_degree=degree.in, Out_degree=degree.out, Trophic_level=TL, Closeness=closeness, Betweeness=betweeness)
+Tabla_coeficientes_centralidad = tablacc [ , c(1,2,9,3,4,5,6,7,8)]
 
 
 ## ---- Tabla comparativa entre redes pelágicas ----
