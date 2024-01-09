@@ -1,13 +1,13 @@
 ID,Trophic species,Taxonomy,Group,Representatives
-1,Electrona_spp,Order,Fish,Electrona_antartica;  Electrona_carlsbergi
-2,Gymnoscopelus_spp,Order,Fish,Gymnoscopelus_fraseri; Gymnoscopelus_hintonoides; Gymnoscopelus_nicholsi
+1,Electrona_spp,Order,Fish,Electrona_antartica
+2,Gymnoscopelus_spp,Order,Fish,Gymnoscopelus_fraseri
 3,Krefftichthys_andersoni,Specie,Fish,NA
-4,Amphipoda,Order,Crustacean,Gammaridea;  Gondogeneia_antarctica;  Bircenna;  Jassa; Oradare
+4,Amphipoda,Order,Crustacean,Gammaridea
 5,Anuropus_antarcticus,Specie,Crustacean,NA
-6,Decapoda_others,Specie,Crustacean,Peltarion_spinosulum;  Pleoticus_muelleri; Acanthephyra _pelagica; Lithodes_santolla
+6,Decapoda_others,Specie,Crustacean,Peltarion_spinosulum
 7,Patagonotothen_ramsayi,Specie,Fish,NA
 8,Patagonotothen_guntheri,Specie,Fish,NA
-9,Nototheniops_larseni�,Specie,Fish,NA
+9,Nototheniops_larseniļ,Specie,Fish,NA
 10,Pleuragramma_antarcticum,Specie,Fish,NA
 11,Iluocoetes_fimbriatus,Specie,Fish,NA
 12,Odonthestes_spp,Gender,Fish,NA
@@ -27,8 +27,8 @@ ID,Trophic species,Taxonomy,Group,Representatives
 26,Illex_argentinus,Specie,Cephalopoda,NA
 27,Enteroctopus_megalocyathus,Specie,Cephalopoda,NA
 28,Mirounga_leonina,Specie,Mammal,NA
-29,Larvae_Fish,Group,Fish,NA
-30,Euphausiidae,Family,Cephalopoda,Thysanoessa_macrura;  Euphausia_superba;  Euphausia_lucens
+29,Ichthyoplankton,Group,Fish,NA
+30,Euphausiidae,Family,Cephalopoda,Thysanoessa_macrura
 31,Zooplankton,Community,Zooplankton,NA
 32,Grimothea_gregaria,Specie,Cephalopoda,NA
 33,Gonatus_antarcticus,Specie,Cephalopoda,NA
@@ -39,12 +39,12 @@ ID,Trophic species,Taxonomy,Group,Representatives
 38,Bathyraja_brachyurops,Specie,Chondrichthyan,NA
 39,Detritus,NA,Detritus,NA
 40,Copepoda_others,Class,Zooplankton,Metridia
-41,Isopoda_others,Order,Isopods,Gnathia; Munnidae;  Plakarthrium_sp; Limnoria_sp;  Cymodocella
+41,Isopoda_others,Order,Isopods,Gnathia
 42,Harpagiferidae_sp,Family,Fish,NA
 43,Lamna_nasus,Specie,Chondrichthyan,NA
 44,Myxine_spp,Gender,Fish_demersal,NA
 45,Squaliformes,Order,Chondrichthyan,NA
-46,Gastropoda_others,Class,Gastropods,Littorinidae; Onoba; Eatoniella; Odostomia_sp; Turbonilla_strebeli
+46,Gastropoda_others,Class,Gastropods,Littorinidae
 47,Ostracoda,Class,Crustacean,NA
 48,Polyplacophora,Class,Mollusks,NA
 49,Lagenorhynchus_australis,Specie,Mammal,NA

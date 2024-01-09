@@ -18,7 +18,7 @@ lista_interaccionesok <- lista_interacciones %>% group_by(Prey,Predator) %>% fil
 #filter(!str_detect(Depredador, "\\*$")) %>% 
 #distinct(Presa, Depredador, .keep_all = TRUE)
 
-# TIM: podés guardar varios objetos R en el mismo .rda. save(especies1, interacciones1, file = "spint_tidy.rda")
+
 
 # ----- OBEJTO G  -----
 # PASO 1: Creo tabla con columna presa y predador nada mas, para crear el objeto g (a partir de la columna nº3, los toma como atributos de la interaccion,para agregar atributos: por ejemplo, cantidad de interacciones por especie).

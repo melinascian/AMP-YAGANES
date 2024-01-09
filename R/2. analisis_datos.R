@@ -29,9 +29,12 @@ V(gok)$degree.out<-degree(gok,mode="out")
 ### Ajuste a la distribución de grado
 
 upgrade_graph(gok)  # actualiza objeto igraph
-g_net <- as.network(as.matrix(gok))# ajusto a distribución de grado
-dist_fit <- DegreeDistribution(g_net)
+g_net <- as.network(as.matrix(gok))# convierto gok en red
+dist_fit <- DegreeDistribution(g_net)# ajusto a distribución de grado
 dist_fit
+
+#menor AIC, mejor modelo
+#menor BIC, mejor modelo
 
 #logLik    AIC    BIC model    Normal.Resid family     
 #<dbl>  <dbl>  <dbl> <chr>    <chr>        <chr>      

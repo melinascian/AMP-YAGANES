@@ -117,7 +117,7 @@ sw<-multiweb::calc_swness_zscore(gok, nullDist = rnd_g, weights = NA, ncores = 4
 datossw<-as.data.frame(sw["da"])
 Tabla_sw<-datossw %>% rename (Clustering = da.Clustering,PathLength = da.PathLength, zCC=da.zCC, zCP=da.zCP, CClow=da.CClow,CChigh=da.CChigh, CPlow=da.CPlow, CPhigh=da.CPhigh, SWness=da.SWness, SWnessCI=da.SWnessCI, isSW=da.isSW, isSWness=da.isSWness)
 
-## ---- Tabla coeficientes de centralidad + >TL + IEC ----
+## ---- Tabla coeficientes de centralidad + TL + IEC ----
 ID<-sample(1:127,size=127,replace=TRUE)
 
 datoscc<- cbind(coef_centralidad,niveles_troficos)
