@@ -1,33 +1,37 @@
+# ---- TABLAS & FIGURAS ----
+
+# Load data
 load("Datos/analisisdatos.rda")
 
+# Load packages
 library(ggplot2)
 library(MASS)
 library(tidyverse)
-library(dplyr)
-mtcars %>% 
-  dplyr::select(cyl, mpg) %>% 
-  group_by(cyl) %>% 
-  summarize(avg_mpg = mean(mpg))
+library(igraph)
+library(multiweb)
 
-# ---- MANUSCRIUTO ----
+# mtcars %>% 
+#   dplyr::select(cyl, mpg) %>% 
+#   group_by(cyl) %>% 
+#   summarize(avg_mpg = mean(mpg))
+
+# ---- MANUSCRITO ----
 ## ---- TABLAS ----
 ### ---- Propiedades de complejidad ----
 
 propcomplejidad
-
-
-
 Tabla_propcomplejidad <- propcomplejidad %>%
-  dplyr::select(Size,Links,LD,Connectance)
-Tabla_propcomplejidad<-Tabla_propcomplejidad %>% rename (Species=Size,Interactions=Links)
+  dplyr::select(Size,Links,LD,Connectance) %>% 
+  rename (Species=Size,Interactions=Links)
 
 ### ---- Propiedades de estructura ----
-smallworld<-sample(c("TRUE"))
-propcomplejidad<-cbind(propcomplejidad, smallworld)
 
-Tabla_propestructura<-propcomplejidad %>%
-  dplyr::select(Top,Basal,Clustering,PathLength,smallworld)
-Tabla_propestructura<-Tabla_propestructura %>% rename (CC=Clustering,CPL=PathLength,SW=smallworld)
+smallworld <- sample(c("TRUE"))
+propcomplejidad <- cbind(propcomplejidad, smallworld)
+
+Tabla_propestructura <- propcomplejidad %>%
+  dplyr::select(Top,Basal,Clustering,PathLength,smallworld) %>% 
+  rename (CC=Clustering,CPL=PathLength,SW=smallworld)
 
 #propcomplejidad<-cbind(propcomplejidad, smallworld)
 #borrar<-c("Top","Basal","TLmax","LOmnivory","Components","Vulnerability","VulSD","Generality","GenSD", "Cannib")
@@ -38,25 +42,35 @@ Tabla_propestructura<-Tabla_propestructura %>% rename (CC=Clustering,CPL=PathLen
 
 ### ---- Top 10 IEC ----
 
-borrar<-c("ID","degree.total", "degree.in","degree.out","closeness","betweeness","ranking_degree","ranking_closeness","ranking_betweeness")
-keysp_index<- coef_centralidad[ , !(names(coef_centralidad) %in% borrar)]
-keysp_index<-mutate(keysp_index,Ranking=rank(IEC))
-ranking_IEC<-keysp_index%>%rename(Trophic_Specie = name)
-Top10_IEC<-as.data.frame(subset(ranking_IEC,Ranking>=117))
-#mayor keysp_index, mayor importancia
+borrar <- c("ID","degree.total", "degree.in","degree.out","closeness","betweeness",
+            "ranking_degree","ranking_closeness","ranking_betweeness")
+keysp_index <- ind_centralidad[ , !(names(ind_centralidad) %in% borrar)]
+keysp_index <- keysp_index %>% 
+  mutate(Ranking=dense_rank(IEC)) %>%
+  rename(Trophic_species = name)
+Top10_IEC <- keysp_index %>% 
+  dplyr::filter(Ranking <= 10)
+# mayor keysp_index, mayor importancia
+
 
 ## ---- GRAFICOS ----
-
 ### ---- Gráficos comparativos índices de centralidad ----
 
-par(mfrow = c(1,3))
+par(mfrow = c(1,1))
 set.seed(1)  # mantiene la posición de las especies
-deg_plot <- plot_troph_level(gok, vertex.size=.5*(V(gok)$degree.total), ylab = "Nivel trófico")
+deg_plot <- multiweb::plot_troph_level(gok, vertex.size=0.5*(V(gok)$degree.total), ylab = "Trophic level")
 set.seed(1)
-btw_plot <- plot_troph_level(gok, vertex.size=sqrt(V(gok)$betweeness))
+btw_plot <- multiweb::plot_troph_level(gok, vertex.size=sqrt(V(gok)$betweeness))
 set.seed(1)
-clo_plot <- plot_troph_level(gok, vertex.size=sqrt(V(gok)$closeness))
-#plot_troph_level(gok)#si no mantengo posicion de las especies se grafica siempre un grafico distinto
+clo_plot <- multiweb::plot_troph_level(gok, vertex.size=10^3.2*(V(gok)$closeness))
+#plot_troph_level(gok)  # si no mantengo posicion de las especies se grafica siempre un grafico distinto
+
+# Standardise each index to its maximum value
+# Degree
+
+# Betweeness
+
+# Closeness
 
 
 ### ---- Histograma ----
