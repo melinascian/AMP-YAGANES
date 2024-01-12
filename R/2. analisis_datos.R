@@ -4,7 +4,7 @@
 load("Datos/datosdepurados.rda")
 
 # Load packages
-library(dplyr)
+library(tidyverse)
 library(igraph)
 library(multiweb)
 library(NetIndices)
@@ -37,7 +37,6 @@ dist_fit
 
 # menor AIC, mejor modelo
 # menor BIC, mejor modelo
-
 #logLik    AIC    BIC model    Normal.Resid family     
 #<dbl>  <dbl>  <dbl> <chr>    <chr>        <chr>      
 #  82.5 -159.  -154.  Exp      No           Exponential
@@ -45,14 +44,13 @@ dist_fit
 #  18.6  -31.2  -26.2 LogExp   No           Exponential
 # -37.3   80.5   85.5 LogPower No           PowerLaw   
 
-
 ### ---- CERCANÍA ----
 ### mide la proximidad de una especie a todo el resto de especies de la red 
 V(gok)$closeness <- igraph::closeness(gok,mode="all")
 
 ### ---- INTERMEDIACIÓN ----
 ### describe el número de veces que una especie está entre un par de otras especies 
-#(es decir, cuántos caminos llevan a esa especie)
+# (es decir, cuántos caminos llevan a esa especie)
 V(gok)$betweeness <- igraph::betweenness(gok)
 
 a <- intergraph::asDF(gok)  # creo lista a compuesta por nodos e interacciones del obejto g
@@ -62,13 +60,12 @@ indices_centralidad <- atributos %>%
           degree.in=vertexes.degree.in, degree.out=vertexes.degree.out, closeness=vertexes.closeness, 
           betweeness=vertexes.betweeness)
 
-## ---- INDICE DE ESPECIES CLAVE ----
+## ---- INDICE DE ESPECIE CLAVE ----
 ind_centralidad <- indices_centralidad %>% 
   mutate(ranking_degree = dense_rank(desc(degree.total)),
          ranking_closeness=dense_rank(desc(closeness)),
          ranking_betweeness=dense_rank(desc(betweeness))) %>% 
   mutate(IEC=(ranking_degree + ranking_closeness + ranking_betweeness)/3)
-
 
 # RANKING:
 # mayor grado, mayor ranking
@@ -82,8 +79,7 @@ ind_centralidad <- indices_centralidad %>%
 # para redes aleatorias, uso esta funcion, pongo que redes aleatorias me generan, se hace con 100 redes y se compara la estadisitca
 
 rnd_g <- lapply(1:100, function (x) {
-  e <- sample_gnm(propcomplejidad$Size, propcomplejidad$Links, directed = TRUE)#defino redes aleatorias que voy a generar
-  
+  e <- sample_gnm(propcomplejidad$Size, propcomplejidad$Links, directed = TRUE) # defino redes aleatorias que voy a generar
   # Check that the ER networks has only one connected component
   while(components(e)$no > 1)
     e <- erdos.renyi.game(propcomplejidad$Size, propcomplejidad$Links, type = "gnm", 
@@ -95,17 +91,24 @@ sw <- multiweb::calc_swness_zscore(gok, nullDist = rnd_g, weights = NA, ncores =
 datossw <- as.data.frame(sw["da"])
 # nulldist = distancia de las redes aleatorias con la mia
 
-
 ## ---- NIVELES TRÓFICOS ----
-
 # https://www.rdocumentation.org/packages/NetIndices/versions/1.4.4.1/topics/TrophInd
 # Funcion TrophInd: me permite calcular los niveles troficos (tl) y el indice de omnivoria (IO)
-
-# 1) Genero matriz para funcion TrophInd
 
 m <- get.adjacency(gok, sparse = FALSE)  # matriz de adyacencia
 tl <- round(TrophInd(m), digits = 3)  # tl es el nivel trofico, y OI es el indice de omnivoria (especies con mayor IO, tienen presas dentro de diferentes niveles troficos)
 niveles_troficos <- TrophInd(m)
+
+## ---- SPECIES-LEVEL DATA ----
+sp_level <- cbind(ind_centralidad, niveles_troficos)
+
+## ---- INDICE-TL ----
+(ind_tl <- sp_level %>% 
+   #dplyr::filter(IEC <= 10) %>% 
+   ggplot(aes(x=TL, y=IEC)) + 
+   geom_point() +
+   geom_smooth(method = "loess") +
+   theme_classic())
 
 # Save results
 save(gok, propcomplejidad, indices_centralidad, ind_centralidad, datossw, niveles_troficos,
