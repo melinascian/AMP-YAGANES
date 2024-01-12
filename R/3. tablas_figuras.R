@@ -109,8 +109,8 @@ dist_fit
 ## ---- Lista de interacciones ----
 #Lista de interacciones (Columnas = Presa, Depredador, Referencia, Enlace)
 ##lista de interacciones completa, sin eliminar los duplicados, para conservar las referencias
-borrar_int<-c("Prey.funtional.group","Prey.expertise","Predator.funtional.group","Predator.expertise","Strategy","Source", "Observations")
-listadeinteracciones<-lista_interacciones[ , !(names(lista_interaccionesok) %in% borrar_int)]
+borrar_int <- c("Prey.funtional.group","Prey.expertise","Predator.funtional.group","Predator.expertise","Strategy","Source", "Observations")
+listadeinteracciones <- lista_interacciones[ , !(names(lista_interaccionesok) %in% borrar_int)]
 
 ## ---- Lista de especies ----
 #(Columnas = Especie trofica, Resolucion, referencia, enlace)
@@ -127,37 +127,37 @@ rnd_g <- lapply(1:100, function (x) {
                           directed = TRUE)
   return(e) 
 })
-sw<-multiweb::calc_swness_zscore(gok, nullDist = rnd_g, weights = NA, ncores = 4)
-datossw<-as.data.frame(sw["da"])
-Tabla_sw<-datossw %>% rename (Clustering = da.Clustering,PathLength = da.PathLength, zCC=da.zCC, zCP=da.zCP, CClow=da.CClow,CChigh=da.CChigh, CPlow=da.CPlow, CPhigh=da.CPhigh, SWness=da.SWness, SWnessCI=da.SWnessCI, isSW=da.isSW, isSWness=da.isSWness)
 
-## ---- Tabla coeficientes de centralidad + TL + IEC ----
-ID<-sample(1:127,size=127,replace=TRUE)
+sw <- multiweb::calc_swness_zscore(gok, nullDist = rnd_g, weights = NA, ncores = 4)
+datossw <- as.data.frame(sw["da"])
+Tabla_sw <- datossw %>% rename (Clustering = da.Clustering,PathLength = da.PathLength, zCC=da.zCC, zCP=da.zCP, CClow=da.CClow,CChigh=da.CChigh, CPlow=da.CPlow, CPhigh=da.CPhigh, SWness=da.SWness, SWnessCI=da.SWnessCI, isSW=da.isSW, isSWness=da.isSWness)
 
-datoscc<- cbind(coef_centralidad,niveles_troficos)
-borrar<-c("ranking_degree","ranking_closeness","ranking_betweeness", "ID.1","OI")
-datoscc<-datoscc[ , !(names(datoscc) %in% borrar)]
-tablacc<-datoscc %>% rename (Trophic_species = name, Total_degree=degree.total, In_degree=degree.in, Out_degree=degree.out, Trophic_level=TL, Closeness=closeness, Betweeness=betweeness)
+## ---- Tabla indices de centralidad + TL + IEC ----
+ID <- sample(1:127,size=127,replace=TRUE)
+
+datoscc <- cbind(ind_centralidad,niveles_troficos)
+borrar <- c("ranking_degree","ranking_closeness","ranking_betweeness", "ID.1","OI")
+datoscc <- datoscc[ , !(names(datoscc) %in% borrar)]
+tablacc <- datoscc %>% rename (Trophic_species = name, Total_degree=degree.total, In_degree=degree.in, Out_degree=degree.out, Trophic_level=TL, Closeness=closeness, Betweeness=betweeness)
 Tabla_coeficientes_centralidad = tablacc [ , c(1,2,9,3,4,5,6,7,8)]
 
 
-## ---- Tabla comparativa entre redes pelágicas ----
-#Cargo redes y creo objeto g de cada una
-red_beaglechannel <- read.csv("Datos/BeagleChannel_links_original.csv")
-red_burdwoodbank <-read.csv("Datos/BurdwoodBank_links_original.csv")
-red_northernscotia<-read.csv("Datos/NorthernScotia_links_original.csv")
-red_pottercove<-read.csv("Datos/PotterCove_links_original.csv")
-red_southernscotia<-read.csv("Datos/SouthernScotia_links_original.csv")                                
-g_beagle <- graph_from_data_frame(red_beaglechannel, directed=TRUE)
-g_burdwood<-graph_from_data_frame(red_burdwoodbank, directed=TRUE)
-g_northernscotia<-graph_from_data_frame(red_northernscotia, directed=TRUE)
-g_pottercove<-graph_from_data_frame(red_pottercove, directed=TRUE)
-g_southernscotia<-graph_from_data_frame(red_southernscotia, directed=TRUE)
-
-#calculo los indices para cada red
-beagle_propcomplej<-calc_topological_indices(g_beagle)
-burdwood_propcomplej<-calc_topological_indices(g_burdwood)
-northernscotia_propcomplej<-calc_topological_indices(g_northernscotia)
-pottercove_propcomplej<-calc_topological_indices(g_pottercove)
-southernscotia_propcomplej<-calc_topological_indices(g_southernscotia)
-
+## Tabla comparativa entre redes pelágicas
+# Cargo redes y creo objeto g de cada una
+# red_beaglechannel <- read.csv("Datos/BeagleChannel_links_original.csv")
+# red_burdwoodbank <-read.csv("Datos/BurdwoodBank_links_original.csv")
+# red_northernscotia<-read.csv("Datos/NorthernScotia_links_original.csv")
+# red_pottercove<-read.csv("Datos/PotterCove_links_original.csv")
+# red_southernscotia<-read.csv("Datos/SouthernScotia_links_original.csv")                                
+# g_beagle <- graph_from_data_frame(red_beaglechannel, directed=TRUE)
+# g_burdwood<-graph_from_data_frame(red_burdwoodbank, directed=TRUE)
+# g_northernscotia<-graph_from_data_frame(red_northernscotia, directed=TRUE)
+# g_pottercove<-graph_from_data_frame(red_pottercove, directed=TRUE)
+# g_southernscotia<-graph_from_data_frame(red_southernscotia, directed=TRUE)
+# 
+# calculo los indices para cada red
+# beagle_propcomplej<-calc_topological_indices(g_beagle)
+# burdwood_propcomplej<-calc_topological_indices(g_burdwood)
+# northernscotia_propcomplej<-calc_topological_indices(g_northernscotia)
+# pottercove_propcomplej<-calc_topological_indices(g_pottercove)
+# southernscotia_propcomplej<-calc_topological_indices(g_southernscotia)
