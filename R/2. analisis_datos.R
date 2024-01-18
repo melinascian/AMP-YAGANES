@@ -14,7 +14,7 @@ library(network)
 
 ## ---- PROPIEDADES DE COMPLEJIDAD Y ESTRUCTURA ----
 
-propcomplejidad <- multiweb::calc_topological_indices(gok)
+fw_props <- multiweb::calc_topological_indices(gok)
 
 ## ---- INDICES DE CENTRALIDAD ----
 # calculo los diferentes indices de centralidad para los vertices de gok
@@ -32,7 +32,7 @@ V(gok)$degree.out <- degree(gok,mode="out")
 ### Ajuste a la distribución de grado
 upgrade_graph(gok)  # actualiza objeto igraph
 g_net <- as.network(as.matrix(gok))  # convierto gok en red
-dist_fit <- NetworkExtinction::DegreeDistribution(g_net)  # ajusto a distribución de grado
+dist_fit <- NetworkExtinction::DegreeDistribution(g_net)  # ajusto distribución de grado
 dist_fit
 
 # menor AIC, mejor modelo
@@ -79,10 +79,10 @@ ind_centralidad <- indices_centralidad %>%
 # para redes aleatorias, uso esta funcion, pongo que redes aleatorias me generan, se hace con 100 redes y se compara la estadisitca
 
 rnd_g <- lapply(1:100, function (x) {
-  e <- sample_gnm(propcomplejidad$Size, propcomplejidad$Links, directed = TRUE) # defino redes aleatorias que voy a generar
+  e <- sample_gnm(fw_props$Size, fw_props$Links, directed = TRUE) # defino redes aleatorias que voy a generar
   # Check that the ER networks has only one connected component
   while(components(e)$no > 1)
-    e <- erdos.renyi.game(propcomplejidad$Size, propcomplejidad$Links, type = "gnm", 
+    e <- erdos.renyi.game(fw_props$Size, fw_props$Links, type = "gnm", 
                           directed = TRUE)
   return(e) 
 })
@@ -111,5 +111,5 @@ sp_level <- cbind(ind_centralidad, niveles_troficos)
    theme_classic())
 
 # Save results
-save(gok, propcomplejidad, indices_centralidad, ind_centralidad, datossw, niveles_troficos,
+save(gok, fw_props, indices_centralidad, ind_centralidad, datossw, niveles_troficos,
      file="Datos/analisisdatos.rda")

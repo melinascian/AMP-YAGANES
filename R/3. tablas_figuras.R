@@ -17,21 +17,20 @@ library(multiweb)
 
 # ---- MANUSCRITO ----
 ## ---- TABLAS ----
-### ---- Propiedades de complejidad ----
 
-propcomplejidad
-Tabla_propcomplejidad <- propcomplejidad %>%
-  dplyr::select(Size,Links,LD,Connectance) %>% 
-  rename (Species=Size,Interactions=Links)
+### ---- Table 1 ----
+Tabla_propcomplejidad <- fw_props %>%
+  dplyr::select(Size, Links, LD, Connectance) %>% 
+  rename (Species=Size, Interactions=Links)
 
-### ---- Propiedades de estructura ----
-
-smallworld <- sample(c("TRUE"))
-propcomplejidad <- cbind(propcomplejidad, smallworld)
-
-Tabla_propestructura <- propcomplejidad %>%
-  dplyr::select(Top,Basal,Clustering,PathLength,smallworld) %>% 
-  rename (CC=Clustering,CPL=PathLength,SW=smallworld)
+### ---- Table 2 ----
+Tabla_propestructura <- fw_props %>% 
+  mutate(SW = "YES") %>% 
+  mutate(Intermediate = Size-(Top+Basal)) %>% 
+  mutate(Basal = (Basal/Size)*100, Intermediate = (Intermediate/Size)*100, Top = (Top/Size)*100) %>% 
+  dplyr::select(Basal, Intermediate, Top, PathLength, Clustering, SW) %>% 
+  mutate(across(where(is.numeric), ~round(., 2))) %>% 
+  rename(CC=Clustering, CPL=PathLength)
 
 #propcomplejidad<-cbind(propcomplejidad, smallworld)
 #borrar<-c("Top","Basal","TLmax","LOmnivory","Components","Vulnerability","VulSD","Generality","GenSD", "Cannib")
@@ -40,8 +39,7 @@ Tabla_propestructura <- propcomplejidad %>%
 #names(Tabla1ok)
 #Tabla1final = Tabla1ok [ , c(1,3,4,5,2,8,6,7,9)]
 
-### ---- Top 10 IEC ----
-
+### ---- Table 3 ----
 borrar <- c("ID","degree.total", "degree.in","degree.out","closeness","betweeness",
             "ranking_degree","ranking_closeness","ranking_betweeness")
 keysp_index <- ind_centralidad[ , !(names(ind_centralidad) %in% borrar)]
@@ -49,13 +47,45 @@ keysp_index <- keysp_index %>%
   mutate(Ranking=dense_rank(IEC)) %>%
   rename(Trophic_species = name)
 Top10_IEC <- keysp_index %>% 
-  dplyr::filter(Ranking <= 10)
+  dplyr::filter(Ranking <= 10) %>% 
+  mutate(across(c(IEC), ~ round(., 2)))
 # mayor keysp_index, mayor importancia
 
 
 ## ---- GRAFICOS ----
-### ---- Gráficos comparativos índices de centralidad ----
 
+### ---- Figure 2 ----
+# Degree distribution
+upgrade_graph(gok)  # actualiza objeto igraph
+g_net <- as.network(as.matrix(gok))  # convierto gok en red
+dist_fit <- NetworkExtinction::DegreeDistribution(g_net)  # ajusto distribución de grado
+
+Fig2 <- dist_fit
+
+ggsave(filename = "Figuras/Fig1.png", plot = pl_ok,
+       width = 10, units = "in", dpi = 600, bg = "white")
+
+# hist(degree(gok, mode="all"))
+# grado <- as.data.frame(degree(gok))
+# # pl <- ggplot(grado, aes(x=degree(gok)))
+# # pl + geom_histogram()
+# # pl2 <- pl + geom_histogram(binwidth = 1, col='black', fill='black', alpha=0.6)
+# #binwidth = ancho de la barra
+# #alpha = transparencia del grafico
+# # pl2
+# # pl2 + xlab('Grado') + ylab('Frecuencia') + ggtitle('Distribucion de grado')
+# (pl_ok <- ggplot(grado, aes(x = degree(gok))) +
+#     geom_histogram(binwidth = 1, col='black', fill='black', alpha=0.6) +
+#     xlab('Grado (número de interacciones)') + ylab('Frecuencia') +
+#     theme(axis.title.x = element_text(face = "bold", size = 16),
+#           axis.title.y = element_text(face = "bold", size = 16),
+#           axis.text.x = element_text(size = 12),
+#           axis.text.y = element_text(size = 12),
+#           panel.background = element_blank(),
+#           axis.line = element_line(colour = "black")))
+
+### ---- Figure 3 ----
+# Gráficos comparativos índices de centralidad
 par(mfrow = c(1,1))
 set.seed(1)  # mantiene la posición de las especies
 deg_plot <- multiweb::plot_troph_level(gok, vertex.size=0.5*(V(gok)$degree.total), ylab = "Trophic level")
@@ -73,34 +103,7 @@ clo_plot <- multiweb::plot_troph_level(gok, vertex.size=10^3.2*(V(gok)$closeness
 # Closeness
 
 
-### ---- Histograma ----
-par(mfrow = c(1,1))
-hist(degree(gok,mode="all"))
-grado<-as.data.frame(degree(gok))
-pl<-ggplot(grado,aes(x=degree(gok)))
-pl + geom_histogram()
-pl2 <- pl + geom_histogram(binwidth = 1,col='black', fill='black', alpha=0.6)
-#binwidth = ancho de la barra
-#alpha = transparencia del grafico
-
-pl2
-pl2 + xlab('Grado') + ylab('Frecuencia') + ggtitle('Distribucion de grado')
-
-(pl_ok <- ggplot(grado, aes(x = degree(gok))) +
-    geom_histogram(binwidth = 1, col='black', fill='black', alpha=0.6) +
-    xlab('Grado (número de interacciones)') + ylab('Frecuencia') +
-    theme(axis.title.x = element_text(face = "bold", size = 16),
-          axis.title.y = element_text(face = "bold", size = 16),
-          axis.text.x = element_text(size = 12),
-          axis.text.y = element_text(size = 12),
-          panel.background = element_blank(),
-          axis.line = element_line(colour = "black")))
-
-ggsave(filename = "Figuras/Fig1.png", plot = pl_ok,
-       width = 10, units = "in", dpi = 600, bg = "white")
-
-
-### ---- Ajsute a la distribución de grado ----
+### ---- Ajuste de la distribución de grado ----
 dist_fit <- DegreeDistribution(g_net)
 dist_fit
 
