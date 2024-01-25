@@ -102,6 +102,13 @@ clo_plot <- multiweb::plot_troph_level(gok, vertex.size=10^3.2*(V(gok)$closeness
 
 # Closeness
 
+### ---- Figure 4 ----
+(ind_tl <- sp_level %>% 
+    #dplyr::filter(IEC <= 10) %>% 
+    ggplot(aes(x=TL, y=IEC)) + 
+    geom_point() +
+    geom_smooth(method = "loess") +
+    theme_classic())
 
 ### ---- Ajuste de la distribución de grado ----
 dist_fit <- DegreeDistribution(g_net)
