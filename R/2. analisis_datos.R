@@ -33,7 +33,6 @@ V(gok)$degree.out <- degree(gok,mode="out")
 upgrade_graph(gok)  # actualiza objeto igraph
 g_net <- as.network(as.matrix(gok))  # convierto gok en red
 dist_fit <- NetworkExtinction::DegreeDistribution(g_net)  # ajusto distribución de grado
-dist_fit
 
 # menor AIC, mejor modelo
 # menor BIC, mejor modelo
@@ -88,7 +87,7 @@ rnd_g <- lapply(1:100, function (x) {
 })
 
 sw <- multiweb::calc_swness_zscore(gok, nullDist = rnd_g, weights = NA, ncores = 4)
-datossw <- as.data.frame(sw["da"])
+datos_sw <- as.data.frame(sw["da"])
 # nulldist = distancia de las redes aleatorias con la mia
 
 ## ---- NIVELES TRÓFICOS ----
@@ -111,5 +110,5 @@ sp_level <- cbind(ind_centralidad, niveles_troficos)
    theme_classic())
 
 # Save results
-save(gok, fw_props, indices_centralidad, ind_centralidad, datossw, niveles_troficos,
-     file="Datos/analisisdatos.rda")
+save(gok, fw_props, indices_centralidad, ind_centralidad, datos_sw, niveles_troficos, sp_level,
+     file="Datos/analisis_datos_26jan24.rda")

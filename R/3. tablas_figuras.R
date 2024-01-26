@@ -1,14 +1,14 @@
 # ---- TABLAS & FIGURAS ----
 
 # Load data
-load("Datos/analisisdatos.rda")
+load("Datos/analisis_datos_26jan24.rda")
 
 # Load packages
-library(ggplot2)
 library(MASS)
 library(tidyverse)
 library(igraph)
 library(multiweb)
+library(network)
 
 # mtcars %>% 
 #   dplyr::select(cyl, mpg) %>% 
@@ -21,6 +21,7 @@ library(multiweb)
 ### ---- Table 1 ----
 Tabla_propcomplejidad <- fw_props %>%
   dplyr::select(Size, Links, LD, Connectance) %>% 
+  mutate(across(where(is.numeric), ~round(., 2))) %>% 
   rename (Species=Size, Interactions=Links)
 
 ### ---- Table 2 ----
@@ -48,7 +49,8 @@ keysp_index <- keysp_index %>%
   rename(Trophic_species = name)
 Top10_IEC <- keysp_index %>% 
   dplyr::filter(Ranking <= 10) %>% 
-  mutate(across(c(IEC), ~ round(., 2)))
+  mutate(across(c(IEC), ~ round(., 2))) %>% 
+  arrange(Ranking)
 # mayor keysp_index, mayor importancia
 
 
@@ -60,9 +62,16 @@ upgrade_graph(gok)  # actualiza objeto igraph
 g_net <- as.network(as.matrix(gok))  # convierto gok en red
 dist_fit <- NetworkExtinction::DegreeDistribution(g_net)  # ajusto distribución de grado
 
-Fig2 <- dist_fit
+Fig2 <- dist_fit[["graph"]] +
+  labs(y = "Cumulative degree distribution", x = "Degree (k)") +
+  theme(axis.title.x = element_text(face = "bold", size = 16),
+                   axis.title.y = element_text(face = "bold", size = 16),
+                   axis.text.x = element_text(size = 12),
+                   axis.text.y = element_text(size = 12),
+                   panel.background = element_blank(),
+                   axis.line = element_line(colour = "black"))
 
-ggsave(filename = "Figuras/Fig1.png", plot = pl_ok,
+ggsave(filename = "Figuras/Fig2.png", plot = Fig2,
        width = 10, units = "in", dpi = 600, bg = "white")
 
 # hist(degree(gok, mode="all"))
@@ -84,6 +93,7 @@ ggsave(filename = "Figuras/Fig1.png", plot = pl_ok,
 #           panel.background = element_blank(),
 #           axis.line = element_line(colour = "black")))
 
+
 ### ---- Figure 3 ----
 # Gráficos comparativos índices de centralidad
 par(mfrow = c(1,1))
@@ -103,16 +113,23 @@ clo_plot <- multiweb::plot_troph_level(gok, vertex.size=10^3.2*(V(gok)$closeness
 # Closeness
 
 ### ---- Figure 4 ----
-(ind_tl <- sp_level %>% 
-    #dplyr::filter(IEC <= 10) %>% 
-    ggplot(aes(x=TL, y=IEC)) + 
-    geom_point() +
-    geom_smooth(method = "loess") +
-    theme_classic())
+Fig4 <- sp_level %>% 
+  ggplot(aes(x=TL, y=IEC)) + 
+  geom_point() +
+  geom_smooth(method = "loess") +
+  scale_x_continuous(breaks=seq(0,6,1)) +
+  scale_y_reverse(breaks=c(60,50,40,30,20,10,0)) +
+  labs(y = "Keystone Species Index (KSI)", x = "Trophic level") +
+  theme(axis.title.x = element_text(face = "bold", size = 16),
+        axis.title.y = element_text(face = "bold", size = 16),
+        axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        panel.background = element_blank(),
+        axis.line = element_line(colour = "black"))
+Fig4
 
-### ---- Ajuste de la distribución de grado ----
-dist_fit <- DegreeDistribution(g_net)
-dist_fit
+ggsave(filename = "Figuras/Fig4.png", plot = Fig4,
+       width = 10, units = "in", dpi = 600, bg = "white")
 
 # ---- MATERIAL SUPLEMENTARIO ----
 
