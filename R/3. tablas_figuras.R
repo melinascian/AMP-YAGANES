@@ -118,7 +118,7 @@ Fig4 <- sp_level %>%
   geom_point() +
   geom_smooth(method = "loess") +
   scale_x_continuous(breaks=seq(0,6,1)) +
-  scale_y_reverse(breaks=c(60,50,40,30,20,10,0)) +
+  scale_y_reverse(breaks=c(60,50,40,30,20,10,1)) +
   labs(y = "Keystone Species Index (KSI)", x = "Trophic level") +
   theme(axis.title.x = element_text(face = "bold", size = 16),
         axis.title.y = element_text(face = "bold", size = 16),
