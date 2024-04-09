@@ -1,0 +1,854 @@
+ID,Prey,Prey funtional group,Prey expertise,Predator,Predator funtional group,Predator expertise,Strategy,Source,Reference,Link,Observations
+1,Electrona_spp,Myctophiformes,Fish,Thalassarche_chrysostoma,Procellariiformes,Sea birds,Hunter,Heterotroph,"Arata, J. et al_2004",https://doi.org/10.1017/S095410200400207X,Inferred from Electrona_antartica and Electrona_carlsbergi
+2,Electrona_spp,Myctophiformes,Fish,Thalassarche_chrysostoma,Procellariiformes,Sea birds,Hunter,Heterotroph,"Arata, J. et al_2004",https://doi.org/10.1017/S095410200400207X,Inferred from Electrona_antartica and Electrona_carlsbergi
+3,Gymnoscopelus_spp,Myctophiformes,Fish,Thalassarche_chrysostoma,Procellariiformes,Sea birds,Hunter,Heterotroph,"Arata, J. et al_2004",https://doi.org/10.1017/S095410200400207X,Inferred from Gymnoscopelus_nicholsi and Gymnoscopelus_hintonoides
+4,Gymnoscopelus_spp,Myctophiformes,Fish,Thalassarche_chrysostoma,Procellariiformes,Sea birds,Hunter,Heterotroph,"Arata, J. et al_2004",https://doi.org/10.1017/S095410200400207X,Inferred from Gymnoscopelus_nicholsi and Gymnoscopelus_hintonoides
+5,Gymnoscopelus_spp,Myctophiformes,Fish,Thalassarche_chrysostoma,Procellariiformes,Sea birds,Hunter,Heterotroph,"Arata, J. et al_2004",https://doi.org/10.1017/S095410200400207X,Inferred from Gymnoscopelus_nicholsi and Gymnoscopelus_hintonoides
+6,Krefftichthys_andersoni,Myctophiformes,Fish,Thalassarche_chrysostoma,Procellariiformes,Sea birds,Hunter,Heterotroph,"Arata, J. et al_2004",https://doi.org/10.1017/S095410200400207X,
+7,Amphipoda,Amphipoda,Crustaceans,Thalassarche_chrysostoma,Procellariiformes,Sea birds,Hunter,Heterotroph,"Arata, J. et al_2004",https://doi.org/10.1017/S095410200400207X,Inferred from Gammaridea
+8,Anuropus_antarcticus,Malacostraca,Crustaceans,Thalassarche_chrysostoma,Procellariiformes,Sea birds,Hunter,Heterotroph,"Arata, J. et al_2004",https://doi.org/10.1017/S095410200400207X,
+9,Decapoda_others,Decapoda,Crustaceans,Thalassarche_chrysostoma,Procellariiformes,Sea birds,Hunter,Heterotroph,"Arata, J. et al_2004",https://doi.org/10.1017/S095410200400207X,
+10,Patagonotothen_ramsayi,Perciformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,Inferred from Patagonotothen_spp
+11,Patagonotothen_guntheri,Perciformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,Inferred from Patagonotothen_spp
+12,Patagonotothen_ramsayi,Perciformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,Inferred from Patagonotothen_spp
+13,Patagonotothen_guntheri,Perciformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,Inferred from Patagonotothen_spp
+14,Nototheniops_larseni ,Perciformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+15,Pleuragramma_antarcticum,Nototheniidae,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+16,Iluocoetes_fimbriatus,Perciformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,Inferred from Zoarcidae
+17,Odonthestes_spp,Atheriniformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+18,Merluccius_hubbsi,Gadiformes,Fish_Demersal,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+19,Merluccius_australis,Gadiformes,Fish_Demersal,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+20,Salilota_australis,Gadiformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+21,Macruronus_magellanicus,Gadiformes,Fish_Demersal,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+22,Cottoperca_trigloides,Perciformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+23,Coelorinchus_fasciatus,Gadiformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+24,Iluocoetes_fimbriatus,Perciformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+25,Cottunculus_granulosus,Perciformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+26,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+27,Ophidiidae,Ophidiiformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+28,Nototheniops_larseni ,Perciformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+29,Pleuragramma_antarcticum,Nototheniidae,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+30,Micromesistius_australis,Gadiformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+31,Patagonotothen_ramsayi,Perciformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+32,Electrona_spp,Myctophiformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+33,Gymnoscopelus_spp,Myctophiformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+34,Krefftichthys_andersoni,Myctophiformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+35,Bathyraja_macloviana,Rajiformes, Chondrichthyans,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+36,Iluocoetes_fimbriatus,Perciformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,Inferred from Zoarcidae
+37,Patagonotothen_ramsayi,Perciformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,Inferred from Patagonotothen_spp
+38,Patagonotothen_guntheri,Perciformes,Fish,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,Inferred from Patagonotothen_spp
+39,Sprattus_fuegensis,Clupeiformes,Sardinas,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+40,Doryteuthis_gahi,Cephalopoda,Cephalopods,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+41,Illex_argentinus,Cephalopoda,Cephalopods,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+42,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Pseudorca_crassidens,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+43,Micromesistius_australis,Perciformes,Fish,Lissodelphis_peronii,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+44,Coelorinchus_fasciatus,Gadiformes,Fish,Lissodelphis_peronii,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+45,Iluocoetes_fimbriatus,Perciformes,Fish,Lissodelphis_peronii,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+46,Doryteuthis_gahi,Cephalopoda,Cephalopods,Lissodelphis_peronii,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+47,Illex_argentinus,Cephalopoda,Cephalopods,Lissodelphis_peronii,Delphinidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2010,https://doi.org/10.3354/meps08826,
+48,Mirounga_leonina,Phocidae,Sea mammals,Orcinus_orca,Delphinidae,Sea mammals,Hunter,Heterotroph,Waerebeek_etal_2010,https://doi.org/10.47536/jcrm.v11i3.611,
+49,Electrona_spp,Myctophiformes,Fish,Lagenorhynchus_cruciger,Delphinidae,Sea mammals,Hunter,Heterotroph,Waerebeek_etal_2010,https://doi.org/10.47536/jcrm.v11i3.611,
+50,Gymnoscopelus_spp,Myctophiformes,Fish,Lagenorhynchus_cruciger,Delphinidae,Sea mammals,Hunter,Heterotroph,Waerebeek_etal_2010,https://doi.org/10.47536/jcrm.v11i3.611,
+51,Krefftichthys_andersoni,Myctophiformes,Fish,Lagenorhynchus_cruciger,Delphinidae,Sea mammals,Hunter,Heterotroph,Waerebeek_etal_2010,https://doi.org/10.47536/jcrm.v11i3.611,
+52,Amphipoda,Amphipoda,Crustaceans,Eudyptes_chrysocome_chrysocome,Sphenisciformes,Sea birds,Hunter,Heterotroph,Rosciano_etal_2016,https://doi.org/10.3354/meps11689,
+53,Ichthyoplankton,Ichthyoplankton,Ichthyoplankton,Eudyptes_chrysocome_chrysocome,Sphenisciformes,Sea birds,Hunter,Heterotroph,Rosciano_etal_2016,https://doi.org/10.3354/meps11689,
+54,Euphausiidae,Euphausiacea,Crustaceans,Eudyptes_chrysocome_chrysocome,Sphenisciformes,Sea birds,Hunter,Heterotroph,Rosciano_etal_2016,https://doi.org/10.3354/meps11689,
+55,Zooplankton,Zooplankton,Zooplankton,Spheniscus_magellanicus,Sphenisciformes,Sea birds,Hunter,Heterotroph,Rosciano_etal_2016,https://doi.org/10.3354/meps11689,
+56,Amphipoda,Amphipoda,Crustaceans,Spheniscus_magellanicus,Sphenisciformes,Sea birds,Hunter,Heterotroph,Rosciano_etal_2016,https://doi.org/10.3354/meps11689,
+57,Euphausiidae,Euphausiacea,Crustaceans,Spheniscus_magellanicus,Sphenisciformes,Sea birds,Hunter,Heterotroph,Rosciano_etal_2016,https://doi.org/10.3354/meps11689,
+58,Sprattus_fuegensis,Clupeiformes,Sardinas,Spheniscus_magellanicus,Sphenisciformes,Sea birds,Hunter,Heterotroph,Rosciano_etal_2016,https://doi.org/10.3354/meps11689,
+59,Grimothea_gregaria,Malacostraca,Crustaceans,Spheniscus_magellanicus,Sphenisciformes,Sea birds,Hunter,Heterotroph,Rosciano_etal_2016,https://doi.org/10.3354/meps11689,
+60,Doryteuthis_gahi,Cephalopoda,Cephalopods,Spheniscus_magellanicus,Sphenisciformes,Sea birds,Hunter,Heterotroph,Rosciano_etal_2016,https://doi.org/10.3354/meps11689,
+61,Sprattus_fuegensis,Clupeiformes,Sardinas,Spheniscus_magellanicus,Sphenisciformes,Sea birds,Hunter,Heterotroph,Rosciano_etal_2016,https://doi.org/10.3354/meps11689,
+62,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+63,Illex_argentinus,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+64,Merluccius_hubbsi,Gadiformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+65,Merluccius_australis,Gadiformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+66,Gonatus_antarcticus,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+67,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+68,Micromesistius_australis,Gadiformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+69,Macruronus_magellanicus,Gadiformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+70,Lepidonotothen,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+71,Pseudochaenichthys_georgianus,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+72,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+73,Illex_argentinus,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+74,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+75,Micromesistius_australis,Gadiformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+76,Lepidonotothen,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+77,Pseudochaenichthys_georgianus,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+78,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+79,Illex_argentinus,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+80,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+81,Micromesistius_australis,Gadiformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+82,Lepidonotothen,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+83,Pseudochaenichthys_georgianus,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+84,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+85,Illex_argentinus,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+86,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+87,Micromesistius_australis,Gadiformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+88,Lepidonotothen,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+89,Pseudochaenichthys_georgianus,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+90,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+91,Illex_argentinus,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+92,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+93,Micromesistius_australis,Gadiformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+94,Lepidonotothen,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+95,Pseudochaenichthys_georgianus,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+96,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+97,Illex_argentinus,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+98,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+99,Micromesistius_australis,Gadiformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+100,Lepidonotothen,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+101,Pseudochaenichthys_georgianus,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+102,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+103,Illex_argentinus,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+104,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+105,Micromesistius_australis,Gadiformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+106,Lepidonotothen,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+107,Nototheniops_larseni ,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+108,Pleuragramma_antarcticum,Nototheniidae,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+109,Pseudochaenichthys_georgianus,Perciformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Riccialdelli_etal_2017,https://doi.org/10.3354/meps12296,
+110,Electrona_spp,Myctophiformes,Fish,Balaenoptera_physalus,Balaenopteridae,Sea mammals,Hunter,Heterotroph,Bassoi_etal_2020,https://doi.org/10.1007/s00300-019-02607-z,
+111,Gymnoscopelus_spp,Myctophiformes,Fish,Balaenoptera_physalus,Balaenopteridae,Sea mammals,Hunter,Heterotroph,Bassoi_etal_2020,https://doi.org/10.1007/s00300-019-02607-z,
+112,Krefftichthys_andersoni,Myctophiformes,Fish,Balaenoptera_physalus,Balaenopteridae,Sea mammals,Hunter,Heterotroph,Bassoi_etal_2020,https://doi.org/10.1007/s00300-019-02607-z,
+113,Euphausiidae,Euphausiacea,Crustaceans,Balaenoptera_physalus,Balaenopteridae,Sea mammals,Hunter,Heterotroph,Bassoi_etal_2020,https://doi.org/10.1007/s00300-019-02607-z,
+114,Doryteuthis_gahi,Cephalopoda,Cephalopods,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,Bassoi_etal_2020,https://doi.org/10.1007/s00300-019-02607-z,
+115,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Bassoi_etal_2020,https://doi.org/10.1007/s00300-019-02607-z,
+116,Illex_argentinus,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Bassoi_etal_2020,https://doi.org/10.1007/s00300-019-02607-z,
+117,Euphausiidae,Euphausiacea,Crutceos,Megaptera_novaeangliae,Balaenopteridae,Sea mammals,Filter,Heterotroph,Bassoi_etal_2020,https://doi.org/10.1007/s00300-019-02607-z,
+118,Grimothea_gregaria,Malacostraca,Crustaceans,Spheniscus_magellanicus,Sphenisciformes,Sea birds,Hunter,Heterotroph,Rosciano_etal_2018,https://doi.org/10.1111/ibi.12547,
+119,Sprattus_fuegensis,Clupeiformes,Sardinas,Spheniscus_magellanicus,Sphenisciformes,Sea birds,Hunter,Heterotroph,Rosciano_etal_2018,https://doi.org/10.1111/ibi.12547,
+120,Doryteuthis_gahi,Cephalopoda,Cephalopods,Spheniscus_magellanicus,Sphenisciformes,Sea birds,Hunter,Heterotroph,Rosciano_etal_2018,https://doi.org/10.1111/ibi.12547,
+121,Euphausiidae,Euphausiacea,Crustaceans,Balaenoptera_borealis,Balaenopteridae,Sea mammals,Hunter,Heterotroph,Bassoi_etal_2020,https://doi.org/10.1007/s00300-019-02607-z,
+122,Euphausiidae,Euphausiacea,Crustaceans,Lagenorhynchus_cruciger,Delphinidae,Sea mammals,Hunter,Heterotroph,Bassoi_etal_2020,https://doi.org/10.1007/s00300-019-02607-z,
+123,Electrona_spp,Myctophiformes,Fish,Balaenoptera_physalus,Balaenopteridae,Sea mammals,Hunter,Heterotroph,Bassoi_etal_2020,https://doi.org/10.1007/s00300-019-02607-z,
+124,Gymnoscopelus_spp,Myctophiformes,Fish,Balaenoptera_borealis,Balaenopteridae,Sea mammals,Hunter,Heterotroph,Bassoi_etal_2020,https://doi.org/10.1007/s00300-019-02607-z,
+125,Krefftichthys_andersoni,Myctophiformes,Fish,Balaenoptera_borealis,Balaenopteridae,Sea mammals,Hunter,Heterotroph,Bassoi_etal_2020,https://doi.org/10.1007/s00300-019-02607-z,
+126,Calanoida,Copepoda,Zooplankton,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+127,Doryteuthis_gahi,Cephalopoda,Cephalopods,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+128,Illex_argentinus,Cephalopoda,Cephalopods,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+129,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+130,Merluccius_hubbsi,Gadiformes,Fish_Demersal,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+131,Merluccius_australis,Gadiformes,Fish_Demersal,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+132,Macruronus_magellanicus,Gadiformes,Fish_Demersal,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+133,Salilota_australis,Gadiformes,Fish,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+134,Micromesistius_australis,Gadiformes,Fish,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+135,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+136,Cottoperca_trigloides,Perciformes,Fish_Demersal,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+137,Iluocoetes_fimbriatus,Perciformes,Fish,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+138,Lepidonotothen,Perciformes,Fish,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+139,Pleuragramma_antarcticum,Nototheniidae,Fish,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+140,Nototheniops_larseni ,Perciformes,Fish,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+141,Pseudochaenichthys_georgianus,Perciformes,Fish,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+142,Patagonotothen_ramsayi,Perciformes,Fish,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+143,Cottoperca_trigloides,Perciformes,Fish_Demersal,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+144,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+145,Salilota_australis,Gadiformes,Fish,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+146,Patagonotothen_guntheri,Perciformes,Fish,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+147,Doryteuthis_gahi,Cephalopoda,Cephalopods,Globicephala_melas_edwardii,Delphinidae,Sea mammals,Hunter,Heterotroph,Becker_etal_2021,https://doi.org/10.1007/s00300-021-02908-2,
+148,Euphausiidae,Euphausiacea,Crustaceans,Balaenoptera_physalus,Balaenopteridae,Sea mammals,Filter,Heterotroph,"Alvarez, F. et al_2022",https://doi.org/10.1007/s00300-022-03080-x,
+149,Euphausiidae,Euphausiacea,Crustaceans,Megaptera_novaeangliae,Balaenopteridae,Sea mammals,Filter,Heterotroph,"Alvarez, F. et al_2022",https://doi.org/10.1007/s00300-022-03080-x,
+150,Euphausiidae,Euphausiacea,Crustaceans,Balaenoptera_bonaerensis,Balaenopteridae,Sea mammals,Filter,Heterotroph,"Alvarez, F. et al_2022",https://doi.org/10.1007/s00300-022-03080-x,
+151,Eudyptes_filholi,Sphenisciformes,Sea birds,Phalcoboenus_australis,Falconiformes,Sea birds,Hunter,Heterotroph,"Becker, Y. A et al_2021",https://doi.org/10.1007/s00300-021-02908-2,
+152,Merluccius_hubbsi,Gadiformes,Fish_Demersal,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14865,
+153,Salilota_australis,Gadiformes,Fish,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,Infrered from Moridae
+154,Salilota_australis,Gadiformes,Fish,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,
+155,Macrourus_holotrachys,Gadiformes,Fish,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,
+156,Coelorinchus_fasciatus,Gadiformes,Fish,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,
+157,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,
+158,Patagonotothen_ramsayi,Perciformes,Fish,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,
+159,Merluccius_australis,Gadiformes,Fish_Demersal,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,
+160,Ophidiidae,Ophidiiformes,Fish,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,Inferred from Genypterus_blacodes
+161,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,Inferred from Bathyraja_brachyurops
+162,Bathyraja_macloviana,Rajiformes, Chondrichthyans,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,
+163,Micromesistius_australis,Gadiformes,Fish,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,
+164,Sprattus_fuegensis,Clupeiformes,Sardinas,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,
+165,Illex_argentinus,Cephalopoda,Cephalopods,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,
+166,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,
+167,Decapoda_others,Decapoda,Crustaceans,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,
+168,Euphausiidae,Euphausiacea,Crustaceans,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,
+169,Grimothea_gregaria,Decapoda,Crustaceans,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,"Belleggia, M. et al_2021",https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866,
+170,Calanoida,Copepoda,Zooplankton,Ophiacantha_vivipara,Echinodermata,Echinoderms,Hunter,Heterotroph,,NA,
+171,Detritus,Non-living,Non-living,Serolidae,Isopoda,Crustaceans,Hunter,Detritus,White_1972,https://nora.nerc.ac.uk/id/eprint/526227/1/bulletin27_11.pdf,
+172,Copepoda_others,Copepoda,Zooplankton,Serolidae,Isopoda,Crustaceans,Hunter,Heterotroph,White_1972,https://nora.nerc.ac.uk/id/eprint/526227/1/bulletin27_11.pdf,
+173,Amphipoda,Amphipoda,Crustaceans,Serolidae,Isopoda,Crustaceans,Hunter,Heterotroph,White_1972,https://nora.nerc.ac.uk/id/eprint/526227/1/bulletin27_11.pdf,
+174,Isopoda_others,Isopoda,Crustaceans,Serolidae,Isopoda,Crustaceans,Hunter,Heterotroph,White_1972,https://nora.nerc.ac.uk/id/eprint/526227/1/bulletin27_11.pdf,
+175,Detritus,Non-living,Non-living,Anuropus_australis,Malacostraca,Crustaceans,Filter,Detritus,"Schulutz, G. A._1975",https://doi.org/10.1029/AR023p0069,
+176,Detritus,Non-living,Non-living,Anuropus_antarcticus,Malacostraca,Crustaceans,Filter,Detritus,,NA,
+177,Odonthestes_spp,Atheriniformes,Fish,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,
+178,Sprattus_fuegensis,Clupeiformes,Sardinas,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,
+179,Harpagiferidae_sp,Perciformes,Fish,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,
+180,Lamna_nasus,Lamniformes, Chondrichthyans,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,
+181,Merluccius_australis,Gadiformes,Fish,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,
+182,Salilota_australis,Gadiformes,Fish,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,Inferred from Moridae
+183,Electrona_spp,Myctophiformes,Fish,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,Inferred from Myctophidae
+184,Gymnoscopelus_spp,Myctophiformes,Fish,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,Inferred from Myctophidae
+185,Krefftichthys_andersoni,Myctophiformes,Fish,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,Inferred from Myctophidae
+186,Myxine_spp,Myxiniformes,Fish_Demersal,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,
+187,Ophidiidae,Ophidiiformes,Fish,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,
+188,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,Inferred from Rajidae
+189,Bathyraja_macloviana,Rajiformes, Chondrichthyans,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,Inferred from Rajidae
+190,Squaliformes,Elasmobranchii, Chondrichthyans,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,Inferred from Squalidae
+191,Iluocoetes_fimbriatus,Perciformes,Fish,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,Inferred from Zoarcidae
+192,Gastropoda_others,Gastropoda,Gastropods,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Littorinidae
+193,Gastropoda_others,Gastropoda,Gastropods,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Littorinidae
+194,Amphipoda,Amphipoda,Crustaceans,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Gammaridea
+195,Calanoida,Copepoda,Zooplankton,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+196,Grimothea_gregaria,Malacostraca,Crustaceans,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Munidae
+197,Euphausiidae,Euphausiacea,Crustaceans,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+198,Euphausiidae,Euphausiacea,Crustaceans,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+199,Euphausiidae,Euphausiacea,Crustaceans,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+200,Euphausiidae,Euphausiacea,Crustaceans,Harpagiferidae_sp,Perciformes,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Harpagifer_antarcticus
+201,Euphausiidae,Euphausiacea,Crustaceans,Notothenia_rossi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+202,Ostracoda,Crustacea,Crustaceans,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+203,Ostracoda,Crustacea,Crustaceans,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+204,Ostracoda,Crustacea,Crustaceans,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+205,Ostracoda,Crustacea,Crustaceans,Harpagiferidae_sp,Perciformes,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+206,Ostracoda,Crustacea,Crustaceans,Notothenia_rossi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+207,Polyplacophora,Polyplacophora,Poliplacoforos,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+208,Polyplacophora,Polyplacophora,Poliplacoforos,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+209,Polyplacophora,Polyplacophora,Poliplacoforos,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+210,Polyplacophora,Polyplacophora,Poliplacoforos,Harpagiferidae_sp,Perciformes,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+211,Polyplacophora,Polyplacophora,Poliplacoforos,Notothenia_rossi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+212,Amphipoda,Amphipoda,Crustaceans,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Gondogeneia_antarctica
+213,Amphipoda,Amphipoda,Crustaceans,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+214,Amphipoda,Amphipoda,Crustaceans,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+215,Amphipoda,Amphipoda,Crustaceans,Harpagiferidae_sp,Perciformes,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+216,Amphipoda,Amphipoda,Crustaceans,Notothenia_rossi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+217,Amphipoda,Amphipoda,Crustaceans,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Oradare sp
+218,Amphipoda,Amphipoda,Crustaceans,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Oradare sp
+219,Amphipoda,Amphipoda,Crustaceans,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Oradare sp
+220,Amphipoda,Amphipoda,Crustaceans,Harpagiferidae_sp,Perciformes,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Oradare sp
+221,Amphipoda,Amphipoda,Crustaceans,Notothenia_rossi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Oradare sp
+222,Gastropoda_others,Gastropoda,Gastropods,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Onoba sp
+223,Gastropoda_others,Gastropoda,Gastropods,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Onoba sp
+224,Gastropoda_others,Gastropoda,Gastropods,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Onoba sp
+225,Gastropoda_others,Gastropoda,Gastropods,Harpagiferidae_sp,Perciformes,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Onoba sp
+226,Gastropoda_others,Gastropoda,Gastropods,Notothenia_rossi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Onoba sp
+227,Gastropoda_others,Gastropoda,Gastropods,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Eatoniella sp
+228,Gastropoda_others,Gastropoda,Gastropods,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Eatoniella sp
+229,Gastropoda_others,Gastropoda,Gastropods,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Eatoniella sp
+230,Gastropoda_others,Gastropoda,Gastropods,Harpagiferidae_sp,Perciformes,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Eatoniella sp
+231,Gastropoda_others,Gastropoda,Gastropods,Notothenia_rossi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Eatoniella sp
+232,Amphipoda,Amphipoda,Crustaceans,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Bircenna sp
+233,Amphipoda,Amphipoda,Crustaceans,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Bircenna sp
+234,Amphipoda,Amphipoda,Crustaceans,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Bircenna sp
+235,Amphipoda,Amphipoda,Crustaceans,Harpagiferidae_sp,Perciformes,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Bircenna sp
+236,Amphipoda,Amphipoda,Crustaceans,Notothenia_rossi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Bircenna sp
+237,Amphipoda,Amphipoda,Crustaceans,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Jassa sp
+238,Amphipoda,Amphipoda,Crustaceans,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Jassa sp
+239,Amphipoda,Amphipoda,Crustaceans,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Jassa sp
+240,Amphipoda,Amphipoda,Crustaceans,Harpagiferidae_sp,Perciformes,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Jassa sp
+241,Amphipoda,Amphipoda,Crustaceans,Notothenia_rossi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Jassa sp
+242,Isopoda_others,Isopoda,Isopodos,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Gnathia sp
+243,Isopoda_others,Isopoda,Isopodos,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+244,Isopoda_others,Isopoda,Isopodos,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+245,Isopoda_others,Isopoda,Isopodos,Harpagiferidae_sp,Perciformes,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+246,Isopoda_others,Isopoda,Isopodos,Notothenia_rossi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+247,Isopoda_others,Isopoda,Isopodos,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Munna sp
+248,Isopoda_others,Isopoda,Isopodos,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Munna sp
+249,Isopoda_others,Isopoda,Isopodos,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Munna sp
+250,Isopoda_others,Isopoda,Isopodos,Harpagiferidae_sp,Perciformes,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Munna sp
+251,Isopoda_others,Isopoda,Isopodos,Notothenia_rossi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Munna sp
+252,Isopoda_others,Isopoda,Isopodos,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Plakarthrium sp
+253,Isopoda_others,Isopoda,Isopodos,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Plakarthrium sp
+254,Isopoda_others,Isopoda,Isopodos,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Plakarthrium sp
+255,Isopoda_others,Isopoda,Isopodos,Harpagiferidae_sp,Perciformes,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Plakarthrium sp
+256,Isopoda_others,Isopoda,Isopodos,Notothenia_rossi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Plakarthrium sp
+257,Isopoda_others,Isopoda,Isopodos,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Limnoria sp
+258,Isopoda_others,Isopoda,Isopodos,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+259,Isopoda_others,Isopoda,Isopodos,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+260,Isopoda_others,Isopoda,Isopodos,Harpagiferidae_sp,Perciformes,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+261,Isopoda_others,Isopoda,Isopodos,Notothenia_rossi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,
+262,Isopoda_others,Isopoda,Isopodos,Lepidonotothen,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Cymodocella sp
+263,Isopoda_others,Isopoda,Isopodos,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Cymodocella sp
+264,Isopoda_others,Isopoda,Isopodos,Trematomus_newnesi,Nototheniidae,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Cymodocella sp
+265,Isopoda_others,Isopoda,Isopodos,Harpagiferidae_sp,Perciformes,Fish,Hunter,Heterotroph,Moreira_etal_2014,https://doi.org/10.1007/s00300-014-1545-3,Inferred from Cymodocella sp
+266,Myxine_spp,Myxiniformes,Fish_Demersal,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_2009,https://doi.org/10.1016/B978-0-12-373553-9.00196-6,
+267,Salilota_australis,Gadiformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_2009,https://doi.org/10.1016/B978-0-12-373553-9.00196-6,
+268,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_2009,https://doi.org/10.1016/B978-0-12-373553-9.00196-6,
+269,Doryteuthis_gahi,Cephalopoda,Cephalopods,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_2009,https://doi.org/10.1016/B978-0-12-373553-9.00196-6,
+270,Lagenorhynchus_australis,Delphinidae,Sea mammals,Orcinus_orca,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_2009,https://doi.org/10.1016/B978-0-12-373553-9.00196-6,
+271,Lagenorhynchus_australis,Delphinidae,Sea mammals,Squaliformes,Elasmobranchii, Chondrichthyans,Hunter,Heterotroph,Goodall_2009,https://doi.org/10.1016/B978-0-12-373553-9.00196-6,
+272,CtenoCalanoida_vanus,Copepoda,Zooplankton,Ophiacantha_vivipara,Ophiruidea,Echinoderms,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+273,Drepanopus_forcipatus,Copepoda,Zooplankton,Ophiacantha_vivipara,Ophiruidea,Echinoderms,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+274,Neocalanoida_tonsus,Copepoda,Zooplankton,Ophiacantha_vivipara,Ophiruidea,Echinoderms,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+275,Grimothea_gregaria,Malacostraca,Crustaceans,Cottoperca_trigloides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+276,Grimothea_gregaria,Malacostraca,Crustaceans,Ophidiidae,Ophidiiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+277,Grimothea_gregaria,Malacostraca,Crustaceans,Salilota_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+278,Grimothea_gregaria,Malacostraca,Crustaceans,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+279,Doryteuthis_gahi,Cephalopoda,Cephalopods,Coelorinchus_fasciatus,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+280,Doryteuthis_gahi,Cephalopoda,Cephalopods,Micromesistius_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+281,Salilota_australis,Gadiformes,Fish,Micromesistius_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+282,Campylonotus_vagans,Decapoda,Crustaceans,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+283,Themisto_gaudichaudii,Amphipoda,Crustaceans,Salilota_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+284,Cottoperca_trigloides,Perciformes,Fish_Demersal,Salilota_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+285,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Salilota_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+286,Patagonotothen_ramsayi,Perciformes,Fish,Salilota_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+287,Iluocoetes_fimbriatus,Perciformes,Fish,Salilota_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+288,Micromesistius_australis,Gadiformes,Fish,Salilota_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+289,Sprattus_fuegensis,Clupeiformes,Sardinas,Salilota_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+290,Doryteuthis_gahi,Cephalopoda,Cephalopods,Macrourus_holotrachys,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+291,Iluocoetes_fimbriatus,Perciformes,Fish,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+292,Themisto_gaudichaudii,Amphipoda,Crustaceans,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+293,CtenoCalanoida_vanus,Copepoda,Zooplankton,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+294,Drepanopus_forcipatus,Copepoda,Zooplankton,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+295,Neocalanoida_tonsus,Copepoda,Zooplankton,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+296,RhinCalanoida_gigas,Copepoda,Zooplankton,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+297,Patagonotothen_guntheri,Perciformes,Fish,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+298,Micromesistius_australis,Gadiformes,Fish,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+299,Macrourus_holotrachys,Gadiformes,Fish,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+300,Salilota_australis,Gadiformes,Fish,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+301,Patagonotothen_ramsayi,Perciformes,Fish,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+302,Coelorinchus_fasciatus,Gadiformes,Fish,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+303,Ophidiidae,Ophidiiformes,Fish,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+304,Iluocoetes_fimbriatus,Perciformes,Fish,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+305,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Spheniscus_magellanicus,Sphenisciformes,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+306,Grimothea_gregaria,Malacostraca,Crustaceans,Doryteuthis_gahi,Cephalopoda,Cephalopods,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+307,Grimothea_gregaria,Malacostraca,Crustaceans,Thalassarche_melanophris,Procellariiformes,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+308,Eukrohnia_hamata,Chaetognatha,Zooplankton,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+309,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+310,Eukrohnia_hamata,Chaetognatha,Zooplankton,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+311,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+312,CtenoCalanoida_vanus,Copepoda,Zooplankton,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+313,Drepanopus_forcipatus,Copepoda,Zooplankton,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+314,Neocalanoida_tonsus,Copepoda,Zooplankton,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+315,RhinCalanoida_gigas,Copepoda,Zooplankton,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+316,Micromesistius_australis,Gadiformes,Fish,Eudyptes_chrysocome,Sphenisciformes,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+317,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Cottunculus_granulosus,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+318,Grimothea_gregaria,Malacostraca,Crustaceans,Cottunculus_granulosus,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+319,Patagonotothen_ramsayi,Perciformes,Fish,Cottunculus_granulosus,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+320,Coelorinchus_fasciatus,Gadiformes,Fish,Cottunculus_granulosus,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+321,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+322,Salilota_australis,Gadiformes,Fish,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+323,Micromesistius_australis,Gadiformes,Fish,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+324,Sprattus_fuegensis,Clupeiformes,Sardinas,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+325,Themisto_gaudichaudii,Amphipoda,Crustaceans,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+326,Grimothea_gregaria,Malacostraca,Crustaceans,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+327,Pagurus_comptus,Decapoda,Crustaceans,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+328,Gorgonocephalus_chilensis,Ophiuroidea,Ophiuroids,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+329,Sprattus_fuegensis,Clupeiformes,Sardinas,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+330,Tinerfe_cyanea,Ctenophora,Zooplankton,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+331,Tinerfe_cyanea,Ctenophora,Zooplankton,Bathyraja_macloviana,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+332,Tinerfe_cyanea,Ctenophora,Zooplankton,Cottoperca_trigloides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+333,Tinerfe_cyanea,Ctenophora,Zooplankton,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+334,Tinerfe_cyanea,Ctenophora,Zooplankton,Iluocoetes_fimbriatus,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+335,Tinerfe_cyanea,Ctenophora,Zooplankton,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+336,Tinerfe_cyanea,Ctenophora,Zooplankton,Salilota_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+337,Campylonotus_vagans,Decapoda,Crustaceans,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+338,Patagonotothen_ramsayi,Perciformes,Fish,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+339,Coelorinchus_fasciatus,Gadiformes,Fish,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+340,Iluocoetes_fimbriatus,Perciformes,Fish,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+341,Sprattus_fuegensis,Clupeiformes,Sardinas,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+342,Eukrohnia_hamata,Chaetognatha,Zooplankton,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+343,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+344,Tinerfe_cyanea,Ctenophora,Zooplankton,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+345,Campylonotus_vagans,Decapoda,Crustaceans,Macrourus_holotrachys,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+346,Tinerfe_cyanea,Ctenophora,Zooplankton,Macrourus_holotrachys,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+347,Themisto_gaudichaudii,Amphipoda,Crustaceans,Doryteuthis_gahi,Cephalopoda,Cephalopods,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+348,Themisto_gaudichaudii,Amphipoda,Crustaceans,Thalassarche_chrysostoma,Procellariiformes,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+349,Themisto_gaudichaudii,Amphipoda,Crustaceans,Thalassarche_melanophris,Procellariiformes,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+350,Grimothea_gregaria,Malacostraca,Crustaceans,Micromesistius_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+351,Patagonotothen_ramsayi,Perciformes,Fish,Micromesistius_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+352,Iluocoetes_fimbriatus,Perciformes,Fish,Micromesistius_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+353,Micromesistius_australis,Gadiformes,Fish,Micromesistius_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+354,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Micromesistius_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+355,Eukrohnia_hamata,Chaetognatha,Zooplankton,Micromesistius_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+356,Themisto_gaudichaudii,Amphipoda,Crustaceans,Micromesistius_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+357,Phytoplankton,Phytoplankton,Phytoplankton,CtenoCalanoida_vanus,Copepoda,Zooplankton,Hunter,Primary_producer,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+358,Phytoplankton,Phytoplankton,Phytoplankton,RhinCalanoida_gigas,Copepoda,Zooplankton,Hunter,Primary_producer,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+359,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Thalassarche_melanophris,Procellariiformes,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+360,Themisto_gaudichaudii,Malacostraca,Crustaceans,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+361,Doryteuthis_gahi,Cephalopoda,Cephalopods,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+362,Doryteuthis_gahi,Cephalopoda,Cephalopods,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+363,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+364,Grimothea_gregaria,Malacostraca,Crustaceans,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+365,Cottoperca_trigloides,Perciformes,Fish_Demersal,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+366,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+367,Patagonotothen_guntheri,Perciformes,Fish,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+368,Patagonotothen_ramsayi,Perciformes,Fish,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+369,Micromesistius_australis,Gadiformes,Fish,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+370,Sprattus_fuegensis,Clupeiformes,Sardinas,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+371,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+372,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+373,Grimothea_gregaria,Malacostraca,Crustaceans,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+374,Pagurus_comptus,Decapoda,Crustaceans,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+375,Paralomis_granulosa,Decapoda,Crustaceans,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+376,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Cottoperca_trigloides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+377,Patagonotothen_ramsayi,Perciformes,Fish,Cottoperca_trigloides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+378,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Cottoperca_trigloides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+379,Iluocoetes_fimbriatus,Perciformes,Fish,Cottoperca_trigloides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+380,Sprattus_fuegensis,Clupeiformes,Sardinas,Cottoperca_trigloides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+381,Grimothea_gregaria,Malacostraca,Crustaceans,Cottoperca_trigloides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+382,Salilota_australis,Gadiformes,Fish,Cottoperca_trigloides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+383,Micromesistius_australis,Gadiformes,Fish,Cottoperca_trigloides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+384,Macrourus_carinatus,Gadiformes,Fish,Thalassarche_melanophris,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+385,Themisto_gaudichaudii,Malacostraca,Crustaceans,Tinerfe_cyanea,Ctenophora,Zooplankton,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+386,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Tinerfe_cyanea,Ctenophora,Zooplankton,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+387,Micromesistius_australis,Gadiformes,Fish,Macronectes_giganteus,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+388,Sprattus_fuegensis,Clupeiformes,Sardinas,Macronectes_giganteus,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+389,Micromesistius_australis,Gadiformes,Fish,Macronectes_halli,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+390,Sprattus_fuegensis,Clupeiformes,Sardinas,Macronectes_halli,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+391,Phytoplankton,Phytoplankton,Phytoplankton,Drepanopus_forcipatus,Copepoda,Zooplankton,Hunter,Primary_producer,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+392,RhinCalanoida_gigas,Copepoda,Zooplankton,Gorgonocephalus_chilensis,Ophiuroidea,Ophiuroids,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+393,Grimothea_gregaria,Malacostraca,Crustaceans,Macronectes_giganteus,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+394,Doryteuthis_gahi,Cephalopoda,Cephalopods,Macronectes_giganteus,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+395,Iluocoetes_fimbriatus,Perciformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+396,Doryteuthis_gahi,Cephalopoda,Cephalopods,Lagenorhynchus_cruciger,Delphinidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+397,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+398,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+399,Micromesistius_australis,Gadiformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+400,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+401,Micromesistius_australis,Gadiformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+402,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+403,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+404,Micromesistius_australis,Gadiformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+405,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+406,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+407,Micromesistius_australis,Gadiformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+408,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+409,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+410,Micromesistius_australis,Gadiformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+411,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+412,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+413,Micromesistius_australis,Gadiformes,Fish,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+414,Polychaeta,Polychaeta,Zooplankton,Themisto_gaudichaudii,Malacostraca,Crustaceans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+415,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Themisto_gaudichaudii,Malacostraca,Crustaceans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+416,Themisto_gaudichaudii,Malacostraca,Crustaceans,Daption_capense,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+417,Themisto_gaudichaudii,Malacostraca,Crustaceans,Eudyptes_chrysocome,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+418,Macrourus_carinatus,Gadiformes,Fish,Thalassarche_chrysostoma,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+419,Macrourus_holotrachys,Gadiformes,Fish,Thalassarche_chrysostoma,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+420,Coelorinchus_fasciatus,Gadiformes,Fish,Thalassarche_chrysostoma,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+421,Pseudechinus_magellanicus,Echinoidea,Echinoderm,Paralomis_granulosa,Decapoda,Crustaceans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+422,Gastropoda_others,Gastropoda,Gastropods,Paralomis_granulosa,Decapoda,Crustaceans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+423,Themisto_gaudichaudii,Malacostraca,Crustaceans,Sprattus_fuegensis,Clupeiformes,Sardinas,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+424,Ophidiidae,Ophidiiformes,Fish,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+425,Phytoplankton,Phytoplankton,Phytoplankton,Neocalanoida_tonsus,Copepoda,Zooplankton,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+426,Doryteuthis_gahi,Cephalopoda,Cephalopods,Thalassarche_melanophris,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+427,Micromesistius_australis,Gadiformes,Fish,Thalassarche_melanophris,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+428,Doryteuthis_gahi,Cephalopoda,Cephalopods,Thalassarche_chrysostoma,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+429,Doryteuthis_gahi,Cephalopoda,Cephalopods,Fulmarus_glacialoides,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+430,Doryteuthis_gahi,Cephalopoda,Cephalopods,Eudyptes_chrysocome,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+431,Micromesistius_australis,Gadiformes,Fish,Spheniscus_magellanicus,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+432,Grimothea_gregaria,Malacostraca,Crustaceans,Balaenoptera_physalus,Balaenopteridae,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+433,Sprattus_fuegensis,Clupeiformes,Sardinas,Spheniscus_magellanicus,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+434,Coelorinchus_fasciatus,Gadiformes,Fish,Ophidiidae,Ophidiiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+435,Salilota_australis,Gadiformes,Fish,Ophidiidae,Ophidiiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+436,Micromesistius_australis,Gadiformes,Fish,Ophidiidae,Ophidiiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+437,Patagonotothen_guntheri,Perciformes,Fish,Thalassarche_melanophris,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+438,Themisto_gaudichaudii,Malacostraca,Crustaceans,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+439,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ophidiidae,Ophidiiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+440,Pagurus_comptus,Decapoda,Crustaceans,Coelorinchus_fasciatus,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+441,Themisto_gaudichaudii,Malacostraca,Crustaceans,Coelorinchus_fasciatus,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+442,Grimothea_gregaria,Malacostraca,Crustaceans,Coelorinchus_fasciatus,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+443,Pagurus_comptus,Decapoda,Crustaceans,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+444,Phytoplankton,Phytoplankton,Phytoplankton,Paralomis_granulosa,Decapoda,Crustaceans,Hunter,Primary_producer,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+445,Themisto_gaudichaudii,Malacostraca,Crustaceans,Ardenna_gravis,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+446,Doryteuthis_gahi,Cephalopoda,Cephalopods,Ardenna_gravis,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+447,Themisto_gaudichaudii,Malacostraca,Crustaceans,Puffinus_griseus,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+448,Doryteuthis_gahi,Cephalopoda,Cephalopods,Puffinus_griseus,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+449,Themisto_gaudichaudii,Malacostraca,Crustaceans,Balaenoptera_acutorostrata,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+450,Themisto_gaudichaudii,Malacostraca,Crustaceans,Balaenoptera_acutorostrata,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+451,Grimothea_gregaria,Malacostraca,Crustaceans,Balaenoptera_acutorostrata,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+452,Micromesistius_australis,Gadiformes,Fish,Balaenoptera_acutorostrata,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+453,Themisto_gaudichaudii,Malacostraca,Crustaceans,Balaenoptera_bonaerensis,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+454,Themisto_gaudichaudii,Malacostraca,Crustaceans,Balaenoptera_bonaerensis,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+455,Themisto_gaudichaudii,Malacostraca,Crustaceans,Balaenoptera_borealis,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+456,Themisto_gaudichaudii,Malacostraca,Crustaceans,Balaenoptera_borealis,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+457,Grimothea_gregaria,Malacostraca,Crustaceans,Balaenoptera_borealis,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+458,Themisto_gaudichaudii,Malacostraca,Crustaceans,Balaenoptera_physalus,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+459,Themisto_gaudichaudii,Malacostraca,Crustaceans,Balaenoptera_physalus,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+460,Coelorinchus_fasciatus,Gadiformes,Fish,Ophidiidae,Ophidiiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+461,Polychaeta,Polychaeta,Zooplankton,Daption_capense,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+462,Doryteuthis_gahi,Cephalopoda,Cephalopods,Daption_capense,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+463,Doryteuthis_gahi,Cephalopoda,Cephalopods,Daption_capense,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+464,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Daption_capense,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+465,RhinCalanoida_gigas,Copepoda,Zooplankton,Daption_capense,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+466,Doryteuthis_gahi,Cephalopoda,Cephalopods,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+467,Doryteuthis_gahi,Cephalopoda,Cephalopods,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+468,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+469,Grimothea_gregaria,Malacostraca,Crustaceans,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+470,Pagurus_comptus,Decapoda,Crustaceans,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+471,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Thalassarche_chrysostoma,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+472,Sprattus_fuegensis,Clupeiformes,Sardinas,Lagenorhynchus_cruciger,Delphinidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+473,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Micromesistius_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+474,Neocalanoida_tonsus,Copepoda,Zooplankton,Balaenoptera_physalus,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+475,Doryteuthis_gahi,Cephalopoda,Cephalopods,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+476,Ophidiidae,Ophidiiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+477,Themisto_gaudichaudii,Malacostraca,Crustaceans,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+478,Cirratulidae,Polychaeta,Zooplankton,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+479,Tinerfe_cyanea,Ctenophora,Zooplankton,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+480,Polychaeta,Polychaeta,Zooplankton,Pelagobia_longicirrata,Polychaeta,Zooplankton,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+481,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Pelagobia_longicirrata,Polychaeta,Zooplankton,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+482,Pelagobia_longicirrata,Polychaeta,Zooplankton,RhinCalanoida_gigas,Copepoda,Zooplankton,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+483,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,CtenoCalanoida_vanus,Copepoda,Zooplankton,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+484,Phytoplankton,Phytoplankton,Phytoplankton,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Hunter,Primary_producer,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+485,Pelagobia_longicirrata,Polychaeta,Zooplankton,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+486,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+487,Doryteuthis_gahi,Cephalopoda,Cephalopods,Salilota_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+488,Doryteuthis_gahi,Cephalopoda,Cephalopods,Spheniscus_magellanicus,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+489,Pagurus_comptus,Decapoda,Crustaceans,Thalassarche_chrysostoma,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+490,Patagonotothen_guntheri,Perciformes,Fish,Thalassarche_chrysostoma,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+491,Macrourus_holotrachys,Gadiformes,Fish,Thalassarche_melanophris,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+492,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Ophidiidae,Ophidiiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+493,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Squalus_acanthias,Squaliformes, Chondrichthyans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+494,Eukrohnia_hamata,Chaetognatha,Zooplankton,Sprattus_fuegensis,Clupeiformes,Sardinas,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+495,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Sprattus_fuegensis,Clupeiformes,Sardinas,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+496,Pseudechinus_magellanicus,Echinoidea,Erizos,Cosmasterias_lurida,Asteroidea,Asteroideos,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+497,CtenoCalanoida_vanus,Copepoda,Zooplankton,Sprattus_fuegensis,Clupeiformes,Sardinas,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+498,Drepanopus_forcipatus,Copepoda,Zooplankton,Sprattus_fuegensis,Clupeiformes,Sardinas,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+499,Neocalanoida_tonsus,Copepoda,Zooplankton,Sprattus_fuegensis,Clupeiformes,Sardinas,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+500,Sprattus_fuegensis,Clupeiformes,Sardinas,Ardenna_gravis,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+501,Sprattus_fuegensis,Clupeiformes,Sardinas,Puffinus_griseus,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+502,Sprattus_fuegensis,Clupeiformes,Sardinas,Daption_capense,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+503,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Eudyptes_chrysocome,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+504,Themisto_gaudichaudii,Malacostraca,Crustaceans,Fulmarus_glacialoides,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+505,Sprattus_fuegensis,Clupeiformes,Sardinas,Fulmarus_glacialoides,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+506,Doryteuthis_gahi,Cephalopoda,Cephalopods,Macronectes_halli,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+507,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Spheniscus_magellanicus,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+508,Grimothea_gregaria,Malacostraca,Crustaceans,Spheniscus_magellanicus,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+509,Doryteuthis_gahi,Cephalopoda,Cephalopods,Thalassarche_melanophris,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+510,Sprattus_fuegensis,Clupeiformes,Sardinas,Thalassarche_melanophris,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+511,Sprattus_fuegensis,Clupeiformes,Sardinas,Balaenoptera_acutorostrata,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+512,CtenoCalanoida_vanus,Copepoda,Zooplankton,Balaenoptera_acutorostrata,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+513,Drepanopus_forcipatus,Copepoda,Zooplankton,Balaenoptera_acutorostrata,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+514,Neocalanoida_tonsus,Copepoda,Zooplankton,Balaenoptera_acutorostrata,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+515,Sprattus_fuegensis,Clupeiformes,Sardinas,Balaenoptera_bonaerensis,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+516,CtenoCalanoida_vanus,Copepoda,Zooplankton,Balaenoptera_bonaerensis,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+517,Drepanopus_forcipatus,Copepoda,Zooplankton,Balaenoptera_bonaerensis,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+518,Neocalanoida_tonsus,Copepoda,Zooplankton,Balaenoptera_bonaerensis,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+519,Sprattus_fuegensis,Clupeiformes,Sardinas,Balaenoptera_borealis,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+520,CtenoCalanoida_vanus,Copepoda,Zooplankton,Balaenoptera_borealis,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+521,Drepanopus_forcipatus,Copepoda,Zooplankton,Balaenoptera_borealis,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+522,Neocalanoida_tonsus,Copepoda,Zooplankton,Balaenoptera_borealis,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+523,RhinCalanoida_gigas,Copepoda,Zooplankton,Balaenoptera_borealis,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+524,Sprattus_fuegensis,Clupeiformes,Sardinas,Balaenoptera_physalus,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+525,Sprattus_fuegensis,Clupeiformes,Sardinas,Balaenoptera_physalus,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+526,CtenoCalanoida_vanus,Copepoda,Zooplankton,Balaenoptera_physalus,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+527,Drepanopus_forcipatus,Copepoda,Zooplankton,Balaenoptera_physalus,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+528,RhinCalanoida_gigas,Copepoda,Zooplankton,Balaenoptera_physalus,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+529,CtenoCalanoida_vanus,Copepoda,Zooplankton,Eubalaena_australis,Cetartiodactyla,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+530,Drepanopus_forcipatus,Copepoda,Zooplankton,Eubalaena_australis,Cetartiodactyla,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+531,Neocalanoida_tonsus,Copepoda,Zooplankton,Eubalaena_australis,Cetartiodactyla,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+532,RhinCalanoida_gigas,Copepoda,Zooplankton,Eubalaena_australis,Cetartiodactyla,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+533,Doryteuthis_gahi,Cephalopoda,Cephalopods,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+534,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+535,Grimothea_gregaria,Malacostraca,Crustaceans,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+536,Patagonotothen_guntheri,Perciformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+537,Patagonotothen_ramsayi,Perciformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+538,Sprattus_fuegensis,Clupeiformes,Sardinas,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+539,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+540,Grimothea_gregaria,Malacostraca,Crustaceans,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+541,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+542,Macrourus_carinatus,Gadiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+543,Macrourus_holotrachys,Gadiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+544,Salilota_australis,Gadiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+545,Patagonotothen_guntheri,Perciformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+546,Patagonotothen_ramsayi,Perciformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+547,Coelorinchus_fasciatus,Gadiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+548,Salilota_australis,Gadiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+549,Micromesistius_australis,Gadiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+550,Sprattus_fuegensis,Clupeiformes,Sardinas,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+551,Electrona_spp,Myctophiformes,Fish,Thalassarche_melanophris,Birds,Sea birds,Hunter,Heterotroph,Arata_etal_2004,https://doi.org/10.1017/S095410200400207X,Inferred from Electrona antartica and Electrona carlsbergi
+552,Electrona_spp,Myctophiformes,Fish,Thalassarche_melanophris,Birds,Sea birds,Hunter,Heterotroph,Arata_etal_2004,https://doi.org/10.1017/S095410200400207X,Inferred from Electrona antartica and Electrona carlsbergi
+553,Micromesistius_australis,Gadiformes,Fish,Thalassarche_melanophris,Birds,Sea birds,Hunter,Heterotroph,Arata_etal_2004,https://doi.org/10.1017/S095410200400207X,
+554,Doryteuthis_gahi,Cephalopoda,Cephalopods,Globicephala_melaena,Delphinidae,Sea mammals,Hunter,Heterotroph,Clarke_etal_1994,10.1017/S0954102094000234,
+555,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Globicephala_melaena,Delphinidae,Sea mammals,Hunter,Heterotroph,Clarke_etal_1994,10.1017/S0954102094000234,Inferred from Octopoda
+556,Mesonychoteuthis_hamiltonii,Cephalopoda,Cephalopods,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Clarke_etal_1994,10.1017/S0954102094000234,
+557,Moroteuthis_ingens,Cephalopoda,Cephalopods,Globicephala_melas,Delphinidae,Sea mammals,Hunter,Heterotroph,Mansilla_etal_2012,10.1007/s00300-012-1222-3,
+558,Copepoda_others,Copepoda,Zooplankton,Caperea_marginata,Neobalaenidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,
+559,Merluccius_hubbsi,Gadiformes,Fish,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,
+560,Decapoda_others,Decapoda,Crustaceans,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,
+561,Otaria_flBirdscens,Carnivora,Sea mammals,Orcinus_orca,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,Inferred from Otariidae
+562,Spheniscus_magellanicus,Birds,Sea birds,Orcinus_orca,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,
+563,Doryteuthis_gahi,Cephalopoda,Cephalopods,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,
+564,Doryteuthis_gahi,Cephalopoda,Cephalopods,Lissodelphis_peroniia,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,
+565,Electrona_spp,Myctophiformes,Fish,Lissodelphis_peroniia,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,Inferred from Myctophidae
+566,Gymnoscopelus_spp,Myctophiformes,Fish,Lissodelphis_peroniia,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,Inferred from Myctophidae
+567,Krefftichthys_andersoni,Myctophiformes,Fish,Lissodelphis_peroniia,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,Inferred from Myctophidae
+568,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,Inferred from Octopoda
+569,Doryteuthis_gahi,Cephalopoda,Cephalopods,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,
+570,Salilota_australis,Gadiformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,
+571,Merluccius_hubbsi,Gadiformes,Fish_Demersal,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,
+572,Decapoda_others,Decapoda,Crustaceans,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,
+573,Ophidiidae,Ophidiiformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,
+574,Merluccius_australis,Gadiformes,Fish_Demersal,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,
+575,Myxine_spp,Myxiniformes,Fish_Demersal,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,Inferred from Myxine australis
+576,Iluocoetes_fimbriatus,Perciformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,Inferred from Zoarcidae
+577,Illex_argentinus,Cephalopoda,Cephalopods,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,
+578,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,
+579,Grimothea_gregaria,Decapoda,Crustaceans,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,
+580,Decapoda_others,Decapoda,Crustaceans,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,
+581,Mactridae_spp,Bivalvia, Mollusks,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,
+582,Salpidae_spp,Thaliacea,Zooplankton,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Schiavini_etal_1997,https://oceanrep.geomar.de/id/eprint/53025,
+583,Sprattus_fuegensis,Clupeiformes,Sardinas,Megaptera_novaeangliae,Balaenopteridae,Sea mammals,Filter,Heterotroph,Haro_etal_2016,https://repositorio.uchile.cl/handle/2250/141272,
+584,Grimothea_gregaria,Malacostraca,Crustaceans,Megaptera_novaeangliae,Balaenopteridae,Sea mammals,Filter,Heterotroph,Haro_etal_2016,https://repositorio.uchile.cl/handle/2250/141272,
+585,Euphausiidae,Euphausiacea,Crustaceans,Megaptera_novaeangliae,Balaenopteridae,Sea mammals,Filter,Heterotroph,Haro_etal_2016,https://repositorio.uchile.cl/handle/2250/141272,
+586,Electrona_spp,Myctophiformes,Fish,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,Daneri_etal_2002,https://link.springer.com/article/10.1007/s00300-002-0408-5,Inferred from Electrona antartica and Electrona carlsbergi
+587,Gymnoscopelus_spp,Myctophiformes,Fish,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,Daneri_etal_2002,https://link.springer.com/article/10.1007/s00300-002-0408-5,Inferred from Gymnoscopelus nicholsi and Gymnoscopelus hintonoides
+588,Krefftichthys_andersoni,Myctophiformes,Fish,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,Daneri_etal_2002,https://link.springer.com/article/10.1007/s00300-002-0408-5,Inferred from Myctophidae
+589,Electrona_spp,Myctophiformes,Fish,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,Daneri_etal_2002,https://link.springer.com/article/10.1007/s00300-002-0408-5,Inferred from Electrona antartica and Electrona carlsbergi
+590,Lepidonotothen,Nototheniidae,Fish,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,Daneri_etal_2002,https://link.springer.com/article/10.1007/s00300-002-0408-5,
+591,Pagetopsis_sp,Perciformes,Fish,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,Daneri_etal_2002,https://link.springer.com/article/10.1007/s00300-002-0408-5,
+592,Merluccius_hubbsi,Gadiformes,Fish_Demersal,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,Belleggia_etal_2021,https://ri.conicet.gov.ar/handle/11336/167927,
+593,Micromesistius_australis,Perciformes,Fish,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,Belleggia_etal_2021,https://ri.conicet.gov.ar/handle/11336/167927,
+594,Salilota_australis,Gadiformes,Fish,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,Belleggia_etal_2021,https://ri.conicet.gov.ar/handle/11336/167927,Inferred from Moridae
+595,Salilota_australis,Gadiformes,Fish,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,Belleggia_etal_2021,https://ri.conicet.gov.ar/handle/11336/167927,
+596,Macrourus_holotrachys,Gadiformes,Fish,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,Belleggia_etal_2021,https://ri.conicet.gov.ar/handle/11336/167927,
+597,Coelorinchus_fasciatus,Gadiformes,Fish,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,Belleggia_etal_2021,https://ri.conicet.gov.ar/handle/11336/167927,
+598,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,Belleggia_etal_2021,https://ri.conicet.gov.ar/handle/11336/167927,
+599,Patagonotothen_ramsayi,Perciformes,Fish,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,Belleggia_etal_2021,https://ri.conicet.gov.ar/handle/11336/167927,
+600,Ophidiidae,Ophidiiformes,Fish,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,Belleggia_etal_2021,https://ri.conicet.gov.ar/handle/11336/167927,
+601,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,Belleggia_etal_2021,https://ri.conicet.gov.ar/handle/11336/167927,
+602,Sprattus_fuegensis,Clupeiformes,Sardinas,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,Belleggia_etal_2021,https://ri.conicet.gov.ar/handle/11336/167927,
+603,Merluccius_australis,Gadiformes,Fish_Demersal,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,Belleggia_etal_2021,https://ri.conicet.gov.ar/handle/11336/167927,
+604,Illex_argentinus,Cephalopoda,Cephalopods,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,Belleggia_etal_2021,https://ri.conicet.gov.ar/handle/11336/167927,
+605,Grimothea_gregaria,Malacostraca,Crustaceans,Lamna_nasus,Lamniformes, Chondrichthyans,Hunter,Heterotroph,Belleggia_etal_2021,https://ri.conicet.gov.ar/handle/11336/167927,
+606,Detritus,Non-living,Non-living,Grimothea_gregaria,Malacostraca,Crustaceans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+607,Macrourus_carinatus,Gadiformes,Fish,Thalassarche_chrysostoma,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+608,Macrourus_holotrachys,Gadiformes,Fish,Thalassarche_chrysostoma,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+609,Coelorinchus_fasciatus,Gadiformes,Fish,Thalassarche_chrysostoma,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+610,Necromass,Non-living,Non-living,Thalassarche_chrysostoma,Birds,Sea birds,Hunter,Carroñero,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+611,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Diomedea_exulans,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+612,Themisto_gaudichaudii,Malacostraca,Crustaceans,Diomedea_exulans,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+613,Necromass,Non-living,Non-living,Diomedea_exulans,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+614,Doryteuthis_gahi,Cephalopoda,Cephalopods,Diomedea_exulans,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+615,Macrourus_holotrachys,Gadiformes,Fish,Diomedea_exulans,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+616,Euphausiidae,Euphausiacea,Crustaceans,Diomedea_exulans,Birds,Sea birds,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+617,Phytoplankton,Phytoplankton,Phytoplankton,Grimothea_gregaria,Malacostraca,Crustaceans,Hunter,Primary_producer,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+618,Polychaeta,Polychaeta,Zooplankton,Grimothea_gregaria,Malacostraca,Crustaceans,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+619,Detritus,Non-living,Non-living,Grimothea_gregaria,Malacostraca,Crustaceans,Hunter,Detritus,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+621,Detritus,Non-living,Non-living,Campylonotus_vagans,Decapoda,Crustaceans,Filter,Detritus,Lovrich_pers.com.,NA,
+622,Polychaeta,Polychaeta,Zooplankton,Campylonotus_vagans,Decapoda,Crustaceans,Hunter,Heterotroph,Lovrich_pers.com.,NA,
+623,Detritus,Non-living,Non-living,Cirratulidae,Polychaeta,Zooplankton,Filter,Detritus,Jumars_etal_2015,https://doi.org/10.1146/annurev-marine-010814-020007,
+624,Foraminifera,Foraminifera,Phytoplankton,Cirratulidae,Polychaeta,Zooplankton,Filter,Primary_producer,GloBI,https://www.globalbioticinteractions.org/browse/?interactionType=interactsWith&resultType=json&sourceTaxon=Foraminifera,
+625,Ichthyoplankton,Ichthyoplankton,Ichthyoplankton,Eukrohnia_hamata,Zooplankton,Zooplankton,Hunter,Heterotroph,Bruno_pers.com.,NA,
+626,Detritus,Non-living,Non-living,Pagurus_comptus,Decapoda,Crustaceans,Filter,Detritus,Kamsay_etal_1996,https://doi.org/10.3354/meps144063,
+627,Necromass,Non-living,Non-living,Pagurus_comptus,Decapoda,Crustaceans,Scavenger,Necromass,Kamsay_etal_1996,https://doi.org/10.3354/meps144063,
+628,Polychaeta,Polychaeta,Zooplankton,Pagurus_comptus,Decapoda,Crustaceans,Hunter,Heterotroph,Kamsay_etal_1996,https://doi.org/10.3354/meps144063,
+629,Cumacea,Cumacea,Crustaceans,Pagurus_comptus,Decapoda,Crustaceans,Hunter,Heterotroph,Encyclopedia of Life,https://eol.org/pages/46505264,
+630,Liothyrella_uva,Brachiopoda,Brachiopods,Pagurus_comptus,Decapoda,Crustaceans,Hunter,Heterotroph,Lovrich_pers.com.,NA,
+631,Magellania_venosa,Brachiopoda,Brachiopods,Pagurus_comptus,Decapoda,Crustaceans,Hunter,Heterotroph,Lovrich_pers.com.,NA,
+632,Terebratella_dorsata,Brachiopoda,Brachiopods,Pagurus_comptus,Decapoda,Crustaceans,Hunter,Heterotroph,Lovrich_pers.com.,NA,
+633,Amphipoda,Amphipoda,Crustaceans,Pseudechinus_magellanicus,Echinoidea,Erizos,Hunter,Heterotroph,Penchaszadeh_etal_2004,https://doi.org/10.1080/00785326.2004.10410216,
+634,Foraminifera,Foraminifera,Phytoplankton,Pseudechinus_magellanicus,Echinoidea,Erizos,Filter,Primary_producer,Penchaszadeh_etal_2004,https://doi.org/10.1080/00785326.2004.10410216,
+635,Gastropoda_others,Gastropoda,Gastropods,Pseudechinus_magellanicus,Echinoidea,Erizos,Hunter,Heterotroph,Penchaszadeh_etal_2004,https://doi.org/10.1080/00785326.2004.10410216,Inferred from Odostomia sp
+636,Gastropoda_others,Gastropoda,Gastropods,Pseudechinus_magellanicus,Echinoidea,Erizos,Hunter,Heterotroph,Penchaszadeh_etal_2004,https://doi.org/10.1080/00785326.2004.10410216,Inferred from Turbonilla strebeli
+637,Polychaeta,Polychaeta,Zooplankton,Pseudechinus_magellanicus,Echinoidea,Erizos,Hunter,Heterotroph,Penchaszadeh_etal_2004,https://doi.org/10.1080/00785326.2004.10410216,
+638,Themisto_gaudichaudii,Amphipoda,Crustaceans,Illex_argentinus,Cephalopoda,Cephalopods,Hunter,Heterotroph,Ivanovic_etal_1994,https://doi.org/10.1017/S0954102094000295,
+639,Euphausiidae,Euphausiacea,Crustaceans,Illex_argentinus,Cephalopoda,Cephalopods,Hunter,Heterotroph,Ivanovic_etal_1994,https://doi.org/10.1017/S0954102094000295,Inferred from Euphausia lucens
+640,Doryteuthis_gahi,Cephalopoda,Cephalopods,Illex_argentinus,Cephalopoda,Cephalopods,Hunter,Heterotroph,Ivanovic_etal_1994,https://doi.org/10.1017/S0954102094000295,
+641,Gymnoscopelus_spp,Myctophiformes,Fish,Illex_argentinus,Cephalopoda,Cephalopods,Hunter,Heterotroph,Ivanovic_etal_1994,https://doi.org/10.1017/S0954102094000295,Inferred from Gymnoscopelus nicholsi and Gymnoscopelus hintonoides
+642,Calanoida,Copepoda,Zooplankton,Illex_argentinus,Cephalopoda,Cephalopods,Hunter,Heterotroph,Ivanovic_etal_1994,https://doi.org/10.1017/S0954102094000295,
+643,Ostracoda,Crustacea,Crustaceans,Illex_argentinus,Cephalopoda,Cephalopods,Hunter,Heterotroph,Ivanovic_etal_1994,https://doi.org/10.1017/S0954102094000295,
+644,Gastropoda_others,Gastropoda,Gastropods,Illex_argentinus,Cephalopoda,Cephalopods,Hunter,Heterotroph,Mouat_etal_2001,https://doi.org/10.1016/S0165-7836(01)00229-6,
+645,Phytoplankton,Phytoplankton,Phytoplankton,Euphausiidae,Euphausiacea,Crustaceans,Hunter,Primary_producer,Hellessey_etal_2018,https://doi.org/10.1093/jcbiol/ruy053,
+646,Copepoda_others,Copepoda,Zooplankton,Euphausiidae,Euphausiacea,Crustaceans,Hunter,Heterotroph,Hellessey_etal_2018,https://doi.org/10.1093/jcbiol/ruy053,
+647,Euphausiidae,Euphausiacea,Crustaceans,Doryteuthis_gahi,Cephalopoda,Cephalopods,Hunter,Heterotroph,Brunetti_etal_1999,http://hdl.handle.net/1834/2336,
+648,Zooplankton,Zooplankton,Zooplankton,Doryteuthis_gahi,Cephalopoda,Cephalopods,Hunter,Heterotroph,Brunetti_etal_1999,http://hdl.handle.net/1834/2336,
+649,Doryteuthis_gahi,Cephalopoda,Cephalopods,Micromesistius_australis,Gadiformes,Fish,Hunter,Heterotroph,Brunetti_etal_1999,http://hdl.handle.net/1834/2336,
+650,Doryteuthis_gahi,Cephalopoda,Cephalopods,Merluccius_hubbsi,Gadiformes,Fish_Demersal,Hunter,Heterotroph,Brunetti_etal_1999,http://hdl.handle.net/1834/2336,
+651,Themisto_gaudichaudii,Amphipoda,Crustaceans,Electrona_spp,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,Inferred from Electrona antartica and Electrona carlsbergi
+652,Calanoida,Copepoda,Zooplankton,Electrona_spp,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,Inferred from Electrona antartica and Electrona carlsbergi
+653,Copepoda_others,Copepoda,Zooplankton,Electrona_spp,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,Inferred from Electrona antartica and Electrona carlsbergi
+654,Euphausiidae,Euphausiacea,Crustaceans,Electrona_spp,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,Inferred from Electrona antartica and Electrona carlsbergi
+655,Salpidae_spp,Thaliacea,Zooplankton,Electrona_spp,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,Inferred from Electrona antartica and Electrona carlsbergi
+656,Themisto_gaudichaudii,Amphipoda,Crustaceans,Gymnoscopelus_spp,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,Inferred from Gymnoscopelus nicholsi and Gymnoscopelus hintonoides
+657,Calanoida,Copepoda,Zooplankton,Gymnoscopelus_spp,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,Inferred from Gymnoscopelus nicholsi and Gymnoscopelus hintonoides
+658,Copepoda_others,Copepoda,Zooplankton,Gymnoscopelus_spp,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,Inferred from Gymnoscopelus nicholsi and Gymnoscopelus hintonoides
+659,Decapoda_others,Decapoda,Crustaceans,Gymnoscopelus_spp,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,Inferred from Gymnoscopelus nicholsi and Gymnoscopelus hintonoides
+660,Euphausiidae,Euphausiacea,Crustaceans,Gymnoscopelus_spp,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,Inferred from Gymnoscopelus nicholsi and Gymnoscopelus hintonoides
+661,Ostracoda,Crustacea,Crustaceans,Gymnoscopelus_spp,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,Inferred from Gymnoscopelus nicholsi and Gymnoscopelus hintonoides
+662,Salpidae_spp,Thaliacea,Zooplankton,Gymnoscopelus_spp,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,Inferred from Gymnoscopelus nicholsi and Gymnoscopelus hintonoides
+663,Themisto_gaudichaudii,Amphipoda,Crustaceans,Krefftichthys_andersoni,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,
+664,Calanoida,Copepoda,Zooplankton,Krefftichthys_andersoni,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,
+665,Copepoda_others,Copepoda,Zooplankton,Krefftichthys_andersoni,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,Inferred from Metridia sp
+666,Euphausiidae,Euphausiacea,Crustaceans,Krefftichthys_andersoni,Myctophiformes,Fish,Hunter,Heterotroph,Shreeve_etal_2009,https://www.int-res.com/articles/meps2009/386/m386p221.pdf,
+667,Decapoda_others,Decapoda,Crustaceans,Merluccius_australis,Gadiformes,Fish_Demersal,Hunter,Heterotroph,Dunn_etal_2010,https://doi.org/10.1371/journal.pone.0013647,
+668,Euphausiidae,Euphausiacea,Crustaceans,Macruronus_magellanicus,Gadiformes,Fish_Demersal,Hunter,Heterotroph,Alvarez_etal_2022,https://doi.org/10.1007/s00300-022-03063-y,
+669,Grimothea_gregaria,Malacostraca,Crustaceans,Macruronus_magellanicus,Gadiformes,Fish_Demersal,Hunter,Heterotroph,Alvarez_etal_2022,https://doi.org/10.1007/s00300-022-03063-y,
+670,Sprattus_fuegensis,Clupeiformes,Sardinas,Macruronus_magellanicus,Gadiformes,Fish_Demersal,Hunter,Heterotroph,Alvarez_etal_2022,https://doi.org/10.1007/s00300-022-03063-y,
+671,Detritus,Non-living,Non-living,Liothyrella_uva,Brachiopoda,Brachiopods,Suspension-feeder,Detritus,Steele-Petrovic_1976,https://www.palass.org/publications/palaeontology-jo,
+672,Detritus,Non-living,Non-living,Magellania_venosa,Brachiopoda,Brachiopods,Suspension-feeder,Detritus,Steele-Petrovic_1976,https://www.palass.org/publications/palaeontology-jo,
+673,Detritus,Non-living,Non-living,Terebratella_dorsata,Brachiopoda,Brachiopods,Suspension-feeder,Detritus,Steele-Petrovic_1976,https://www.palass.org/publications/palaeontology-jo,
+674,Phytoplankton,Phytoplankton,Phytoplankton,Salpidae_spp,Thaliacea,Zooplankton,Filter,Primary_producer,,,
+675,Phytoplankton,Phytoplankton,Phytoplankton,Polychaeta,Polychaeta,Zooplankton,Filter,Primary_producer,,,
+676,Zooplankton,Zooplankton,Zooplankton,Polychaeta,Polychaeta,Zooplankton,Filter,Heterotroph,,,
+677,Polychaeta,Polychaeta,Zooplankton,Odonthestes_spp,Atheriniformes,Fish,Hunter,Heterotroph,Garcia_1994,https://hal.sorbonne-universite.fr/hal-03047971,Inferred from Odontesthes smitti
+678,Isopoda_others,Isopoda,Crustaceans,Odonthestes_spp,Atheriniformes,Fish,Hunter,Heterotroph,Garcia_1994,https://hal.sorbonne-universite.fr/hal-03047971,Inferred from Odontesthes smitti
+679,Decapoda_others,Malacostraca,Crustaceans,Odonthestes_spp,Atheriniformes,Fish,Hunter,Heterotroph,Garcia_1994,https://hal.sorbonne-universite.fr/hal-03047971,Inferred from Odontesthes smitti
+680,Amphipoda,Amphipoda,Crustaceans,Odonthestes_spp,Atheriniformes,Fish,Hunter,Heterotroph,Lattuca_etal_2015,https://doi.org/10.1016/j.ecss.2015.03.019,Inferred from Odontesthes nigricans
+681,Euphausiidae,Euphausiacea,Crustaceans,Odonthestes_spp,Atheriniformes,Fish,Hunter,Heterotroph,Lattuca_etal_2016,https://doi.org/10.1016/j.ecss.2015.03.019,Inferred from Odontesthes nigricans
+682,Polychaeta,Polychaeta,Zooplankton,Odonthestes_spp,Atheriniformes,Fish,Hunter,Heterotroph,Lattuca_etal_2017,https://doi.org/10.1016/j.ecss.2015.03.019,Inferred from Odontesthes nigricans
+683,Phytoplankton,Phytoplankton,Phytoplankton,Zooplankton,Zooplankton,Zooplankton,Hunter,Primary_producer,,,
+684,Phytoplankton,Phytoplankton,Phytoplankton,Ichthyoplankton,Ichthyoplankton,Ichthyoplankton,Hunter,Primary_producer,,,
+685,Zooplankton,Zooplankton,Zooplankton,Ichthyoplankton,Ichthyoplankton,Ichthyoplankton,Hunter,Heterotroph,,,
+686,Detritus,Non-living,Non-living,Ostracoda,Crustacea,Crustaceans,Filter,Detritus,,,
+687,Phytoplankton,Phytoplankton,Phytoplankton,Ostracoda,Crustacea,Crustaceans,Filter,Primary_producer,,,
+688,Phytoplankton,Phytoplankton,Phytoplankton,Mactridae_spp,Bivalvia, Mollusks,Filter,Primary_producer,,,
+689,Phytoplankton,Phytoplankton,Phytoplankton,Calanoida,Copepoda,Zooplankton,Filter,Primary_producer,,,
+690,Euphausiidae,Euphausiacea,Crustaceans,Nototheniops_larseni ,Nototheniidae,Fish,Hunter,Heterotroph,Kock_1985,,Inferred from Nototheniops larseni 
+691,Calanoida,Copepoda,Zooplankton,Pleuragramma_antarcticum,Nototheniidae,Fish,Hunter,Heterotroph,Kellermann_1987,https://doi.org/10.1007/BF00443949,
+692,Euphausiidae,Euphausiacea,Crustaceans,Pleuragramma_antarcticum,Nototheniidae,Fish,Hunter,Heterotroph,Kellermann_1987,https://doi.org/10.1007/BF00443949,
+693,Themisto_gaudichaudii,Amphipoda,Crustaceans,Pseudochaenichthys_georgianus,Perciformes,Fish,Hunter,Heterotroph,Clarke_etal_2007,https://doi.org/10.1017/S0954102008000990,
+694,Decapoda_others,Decapoda,Crustaceans,Pseudochaenichthys_georgianus,Perciformes,Fish,Hunter,Heterotroph,Clarke_etal_2007,https://doi.org/10.1017/S0954102008000990,
+695,Euphausiidae,Euphausiacea,Crustaceans,Pseudochaenichthys_georgianus,Perciformes,Fish,Hunter,Heterotroph,Clarke_etal_2007,https://doi.org/10.1017/S0954102008000990,
+696,Electrona_spp,Myctophiformes,Fish,Pseudochaenichthys_georgianus,Perciformes,Fish,Hunter,Heterotroph,Clarke_etal_2007,https://doi.org/10.1017/S0954102008000990,
+697,Gymnoscopelus_spp,Myctophiformes,Fish,Pseudochaenichthys_georgianus,Perciformes,Fish,Hunter,Heterotroph,Clarke_etal_2007,https://doi.org/10.1017/S0954102008000990,
+698,Krefftichthys_andersoni,Myctophiformes,Fish,Pseudochaenichthys_georgianus,Perciformes,Fish,Hunter,Heterotroph,Clarke_etal_2007,https://doi.org/10.1017/S0954102008000990,
+699,Necromass,Non-living,Non-living,Myxine_spp,Myxiniformes,Fish_Demersal,Deposit-feeder,Detritus,FishBase,https://www.fishbase.de/summary/Myxine-glutinosa.ht,
+700,Detritus,Non-living,Non-living,Myxine_spp,Myxiniformes,Fish_Demersal,Deposit-feeder,Detritus,GloBI,https://www.globalbioticinteractions.org/browse/?intera,
+701,Pagurus_comptus,Decapoda,Crustaceans,Myxine_spp,Myxiniformes,Fish_Demersal,Deposit-feeder,Detritus,GloBI,https://www.globalbioticinteractions.org/browse/?intera,
+702,Myxine_spp,Myxiniformes,Fish_Demersal,Bathyraja_brachyurops,Rajiformes, Chondrichthyans,Hunter,Heterotroph,Brickle_etal_2003; Bellegia_etal_2019,https://doi.org/10.1017/S0025315403008373h; https:,
+703,Myxine_spp,Myxiniformes,Fish_Demersal,Micromesistius_australis,Gadiformes,Fish,Hunter,Heterotroph,Brickle_etal_2009,https://doi.org/10.1016/j.ecss.2009.06.007,
+704,Liothyrella_uva,Brachiopoda,Brachiopods,Decapoda_others,Decapoda,Crustaceans,Hunter,Heterotroph,Gordillo_etal_2019,https://doi.org/10.1007/s12526-019-00935-1,
+705,Magellania_venosa,Brachiopoda,Brachiopods,Decapoda_others,Decapoda,Crustaceans,Hunter,Heterotroph,Gordillo_etal_2019,https://doi.org/10.1007/s12526-019-00935-1,
+706,Terebratella_dorsata,Brachiopoda,Brachiopods,Decapoda_others,Decapoda,Crustaceans,Hunter,Heterotroph,Gordillo_etal_2019,https://doi.org/10.1007/s12526-019-00935-1,
+707,Detritus,Non-living,Non-living,Isopoda_others,Isopoda,Crustaceans,Filter,Detritus,Doti_pers.com.,,
+708,Detritus,Non-living,Non-living,Gastropoda_others,Gastropoda,Gastropods,Filter,Detritus,Encyclopedia of Life,https://eol.org/pages/19661450; https://eol.org/pages/51274446; https://eol.org/pages/4870678,
+709,Polychaeta,Polychaeta,Zooplankton,Gastropoda_others,Gastropoda,Gastropods,Hunter,Heterotroph,Encyclopedia of Life,https://eol.org/pages/51509488,
+710,Copepoda_others,Copepoda,Zooplankton,Amphipoda,Amphipoda,Crustaceans,Suspension-feeder,Heterotroph,Dauby_etal_2001,https://doi.org/10.1023/A:1017596120422,Inferred from Jassa sp
+711,Liothyrella_uva,Brachiopoda,Brachiopods,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Gordillo_etal_2019,https://doi.org/10.1007/s12526-019-00935-1,
+712,Liothyrella_uva,Brachiopoda,Brachiopods,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Gordillo_etal_2019,https://doi.org/10.1007/s12526-019-00935-1,
+713,Magellania_venosa,Brachiopoda,Brachiopods,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Gordillo_etal_2019; CovattiAle_etal_2022,https://doi.org/10.1007/s12526-019-00935-1; https://d,
+714,Magellania_venosa,Brachiopoda,Brachiopods,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Gordillo_etal_2019,https://doi.org/10.1007/s12526-019-00935-1,
+715,Terebratella_dorsata,Brachiopoda,Brachiopods,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Gordillo_etal_2019,https://doi.org/10.1007/s12526-019-00935-1,
+716,Terebratella_dorsata,Brachiopoda,Brachiopods,Patagonotothen_ramsayi,Perciformes,Fish,Hunter,Heterotroph,Gordillo_etal_2019,https://doi.org/10.1007/s12526-019-00935-1,
+717,Polychaeta,Polychaeta,Zooplankton,Macrouridae,Gadiformes,Fish,Hunter,Heterotroph,GloBI,https://www.globalbioticinteractions.org/browse/?intera,
+718,Macrouridae,Gadiformes,Fish,Micromesistius_australis,Gadiformes,Fish,Hunter,Heterotroph,FishBase,http://www.fishbase.us/TrophicEco/DietCompoSumma,
+719,Amphipoda,Amphipoda,Crustaceans,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
+720,Campylonotus_vagans,Decapoda,Crustaceans,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
+721,Patagonotothen_ramsayi,Perciformes,Fish,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
+722,Coelorinchus_fasciatus,Gadiformes,Fish,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
+723,Iluocoetes_fimbriatus,Perciformes,Fish,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
+724,Sprattus_fuegensis,Clupeiformes,Sardinas,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
+725,Isopoda_others,Isopoda,Crustaceans,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
+726,Eukrohnia_hamata,Chaetognatha,Zooplankton,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
+727,Euphausiidae,Euphausiacea,Crustaceans,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
+728,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
+729,Tinerfe_cyanea,Ctenophora,Zooplankton,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
+730,Pagurus_comptus,Decapoda,Crustaceans,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
+731,Polychaeta,Polychaeta,Zooplankton,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
+732,Macrourus_carinatus,Gadiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Riccialdelli_pers.com.,NA,
+733,Macrourus_carinatus,Gadiformes,Fish,Thalassarche_chrysostoma,Birds,Sea birds,Hunter,Heterotroph,Catry_etal_2004,https://doi.org/10.3354/meps280261,
+734,Macrourus_carinatus,Gadiformes,Fish,Thalassarche_melanophris,Procellariiformes,Sea birds,Hunter,Heterotroph,Xavier_etal_2003,https://doi.org/10.1046/j.1474-919X.2003.00196.x,
+735,Phytoplankton,Phytoplankton,Phytoplankton,Polyplacophora,Polyplacophora,Poliplacoforos,Grazer,Primary_producer,Encyclopedia of Life,https://eol.org/pages/4941339,
+736,Detritus,Non-living,Non-living,Polyplacophora,Polyplacophora,Poliplacoforos,Deposit-feeder,Detritus,Sirenko_abstract,NA,
+737,Euphausiidae,Euphausiacea,Crustaceans,Champsocephalus_gunnari,Perciformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+738,Calanoida,Copepoda,Zooplankton,Champsocephalus_gunnari,Perciformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+739,Copepoda_others,Copepoda,Zooplankton,Champsocephalus_gunnari,Perciformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+740,Notothenia_coriiceps,Nototheniidae,Fish,Champsocephalus_gunnari,Perciformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+741,Electrona_spp,Myctophiformes,Fish,Champsocephalus_gunnari,Perciformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+742,Champsocephalus_gunnari,Perciformes,Fish,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+743,Champsocephalus_gunnari,Perciformes,Fish,Balaenoptera_physalus,Balaenopteridae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+744,Champsocephalus_gunnari,Perciformes,Fish,Orcinus_orca,Delphinidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+745,Champsocephalus_gunnari,Perciformes,Fish,Lagenorhynchus_cruciger,Delphinidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+746,Euphausiidae,Euphausiacea,Crustaceans,Pagetopsis_sp,Perciformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+747,Electrona_spp,Myctophiformes,Fish,Pagetopsis_sp,Perciformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+748,Gymnoscopelus_spp,Myctophiformes,Fish,Pagetopsis_sp,Perciformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+749,Pleuragramma_antarcticum,Nototheniidae,Fish,Pagetopsis_sp,Perciformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+750,Notothenia_coriiceps,Nototheniidae,Fish,Pagetopsis_sp,Perciformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+751,Macrourus_holotrachys,Gadiformes,Fish,Pagetopsis_sp,Perciformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+752,Harpagiferidae_sp,Perciformes,Fish,Pagetopsis_sp,Perciformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+753,Euphausiidae,Euphausiacea,Crustaceans,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+754,Pleuragramma_antarcticum,Nototheniidae,Fish,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+755,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Mesonychoteuthis_hamiltonii,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+756,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Macrourus_holotrachys,Gadiformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+757,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+758,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Balaenoptera_physalus,Balaenopteridae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+759,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Orcinus_orca,Delphinidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+760,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Lagenorhynchus_cruciger,Delphinidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+761,Euphausiidae,Euphausiacea,Crustaceans,Martialia_hyadesi,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+762,Gonatus_antarcticus,Cephalopoda,Cephalopods,Martialia_hyadesi,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+763,Pleuragramma_antarcticum,Nototheniidae,Fish,Martialia_hyadesi,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+764,Electrona_spp,Myctophiformes,Fish,Martialia_hyadesi,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+765,Gymnoscopelus_spp,Myctophiformes,Fish,Martialia_hyadesi,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+766,Champsocephalus_gunnari,Perciformes,Fish,Martialia_hyadesi,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+767,Martialia_hyadesi,Cephalopoda,Cephalopods,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+768,Martialia_hyadesi,Cephalopoda,Cephalopods,Orcinus_orca,Delphinidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+769,Martialia_hyadesi,Cephalopoda,Cephalopods,Lagenorhynchus_cruciger,Delphinidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+770,Martialia_hyadesi,Cephalopoda,Cephalopods,Balaenoptera_physalus,Balaenopteridae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+771,Martialia_hyadesi,Cephalopoda,Cephalopods,Mesonychoteuthis_hamiltonii,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+772,Euphausiidae,Euphausiacea,Crustaceans,Moroteuthis_ingens,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+773,Calanoida,Copepoda,Zooplankton,Moroteuthis_ingens,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+774,Copepoda_others,Copepoda,Zooplankton,Moroteuthis_ingens,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+775,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Moroteuthis_ingens,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+776,Kondakovia_longimana,Cephalopoda,Cephalopods,Moroteuthis_ingens,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+777,Gonatus_antarcticus,Cephalopoda,Cephalopods,Moroteuthis_ingens,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+778,Mesonychoteuthis_hamiltonii,Cephalopoda,Cephalopods,Moroteuthis_ingens,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+779,Martialia_hyadesi,Cephalopoda,Cephalopods,Moroteuthis_ingens,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+780,Pleuragramma_antarcticum,Nototheniidae,Fish,Moroteuthis_ingens,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+781,Electrona_spp,Myctophiformes,Fish,Moroteuthis_ingens,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+782,Gymnoscopelus_spp,Myctophiformes,Fish,Moroteuthis_ingens,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+783,Euphausiidae,Euphausiacea,Crustaceans,Gonatus_antarcticus,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+784,Electrona_spp,Myctophiformes,Fish,Gonatus_antarcticus,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+785,Pleuragramma_antarcticum,Nototheniidae,Fish,Gonatus_antarcticus,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+786,Gymnoscopelus_spp,Myctophiformes,Fish,Gonatus_antarcticus,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+787,Champsocephalus_gunnari,Perciformes,Fish,Gonatus_antarcticus,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+788,Gonatus_antarcticus,Cephalopoda,Cephalopods,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+789,Gonatus_antarcticus,Cephalopoda,Cephalopods,Orcinus_orca,Delphinidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+790,Gonatus_antarcticus,Cephalopoda,Cephalopods,Lagenorhynchus_cruciger,Delphinidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+791,Gonatus_antarcticus,Cephalopoda,Cephalopods,Balaenoptera_physalus,Balaenopteridae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+792,Euphausiidae,Euphausiacea,Crustaceans,Kondakovia_longimana,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+793,Kondakovia_longimana,Cephalopoda,Cephalopods,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+794,Kondakovia_longimana,Cephalopoda,Cephalopods,Orcinus_orca,Delphinidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+795,Kondakovia_longimana,Cephalopoda,Cephalopods,Lagenorhynchus_cruciger,Delphinidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+796,Kondakovia_longimana,Cephalopoda,Cephalopods,Balaenoptera_physalus,Balaenopteridae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+797,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Mesonychoteuthis_hamiltonii,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+798,Moroteuthis_ingens,Cephalopoda,Cephalopods,Mesonychoteuthis_hamiltonii,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+799,Kondakovia_longimana,Cephalopoda,Cephalopods,Mesonychoteuthis_hamiltonii,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+800,Gonatus_antarcticus,Cephalopoda,Cephalopods,Mesonychoteuthis_hamiltonii,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+801,Martialia_hyadesi,Cephalopoda,Cephalopods,Mesonychoteuthis_hamiltonii,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+802,Eukrohnia_hamata,Chaetognatha,Zooplankton,Mesonychoteuthis_hamiltonii,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+803,Mesonychoteuthis_hamiltonii,Cephalopoda,Cephalopods,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+804,Mesonychoteuthis_hamiltonii,Cephalopoda,Cephalopods,Orcinus_orca,Delphinidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+805,Mesonychoteuthis_hamiltonii,Cephalopoda,Cephalopods,Lagenorhynchus_cruciger,Delphinidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+806,Mesonychoteuthis_hamiltonii,Cephalopoda,Cephalopods,Balaenoptera_physalus,Balaenopteridae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+807,Euphausiidae,Euphausiacea,Crustaceans,Galiteuthis_glacialis,Cephalopoda,Cephalopods,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+808,Galiteuthis_glacialis,Cephalopoda,Cephalopods,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+809,Galiteuthis_glacialis,Cephalopoda,Cephalopods,Orcinus_orca,Delphinidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+810,Galiteuthis_glacialis,Cephalopoda,Cephalopods,Lagenorhynchus_cruciger,Delphinidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+811,Galiteuthis_glacialis,Cephalopoda,Cephalopods,Balaenoptera_physalus,Balaenopteridae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+812,Isopoda_others,Isopoda,Isopodos,Trematomus_scotti,Nototheniidae,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+813,Trematomus_scotti,Nototheniidae,Fish,Notothenia_coriiceps,Nototheniidae,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+814,Trematomus_scotti,Nototheniidae,Fish,Macrourus_holotrachys,Gadiformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+815,Trematomus_scotti,Nototheniidae,Fish,Pagetopsis_sp,Perciformes,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+816,Trematomus_scotti,Nototheniidae,Fish,Mirounga_leonina,Phocidae,Sea mammals,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+817,Themisto_gaudichaudii,Amphipoda,Crustaceans,Trematomus_scotti,Nototheniidae,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+818,Calanoida,Copepoda,Zooplankton,Trematomus_scotti,Nototheniidae,Fish,Hunter,Heterotroph,GATEWAy,https://doi.org/10.25829/IDIV.283-3-756,Inferred from Weddell Sea ecosystem
+819,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Mastigoteuthis_spp,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+820,Bathyteuthis_abyssicola,Cephalopoda,Cephalopods,Mastigoteuthis_spp,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+821,Batoteuthis_skolops,Cephalopoda,Cephalopods,Mastigoteuthis_spp,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+822,Calanoida,Copepoda,Zooplankton,Mastigoteuthis_spp,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+823,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Mastigoteuthis_spp,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+824,Euphausiidae,Euphausiacea,Crustaceans,Mastigoteuthis_spp,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+825,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Filippovia_knipovitchi,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+826,Bathyteuthis_abyssicola,Cephalopoda,Cephalopods,Filippovia_knipovitchi,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+827,Batoteuthis_skolops,Cephalopoda,Cephalopods,Filippovia_knipovitchi,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+828,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Batoteuthis_skolops,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+829,Bathyteuthis_abyssicola,Cephalopoda,Cephalopods,Batoteuthis_skolops,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+830,Batoteuthis_skolops,Cephalopoda,Cephalopods,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+831,Batoteuthis_skolops,Cephalopoda,Cephalopods,Bathyteuthis_abyssicola,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+832,Batoteuthis_skolops,Cephalopoda,Cephalopods,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+833,Batoteuthis_skolops,Cephalopoda,Cephalopods,Galiteuthis_glacialis,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+834,Batoteuthis_skolops,Cephalopoda,Cephalopods,Gonatus_antarcticus,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+835,Batoteuthis_skolops,Cephalopoda,Cephalopods,Kondakovia_longimana,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+836,Batoteuthis_skolops,Cephalopoda,Cephalopods,Histioteuthis_eltaninae,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+837,Batoteuthis_skolops,Cephalopoda,Cephalopods,Mastigoteuthis_spp,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+838,Electrona_spp,Myctophiformes,Fish,Batoteuthis_skolops,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+839,Euphausiidae,Euphausiacea,Crustaceans,Batoteuthis_skolops,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+840,Galiteuthis_glacialis,Cephalopoda,Cephalopods,Batoteuthis_skolops,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+841,Gymnoscopelus_spp,Myctophiformes,Fish,Batoteuthis_skolops,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+842,Histioteuthis_eltaninae,Cephalopoda,Cephalopods,Batoteuthis_skolops,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+843,Pleuragramma_antarcticum,Nototheniidae,Fish,Batoteuthis_skolops,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+844,Themisto_gaudichaudii,Amphipoda,Crustaceans,Batoteuthis_skolops,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+845,Alluroteuthis_antarcticus,Cephalopoda,Cephalopods,Histioteuthis_eltaninae,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+846,Bathyteuthis_abyssicola,Cephalopoda,Cephalopods,Histioteuthis_eltaninae,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+847,Electrona_spp,Myctophiformes,Fish,Histioteuthis_eltaninae,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+848,Filippovia_knipovitchi,Cephalopoda,Cephalopods,Histioteuthis_eltaninae,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+849,Galiteuthis_glacialis,Cephalopoda,Cephalopods,Histioteuthis_eltaninae,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+850,Gonatus_antarcticus,Cephalopoda,Cephalopods,Histioteuthis_eltaninae,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+851,Gymnoscopelus_spp,Myctophiformes,Fish,Histioteuthis_eltaninae,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+852,Kondakovia_longimana,Cephalopoda,Cephalopods,Histioteuthis_eltaninae,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+853,Mastigoteuthis_spp,Cephalopoda,Cephalopods,Histioteuthis_eltaninae,Cephalopoda,Cephalopods,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
+854,Phytoplankton,Phytoplankton,Phytoplankton,Copepoda_others,Copepoda,Zooplankton,Hunter,Heterotroph,Lopez-Lopez_etal_2022,https://doi.org/10.1007/s10021-021-00665-1,Inferred from Scotia Sea ecosystem
