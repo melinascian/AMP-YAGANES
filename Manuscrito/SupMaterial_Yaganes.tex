@@ -1,0 +1,2329 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[vmargin=1in,hmargin=1in]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{amsmath}
+\usepackage{pdflscape,booktabs}
+\usepackage{lscape}
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
+\usepackage[running]{lineno}
+\linenumbers
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\section{Supplementary Material for `Enhancing the analysis of the
+pelagic food web within the oceanic Marine Protected Area Yaganes and
+its surrounding
+areas'}\label{supplementary-material-for-enhancing-the-analysis-of-the-pelagic-food-web-within-the-oceanic-marine-protected-area-yaganes-and-its-surrounding-areas}
+
+\subsection{Methodology}\label{methodology}
+
+\subsubsection{Food web construction}\label{food-web-construction}
+
+The following figure and tables summarise the data we used to build the
+network of trophic (predator-prey) interactions for the Marine Protected
+Area Yaganes ecosystem. Table 1 is the complete list of trophic
+interactions and references that confirm each of them. Table 2 is the
+species list with details on trophic species cases (aggregated taxa).
+
+\newpage
+\begin{landscape}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1299}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1299}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1299}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.4803}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1299}}@{}}
+\caption{List of predator-prey (trophic) interactions used to build the
+network for the Marine Protected Area Yaganes ecosystem
+(MPAY).}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Prey
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Predator
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Reference
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Link
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Observations
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Prey
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Predator
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Reference
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Link
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Observations
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\tiny Euphausiidae & \tiny Alluroteuthis\_antarcticus & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Pleuragramma\_antarcticum & \tiny Alluroteuthis\_antarcticus &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Batoteuthis\_skolops & \tiny Alluroteuthis\_antarcticus &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Copepoda\_others & \tiny Amphipoda & \tiny Dauby\_etal\_2001 &
+\tiny \url{https://doi.org/10.1023/A:1017596120422} & \tiny Inferred
+from Jassa sp \\
+\tiny Detritus & \tiny Anuropus\_antarcticus & \tiny & \tiny NA &
+\tiny \\
+\tiny Detritus & \tiny Anuropus\_australis & \tiny Schulutz, G. A.\_1975
+& \tiny \url{https://doi.org/10.1029/AR023p0069} & \tiny \\
+\tiny Themisto\_gaudichaudii & \tiny Ardenna\_gravis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Ardenna\_gravis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Ardenna\_gravis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Balaenoptera\_acutorostrata &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Balaenoptera\_acutorostrata &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Micromesistius\_australis & \tiny Balaenoptera\_acutorostrata &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Balaenoptera\_acutorostrata &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny CtenoCalanoida\_vanus & \tiny Balaenoptera\_acutorostrata &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Drepanopus\_forcipatus & \tiny Balaenoptera\_acutorostrata &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Neocalanoida\_tonsus & \tiny Balaenoptera\_acutorostrata &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Euphausiidae & \tiny Balaenoptera\_bonaerensis & \tiny Alvarez, F.
+et al\_2022 & \tiny \url{https://doi.org/10.1007/s00300-022-03080-x} &
+\tiny \\
+\tiny Themisto\_gaudichaudii & \tiny Balaenoptera\_bonaerensis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Balaenoptera\_bonaerensis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny CtenoCalanoida\_vanus & \tiny Balaenoptera\_bonaerensis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Drepanopus\_forcipatus & \tiny Balaenoptera\_bonaerensis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Neocalanoida\_tonsus & \tiny Balaenoptera\_bonaerensis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Euphausiidae & \tiny Balaenoptera\_borealis &
+\tiny Bassoi\_etal\_2020 & \tiny
+\url{https://doi.org/10.1007/s00300-019-02607-z} & \tiny \\
+\tiny Gymnoscopelus\_spp & \tiny Balaenoptera\_borealis &
+\tiny Bassoi\_etal\_2020 & \tiny
+\url{https://doi.org/10.1007/s00300-019-02607-z} & \tiny \\
+\tiny Krefftichthys\_andersoni & \tiny Balaenoptera\_borealis &
+\tiny Bassoi\_etal\_2020 & \tiny
+\url{https://doi.org/10.1007/s00300-019-02607-z} & \tiny \\
+\tiny Themisto\_gaudichaudii & \tiny Balaenoptera\_borealis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Balaenoptera\_borealis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Balaenoptera\_borealis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny CtenoCalanoida\_vanus & \tiny Balaenoptera\_borealis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Drepanopus\_forcipatus & \tiny Balaenoptera\_borealis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Neocalanoida\_tonsus & \tiny Balaenoptera\_borealis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny RhinCalanoida\_gigas & \tiny Balaenoptera\_borealis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Electrona\_spp & \tiny Balaenoptera\_physalus &
+\tiny Bassoi\_etal\_2020 & \tiny
+\url{https://doi.org/10.1007/s00300-019-02607-z} & \tiny \\
+\tiny Gymnoscopelus\_spp & \tiny Balaenoptera\_physalus &
+\tiny Bassoi\_etal\_2020 & \tiny
+\url{https://doi.org/10.1007/s00300-019-02607-z} & \tiny \\
+\tiny Krefftichthys\_andersoni & \tiny Balaenoptera\_physalus &
+\tiny Bassoi\_etal\_2020 & \tiny
+\url{https://doi.org/10.1007/s00300-019-02607-z} & \tiny \\
+\tiny Euphausiidae & \tiny Balaenoptera\_physalus &
+\tiny Bassoi\_etal\_2020 & \tiny
+\url{https://doi.org/10.1007/s00300-019-02607-z} & \tiny \\
+\tiny Grimothea\_gregaria & \tiny Balaenoptera\_physalus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Balaenoptera\_physalus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Neocalanoida\_tonsus & \tiny Balaenoptera\_physalus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Balaenoptera\_physalus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny CtenoCalanoida\_vanus & \tiny Balaenoptera\_physalus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Drepanopus\_forcipatus & \tiny Balaenoptera\_physalus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny RhinCalanoida\_gigas & \tiny Balaenoptera\_physalus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Champsocephalus\_gunnari & \tiny Balaenoptera\_physalus &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Alluroteuthis\_antarcticus & \tiny Balaenoptera\_physalus &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Martialia\_hyadesi & \tiny Balaenoptera\_physalus & \tiny GATEWAy
+& \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Gonatus\_antarcticus & \tiny Balaenoptera\_physalus &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Kondakovia\_longimana & \tiny Balaenoptera\_physalus &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Mesonychoteuthis\_hamiltonii & \tiny Balaenoptera\_physalus &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Galiteuthis\_glacialis & \tiny Balaenoptera\_physalus &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Tinerfe\_cyanea & \tiny Bathyraja\_brachyurops &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Bathyraja\_brachyurops &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Bathyraja\_brachyurops &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Enteroctopus\_megalocyathus & \tiny Bathyraja\_brachyurops &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Bathyraja\_brachyurops &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Cottoperca\_trigloides & \tiny Bathyraja\_brachyurops &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Dissostichus\_eleginoides & \tiny Bathyraja\_brachyurops &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Patagonotothen\_guntheri & \tiny Bathyraja\_brachyurops &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Patagonotothen\_ramsayi & \tiny Bathyraja\_brachyurops &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Micromesistius\_australis & \tiny Bathyraja\_brachyurops &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Bathyraja\_brachyurops &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Bathyraja\_brachyurops & \tiny Bathyraja\_brachyurops &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Ophidiidae & \tiny Bathyraja\_brachyurops &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Myxine\_spp & \tiny Bathyraja\_brachyurops &
+\tiny Brickle\_etal\_2003; Bellegia\_etal\_2019 & \tiny
+\url{https://doi.org/10.1017/S0025315403008373h}; https: & \tiny \\
+\tiny Tinerfe\_cyanea & \tiny Bathyraja\_macloviana &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Batoteuthis\_skolops & \tiny Bathyteuthis\_abyssicola &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Alluroteuthis\_antarcticus & \tiny Batoteuthis\_skolops &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Bathyteuthis\_abyssicola & \tiny Batoteuthis\_skolops &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Electrona\_spp & \tiny Batoteuthis\_skolops &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Euphausiidae & \tiny Batoteuthis\_skolops &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Galiteuthis\_glacialis & \tiny Batoteuthis\_skolops &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Gymnoscopelus\_spp & \tiny Batoteuthis\_skolops &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Histioteuthis\_eltaninae & \tiny Batoteuthis\_skolops &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Pleuragramma\_antarcticum & \tiny Batoteuthis\_skolops &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Batoteuthis\_skolops &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Phytoplankton & \tiny Calanoida & \tiny & \tiny & \tiny \\
+\tiny Detritus & \tiny Campylonotus\_vagans & \tiny Lovrich\_pers.com. &
+\tiny NA & \tiny \\
+\tiny Polychaeta & \tiny Campylonotus\_vagans & \tiny Lovrich\_pers.com.
+& \tiny NA & \tiny \\
+\tiny Copepoda\_others & \tiny Caperea\_marginata &
+\tiny Goodall\_etal\_1985 & \tiny 10.1007/978-3-642-82275-9\_77 &
+\tiny \\
+\tiny Euphausiidae & \tiny Champsocephalus\_gunnari & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Calanoida & \tiny Champsocephalus\_gunnari & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Copepoda\_others & \tiny Champsocephalus\_gunnari & \tiny GATEWAy
+& \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Notothenia\_coriiceps & \tiny Champsocephalus\_gunnari &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Electrona\_spp & \tiny Champsocephalus\_gunnari & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Detritus & \tiny Cirratulidae & \tiny Jumars\_etal\_2015 & \tiny
+\url{https://doi.org/10.1146/annurev-marine-010814-020007} & \tiny \\
+\tiny Foraminifera & \tiny Cirratulidae & \tiny GloBI & \tiny
+\url{https://www.globalbioticinteractions.org/browse/?interactionType=interactsWith&resultType=json&sourceTaxon=Foraminifera}
+& \tiny \\
+\tiny Doryteuthis\_gahi & \tiny Coelorinchus\_fasciatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pagurus\_comptus & \tiny Coelorinchus\_fasciatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Coelorinchus\_fasciatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Coelorinchus\_fasciatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Phytoplankton & \tiny Copepoda\_others &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Pseudechinus\_magellanicus & \tiny Cosmasterias\_lurida &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Cottoperca\_trigloides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Tinerfe\_cyanea & \tiny Cottoperca\_trigloides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Dissostichus\_eleginoides & \tiny Cottoperca\_trigloides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Patagonotothen\_ramsayi & \tiny Cottoperca\_trigloides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Bathyraja\_brachyurops & \tiny Cottoperca\_trigloides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Iluocoetes\_fimbriatus & \tiny Cottoperca\_trigloides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Cottoperca\_trigloides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Salilota\_australis & \tiny Cottoperca\_trigloides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Micromesistius\_australis & \tiny Cottoperca\_trigloides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Enteroctopus\_megalocyathus & \tiny Cottunculus\_granulosus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Cottunculus\_granulosus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Patagonotothen\_ramsayi & \tiny Cottunculus\_granulosus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Coelorinchus\_fasciatus & \tiny Cottunculus\_granulosus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Phytoplankton & \tiny CtenoCalanoida\_vanus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pseudosagitta\_gazellae & \tiny CtenoCalanoida\_vanus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Daption\_capense &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Polychaeta & \tiny Daption\_capense & \tiny Marina\_etal\_inrev. &
+\tiny NA & \tiny Inferred from Burdwood Bank ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Daption\_capense &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pseudosagitta\_gazellae & \tiny Daption\_capense &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny RhinCalanoida\_gigas & \tiny Daption\_capense &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Daption\_capense &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Liothyrella\_uva & \tiny Decapoda\_others &
+\tiny Gordillo\_etal\_2019 & \tiny
+\url{https://doi.org/10.1007/s12526-019-00935-1} & \tiny \\
+\tiny Magellania\_venosa & \tiny Decapoda\_others &
+\tiny Gordillo\_etal\_2019 & \tiny
+\url{https://doi.org/10.1007/s12526-019-00935-1} & \tiny \\
+\tiny Terebratella\_dorsata & \tiny Decapoda\_others &
+\tiny Gordillo\_etal\_2019 & \tiny
+\url{https://doi.org/10.1007/s12526-019-00935-1} & \tiny \\
+\tiny Dissostichus\_eleginoides & \tiny Diomedea\_exulans &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Diomedea\_exulans &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Necromass & \tiny Diomedea\_exulans & \tiny Marina\_etal\_inrev. &
+\tiny NA & \tiny Inferred from Burdwood Bank ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Diomedea\_exulans &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Macrourus\_holotrachys & \tiny Diomedea\_exulans &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Euphausiidae & \tiny Diomedea\_exulans &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Odonthestes\_spp & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny \\
+\tiny Sprattus\_fuegensis & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny \\
+\tiny Harpagiferidae\_sp & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny \\
+\tiny Lamna\_nasus & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny \\
+\tiny Merluccius\_australis & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny \\
+\tiny Salilota\_australis & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny Inferred from
+Moridae \\
+\tiny Electrona\_spp & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny Inferred from
+Myctophidae \\
+\tiny Gymnoscopelus\_spp & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny Inferred from
+Myctophidae \\
+\tiny Krefftichthys\_andersoni & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny Inferred from
+Myctophidae \\
+\tiny Myxine\_spp & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny \\
+\tiny Ophidiidae & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny \\
+\tiny Bathyraja\_brachyurops & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny Inferred from
+Rajidae \\
+\tiny Bathyraja\_macloviana & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny Inferred from
+Rajidae \\
+\tiny Squaliformes & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny Inferred from
+Squalidae \\
+\tiny Iluocoetes\_fimbriatus & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny Inferred from
+Zoarcidae \\
+\tiny Patagonotothen\_guntheri & \tiny Dissostichus\_eleginoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Micromesistius\_australis & \tiny Dissostichus\_eleginoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Macrourus\_holotrachys & \tiny Dissostichus\_eleginoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Patagonotothen\_ramsayi & \tiny Dissostichus\_eleginoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Coelorinchus\_fasciatus & \tiny Dissostichus\_eleginoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Dissostichus\_eleginoides & \tiny Dissostichus\_eleginoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Tinerfe\_cyanea & \tiny Dissostichus\_eleginoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Dissostichus\_eleginoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Dissostichus\_eleginoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Enteroctopus\_megalocyathus & \tiny Dissostichus\_eleginoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Dissostichus\_eleginoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pagurus\_comptus & \tiny Dissostichus\_eleginoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Merluccius\_hubbsi & \tiny Dissostichus\_eleginoides &
+\tiny pers.com.\_Claudia\_Boy & \tiny NA & \tiny \\
+\tiny Batoteuthis\_skolops & \tiny Dissostichus\_eleginoides &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Doryteuthis\_gahi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Doryteuthis\_gahi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Euphausiidae & \tiny Doryteuthis\_gahi &
+\tiny Brunetti\_etal\_1999 & \tiny \url{http://hdl.handle.net/1834/2336}
+& \tiny \\
+\tiny Zooplankton & \tiny Doryteuthis\_gahi & \tiny Brunetti\_etal\_1999
+& \tiny \url{http://hdl.handle.net/1834/2336} & \tiny \\
+\tiny Phytoplankton & \tiny Drepanopus\_forcipatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Electrona\_spp &
+\tiny Shreeve\_etal\_2009 & \tiny
+\url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny Inferred from Electrona antartica and Electrona carlsbergi \\
+\tiny Calanoida & \tiny Electrona\_spp & \tiny Shreeve\_etal\_2009 &
+\tiny \url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny Inferred from Electrona antartica and Electrona carlsbergi \\
+\tiny Copepoda\_others & \tiny Electrona\_spp &
+\tiny Shreeve\_etal\_2009 & \tiny
+\url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny Inferred from Electrona antartica and Electrona carlsbergi \\
+\tiny Euphausiidae & \tiny Electrona\_spp & \tiny Shreeve\_etal\_2009 &
+\tiny \url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny Inferred from Electrona antartica and Electrona carlsbergi \\
+\tiny Salpidae\_spp & \tiny Electrona\_spp & \tiny Shreeve\_etal\_2009 &
+\tiny \url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny Inferred from Electrona antartica and Electrona carlsbergi \\
+\tiny Enteroctopus\_megalocyathus & \tiny Enteroctopus\_megalocyathus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Enteroctopus\_megalocyathus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pagurus\_comptus & \tiny Enteroctopus\_megalocyathus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Paralomis\_granulosa & \tiny Enteroctopus\_megalocyathus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny CtenoCalanoida\_vanus & \tiny Eubalaena\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Drepanopus\_forcipatus & \tiny Eubalaena\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Neocalanoida\_tonsus & \tiny Eubalaena\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny RhinCalanoida\_gigas & \tiny Eubalaena\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Micromesistius\_australis & \tiny Eudyptes\_chrysocome &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Eudyptes\_chrysocome &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Eudyptes\_chrysocome &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Enteroctopus\_megalocyathus & \tiny Eudyptes\_chrysocome &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Amphipoda & \tiny Eudyptes\_chrysocome\_chrysocome &
+\tiny Rosciano\_etal\_2016 & \tiny
+\url{https://doi.org/10.3354/meps11689} & \tiny \\
+\tiny Ichthyoplankton & \tiny Eudyptes\_chrysocome\_chrysocome &
+\tiny Rosciano\_etal\_2016 & \tiny
+\url{https://doi.org/10.3354/meps11689} & \tiny \\
+\tiny Euphausiidae & \tiny Eudyptes\_chrysocome\_chrysocome &
+\tiny Rosciano\_etal\_2016 & \tiny
+\url{https://doi.org/10.3354/meps11689} & \tiny \\
+\tiny Ichthyoplankton & \tiny Eukrohnia\_hamata & \tiny Bruno\_pers.com.
+& \tiny NA & \tiny \\
+\tiny Phytoplankton & \tiny Euphausiidae & \tiny Hellessey\_etal\_2018 &
+\tiny \url{https://doi.org/10.1093/jcbiol/ruy053} & \tiny \\
+\tiny Copepoda\_others & \tiny Euphausiidae &
+\tiny Hellessey\_etal\_2018 & \tiny
+\url{https://doi.org/10.1093/jcbiol/ruy053} & \tiny \\
+\tiny Alluroteuthis\_antarcticus & \tiny Filippovia\_knipovitchi &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Bathyteuthis\_abyssicola & \tiny Filippovia\_knipovitchi &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Batoteuthis\_skolops & \tiny Filippovia\_knipovitchi &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Fulmarus\_glacialoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Fulmarus\_glacialoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Fulmarus\_glacialoides &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Euphausiidae & \tiny Galiteuthis\_glacialis & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Batoteuthis\_skolops & \tiny Galiteuthis\_glacialis &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Detritus & \tiny Gastropoda\_others & \tiny Encyclopedia of Life &
+\tiny \url{https://eol.org/pages/19661450};
+\url{https://eol.org/pages/51274446};
+\url{https://eol.org/pages/4870678} & \tiny \\
+\tiny Polychaeta & \tiny Gastropoda\_others & \tiny Encyclopedia of Life
+& \tiny \url{https://eol.org/pages/51509488} & \tiny \\
+\tiny Doryteuthis\_gahi & \tiny Globicephala\_melaena &
+\tiny Clarke\_etal\_1994 & \tiny 10.1017/S0954102094000234 & \tiny \\
+\tiny Enteroctopus\_megalocyathus & \tiny Globicephala\_melaena &
+\tiny Clarke\_etal\_1994 & \tiny 10.1017/S0954102094000234 &
+\tiny Inferred from Octopoda \\
+\tiny Moroteuthis\_ingens & \tiny Globicephala\_melas &
+\tiny Mansilla\_etal\_2012 & \tiny 10.1007/s00300-012-1222-3 & \tiny \\
+\tiny Calanoida & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Doryteuthis\_gahi & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Illex\_argentinus & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Enteroctopus\_megalocyathus & \tiny Globicephala\_melas\_edwardii
+& \tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Merluccius\_hubbsi & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Merluccius\_australis & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Macruronus\_magellanicus & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Salilota\_australis & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Micromesistius\_australis & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Dissostichus\_eleginoides & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Cottoperca\_trigloides & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Iluocoetes\_fimbriatus & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Lepidonotothen & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Pleuragramma\_antarcticum & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Nototheniops\_larseni & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Pseudochaenichthys\_georgianus & \tiny
+Globicephala\_melas\_edwardii & \tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Patagonotothen\_ramsayi & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Patagonotothen\_guntheri & \tiny Globicephala\_melas\_edwardii &
+\tiny Becker\_etal\_2021 & \tiny
+\url{https://doi.org/10.1007/s00300-021-02908-2} & \tiny \\
+\tiny Euphausiidae & \tiny Gonatus\_antarcticus & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Electrona\_spp & \tiny Gonatus\_antarcticus & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Pleuragramma\_antarcticum & \tiny Gonatus\_antarcticus &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Gymnoscopelus\_spp & \tiny Gonatus\_antarcticus & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Champsocephalus\_gunnari & \tiny Gonatus\_antarcticus &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Batoteuthis\_skolops & \tiny Gonatus\_antarcticus &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny RhinCalanoida\_gigas & \tiny Gorgonocephalus\_chilensis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Detritus & \tiny Grimothea\_gregaria & \tiny Marina\_etal\_inrev.
+& \tiny NA & \tiny Inferred from Burdwood Bank ecosystem \\
+\tiny Phytoplankton & \tiny Grimothea\_gregaria &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Polychaeta & \tiny Grimothea\_gregaria &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Gymnoscopelus\_spp &
+\tiny Shreeve\_etal\_2009 & \tiny
+\url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny Inferred from Gymnoscopelus nicholsi and Gymnoscopelus
+hintonoides \\
+\tiny Calanoida & \tiny Gymnoscopelus\_spp & \tiny Shreeve\_etal\_2009 &
+\tiny \url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny Inferred from Gymnoscopelus nicholsi and Gymnoscopelus
+hintonoides \\
+\tiny Copepoda\_others & \tiny Gymnoscopelus\_spp &
+\tiny Shreeve\_etal\_2009 & \tiny
+\url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny Inferred from Gymnoscopelus nicholsi and Gymnoscopelus
+hintonoides \\
+\tiny Decapoda\_others & \tiny Gymnoscopelus\_spp &
+\tiny Shreeve\_etal\_2009 & \tiny
+\url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny Inferred from Gymnoscopelus nicholsi and Gymnoscopelus
+hintonoides \\
+\tiny Euphausiidae & \tiny Gymnoscopelus\_spp &
+\tiny Shreeve\_etal\_2009 & \tiny
+\url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny Inferred from Gymnoscopelus nicholsi and Gymnoscopelus
+hintonoides \\
+\tiny Ostracoda & \tiny Gymnoscopelus\_spp & \tiny Shreeve\_etal\_2009 &
+\tiny \url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny Inferred from Gymnoscopelus nicholsi and Gymnoscopelus
+hintonoides \\
+\tiny Salpidae\_spp & \tiny Gymnoscopelus\_spp &
+\tiny Shreeve\_etal\_2009 & \tiny
+\url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny Inferred from Gymnoscopelus nicholsi and Gymnoscopelus
+hintonoides \\
+\tiny Euphausiidae & \tiny Harpagiferidae\_sp &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny Inferred from
+Harpagifer\_antarcticus \\
+\tiny Ostracoda & \tiny Harpagiferidae\_sp & \tiny Moreira\_etal\_2014 &
+\tiny \url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Polyplacophora & \tiny Harpagiferidae\_sp &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Amphipoda & \tiny Harpagiferidae\_sp & \tiny Moreira\_etal\_2014 &
+\tiny \url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Gastropoda\_others & \tiny Harpagiferidae\_sp &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny Inferred from
+Onoba sp \\
+\tiny Isopoda\_others & \tiny Harpagiferidae\_sp &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Batoteuthis\_skolops & \tiny Histioteuthis\_eltaninae &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Alluroteuthis\_antarcticus & \tiny Histioteuthis\_eltaninae &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Bathyteuthis\_abyssicola & \tiny Histioteuthis\_eltaninae &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Electrona\_spp & \tiny Histioteuthis\_eltaninae &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Filippovia\_knipovitchi & \tiny Histioteuthis\_eltaninae &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Galiteuthis\_glacialis & \tiny Histioteuthis\_eltaninae &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Gonatus\_antarcticus & \tiny Histioteuthis\_eltaninae &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Gymnoscopelus\_spp & \tiny Histioteuthis\_eltaninae &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Kondakovia\_longimana & \tiny Histioteuthis\_eltaninae &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Mastigoteuthis\_spp & \tiny Histioteuthis\_eltaninae &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Phytoplankton & \tiny Ichthyoplankton & \tiny & \tiny & \tiny \\
+\tiny Zooplankton & \tiny Ichthyoplankton & \tiny & \tiny & \tiny \\
+\tiny Themisto\_gaudichaudii & \tiny Illex\_argentinus &
+\tiny Ivanovic\_etal\_1994 & \tiny
+\url{https://doi.org/10.1017/S0954102094000295} & \tiny \\
+\tiny Euphausiidae & \tiny Illex\_argentinus &
+\tiny Ivanovic\_etal\_1994 & \tiny
+\url{https://doi.org/10.1017/S0954102094000295} & \tiny Inferred from
+Euphausia lucens \\
+\tiny Doryteuthis\_gahi & \tiny Illex\_argentinus &
+\tiny Ivanovic\_etal\_1994 & \tiny
+\url{https://doi.org/10.1017/S0954102094000295} & \tiny \\
+\tiny Gymnoscopelus\_spp & \tiny Illex\_argentinus &
+\tiny Ivanovic\_etal\_1994 & \tiny
+\url{https://doi.org/10.1017/S0954102094000295} & \tiny Inferred from
+Gymnoscopelus nicholsi and Gymnoscopelus hintonoides \\
+\tiny Calanoida & \tiny Illex\_argentinus & \tiny Ivanovic\_etal\_1994 &
+\tiny \url{https://doi.org/10.1017/S0954102094000295} & \tiny \\
+\tiny Ostracoda & \tiny Illex\_argentinus & \tiny Ivanovic\_etal\_1994 &
+\tiny \url{https://doi.org/10.1017/S0954102094000295} & \tiny \\
+\tiny Gastropoda\_others & \tiny Illex\_argentinus &
+\tiny Mouat\_etal\_2001 & \tiny
+\url{https://doi.org/10.1016/S0165-7836(01)00229-6} & \tiny \\
+\tiny Tinerfe\_cyanea & \tiny Iluocoetes\_fimbriatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Detritus & \tiny Isopoda\_others & \tiny Doti\_pers.com. & \tiny &
+\tiny \\
+\tiny Euphausiidae & \tiny Kondakovia\_longimana & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Batoteuthis\_skolops & \tiny Kondakovia\_longimana &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Krefftichthys\_andersoni &
+\tiny Shreeve\_etal\_2009 & \tiny
+\url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny \\
+\tiny Calanoida & \tiny Krefftichthys\_andersoni &
+\tiny Shreeve\_etal\_2009 & \tiny
+\url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny \\
+\tiny Copepoda\_others & \tiny Krefftichthys\_andersoni &
+\tiny Shreeve\_etal\_2009 & \tiny
+\url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny Inferred from Metridia sp \\
+\tiny Euphausiidae & \tiny Krefftichthys\_andersoni &
+\tiny Shreeve\_etal\_2009 & \tiny
+\url{https://www.int-res.com/articles/meps2009/386/m386p221.pdf} &
+\tiny \\
+\tiny Patagonotothen\_ramsayi & \tiny Lagenorhynchus\_australis &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny Inferred from
+Patagonotothen\_spp \\
+\tiny Patagonotothen\_guntheri & \tiny Lagenorhynchus\_australis &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny Inferred from
+Patagonotothen\_spp \\
+\tiny Nototheniops\_larseni & \tiny Lagenorhynchus\_australis &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Pleuragramma\_antarcticum & \tiny Lagenorhynchus\_australis &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Iluocoetes\_fimbriatus & \tiny Lagenorhynchus\_australis &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny Inferred from
+Zoarcidae \\
+\tiny Odonthestes\_spp & \tiny Lagenorhynchus\_australis &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Myxine\_spp & \tiny Lagenorhynchus\_australis &
+\tiny Goodall\_2009 & \tiny
+\url{https://doi.org/10.1016/B978-0-12-373553-9.00196-6} & \tiny \\
+\tiny Salilota\_australis & \tiny Lagenorhynchus\_australis &
+\tiny Goodall\_2009 & \tiny
+\url{https://doi.org/10.1016/B978-0-12-373553-9.00196-6} & \tiny \\
+\tiny Enteroctopus\_megalocyathus & \tiny Lagenorhynchus\_australis &
+\tiny Goodall\_2009 & \tiny
+\url{https://doi.org/10.1016/B978-0-12-373553-9.00196-6} & \tiny \\
+\tiny Doryteuthis\_gahi & \tiny Lagenorhynchus\_australis &
+\tiny Goodall\_2009 & \tiny
+\url{https://doi.org/10.1016/B978-0-12-373553-9.00196-6} & \tiny \\
+\tiny Grimothea\_gregaria & \tiny Lagenorhynchus\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Lagenorhynchus\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Merluccius\_hubbsi & \tiny Lagenorhynchus\_australis &
+\tiny Schiavini\_etal\_1997 & \tiny
+\url{https://oceanrep.geomar.de/id/eprint/53025} & \tiny \\
+\tiny Decapoda\_others & \tiny Lagenorhynchus\_australis &
+\tiny Schiavini\_etal\_1997 & \tiny
+\url{https://oceanrep.geomar.de/id/eprint/53025} & \tiny \\
+\tiny Ophidiidae & \tiny Lagenorhynchus\_australis &
+\tiny Schiavini\_etal\_1997 & \tiny
+\url{https://oceanrep.geomar.de/id/eprint/53025} & \tiny \\
+\tiny Merluccius\_australis & \tiny Lagenorhynchus\_australis &
+\tiny Schiavini\_etal\_1997 & \tiny
+\url{https://oceanrep.geomar.de/id/eprint/53025} & \tiny \\
+\tiny Illex\_argentinus & \tiny Lagenorhynchus\_australis &
+\tiny Schiavini\_etal\_1997 & \tiny
+\url{https://oceanrep.geomar.de/id/eprint/53025} & \tiny \\
+\tiny Mactridae\_spp & \tiny Lagenorhynchus\_australis &
+\tiny Schiavini\_etal\_1997 & \tiny
+\url{https://oceanrep.geomar.de/id/eprint/53025} & \tiny \\
+\tiny Salpidae\_spp & \tiny Lagenorhynchus\_australis &
+\tiny Schiavini\_etal\_1997 & \tiny
+\url{https://oceanrep.geomar.de/id/eprint/53025} & \tiny \\
+\tiny Electrona\_spp & \tiny Lagenorhynchus\_cruciger &
+\tiny Waerebeek\_etal\_2010 & \tiny
+\url{https://doi.org/10.47536/jcrm.v11i3.611} & \tiny \\
+\tiny Gymnoscopelus\_spp & \tiny Lagenorhynchus\_cruciger &
+\tiny Waerebeek\_etal\_2010 & \tiny
+\url{https://doi.org/10.47536/jcrm.v11i3.611} & \tiny \\
+\tiny Krefftichthys\_andersoni & \tiny Lagenorhynchus\_cruciger &
+\tiny Waerebeek\_etal\_2010 & \tiny
+\url{https://doi.org/10.47536/jcrm.v11i3.611} & \tiny \\
+\tiny Euphausiidae & \tiny Lagenorhynchus\_cruciger &
+\tiny Bassoi\_etal\_2020 & \tiny
+\url{https://doi.org/10.1007/s00300-019-02607-z} & \tiny \\
+\tiny Doryteuthis\_gahi & \tiny Lagenorhynchus\_cruciger &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Lagenorhynchus\_cruciger &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Champsocephalus\_gunnari & \tiny Lagenorhynchus\_cruciger &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Alluroteuthis\_antarcticus & \tiny Lagenorhynchus\_cruciger &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Martialia\_hyadesi & \tiny Lagenorhynchus\_cruciger &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Gonatus\_antarcticus & \tiny Lagenorhynchus\_cruciger &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Kondakovia\_longimana & \tiny Lagenorhynchus\_cruciger &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Mesonychoteuthis\_hamiltonii & \tiny Lagenorhynchus\_cruciger &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Galiteuthis\_glacialis & \tiny Lagenorhynchus\_cruciger &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Merluccius\_hubbsi & \tiny Lamna\_nasus & \tiny Belleggia, M. et
+al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14865} &
+\tiny \\
+\tiny Salilota\_australis & \tiny Lamna\_nasus & \tiny Belleggia, M. et
+al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny Infrered from Moridae \\
+\tiny Macrourus\_holotrachys & \tiny Lamna\_nasus & \tiny Belleggia, M.
+et al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny \\
+\tiny Coelorinchus\_fasciatus & \tiny Lamna\_nasus & \tiny Belleggia, M.
+et al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny \\
+\tiny Dissostichus\_eleginoides & \tiny Lamna\_nasus & \tiny Belleggia,
+M. et al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny \\
+\tiny Patagonotothen\_ramsayi & \tiny Lamna\_nasus & \tiny Belleggia, M.
+et al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny \\
+\tiny Merluccius\_australis & \tiny Lamna\_nasus & \tiny Belleggia, M.
+et al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny \\
+\tiny Ophidiidae & \tiny Lamna\_nasus & \tiny Belleggia, M. et al\_2021
+& \tiny \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866}
+& \tiny Inferred from Genypterus\_blacodes \\
+\tiny Bathyraja\_brachyurops & \tiny Lamna\_nasus & \tiny Belleggia, M.
+et al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny Inferred from Bathyraja\_brachyurops \\
+\tiny Bathyraja\_macloviana & \tiny Lamna\_nasus & \tiny Belleggia, M.
+et al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny \\
+\tiny Micromesistius\_australis & \tiny Lamna\_nasus & \tiny Belleggia,
+M. et al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny \\
+\tiny Sprattus\_fuegensis & \tiny Lamna\_nasus & \tiny Belleggia, M. et
+al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny \\
+\tiny Illex\_argentinus & \tiny Lamna\_nasus & \tiny Belleggia, M. et
+al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny \\
+\tiny Enteroctopus\_megalocyathus & \tiny Lamna\_nasus &
+\tiny Belleggia, M. et al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny \\
+\tiny Decapoda\_others & \tiny Lamna\_nasus & \tiny Belleggia, M. et
+al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny \\
+\tiny Euphausiidae & \tiny Lamna\_nasus & \tiny Belleggia, M. et
+al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny \\
+\tiny Grimothea\_gregaria & \tiny Lamna\_nasus & \tiny Belleggia, M. et
+al\_2021 & \tiny
+\url{https://onlinelibrary.wiley.com/doi/abs/10.1111/jfb.14866} &
+\tiny \\
+\tiny Grimothea\_gregaria & \tiny Lepidonotothen &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny Inferred from
+Munidae \\
+\tiny Euphausiidae & \tiny Lepidonotothen & \tiny Moreira\_etal\_2014 &
+\tiny \url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Ostracoda & \tiny Lepidonotothen & \tiny Moreira\_etal\_2014 &
+\tiny \url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Polyplacophora & \tiny Lepidonotothen & \tiny Moreira\_etal\_2014
+& \tiny \url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Amphipoda & \tiny Lepidonotothen & \tiny Moreira\_etal\_2014 &
+\tiny \url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny Inferred
+from Gondogeneia\_antarctica \\
+\tiny Gastropoda\_others & \tiny Lepidonotothen &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny Inferred from
+Onoba sp \\
+\tiny Isopoda\_others & \tiny Lepidonotothen & \tiny Moreira\_etal\_2014
+& \tiny \url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny Inferred
+from Gnathia sp \\
+\tiny Detritus & \tiny Liothyrella\_uva & \tiny Steele-Petrovic\_1976 &
+\tiny \url{https://www.palass.org/publications/palaeontology-jo} &
+\tiny \\
+\tiny Micromesistius\_australis & \tiny Lissodelphis\_peronii &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Coelorinchus\_fasciatus & \tiny Lissodelphis\_peronii &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Iluocoetes\_fimbriatus & \tiny Lissodelphis\_peronii &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Doryteuthis\_gahi & \tiny Lissodelphis\_peronii &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Illex\_argentinus & \tiny Lissodelphis\_peronii &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Doryteuthis\_gahi & \tiny Lissodelphis\_peroniia &
+\tiny Goodall\_etal\_1985 & \tiny 10.1007/978-3-642-82275-9\_77 &
+\tiny \\
+\tiny Electrona\_spp & \tiny Lissodelphis\_peroniia &
+\tiny Goodall\_etal\_1985 & \tiny 10.1007/978-3-642-82275-9\_77 &
+\tiny Inferred from Myctophidae \\
+\tiny Gymnoscopelus\_spp & \tiny Lissodelphis\_peroniia &
+\tiny Goodall\_etal\_1985 & \tiny 10.1007/978-3-642-82275-9\_77 &
+\tiny Inferred from Myctophidae \\
+\tiny Krefftichthys\_andersoni & \tiny Lissodelphis\_peroniia &
+\tiny Goodall\_etal\_1985 & \tiny 10.1007/978-3-642-82275-9\_77 &
+\tiny Inferred from Myctophidae \\
+\tiny Micromesistius\_australis & \tiny Macronectes\_giganteus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Macronectes\_giganteus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Macronectes\_giganteus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Macronectes\_giganteus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Micromesistius\_australis & \tiny Macronectes\_halli &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Macronectes\_halli &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Macronectes\_halli &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Polychaeta & \tiny Macrouridae & \tiny GloBI & \tiny
+\url{https://www.globalbioticinteractions.org/browse/?intera} & \tiny \\
+\tiny Campylonotus\_vagans & \tiny Macrourus\_carinatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Patagonotothen\_ramsayi & \tiny Macrourus\_carinatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Coelorinchus\_fasciatus & \tiny Macrourus\_carinatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Iluocoetes\_fimbriatus & \tiny Macrourus\_carinatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Macrourus\_carinatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Eukrohnia\_hamata & \tiny Macrourus\_carinatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pseudosagitta\_gazellae & \tiny Macrourus\_carinatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Tinerfe\_cyanea & \tiny Macrourus\_carinatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pagurus\_comptus & \tiny Macrourus\_carinatus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Amphipoda & \tiny Macrourus\_carinatus & \tiny Laptikhovsky\_2005
+& \tiny \url{https://doi.org/10.1016/j.dsr.2005.03.003} & \tiny \\
+\tiny Isopoda\_others & \tiny Macrourus\_carinatus &
+\tiny Laptikhovsky\_2005 & \tiny
+\url{https://doi.org/10.1016/j.dsr.2005.03.003} & \tiny \\
+\tiny Euphausiidae & \tiny Macrourus\_carinatus &
+\tiny Laptikhovsky\_2005 & \tiny
+\url{https://doi.org/10.1016/j.dsr.2005.03.003} & \tiny \\
+\tiny Polychaeta & \tiny Macrourus\_carinatus & \tiny Laptikhovsky\_2005
+& \tiny \url{https://doi.org/10.1016/j.dsr.2005.03.003} & \tiny \\
+\tiny Doryteuthis\_gahi & \tiny Macrourus\_holotrachys &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Campylonotus\_vagans & \tiny Macrourus\_holotrachys &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Tinerfe\_cyanea & \tiny Macrourus\_holotrachys &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Alluroteuthis\_antarcticus & \tiny Macrourus\_holotrachys &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Trematomus\_scotti & \tiny Macrourus\_holotrachys & \tiny GATEWAy
+& \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Euphausiidae & \tiny Macruronus\_magellanicus &
+\tiny Alvarez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s00300-022-03063-y} & \tiny \\
+\tiny Grimothea\_gregaria & \tiny Macruronus\_magellanicus &
+\tiny Alvarez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s00300-022-03063-y} & \tiny \\
+\tiny Sprattus\_fuegensis & \tiny Macruronus\_magellanicus &
+\tiny Alvarez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s00300-022-03063-y} & \tiny \\
+\tiny Phytoplankton & \tiny Mactridae\_spp & \tiny & \tiny & \tiny \\
+\tiny Detritus & \tiny Magellania\_venosa & \tiny Steele-Petrovic\_1976
+& \tiny \url{https://www.palass.org/publications/palaeontology-jo} &
+\tiny \\
+\tiny Euphausiidae & \tiny Martialia\_hyadesi & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Gonatus\_antarcticus & \tiny Martialia\_hyadesi & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Pleuragramma\_antarcticum & \tiny Martialia\_hyadesi &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Electrona\_spp & \tiny Martialia\_hyadesi & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Gymnoscopelus\_spp & \tiny Martialia\_hyadesi & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Champsocephalus\_gunnari & \tiny Martialia\_hyadesi &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Alluroteuthis\_antarcticus & \tiny Mastigoteuthis\_spp &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Bathyteuthis\_abyssicola & \tiny Mastigoteuthis\_spp &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Batoteuthis\_skolops & \tiny Mastigoteuthis\_spp &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Calanoida & \tiny Mastigoteuthis\_spp &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Dissostichus\_eleginoides & \tiny Mastigoteuthis\_spp &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Euphausiidae & \tiny Mastigoteuthis\_spp &
+\tiny Lopez-Lopez\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s10021-021-00665-1} & \tiny Inferred from
+Scotia Sea ecosystem \\
+\tiny Euphausiidae & \tiny Megaptera\_novaeangliae &
+\tiny Bassoi\_etal\_2020 & \tiny
+\url{https://doi.org/10.1007/s00300-019-02607-z} & \tiny \\
+\tiny Sprattus\_fuegensis & \tiny Megaptera\_novaeangliae &
+\tiny Haro\_etal\_2016 & \tiny
+\url{https://repositorio.uchile.cl/handle/2250/141272} & \tiny \\
+\tiny Grimothea\_gregaria & \tiny Megaptera\_novaeangliae &
+\tiny Haro\_etal\_2016 & \tiny
+\url{https://repositorio.uchile.cl/handle/2250/141272} & \tiny \\
+\tiny Decapoda\_others & \tiny Merluccius\_australis &
+\tiny Dunn\_etal\_2010 & \tiny
+\url{https://doi.org/10.1371/journal.pone.0013647} & \tiny \\
+\tiny Doryteuthis\_gahi & \tiny Merluccius\_hubbsi &
+\tiny Brunetti\_etal\_1999 & \tiny \url{http://hdl.handle.net/1834/2336}
+& \tiny \\
+\tiny Alluroteuthis\_antarcticus & \tiny Mesonychoteuthis\_hamiltonii &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Martialia\_hyadesi & \tiny Mesonychoteuthis\_hamiltonii &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Moroteuthis\_ingens & \tiny Mesonychoteuthis\_hamiltonii &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Kondakovia\_longimana & \tiny Mesonychoteuthis\_hamiltonii &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Gonatus\_antarcticus & \tiny Mesonychoteuthis\_hamiltonii &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Eukrohnia\_hamata & \tiny Mesonychoteuthis\_hamiltonii &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Micromesistius\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Salilota\_australis & \tiny Micromesistius\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Micromesistius\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Patagonotothen\_ramsayi & \tiny Micromesistius\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Iluocoetes\_fimbriatus & \tiny Micromesistius\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Micromesistius\_australis & \tiny Micromesistius\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pseudosagitta\_gazellae & \tiny Micromesistius\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Eukrohnia\_hamata & \tiny Micromesistius\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Micromesistius\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Myxine\_spp & \tiny Micromesistius\_australis &
+\tiny Brickle\_etal\_2009 & \tiny
+\url{https://doi.org/10.1016/j.ecss.2009.06.007} & \tiny \\
+\tiny Macrouridae & \tiny Micromesistius\_australis & \tiny FishBase &
+\tiny \url{http://www.fishbase.us/TrophicEco/DietCompoSumma} & \tiny \\
+\tiny Doryteuthis\_gahi & \tiny Mirounga\_leonina &
+\tiny Bassoi\_etal\_2020 & \tiny
+\url{https://doi.org/10.1007/s00300-019-02607-z} & \tiny \\
+\tiny Electrona\_spp & \tiny Mirounga\_leonina &
+\tiny Daneri\_etal\_2002 & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-002-0408-5} &
+\tiny Inferred from Electrona antartica and Electrona carlsbergi \\
+\tiny Gymnoscopelus\_spp & \tiny Mirounga\_leonina &
+\tiny Daneri\_etal\_2002 & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-002-0408-5} &
+\tiny Inferred from Gymnoscopelus nicholsi and Gymnoscopelus
+hintonoides \\
+\tiny Krefftichthys\_andersoni & \tiny Mirounga\_leonina &
+\tiny Daneri\_etal\_2002 & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-002-0408-5} &
+\tiny Inferred from Myctophidae \\
+\tiny Lepidonotothen & \tiny Mirounga\_leonina &
+\tiny Daneri\_etal\_2002 & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-002-0408-5} &
+\tiny \\
+\tiny Pagetopsis\_sp & \tiny Mirounga\_leonina &
+\tiny Daneri\_etal\_2002 & \tiny
+\url{https://link.springer.com/article/10.1007/s00300-002-0408-5} &
+\tiny \\
+\tiny Champsocephalus\_gunnari & \tiny Mirounga\_leonina & \tiny GATEWAy
+& \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Alluroteuthis\_antarcticus & \tiny Mirounga\_leonina &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Martialia\_hyadesi & \tiny Mirounga\_leonina & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Gonatus\_antarcticus & \tiny Mirounga\_leonina & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Kondakovia\_longimana & \tiny Mirounga\_leonina & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Mesonychoteuthis\_hamiltonii & \tiny Mirounga\_leonina &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Galiteuthis\_glacialis & \tiny Mirounga\_leonina & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Trematomus\_scotti & \tiny Mirounga\_leonina & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Euphausiidae & \tiny Moroteuthis\_ingens & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Calanoida & \tiny Moroteuthis\_ingens & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Copepoda\_others & \tiny Moroteuthis\_ingens & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Alluroteuthis\_antarcticus & \tiny Moroteuthis\_ingens &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Kondakovia\_longimana & \tiny Moroteuthis\_ingens & \tiny GATEWAy
+& \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Gonatus\_antarcticus & \tiny Moroteuthis\_ingens & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Mesonychoteuthis\_hamiltonii & \tiny Moroteuthis\_ingens &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Martialia\_hyadesi & \tiny Moroteuthis\_ingens & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Pleuragramma\_antarcticum & \tiny Moroteuthis\_ingens &
+\tiny GATEWAy & \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} &
+\tiny Inferred from Weddell Sea ecosystem \\
+\tiny Electrona\_spp & \tiny Moroteuthis\_ingens & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Gymnoscopelus\_spp & \tiny Moroteuthis\_ingens & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Necromass & \tiny Myxine\_spp & \tiny FishBase & \tiny
+\url{https://www.fishbase.de/summary/Myxine-glutinosa.ht} & \tiny \\
+\tiny Detritus & \tiny Myxine\_spp & \tiny GloBI & \tiny
+\url{https://www.globalbioticinteractions.org/browse/?intera} & \tiny \\
+\tiny Pagurus\_comptus & \tiny Myxine\_spp & \tiny GloBI & \tiny
+\url{https://www.globalbioticinteractions.org/browse/?intera} & \tiny \\
+\tiny Phytoplankton & \tiny Neocalanoida\_tonsus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Gastropoda\_others & \tiny Notothenia\_coriiceps &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny Inferred from
+Littorinidae \\
+\tiny Amphipoda & \tiny Notothenia\_coriiceps &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny Inferred from
+Gammaridea \\
+\tiny Euphausiidae & \tiny Notothenia\_coriiceps &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Ostracoda & \tiny Notothenia\_coriiceps &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Polyplacophora & \tiny Notothenia\_coriiceps &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Isopoda\_others & \tiny Notothenia\_coriiceps &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Trematomus\_scotti & \tiny Notothenia\_coriiceps & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Euphausiidae & \tiny Notothenia\_rossi & \tiny Moreira\_etal\_2014
+& \tiny \url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Ostracoda & \tiny Notothenia\_rossi & \tiny Moreira\_etal\_2014 &
+\tiny \url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Polyplacophora & \tiny Notothenia\_rossi &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Amphipoda & \tiny Notothenia\_rossi & \tiny Moreira\_etal\_2014 &
+\tiny \url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Gastropoda\_others & \tiny Notothenia\_rossi &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny Inferred from
+Onoba sp \\
+\tiny Isopoda\_others & \tiny Notothenia\_rossi &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Euphausiidae & \tiny Nototheniops\_larseni & \tiny Kock\_1985 &
+\tiny & \tiny Inferred from Nototheniops larseni \\
+\tiny Polychaeta & \tiny Odonthestes\_spp & \tiny Garcia\_1994 & \tiny
+\url{https://hal.sorbonne-universite.fr/hal-03047971} & \tiny Inferred
+from Odontesthes smitti \\
+\tiny Isopoda\_others & \tiny Odonthestes\_spp & \tiny Garcia\_1994 &
+\tiny \url{https://hal.sorbonne-universite.fr/hal-03047971} &
+\tiny Inferred from Odontesthes smitti \\
+\tiny Decapoda\_others & \tiny Odonthestes\_spp & \tiny Garcia\_1994 &
+\tiny \url{https://hal.sorbonne-universite.fr/hal-03047971} &
+\tiny Inferred from Odontesthes smitti \\
+\tiny Amphipoda & \tiny Odonthestes\_spp & \tiny Lattuca\_etal\_2015 &
+\tiny \url{https://doi.org/10.1016/j.ecss.2015.03.019} & \tiny Inferred
+from Odontesthes nigricans \\
+\tiny Euphausiidae & \tiny Odonthestes\_spp & \tiny Lattuca\_etal\_2016
+& \tiny \url{https://doi.org/10.1016/j.ecss.2015.03.019} &
+\tiny Inferred from Odontesthes nigricans \\
+\tiny Calanoida & \tiny Ophiacantha\_vivipara & \tiny & \tiny NA &
+\tiny \\
+\tiny CtenoCalanoida\_vanus & \tiny Ophiacantha\_vivipara &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Drepanopus\_forcipatus & \tiny Ophiacantha\_vivipara &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Neocalanoida\_tonsus & \tiny Ophiacantha\_vivipara &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Ophidiidae &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Coelorinchus\_fasciatus & \tiny Ophidiidae &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Salilota\_australis & \tiny Ophidiidae &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Micromesistius\_australis & \tiny Ophidiidae &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Ophidiidae & \tiny Marina\_etal\_inrev.
+& \tiny NA & \tiny Inferred from Burdwood Bank ecosystem \\
+\tiny Enteroctopus\_megalocyathus & \tiny Ophidiidae &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Mirounga\_leonina & \tiny Orcinus\_orca &
+\tiny Waerebeek\_etal\_2010 & \tiny
+\url{https://doi.org/10.47536/jcrm.v11i3.611} & \tiny \\
+\tiny Lagenorhynchus\_australis & \tiny Orcinus\_orca &
+\tiny Goodall\_2009 & \tiny
+\url{https://doi.org/10.1016/B978-0-12-373553-9.00196-6} & \tiny \\
+\tiny Otaria\_flBirdscens & \tiny Orcinus\_orca &
+\tiny Goodall\_etal\_1985 & \tiny 10.1007/978-3-642-82275-9\_77 &
+\tiny Inferred from Otariidae \\
+\tiny Spheniscus\_magellanicus & \tiny Orcinus\_orca &
+\tiny Goodall\_etal\_1985 & \tiny 10.1007/978-3-642-82275-9\_77 &
+\tiny \\
+\tiny Champsocephalus\_gunnari & \tiny Orcinus\_orca & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Alluroteuthis\_antarcticus & \tiny Orcinus\_orca & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Martialia\_hyadesi & \tiny Orcinus\_orca & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Gonatus\_antarcticus & \tiny Orcinus\_orca & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Kondakovia\_longimana & \tiny Orcinus\_orca & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Mesonychoteuthis\_hamiltonii & \tiny Orcinus\_orca & \tiny GATEWAy
+& \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Galiteuthis\_glacialis & \tiny Orcinus\_orca & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Detritus & \tiny Ostracoda & \tiny & \tiny & \tiny \\
+\tiny Phytoplankton & \tiny Ostracoda & \tiny & \tiny & \tiny \\
+\tiny Doryteuthis\_gahi & \tiny Otaria\_flBirdscens &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Ophidiidae & \tiny Otaria\_flBirdscens &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Enteroctopus\_megalocyathus & \tiny Otaria\_flBirdscens &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Otaria\_flBirdscens &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Dissostichus\_eleginoides & \tiny Otaria\_flBirdscens &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Macrourus\_carinatus & \tiny Otaria\_flBirdscens &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Macrourus\_holotrachys & \tiny Otaria\_flBirdscens &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Salilota\_australis & \tiny Otaria\_flBirdscens &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Patagonotothen\_guntheri & \tiny Otaria\_flBirdscens &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Patagonotothen\_ramsayi & \tiny Otaria\_flBirdscens &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Coelorinchus\_fasciatus & \tiny Otaria\_flBirdscens &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Micromesistius\_australis & \tiny Otaria\_flBirdscens &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Otaria\_flBirdscens &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Euphausiidae & \tiny Pagetopsis\_sp & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Electrona\_spp & \tiny Pagetopsis\_sp & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Gymnoscopelus\_spp & \tiny Pagetopsis\_sp & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Pleuragramma\_antarcticum & \tiny Pagetopsis\_sp & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Notothenia\_coriiceps & \tiny Pagetopsis\_sp & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Macrourus\_holotrachys & \tiny Pagetopsis\_sp & \tiny GATEWAy &
+\tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Harpagiferidae\_sp & \tiny Pagetopsis\_sp & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Trematomus\_scotti & \tiny Pagetopsis\_sp & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Detritus & \tiny Pagurus\_comptus & \tiny Kamsay\_etal\_1996 &
+\tiny \url{https://doi.org/10.3354/meps144063} & \tiny \\
+\tiny Necromass & \tiny Pagurus\_comptus & \tiny Kamsay\_etal\_1996 &
+\tiny \url{https://doi.org/10.3354/meps144063} & \tiny \\
+\tiny Polychaeta & \tiny Pagurus\_comptus & \tiny Kamsay\_etal\_1996 &
+\tiny \url{https://doi.org/10.3354/meps144063} & \tiny \\
+\tiny Cumacea & \tiny Pagurus\_comptus & \tiny Encyclopedia of Life &
+\tiny \url{https://eol.org/pages/46505264} & \tiny \\
+\tiny Liothyrella\_uva & \tiny Pagurus\_comptus &
+\tiny Lovrich\_pers.com. & \tiny NA & \tiny \\
+\tiny Magellania\_venosa & \tiny Pagurus\_comptus &
+\tiny Lovrich\_pers.com. & \tiny NA & \tiny \\
+\tiny Terebratella\_dorsata & \tiny Pagurus\_comptus &
+\tiny Lovrich\_pers.com. & \tiny NA & \tiny \\
+\tiny Pseudechinus\_magellanicus & \tiny Paralomis\_granulosa &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Gastropoda\_others & \tiny Paralomis\_granulosa &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Phytoplankton & \tiny Paralomis\_granulosa &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Eukrohnia\_hamata & \tiny Patagonotothen\_guntheri &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pseudosagitta\_gazellae & \tiny Patagonotothen\_guntheri &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny CtenoCalanoida\_vanus & \tiny Patagonotothen\_guntheri &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Drepanopus\_forcipatus & \tiny Patagonotothen\_guntheri &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Neocalanoida\_tonsus & \tiny Patagonotothen\_guntheri &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny RhinCalanoida\_gigas & \tiny Patagonotothen\_guntheri &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Patagonotothen\_guntheri &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Patagonotothen\_guntheri &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Cirratulidae & \tiny Patagonotothen\_guntheri &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Tinerfe\_cyanea & \tiny Patagonotothen\_guntheri &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Liothyrella\_uva & \tiny Patagonotothen\_guntheri &
+\tiny Gordillo\_etal\_2019 & \tiny
+\url{https://doi.org/10.1007/s12526-019-00935-1} & \tiny \\
+\tiny Magellania\_venosa & \tiny Patagonotothen\_guntheri &
+\tiny Gordillo\_etal\_2019; CovattiAle\_etal\_2022 & \tiny
+\url{https://doi.org/10.1007/s12526-019-00935-1}; \url{https://d} &
+\tiny \\
+\tiny Terebratella\_dorsata & \tiny Patagonotothen\_guntheri &
+\tiny Gordillo\_etal\_2019 & \tiny
+\url{https://doi.org/10.1007/s12526-019-00935-1} & \tiny \\
+\tiny Grimothea\_gregaria & \tiny Patagonotothen\_ramsayi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Campylonotus\_vagans & \tiny Patagonotothen\_ramsayi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Iluocoetes\_fimbriatus & \tiny Patagonotothen\_ramsayi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Patagonotothen\_ramsayi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny CtenoCalanoida\_vanus & \tiny Patagonotothen\_ramsayi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Drepanopus\_forcipatus & \tiny Patagonotothen\_ramsayi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Neocalanoida\_tonsus & \tiny Patagonotothen\_ramsayi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny RhinCalanoida\_gigas & \tiny Patagonotothen\_ramsayi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Eukrohnia\_hamata & \tiny Patagonotothen\_ramsayi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pseudosagitta\_gazellae & \tiny Patagonotothen\_ramsayi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pagurus\_comptus & \tiny Patagonotothen\_ramsayi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Gorgonocephalus\_chilensis & \tiny Patagonotothen\_ramsayi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Patagonotothen\_ramsayi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Tinerfe\_cyanea & \tiny Patagonotothen\_ramsayi &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Liothyrella\_uva & \tiny Patagonotothen\_ramsayi &
+\tiny Gordillo\_etal\_2019 & \tiny
+\url{https://doi.org/10.1007/s12526-019-00935-1} & \tiny \\
+\tiny Magellania\_venosa & \tiny Patagonotothen\_ramsayi &
+\tiny Gordillo\_etal\_2019 & \tiny
+\url{https://doi.org/10.1007/s12526-019-00935-1} & \tiny \\
+\tiny Terebratella\_dorsata & \tiny Patagonotothen\_ramsayi &
+\tiny Gordillo\_etal\_2019 & \tiny
+\url{https://doi.org/10.1007/s12526-019-00935-1} & \tiny \\
+\tiny Polychaeta & \tiny Pelagobia\_longicirrata &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pseudosagitta\_gazellae & \tiny Pelagobia\_longicirrata &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Calanoida & \tiny Pleuragramma\_antarcticum &
+\tiny Kellermann\_1987 & \tiny \url{https://doi.org/10.1007/BF00443949}
+& \tiny \\
+\tiny Euphausiidae & \tiny Pleuragramma\_antarcticum &
+\tiny Kellermann\_1987 & \tiny \url{https://doi.org/10.1007/BF00443949}
+& \tiny \\
+\tiny Phytoplankton & \tiny Polychaeta & \tiny & \tiny & \tiny \\
+\tiny Zooplankton & \tiny Polychaeta & \tiny & \tiny & \tiny \\
+\tiny Phytoplankton & \tiny Polyplacophora & \tiny Encyclopedia of Life
+& \tiny \url{https://eol.org/pages/4941339} & \tiny \\
+\tiny Detritus & \tiny Polyplacophora & \tiny Sirenko\_abstract &
+\tiny NA & \tiny \\
+\tiny Amphipoda & \tiny Pseudechinus\_magellanicus &
+\tiny Penchaszadeh\_etal\_2004 & \tiny
+\url{https://doi.org/10.1080/00785326.2004.10410216} & \tiny \\
+\tiny Foraminifera & \tiny Pseudechinus\_magellanicus &
+\tiny Penchaszadeh\_etal\_2004 & \tiny
+\url{https://doi.org/10.1080/00785326.2004.10410216} & \tiny \\
+\tiny Gastropoda\_others & \tiny Pseudechinus\_magellanicus &
+\tiny Penchaszadeh\_etal\_2004 & \tiny
+\url{https://doi.org/10.1080/00785326.2004.10410216} & \tiny Inferred
+from Odostomia sp \\
+\tiny Polychaeta & \tiny Pseudechinus\_magellanicus &
+\tiny Penchaszadeh\_etal\_2004 & \tiny
+\url{https://doi.org/10.1080/00785326.2004.10410216} & \tiny \\
+\tiny Themisto\_gaudichaudii & \tiny Pseudochaenichthys\_georgianus &
+\tiny Clarke\_etal\_2007 & \tiny
+\url{https://doi.org/10.1017/S0954102008000990} & \tiny \\
+\tiny Decapoda\_others & \tiny Pseudochaenichthys\_georgianus &
+\tiny Clarke\_etal\_2007 & \tiny
+\url{https://doi.org/10.1017/S0954102008000990} & \tiny \\
+\tiny Euphausiidae & \tiny Pseudochaenichthys\_georgianus &
+\tiny Clarke\_etal\_2007 & \tiny
+\url{https://doi.org/10.1017/S0954102008000990} & \tiny \\
+\tiny Electrona\_spp & \tiny Pseudochaenichthys\_georgianus &
+\tiny Clarke\_etal\_2007 & \tiny
+\url{https://doi.org/10.1017/S0954102008000990} & \tiny \\
+\tiny Gymnoscopelus\_spp & \tiny Pseudochaenichthys\_georgianus &
+\tiny Clarke\_etal\_2007 & \tiny
+\url{https://doi.org/10.1017/S0954102008000990} & \tiny \\
+\tiny Krefftichthys\_andersoni & \tiny Pseudochaenichthys\_georgianus &
+\tiny Clarke\_etal\_2007 & \tiny
+\url{https://doi.org/10.1017/S0954102008000990} & \tiny \\
+\tiny Merluccius\_hubbsi & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Merluccius\_australis & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Salilota\_australis & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Macruronus\_magellanicus & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Cottoperca\_trigloides & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Coelorinchus\_fasciatus & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Iluocoetes\_fimbriatus & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Cottunculus\_granulosus & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Dissostichus\_eleginoides & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Ophidiidae & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Nototheniops\_larseni & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Pleuragramma\_antarcticum & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Micromesistius\_australis & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Patagonotothen\_ramsayi & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Electrona\_spp & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Gymnoscopelus\_spp & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Krefftichthys\_andersoni & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Bathyraja\_macloviana & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Patagonotothen\_guntheri & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny Inferred from
+Patagonotothen\_spp \\
+\tiny Sprattus\_fuegensis & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Doryteuthis\_gahi & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Illex\_argentinus & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Enteroctopus\_megalocyathus & \tiny Pseudorca\_crassidens &
+\tiny Riccialdelli\_etal\_2010 & \tiny
+\url{https://doi.org/10.3354/meps08826} & \tiny \\
+\tiny Phytoplankton & \tiny Pseudosagitta\_gazellae &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pelagobia\_longicirrata & \tiny Pseudosagitta\_gazellae &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pseudosagitta\_gazellae & \tiny Pseudosagitta\_gazellae &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Puffinus\_griseus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Puffinus\_griseus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Puffinus\_griseus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Phytoplankton & \tiny RhinCalanoida\_gigas &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pelagobia\_longicirrata & \tiny RhinCalanoida\_gigas &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Salilota\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Salilota\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Cottoperca\_trigloides & \tiny Salilota\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Dissostichus\_eleginoides & \tiny Salilota\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Patagonotothen\_ramsayi & \tiny Salilota\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Iluocoetes\_fimbriatus & \tiny Salilota\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Micromesistius\_australis & \tiny Salilota\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Salilota\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Tinerfe\_cyanea & \tiny Salilota\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Salilota\_australis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Phytoplankton & \tiny Salpidae\_spp & \tiny & \tiny & \tiny \\
+\tiny Detritus & \tiny Serolidae & \tiny White\_1972 & \tiny
+\url{https://nora.nerc.ac.uk/id/eprint/526227/1/bulletin27_11.pdf} &
+\tiny \\
+\tiny Copepoda\_others & \tiny Serolidae & \tiny White\_1972 & \tiny
+\url{https://nora.nerc.ac.uk/id/eprint/526227/1/bulletin27_11.pdf} &
+\tiny \\
+\tiny Amphipoda & \tiny Serolidae & \tiny White\_1972 & \tiny
+\url{https://nora.nerc.ac.uk/id/eprint/526227/1/bulletin27_11.pdf} &
+\tiny \\
+\tiny Isopoda\_others & \tiny Serolidae & \tiny White\_1972 & \tiny
+\url{https://nora.nerc.ac.uk/id/eprint/526227/1/bulletin27_11.pdf} &
+\tiny \\
+\tiny Zooplankton & \tiny Spheniscus\_magellanicus &
+\tiny Rosciano\_etal\_2016 & \tiny
+\url{https://doi.org/10.3354/meps11689} & \tiny \\
+\tiny Amphipoda & \tiny Spheniscus\_magellanicus &
+\tiny Rosciano\_etal\_2016 & \tiny
+\url{https://doi.org/10.3354/meps11689} & \tiny \\
+\tiny Euphausiidae & \tiny Spheniscus\_magellanicus &
+\tiny Rosciano\_etal\_2016 & \tiny
+\url{https://doi.org/10.3354/meps11689} & \tiny \\
+\tiny Sprattus\_fuegensis & \tiny Spheniscus\_magellanicus &
+\tiny Rosciano\_etal\_2016 & \tiny
+\url{https://doi.org/10.3354/meps11689} & \tiny \\
+\tiny Grimothea\_gregaria & \tiny Spheniscus\_magellanicus &
+\tiny Rosciano\_etal\_2016 & \tiny
+\url{https://doi.org/10.3354/meps11689} & \tiny \\
+\tiny Doryteuthis\_gahi & \tiny Spheniscus\_magellanicus &
+\tiny Rosciano\_etal\_2016 & \tiny
+\url{https://doi.org/10.3354/meps11689} & \tiny \\
+\tiny Enteroctopus\_megalocyathus & \tiny Spheniscus\_magellanicus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Micromesistius\_australis & \tiny Spheniscus\_magellanicus &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Sprattus\_fuegensis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Eukrohnia\_hamata & \tiny Sprattus\_fuegensis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pseudosagitta\_gazellae & \tiny Sprattus\_fuegensis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny CtenoCalanoida\_vanus & \tiny Sprattus\_fuegensis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Drepanopus\_forcipatus & \tiny Sprattus\_fuegensis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Neocalanoida\_tonsus & \tiny Sprattus\_fuegensis &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Lagenorhynchus\_australis & \tiny Squaliformes &
+\tiny Goodall\_2009 & \tiny
+\url{https://doi.org/10.1016/B978-0-12-373553-9.00196-6} & \tiny \\
+\tiny Enteroctopus\_megalocyathus & \tiny Squalus\_acanthias &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Detritus & \tiny Terebratella\_dorsata &
+\tiny Steele-Petrovic\_1976 & \tiny
+\url{https://www.palass.org/publications/palaeontology-jo} & \tiny \\
+\tiny Electrona\_spp & \tiny Thalassarche\_chrysostoma & \tiny Arata, J.
+et al\_2004 & \tiny \url{https://doi.org/10.1017/S095410200400207X} &
+\tiny Inferred from Electrona\_antartica and Electrona\_carlsbergi \\
+\tiny Gymnoscopelus\_spp & \tiny Thalassarche\_chrysostoma &
+\tiny Arata, J. et al\_2004 & \tiny
+\url{https://doi.org/10.1017/S095410200400207X} & \tiny Inferred from
+Gymnoscopelus\_nicholsi and Gymnoscopelus\_hintonoides \\
+\tiny Krefftichthys\_andersoni & \tiny Thalassarche\_chrysostoma &
+\tiny Arata, J. et al\_2004 & \tiny
+\url{https://doi.org/10.1017/S095410200400207X} & \tiny \\
+\tiny Amphipoda & \tiny Thalassarche\_chrysostoma & \tiny Arata, J. et
+al\_2004 & \tiny \url{https://doi.org/10.1017/S095410200400207X} &
+\tiny Inferred from Gammaridea \\
+\tiny Anuropus\_antarcticus & \tiny Thalassarche\_chrysostoma &
+\tiny Arata, J. et al\_2004 & \tiny
+\url{https://doi.org/10.1017/S095410200400207X} & \tiny \\
+\tiny Decapoda\_others & \tiny Thalassarche\_chrysostoma & \tiny Arata,
+J. et al\_2004 & \tiny \url{https://doi.org/10.1017/S095410200400207X} &
+\tiny \\
+\tiny Themisto\_gaudichaudii & \tiny Thalassarche\_chrysostoma &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Macrourus\_carinatus & \tiny Thalassarche\_chrysostoma &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Macrourus\_holotrachys & \tiny Thalassarche\_chrysostoma &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Coelorinchus\_fasciatus & \tiny Thalassarche\_chrysostoma &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Thalassarche\_chrysostoma &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Dissostichus\_eleginoides & \tiny Thalassarche\_chrysostoma &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pagurus\_comptus & \tiny Thalassarche\_chrysostoma &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Patagonotothen\_guntheri & \tiny Thalassarche\_chrysostoma &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Necromass & \tiny Thalassarche\_chrysostoma &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Grimothea\_gregaria & \tiny Thalassarche\_melanophris &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Thalassarche\_melanophris &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Dissostichus\_eleginoides & \tiny Thalassarche\_melanophris &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Macrourus\_carinatus & \tiny Thalassarche\_melanophris &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Thalassarche\_melanophris &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Micromesistius\_australis & \tiny Thalassarche\_melanophris &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Patagonotothen\_guntheri & \tiny Thalassarche\_melanophris &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Macrourus\_holotrachys & \tiny Thalassarche\_melanophris &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Sprattus\_fuegensis & \tiny Thalassarche\_melanophris &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Electrona\_spp & \tiny Thalassarche\_melanophris &
+\tiny Arata\_etal\_2004 & \tiny
+\url{https://doi.org/10.1017/S095410200400207X} & \tiny Inferred from
+Electrona antartica and Electrona carlsbergi \\
+\tiny Polychaeta & \tiny Themisto\_gaudichaudii &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pseudosagitta\_gazellae & \tiny Themisto\_gaudichaudii &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Tinerfe\_cyanea &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Pseudosagitta\_gazellae & \tiny Tinerfe\_cyanea &
+\tiny Marina\_etal\_inrev. & \tiny NA & \tiny Inferred from Burdwood
+Bank ecosystem \\
+\tiny Calanoida & \tiny Trematomus\_newnesi & \tiny Moreira\_etal\_2014
+& \tiny \url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Euphausiidae & \tiny Trematomus\_newnesi &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Ostracoda & \tiny Trematomus\_newnesi & \tiny Moreira\_etal\_2014
+& \tiny \url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Polyplacophora & \tiny Trematomus\_newnesi &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Amphipoda & \tiny Trematomus\_newnesi & \tiny Moreira\_etal\_2014
+& \tiny \url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Gastropoda\_others & \tiny Trematomus\_newnesi &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny Inferred from
+Onoba sp \\
+\tiny Isopoda\_others & \tiny Trematomus\_newnesi &
+\tiny Moreira\_etal\_2014 & \tiny
+\url{https://doi.org/10.1007/s00300-014-1545-3} & \tiny \\
+\tiny Isopoda\_others & \tiny Trematomus\_scotti & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Themisto\_gaudichaudii & \tiny Trematomus\_scotti & \tiny GATEWAy
+& \tiny \url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred
+from Weddell Sea ecosystem \\
+\tiny Calanoida & \tiny Trematomus\_scotti & \tiny GATEWAy & \tiny
+\url{https://doi.org/10.25829/IDIV.283-3-756} & \tiny Inferred from
+Weddell Sea ecosystem \\
+\tiny Doryteuthis\_gahi & \tiny Ziphiidae &
+\tiny Riccialdelli\_etal\_2017 & \tiny
+\url{https://doi.org/10.3354/meps12296} & \tiny \\
+\tiny Illex\_argentinus & \tiny Ziphiidae &
+\tiny Riccialdelli\_etal\_2017 & \tiny
+\url{https://doi.org/10.3354/meps12296} & \tiny \\
+\tiny Merluccius\_hubbsi & \tiny Ziphiidae &
+\tiny Riccialdelli\_etal\_2017 & \tiny
+\url{https://doi.org/10.3354/meps12296} & \tiny \\
+\tiny Merluccius\_australis & \tiny Ziphiidae &
+\tiny Riccialdelli\_etal\_2017 & \tiny
+\url{https://doi.org/10.3354/meps12296} & \tiny \\
+\tiny Gonatus\_antarcticus & \tiny Ziphiidae &
+\tiny Riccialdelli\_etal\_2017 & \tiny
+\url{https://doi.org/10.3354/meps12296} & \tiny \\
+\tiny Dissostichus\_eleginoides & \tiny Ziphiidae &
+\tiny Riccialdelli\_etal\_2017 & \tiny
+\url{https://doi.org/10.3354/meps12296} & \tiny \\
+\tiny Micromesistius\_australis & \tiny Ziphiidae &
+\tiny Riccialdelli\_etal\_2017 & \tiny
+\url{https://doi.org/10.3354/meps12296} & \tiny \\
+\tiny Macruronus\_magellanicus & \tiny Ziphiidae &
+\tiny Riccialdelli\_etal\_2017 & \tiny
+\url{https://doi.org/10.3354/meps12296} & \tiny \\
+\tiny Lepidonotothen & \tiny Ziphiidae & \tiny Riccialdelli\_etal\_2017
+& \tiny \url{https://doi.org/10.3354/meps12296} & \tiny \\
+\tiny Pseudochaenichthys\_georgianus & \tiny Ziphiidae &
+\tiny Riccialdelli\_etal\_2017 & \tiny
+\url{https://doi.org/10.3354/meps12296} & \tiny \\
+\tiny Nototheniops\_larseni & \tiny Ziphiidae &
+\tiny Riccialdelli\_etal\_2017 & \tiny
+\url{https://doi.org/10.3354/meps12296} & \tiny \\
+\tiny Pleuragramma\_antarcticum & \tiny Ziphiidae &
+\tiny Riccialdelli\_etal\_2017 & \tiny
+\url{https://doi.org/10.3354/meps12296} & \tiny \\
+\tiny Mesonychoteuthis\_hamiltonii & \tiny Ziphiidae &
+\tiny Clarke\_etal\_1994 & \tiny 10.1017/S0954102094000234 & \tiny \\
+\tiny Decapoda\_others & \tiny Ziphiidae & \tiny Goodall\_etal\_1985 &
+\tiny 10.1007/978-3-642-82275-9\_77 & \tiny \\
+\tiny Phytoplankton & \tiny Zooplankton & \tiny & \tiny & \tiny \\
+\end{longtable}
+
+\newpage
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.3976}}
+  >{\centering\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1084}}
+  >{\centering\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1446}}
+  >{\centering\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1566}}
+  >{\centering\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.0964}}
+  >{\centering\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.0964}}@{}}
+\caption{List of species for the food web of the Marine Protected Area
+Yaganes. TL: Trophic Level; KSI: Keystone Species Index. Ordered by the
+KSI.}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Species
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Degree
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Closeness
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Betweeness
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+TL
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+KSI
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Species
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Degree
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Closeness
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Betweeness
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+TL
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+KSI
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Dissostichus\_eleginoides & 42 & 0.004 & 1568 & 4.873 & 1 \\
+Patagonotothen\_ramsayi & 29 & 0.004 & 232.2 & 3.962 & 6.667 \\
+Micromesistius\_australis & 29 & 0.004 & 446.3 & 4.245 & 7 \\
+Themisto\_gaudichaudii & 31 & 0.004 & 125.8 & 3.5 & 7 \\
+Gymnoscopelus\_spp & 23 & 0.004 & 183.3 & 3.429 & 7.333 \\
+Sprattus\_fuegensis & 31 & 0.004 & 123.6 & 3.708 & 8.333 \\
+Doryteuthis\_gahi & 34 & 0.004 & 108.9 & 3.625 & 8.667 \\
+Lagenorhynchus\_australis & 21 & 0.004 & 175.7 & 4.564 & 8.667 \\
+Batoteuthis\_skolops & 18 & 0.004 & 1086 & 5.178 & 10.33 \\
+Salilota\_australis & 19 & 0.004 & 425.2 & 5.062 & 10.67 \\
+Euphausiidae & 37 & 0.004 & 65.08 & 2.5 & 10.67 \\
+Patagonotothen\_guntheri & 21 & 0.004 & 162.5 & 3.615 & 11.33 \\
+Grimothea\_gregaria & 27 & 0.004 & 75.42 & 2.5 & 11.67 \\
+Electrona\_spp & 21 & 0.004 & 58.32 & 3.4 & 16 \\
+Enteroctopus\_megalocyathus & 18 & 0.003 & 143.5 & 3.124 & 16 \\
+Gonatus\_antarcticus & 15 & 0.003 & 236 & 4.574 & 18 \\
+Lamna\_nasus & 18 & 0.004 & 36.92 & 5.031 & 18.33 \\
+Pagurus\_comptus & 14 & 0.003 & 110.1 & 2.643 & 18.33 \\
+Macrourus\_holotrachys & 12 & 0.003 & 113.2 & 4.704 & 19.67 \\
+Mastigoteuthis\_spp & 7 & 0.003 & 743.3 & 5.229 & 20 \\
+Pseudosagitta\_gazellae & 14 & 0.003 & 76.49 & 2.5 & 20.67 \\
+Polychaeta & 13 & 0.004 & 63.87 & 2.5 & 20.67 \\
+Macrourus\_carinatus & 16 & 0.004 & 19.46 & 4.241 & 21 \\
+Illex\_argentinus & 13 & 0.004 & 28.14 & 3.829 & 22 \\
+Alluroteuthis\_antarcticus & 14 & 0.003 & 200.2 & 4.643 & 22 \\
+Otaria\_flBirdscens & 14 & 0.004 & 23.04 & 5.038 & 23 \\
+Bathyraja\_brachyurops & 18 & 0.004 & 18.7 & 4.549 & 24.33 \\
+Harpagiferidae\_sp & 8 & 0.003 & 70.75 & 3.375 & 24.67 \\
+Decapoda\_others & 11 & 0.003 & 82.03 & 3 & 25.33 \\
+Champsocephalus\_gunnari & 11 & 0.003 & 97.41 & 3.687 & 25.67 \\
+Moroteuthis\_ingens & 13 & 0.003 & 88.76 & 4.687 & 26.33 \\
+Odonthestes\_spp & 7 & 0.003 & 30.37 & 3.6 & 26.67 \\
+Krefftichthys\_andersoni & 13 & 0.004 & 13.81 & 3.5 & 27.67 \\
+Coelorinchus\_fasciatus & 13 & 0.003 & 17.57 & 4.067 & 28 \\
+Histioteuthis\_eltaninae & 11 & 0.003 & 907 & 5.864 & 28.33 \\
+Eukrohnia\_hamata & 7 & 0.003 & 56.83 & 3.5 & 29.67 \\
+Kondakovia\_longimana & 9 & 0.003 & 82.32 & 4.839 & 30.67 \\
+Myxine\_spp & 7 & 0.003 & 33.15 & 2.548 & 31 \\
+Spheniscus\_magellanicus & 9 & 0.004 & 6.8 & 4.088 & 31.33 \\
+Lepidonotothen & 10 & 0.003 & 16.47 & 3.393 & 31.67 \\
+Tinerfe\_cyanea & 12 & 0.003 & 17.02 & 4 & 31.67 \\
+Notothenia\_coriiceps & 9 & 0.003 & 63.4 & 3.536 & 32.33 \\
+Ostracoda & 9 & 0.003 & 19.64 & 2 & 33.33 \\
+Pseudorca\_crassidens & 23 & 0.004 & 0 & 5.092 & 33.33 \\
+Cottoperca\_trigloides & 13 & 0.003 & 7.852 & 5.211 & 33.67 \\
+Calanoida & 13 & 0.003 & 6.924 & 2 & 33.67 \\
+Mirounga\_leonina & 15 & 0.003 & 7.061 & 5.13 & 34.67 \\
+Squaliformes & 2 & 0.003 & 111 & 5.564 & 35 \\
+CtenoCalanoida\_vanus & 11 & 0.003 & 9.289 & 2.75 & 35 \\
+Martialia\_hyadesi & 12 & 0.003 & 17.27 & 4.473 & 35 \\
+Globicephala\_melas\_edwardii & 18 & 0.004 & 0 & 4.969 & 35 \\
+Amphipoda & 13 & 0.003 & 10.35 & 3 & 35.33 \\
+Thalassarche\_chrysostoma & 15 & 0.004 & 0 & 4.373 & 35.33 \\
+Mesonychoteuthis\_hamiltonii & 12 & 0.003 & 19.72 & 5.453 & 35.67 \\
+Balaenoptera\_physalus & 18 & 0.004 & 0 & 4.614 & 35.67 \\
+Phytoplankton & 17 & 0.004 & 0 & 1 & 36 \\
+Pleuragramma\_antarcticum & 12 & 0.003 & 6.619 & 3.25 & 36.33 \\
+Ophidiidae & 12 & 0.003 & 5.131 & 4.771 & 36.33 \\
+RhinCalanoida\_gigas & 9 & 0.003 & 17.18 & 3.25 & 36.67 \\
+Paralomis\_granulosa & 4 & 0.003 & 69 & 3.354 & 37 \\
+Galiteuthis\_glacialis & 8 & 0.003 & 32.55 & 4.839 & 37 \\
+Copepoda\_others & 10 & 0.003 & 5.632 & 2 & 37.33 \\
+Gastropoda\_others & 10 & 0.003 & 17.92 & 2.75 & 37.33 \\
+Pseudochaenichthys\_georgianus & 8 & 0.003 & 4.817 & 4.221 & 38.33 \\
+Trematomus\_scotti & 7 & 0.003 & 11.13 & 3.5 & 38.33 \\
+Iluocoetes\_fimbriatus & 11 & 0.003 & 3.91 & 5 & 38.67 \\
+Ziphiidae & 14 & 0.004 & 0 & 5.035 & 39 \\
+Thalassarche\_melanophris & 10 & 0.004 & 0 & 4.841 & 39 \\
+Balaenoptera\_borealis & 10 & 0.003 & 0 & 3.914 & 40.67 \\
+Macruronus\_magellanicus & 6 & 0.003 & 2.598 & 3.903 & 41 \\
+Lagenorhynchus\_cruciger & 13 & 0.003 & 0 & 5.052 & 41 \\
+Drepanopus\_forcipatus & 10 & 0.003 & 2.456 & 2 & 41.33 \\
+Neocalanoida\_tonsus & 10 & 0.003 & 2.456 & 2 & 41.33 \\
+Pagetopsis\_sp & 9 & 0.003 & 5.368 & 4.462 & 42.33 \\
+Cirratulidae & 3 & 0.003 & 38.94 & 2 & 43 \\
+Pseudechinus\_magellanicus & 6 & 0.003 & 26.67 & 3.313 & 43.67 \\
+Diomedea\_exulans & 6 & 0.003 & 0 & 4.367 & 43.67 \\
+Detritus & 15 & 0.003 & 0 & 1 & 45.33 \\
+Isopoda\_others & 10 & 0.003 & 4.399 & 2 & 46 \\
+Merluccius\_australis & 7 & 0.003 & 4.7 & 4 & 46.33 \\
+Campylonotus\_vagans & 5 & 0.003 & 3.689 & 2.75 & 46.33 \\
+Zooplankton & 5 & 0.003 & 2.281 & 2 & 47 \\
+Daption\_capense & 6 & 0.003 & 0 & 4.181 & 47.67 \\
+Nototheniops\_larseni & 5 & 0.003 & 1.266 & 3.5 & 48.33 \\
+Balaenoptera\_bonaerensis & 6 & 0.003 & 0 & 3.743 & 48.33 \\
+Merluccius\_hubbsi & 7 & 0.003 & 0.211 & 4.625 & 48.67 \\
+Salpidae\_spp & 4 & 0.003 & 1.618 & 2 & 48.67 \\
+Orcinus\_orca & 11 & 0.003 & 0 & 5.666 & 48.67 \\
+Pelagobia\_longicirrata & 4 & 0.003 & 14 & 3.5 & 49 \\
+Megaptera\_novaeangliae & 3 & 0.003 & 0 & 3.903 & 49.33 \\
+Balaenoptera\_acutorostrata & 7 & 0.003 & 0 & 3.958 & 50 \\
+Polyplacophora & 7 & 0.003 & 3.435 & 2 & 50.67 \\
+Liothyrella\_uva & 5 & 0.003 & 1.48 & 2 & 50.67 \\
+Magellania\_venosa & 5 & 0.003 & 1.48 & 2 & 50.67 \\
+Terebratella\_dorsata & 5 & 0.003 & 1.48 & 2 & 50.67 \\
+Cottunculus\_granulosus & 5 & 0.003 & 0.169 & 4.413 & 51 \\
+Ichthyoplankton & 4 & 0.003 & 6.325 & 2.5 & 51.33 \\
+Eudyptes\_chrysocome & 4 & 0.003 & 0 & 4.624 & 51.67 \\
+Macronectes\_giganteus & 4 & 0.003 & 0 & 4.52 & 51.67 \\
+Trematomus\_newnesi & 7 & 0.003 & 0 & 3.321 & 52 \\
+Fulmarus\_glacialoides & 3 & 0.003 & 0 & 4.611 & 53.33 \\
+Ardenna\_gravis & 3 & 0.003 & 0 & 4.611 & 53.33 \\
+Puffinus\_griseus & 3 & 0.003 & 0 & 4.611 & 53.33 \\
+Notothenia\_rossi & 6 & 0.003 & 0 & 3.375 & 53.67 \\
+Lissodelphis\_peronii & 5 & 0.003 & 0 & 5.153 & 54.33 \\
+Bathyraja\_macloviana & 4 & 0.003 & 0.31 & 5 & 54.67 \\
+Lissodelphis\_peroniia & 4 & 0.003 & 0 & 4.488 & 55 \\
+Macronectes\_halli & 3 & 0.003 & 0 & 4.86 & 55.67 \\
+Mactridae\_spp & 2 & 0.003 & 0.733 & 2 & 56 \\
+Macrouridae & 2 & 0.003 & 0.736 & 3.5 & 57 \\
+Eudyptes\_chrysocome\_chrysocome & 3 & 0.003 & 0 & 3.667 & 57 \\
+Necromass & 4 & 0.003 & 0 & 1 & 57.67 \\
+Serolidae & 4 & 0.003 & 0 & 3 & 58 \\
+Globicephala\_melaena & 2 & 0.003 & 0 & 4.375 & 58.33 \\
+Anuropus\_antarcticus & 2 & 0.003 & 0.5 & 2 & 58.67 \\
+Gorgonocephalus\_chilensis & 2 & 0.003 & 0 & 4.25 & 59.67 \\
+Ophiacantha\_vivipara & 4 & 0.003 & 0 & 3.188 & 60 \\
+Bathyteuthis\_abyssicola & 5 & 0.002 & 0 & 6.178 & 60.33 \\
+Filippovia\_knipovitchi & 4 & 0.003 & 0 & 6.333 & 60.33 \\
+Eubalaena\_australis & 4 & 0.002 & 0 & 3.5 & 61.33 \\
+Cumacea & 1 & 0.002 & 0 & 1 & 62 \\
+Squalus\_acanthias & 1 & 0.002 & 0 & 4.124 & 62.67 \\
+Caperea\_marginata & 1 & 0.002 & 0 & 3 & 63 \\
+Anuropus\_australis & 1 & 0.002 & 0 & 2 & 63.33 \\
+Foraminifera & 2 & 0.002 & 0 & 1 & 63.67 \\
+Globicephala\_melas & 1 & 0.002 & 0 & 5.687 & 63.67 \\
+Cosmasterias\_lurida & 1 & 0.002 & 0 & 4.312 & 64.33 \\
+\end{longtable}
+
+\end{landscape}
+
+\end{document}

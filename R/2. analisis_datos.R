@@ -39,7 +39,6 @@ datos_sw <- as.data.frame(sw["da"])
 
 # ---- SPECIES-LEVEL ANALYSES ----
 ## ---- DEGREE ----
-
 hist(degree(gok,mode="all"))
 grado <- as.data.frame(degree(gok))
 
@@ -71,12 +70,13 @@ ind_centralidad <- indices_centralidad %>%
 
 ## ---- TROPHIC LEVEL ----
 m <- get.adjacency(gok, sparse = FALSE)
-tl <- round(TrophInd(m), digits = 3)
-niveles_troficos <- TrophInd(m)
+tl <- round(TrophInd(m), digits = 3) %>% 
+  mutate(name = ind_centralidad$name)
 
 
 # ---- ALL SPECIES-LEVEL PROPERTIES ----
-sp_level <- cbind(ind_centralidad, niveles_troficos)
+sp_level <- ind_centralidad %>% 
+  inner_join(tl)
 
 
 # ---- RELATION TL-INDEX ----
@@ -91,5 +91,5 @@ sp_level <- cbind(ind_centralidad, niveles_troficos)
 
 
 # ---- SAVE RESULTS ----
-save(gok, fw_props, indices_centralidad, ind_centralidad, datos_sw, niveles_troficos, sp_level,
+save(gok, fw_props, indices_centralidad, ind_centralidad, datos_sw, tl, sp_level,
      file="Datos/analisis_datos_apr24.rda")
