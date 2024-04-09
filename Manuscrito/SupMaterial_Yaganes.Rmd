@@ -63,6 +63,49 @@ pandoc.table(int_good_res %>% arrange(., (Predator)) %>% mutate(Prey = paste('\\
 
 \newpage
 
+```{r}
+
+# ---- MATERIAL SUPLEMENTARIO ----
+
+## ---- Lista de interacciones ----
+#Lista de interacciones (Columnas = Presa, Depredador, Referencia, Enlace)
+##lista de interacciones completa, sin eliminar los duplicados, para conservar las referencias
+borrar_int <- c("Prey.funtional.group","Prey.expertise","Predator.funtional.group","Predator.expertise","Strategy","Source", "Observations")
+listadeinteracciones <- lista_interacciones[ , !(names(lista_interaccionesok) %in% borrar_int)]
+
+## ---- Lista de especies ----
+#(Columnas = Especie trofica, Resolucion, referencia, enlace)
+lista_especies<-read.csv("Datos/lista_especies.csv", header = T, sep=",")
+
+## ---- Tabla mundo pequeño ----
+
+rnd_g <- lapply(1:100, function (x) {
+  e <- sample_gnm(propcomplejidad$Size, propcomplejidad$Links, directed = TRUE)#defino redes aleatorias que voy a generar
+  
+  # Check that the ER networks has only one connected component
+  while(components(e)$no > 1)
+    e <- erdos.renyi.game(propcomplejidad$Size, propcomplejidad$Links, type = "gnm", 
+                          directed = TRUE)
+  return(e) 
+})
+
+sw <- multiweb::calc_swness_zscore(gok, nullDist = rnd_g, weights = NA, ncores = 4)
+datossw <- as.data.frame(sw["da"])
+Tabla_sw <- datossw %>% rename (Clustering = da.Clustering,PathLength = da.PathLength, zCC=da.zCC, zCP=da.zCP, CClow=da.CClow,CChigh=da.CChigh, CPlow=da.CPlow, CPhigh=da.CPhigh, SWness=da.SWness, SWnessCI=da.SWnessCI, isSW=da.isSW, isSWness=da.isSWness)
+
+## ---- Tabla indices de centralidad + TL + IEC ----
+ID <- sample(1:127,size=127,replace=TRUE)
+
+datoscc <- cbind(ind_centralidad,niveles_troficos)
+borrar <- c("ranking_degree","ranking_closeness","ranking_betweeness", "ID.1","OI")
+datoscc <- datoscc[ , !(names(datoscc) %in% borrar)]
+tablacc <- datoscc %>% rename (Trophic_species = name, Total_degree=degree.total, In_degree=degree.in, Out_degree=degree.out, Trophic_level=TL, Closeness=closeness, Betweeness=betweeness)
+Tabla_coeficientes_centralidad = tablacc [ , c(1,2,9,3,4,5,6,7,8)]
+
+```
+
+\newpage
+
 ```{r tableS2, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
 
 # Load packages
