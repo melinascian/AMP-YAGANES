@@ -9,6 +9,7 @@ library(network)
 
 # ---- LOAD DATA ----
 
+load("Datos/datosdepurados_apr24.rda")
 load("Datos/analisis_datos_apr24.rda")
 
 
@@ -89,3 +90,16 @@ Fig4 <- sp_level %>%
 
 # ggsave(filename = "Figuras/Fig4.png", plot = Fig4,
 #        width = 10, units = "in", dpi = 600, bg = "white")
+
+
+# ---- SUP MATERIAL ----
+
+## ---- Table S1 ----
+tbl_s1 <- lista_interaccionesok %>% 
+  dplyr::select(Prey, Predator, Reference, Link, Observations) %>% 
+  distinct(Prey, Predator, .keep_all = TRUE)
+
+## ---- Table S2 ----
+tbl_s2 <- sp_level %>% 
+  dplyr::select(name, degree.total, closeness, betweeness, TL, IEC)
+
