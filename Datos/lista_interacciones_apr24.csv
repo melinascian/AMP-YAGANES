@@ -472,8 +472,8 @@ ID,Prey,Prey funtional group,Prey expertise,Predator,Predator funtional group,Pr
 471,Sprattus_fuegensis,Clupeiformes,Sardinas,Lagenorhynchus_cruciger,Delphinidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
 472,Pseudosagitta_gazellae,Chaetognatha,Zooplankton,Micromesistius_australis,Gadiformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
 473,Neocalanoida_tonsus,Copepoda,Zooplankton,Balaenoptera_physalus,Cetacea,Sea mammals,Filter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
-474,Doryteuthis_gahi,Cephalopoda,Cephalopods,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
-475,Ophidiidae,Ophidiiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+474,Doryteuthis_gahi,Cephalopoda,Cephalopods,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+475,Ophidiidae,Ophidiiformes,Fish,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
 476,Themisto_gaudichaudii,Malacostraca,Crustaceans,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
 477,Cirratulidae,Polychaeta,Zooplankton,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
 478,Tinerfe_cyanea,Ctenophora,Zooplankton,Patagonotothen_guntheri,Perciformes,Fish,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
@@ -536,18 +536,18 @@ ID,Prey,Prey funtional group,Prey expertise,Predator,Predator funtional group,Pr
 535,Patagonotothen_guntheri,Perciformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
 536,Patagonotothen_ramsayi,Perciformes,Fish,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
 537,Sprattus_fuegensis,Clupeiformes,Sardinas,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
-538,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
-539,Grimothea_gregaria,Malacostraca,Crustaceans,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
-540,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
-541,Macrourus_carinatus,Gadiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
-542,Macrourus_holotrachys,Gadiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
-543,Salilota_australis,Gadiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
-544,Patagonotothen_guntheri,Perciformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
-545,Patagonotothen_ramsayi,Perciformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
-546,Coelorinchus_fasciatus,Gadiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
-547,Salilota_australis,Gadiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
-548,Micromesistius_australis,Gadiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
-549,Sprattus_fuegensis,Clupeiformes,Sardinas,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+538,Enteroctopus_megalocyathus,Cephalopoda,Cephalopods,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+539,Grimothea_gregaria,Malacostraca,Crustaceans,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+540,Dissostichus_eleginoides,Perciformes,Fish_Demersal,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+541,Macrourus_carinatus,Gadiformes,Fish,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+542,Macrourus_holotrachys,Gadiformes,Fish,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+543,Salilota_australis,Gadiformes,Fish,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+544,Patagonotothen_guntheri,Perciformes,Fish,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+545,Patagonotothen_ramsayi,Perciformes,Fish,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+546,Coelorinchus_fasciatus,Gadiformes,Fish,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+547,Salilota_australis,Gadiformes,Fish,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+548,Micromesistius_australis,Gadiformes,Fish,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
+549,Sprattus_fuegensis,Clupeiformes,Sardinas,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Marina_etal_inrev.,NA,Inferred from Burdwood Bank ecosystem
 550,Electrona_spp,Myctophiformes,Fish,Thalassarche_melanophris,Birds,Sea birds,Hunter,Heterotroph,Arata_etal_2004,https://doi.org/10.1017/S095410200400207X,Inferred from Electrona antartica and Electrona carlsbergi
 551,Electrona_spp,Myctophiformes,Fish,Thalassarche_melanophris,Birds,Sea birds,Hunter,Heterotroph,Arata_etal_2004,https://doi.org/10.1017/S095410200400207X,Inferred from Electrona antartica and Electrona carlsbergi
 552,Micromesistius_australis,Gadiformes,Fish,Thalassarche_melanophris,Birds,Sea birds,Hunter,Heterotroph,Arata_etal_2004,https://doi.org/10.1017/S095410200400207X,
@@ -558,7 +558,7 @@ ID,Prey,Prey funtional group,Prey expertise,Predator,Predator funtional group,Pr
 557,Copepoda_others,Copepoda,Zooplankton,Caperea_marginata,Neobalaenidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,
 558,Merluccius_hubbsi,Gadiformes,Fish,Dissostichus_eleginoides,Nototheniidae,Fish,Hunter,Heterotroph,pers.com._Claudia_Boy,NA,
 559,Decapoda_others,Decapoda,Crustaceans,Ziphiidae,Ziphiidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,
-560,Otaria_flBirdscens,Carnivora,Sea mammals,Orcinus_orca,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,Inferred from Otariidae
+560,Otaria_byronia,Carnivora,Sea mammals,Orcinus_orca,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,Inferred from Otariidae
 561,Spheniscus_magellanicus,Birds,Sea birds,Orcinus_orca,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,
 562,Doryteuthis_gahi,Cephalopoda,Cephalopods,Lagenorhynchus_australis,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,
 563,Doryteuthis_gahi,Cephalopoda,Cephalopods,Lissodelphis_peroniia,Delphinidae,Sea mammals,Hunter,Heterotroph,Goodall_etal_1985,10.1007/978-3-642-82275-9_77,
@@ -728,7 +728,7 @@ ID,Prey,Prey funtional group,Prey expertise,Predator,Predator funtional group,Pr
 727,Tinerfe_cyanea,Ctenophora,Zooplankton,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
 728,Pagurus_comptus,Decapoda,Crustaceans,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
 729,Polychaeta,Polychaeta,Zooplankton,Macrourus_carinatus,Gadiformes,Fish,Hunter,Heterotroph,Laptikhovsky_2005,https://doi.org/10.1016/j.dsr.2005.03.003,
-730,Macrourus_carinatus,Gadiformes,Fish,Otaria_flBirdscens,Carnivora,Sea mammals,Hunter,Heterotroph,Riccialdelli_pers.com.,NA,
+730,Macrourus_carinatus,Gadiformes,Fish,Otaria_byronia,Carnivora,Sea mammals,Hunter,Heterotroph,Riccialdelli_pers.com.,NA,
 731,Macrourus_carinatus,Gadiformes,Fish,Thalassarche_chrysostoma,Birds,Sea birds,Hunter,Heterotroph,Catry_etal_2004,https://doi.org/10.3354/meps280261,
 732,Macrourus_carinatus,Gadiformes,Fish,Thalassarche_melanophris,Procellariiformes,Sea birds,Hunter,Heterotroph,Xavier_etal_2003,https://doi.org/10.1046/j.1474-919X.2003.00196.x,
 733,Phytoplankton,Phytoplankton,Phytoplankton,Polyplacophora,Polyplacophora,Poliplacoforos,Grazer,Primary_producer,Encyclopedia of Life,https://eol.org/pages/4941339,
