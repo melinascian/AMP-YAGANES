@@ -65,13 +65,22 @@ load("../Datos/analisis_datos_apr24.rda")
 
 # Filter species list
 sp_tbl <- sp_level %>% 
-  dplyr::select(name, degree.total, closeness, betweeness, TL, IEC)
+  dplyr::select(name, degree.total, closeness, betweeness, TL, IEC) %>% 
+  # add taxonomic level
+  mutate(TaxLevel = case_when(str_detect(name, "dae") ~ "Family",
+                              name %in% c("Detritus","Necromass","Ichthyoplankton","Zooplankton","Phytoplankton") ~ "NA",
+                              name %in% c("Copepoda_others","Gastropoda_others","Ostracoda","Polyplacophora","Polychaeta") ~ "Class",
+                              name %in% c("Amphipoda","Decapoda_others","Calanoida","Isopoda_others","Squaliformes","Cumacea") ~ "Order",
+                              name == "Foraminifera" ~ "Phylum",
+                              str_detect(name, "_sp|_spp") ~ "Genus",
+                              str_detect(name, "Lepidonotothen") ~ "Genus",
+                              TRUE ~ "Species"))
 
 # Table S2
 pandoc.table(sp_tbl %>% arrange(., (IEC)) %>% 
                mutate(across(where(is.numeric), round, 3)) %>% 
-               rename("Species"="name", "Degree"="degree.total", "Closeness"="closeness", "Betweeness"="betweeness", "KSI"="IEC"), style="multiline", split.tables = Inf, justify = c("left","center","center","center","center","center"),
-             caption = "List of species for the food web of the Marine Protected Area Yaganes. TL: Trophic Level; KSI: Keystone Species Index. Ordered by the KSI.")
+               rename("Species"="name", "Degree"="degree.total", "Closeness"="closeness", "Betweeness"="betweeness", "KSI"="IEC"), style="multiline", split.tables = Inf, justify = c("left","center","center","center","center","center","right"),
+             caption = "List of species for the food web of the Marine Protected Area Yaganes. TL: Trophic Level; KSI: Keystone Species Index. TaxLevel: Taxonomic Level. Ordered by the KSI.")
 
 ```
 
