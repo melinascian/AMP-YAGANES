@@ -48,7 +48,7 @@ V(gok)$degree.in <- degree(gok, mode="in")
 V(gok)$degree.out <- degree(gok, mode="out")
 
 ## ---- CLOSENESS ----
-V(gok)$closeness <- igraph::closeness(gok,mode="all")
+V(gok)$closeness <- igraph::closeness(gok, mode="all")
 
 ## ---- BETWEENESS ----
 V(gok)$betweeness <- igraph::betweenness(gok)
@@ -91,5 +91,5 @@ sp_level <- ind_centralidad %>%
 
 
 # ---- SAVE RESULTS ----
-save(gok, fw_props, indices_centralidad, ind_centralidad, datos_sw, tl, sp_level,
-     file="Datos/analisis_datos_apr24.rda")
+save(gok, fw_props, dist_fit, indices_centralidad, ind_centralidad, datos_sw, tl, sp_level,
+     file="Datos/analisis_datos_dec24.rda")

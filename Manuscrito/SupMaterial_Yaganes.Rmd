@@ -21,7 +21,7 @@ header-includes:
 - \linenumbers
 ---
 
-# Supplementary Material for 'Enhancing the analysis of the pelagic food web within the oceanic Marine Protected Area Yaganes and its surrounding areas'
+# Supplementary Material for 'Food web structure and species’ role in an oceanic Marine Protected Area in the subantarctic'
 
 ## Methodology
 
@@ -51,7 +51,8 @@ int_tbl <- lista_interaccionesok %>%
   distinct(Prey, Predator, .keep_all = TRUE)
 
 # Table S1
-pandoc.table(int_tbl %>% arrange(., (Predator)) %>% mutate(Prey = paste('\\tiny', Prey), Predator = paste('\\tiny', Predator), Reference = paste('\\tiny', Reference), Link = paste('\\tiny', Link), Observations = paste('\\tiny', Observations)), style="multiline", split.tables = Inf, justify = c("left","left","left","left","right"),
+pandoc.table(int_tbl %>% arrange(., (Predator)) %>% 
+               mutate(Prey = paste('\\tiny', Prey), Predator = paste('\\tiny', Predator), Reference = paste('\\tiny', Reference), Link = paste('\\tiny', Link), Observations = paste('\\tiny', Observations)), style="multiline", split.tables = Inf, justify = c("left","left","left","left","right"),
              caption = "List of predator-prey (trophic) interactions used to build the network for the Marine Protected Area Yaganes ecosystem (MPAY).")
 
 ```
@@ -61,11 +62,11 @@ pandoc.table(int_tbl %>% arrange(., (Predator)) %>% mutate(Prey = paste('\\tiny'
 ```{r tableS2, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
 
 # Load data
-load("../Datos/analisis_datos_apr24.rda")
+load("../Datos/analisis_datos_dec24.rda")
 
 # Filter species list
 sp_tbl <- sp_level %>% 
-  dplyr::select(name, degree.total, closeness, betweeness, TL, IEC) %>% 
+  dplyr::select(name, degree.in, degree.out, degree.total, closeness, betweeness, TL, IEC) %>% 
   # add taxonomic level
   mutate(TaxLevel = case_when(str_detect(name, "dae") ~ "Family",
                               name %in% c("Detritus","Necromass","Ichthyoplankton","Zooplankton","Phytoplankton") ~ "NA",
@@ -78,11 +79,29 @@ sp_tbl <- sp_level %>%
 
 # Table S2
 pandoc.table(sp_tbl %>% arrange(., (IEC)) %>% 
-               mutate(across(where(is.numeric), round, 3)) %>% 
-               rename("Species"="name", "Degree"="degree.total", "Closeness"="closeness", "Betweeness"="betweeness", "KSI"="IEC"), style="multiline", split.tables = Inf, justify = c("left","center","center","center","center","center","right"),
-             caption = "List of species for the food web of the Marine Protected Area Yaganes. TL: Trophic Level; KSI: Keystone Species Index. TaxLevel: Taxonomic Level. Ordered by the KSI.")
+               mutate_at(vars(IEC, TL), round, 2) %>% 
+               mutate_at(vars(closeness, betweeness), round, 5) %>% 
+               rename("Species"="name", "InDegree"="degree.in", "OutDegree"="degree.out", "TotDegree"="degree.total", "Closeness"="closeness", "Betweeness"="betweeness", "KSI"="IEC"), style="multiline", split.tables = Inf, justify = c("left","center","center","center","center","center","center","center","right"),
+             caption = "List of species for the food web of the Marine Protected Area Yaganes. TotDegree: total degree; TL: Trophic Level; KSI: Keystone Species Index. TaxLevel: Taxonomic Level. Ordered by the KSI.")
 
 ```
 
 
 \elandscape
+
+\newpage
+
+```{r tableS3, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+
+# Load data
+load("../Datos/analisis_datos_dec24.rda")
+
+# Table S3
+pandoc.table(dist_fit$models %>% 
+               arrange(., (AIC)) %>% 
+               dplyr::select(AIC, BIC, model, family) %>% 
+               rename("Model"="model", "Model family"="family"), style="multiline", split.tables = Inf, justify = c("left","left","left","left"),
+             caption = "Results of the degree distribution fit. Exponential and power law model families were tested, and AIC (Akaike Information Criterion) and BIC (Bayesian Information Criterion) were used to select the best fit (i.e., lower AIC and BIC). The exponential model is the best fit.")
+
+
+```

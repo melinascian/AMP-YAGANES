@@ -10,7 +10,7 @@ library(network)
 # ---- LOAD DATA ----
 
 load("Datos/datosdepurados_apr24.rda")
-load("Datos/analisis_datos_apr24.rda")
+load("Datos/analisis_datos_dec24.rda")
 
 
 # ---- TABLES ----
@@ -72,6 +72,8 @@ set.seed(1)
 btw_plot <- multiweb::plot_troph_level(gok, vertex.size=sqrt(V(gok)$betweeness))
 set.seed(1)
 clo_plot <- multiweb::plot_troph_level(gok, vertex.size=10^3.2*(V(gok)$closeness))
+set.seed(1)
+btw_plot <- multiweb::plot_troph_level(gok, vertex.size=sqrt(V(gok)$betweeness))
 
 ## ---- Figure 4 ----
 Fig4 <- sp_level %>% 
@@ -101,5 +103,5 @@ tbl_s1 <- lista_interaccionesok %>%
 
 ## ---- Table S2 ----
 tbl_s2 <- sp_level %>% 
-  dplyr::select(name, degree.total, closeness, betweeness, TL, IEC)
+  dplyr::select(name, degree.in, degree.out, degree.total, closeness, betweeness, TL, IEC)
 
