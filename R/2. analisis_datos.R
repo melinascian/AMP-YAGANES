@@ -68,8 +68,11 @@ ind_centralidad <- indices_centralidad %>%
          ranking_betweeness=dense_rank(desc(betweeness))) %>% 
   mutate(IEC=(ranking_degree + ranking_closeness + ranking_betweeness)/3)
 
+# Include IEC (Indice de Especie Clave) as node attribute
+V(gok)$IEC <- ind_centralidad$IEC
+
 ## ---- TROPHIC LEVEL ----
-m <- get.adjacency(gok, sparse = FALSE)
+m <- as_adjacency_matrix(gok, sparse = FALSE)
 tl <- round(TrophInd(m), digits = 3) %>% 
   mutate(name = ind_centralidad$name)
 

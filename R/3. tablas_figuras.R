@@ -64,7 +64,7 @@ Fig2 <- dist_fit[["graph"]] +
 #        width = 10, units = "in", dpi = 600, bg = "white")
 
 ## ---- Figure 3 ----
-# Gráficos comparativos índices de centralidad
+# Graphs showing centrality indices
 par(mfrow = c(1,1))
 set.seed(1)
 deg_plot <- multiweb::plot_troph_level(gok, vertex.size=0.5*(V(gok)$degree.total), ylab = "Trophic level")
@@ -72,8 +72,11 @@ set.seed(1)
 btw_plot <- multiweb::plot_troph_level(gok, vertex.size=sqrt(V(gok)$betweeness))
 set.seed(1)
 clo_plot <- multiweb::plot_troph_level(gok, vertex.size=10^3.2*(V(gok)$closeness))
+# Graph showing IEC (Indice de Especie Clave)
 set.seed(1)
-btw_plot <- multiweb::plot_troph_level(gok, vertex.size=sqrt(V(gok)$betweeness))
+V(gok)$IEC_rank <- keysp_index$Ranking
+iec_plot <- multiweb::plot_troph_level(gok, vertex.size = 10, vertex.color = ifelse(V(gok)$IEC_rank < 11, "orange", "grey"), 
+                                       vertex.label = ifelse(V(gok)$IEC_rank < 11, V(gok)$IEC_rank, NA))
 
 ## ---- Figure 4 ----
 Fig4 <- sp_level %>% 
@@ -89,6 +92,20 @@ Fig4 <- sp_level %>%
         axis.text.y = element_text(size = 12),
         panel.background = element_blank(),
         axis.line = element_line(colour = "black"))
+
+# Extract statistics
+library(stats)
+loess.data <- stats::loess(TL ~ IEC, data = sp_level, span = 0.75, degree = 2, family = "gaussian")
+loess.predict <- predict(loess.data, se = T)
+loess.df <- data.frame(fit = loess.predict$fit, se = loess.predict$se.fit, IEC = sp_level$IEC, TL = sp_level$TL)
+head(loess.df)
+summary(loess.data)
+
+# Fitting is done locally by least-squares (family=gaussian). That is, for the fit at point x, 
+# the fit is made using points in a neighbourhood of x weighted by their distance from x. 
+# The size of the neighbourhood is controlled by α (set by span); here equal to 0.75. For α < 1,
+# the neighbourhood includes proportion α of the points, and these have tricubic weighting 
+# (proportional to 1 - (dist/maxdist)^3)^3).
 
 # ggsave(filename = "Figuras/Fig4.png", plot = Fig4,
 #        width = 10, units = "in", dpi = 600, bg = "white")
