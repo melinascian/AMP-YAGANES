@@ -23,10 +23,6 @@ header-includes:
 
 # Supplementary Material for 'Food web structure and species’ role in an oceanic Marine Protected Area in the subantarctic'
 
-## Methodology
-
-### Food web construction
-
 The following figure and tables summarise the data we used to build the network of trophic (predator-prey) interactions for the Marine Protected Area Yaganes ecosystem. Details of some results are also included.
 Table 1 is the complete list of trophic interactions and references that confirm each of them. Table 2 is the species list with details on trophic species cases (aggregated taxa) and its species-level properties (in-degree, out-degree, total degree, closeness, betweenness, trophic level and keystone species index). Table 3 shows the results of the degree distribution fit of the food web.
 
