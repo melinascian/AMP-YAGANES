@@ -27,8 +27,8 @@ header-includes:
 
 ### Food web construction
 
-The following figure and tables summarise the data we used to build the network of trophic (predator-prey) interactions for the Marine Protected Area Yaganes ecosystem.
-Table 1 is the complete list of trophic interactions and references that confirm each of them. Table 2 is the species list with details on trophic species cases (aggregated taxa).
+The following figure and tables summarise the data we used to build the network of trophic (predator-prey) interactions for the Marine Protected Area Yaganes ecosystem. Details of some results are also included.
+Table 1 is the complete list of trophic interactions and references that confirm each of them. Table 2 is the species list with details on trophic species cases (aggregated taxa) and its species-level properties (in-degree, out-degree, total degree, closeness, betweenness, trophic level and keystone species index). Table 3 shows the results of the degree distribution fit of the food web.
 
 \newpage
 \blandscape
@@ -82,7 +82,7 @@ pandoc.table(sp_tbl %>% arrange(., (IEC)) %>%
                mutate_at(vars(IEC, TL), round, 2) %>% 
                mutate_at(vars(closeness, betweeness), round, 5) %>% 
                rename("Species"="name", "InDegree"="degree.in", "OutDegree"="degree.out", "TotDegree"="degree.total", "Closeness"="closeness", "Betweeness"="betweeness", "KSI"="IEC"), style="multiline", split.tables = Inf, justify = c("left","center","center","center","center","center","center","center","right"),
-             caption = "List of species for the food web of the Marine Protected Area Yaganes. TotDegree: total degree; TL: Trophic Level; KSI: Keystone Species Index. TaxLevel: Taxonomic Level. Ordered by the KSI.")
+             caption = "List of species, including  species-level properties, for the food web of the Marine Protected Area Yaganes. TotDegree: total degree; TL: Trophic Level; KSI: Keystone Species Index. TaxLevel: Taxonomic Level. Ordered by the KSI.")
 
 ```
 
@@ -99,7 +99,7 @@ load("../Datos/analisis_datos_dec24.rda")
 # Table S3
 pandoc.table(dist_fit$models %>% 
                arrange(., (AIC)) %>% 
-               dplyr::select(AIC, BIC, model, family) %>% 
+               dplyr::select(AIC, BIC, family, model) %>% 
                rename("Model"="model", "Model family"="family"), style="multiline", split.tables = Inf, justify = c("left","left","left","left"),
              caption = "Results of the degree distribution fit. Exponential and power law model families were tested, and AIC (Akaike Information Criterion) and BIC (Bayesian Information Criterion) were used to select the best fit (i.e., lower AIC and BIC). The exponential model is the best fit.")
 

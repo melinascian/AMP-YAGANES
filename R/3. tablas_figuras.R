@@ -67,16 +67,22 @@ Fig2 <- dist_fit[["graph"]] +
 # Graphs showing centrality indices
 par(mfrow = c(1,1))
 set.seed(1)
-deg_plot <- multiweb::plot_troph_level(gok, vertex.size=0.5*(V(gok)$degree.total), ylab = "Trophic level")
+deg_plot <- multiweb::plot_troph_level(gok, vertex.size=0.5*(V(gok)$degree.total), maxTL = 6,
+                                       ylab = "Trophic level", main = "Degree", maincex = 40)
 set.seed(1)
-btw_plot <- multiweb::plot_troph_level(gok, vertex.size=sqrt(V(gok)$betweeness))
+btw_plot <- multiweb::plot_troph_level(gok, vertex.size=sqrt(V(gok)$betweeness), maxTL = 6,
+                                       main = "Betweeness")
 set.seed(1)
-clo_plot <- multiweb::plot_troph_level(gok, vertex.size=10^3.2*(V(gok)$closeness))
+clo_plot <- multiweb::plot_troph_level(gok, vertex.size=10^3.2*(V(gok)$closeness), maxTL = 6,
+                                       main = "Closeness")
 # Graph showing IEC (Indice de Especie Clave)
 set.seed(1)
 V(gok)$IEC_rank <- keysp_index$Ranking
-iec_plot <- multiweb::plot_troph_level(gok, vertex.size = 10, vertex.color = ifelse(V(gok)$IEC_rank < 11, "orange", "grey"), 
-                                       vertex.label = ifelse(V(gok)$IEC_rank < 11, V(gok)$IEC_rank, NA))
+iec_plot <- multiweb::plot_troph_level(gok, vertex.size = 10, , maxTL = 6, 
+                                       vertex.color = ifelse(V(gok)$IEC_rank < 11, "orange", "grey"), 
+                                       vertex.label = ifelse(V(gok)$IEC_rank < 11, V(gok)$IEC_rank, NA),
+                                       main = "Keystone Species Index (KSI)")
+
 
 ## ---- Figure 4 ----
 Fig4 <- sp_level %>% 
@@ -122,3 +128,6 @@ tbl_s1 <- lista_interaccionesok %>%
 tbl_s2 <- sp_level %>% 
   dplyr::select(name, degree.in, degree.out, degree.total, closeness, betweeness, TL, IEC)
 
+## ---- Table S3 ----
+tbl_s3 <- dist_fit$models %>% 
+  dplyr::select(AIC, BIC, family, model)

@@ -110,9 +110,13 @@ subantarctic'}\label{supplementary-material-for-food-web-structure-and-species-r
 
 The following figure and tables summarise the data we used to build the
 network of trophic (predator-prey) interactions for the Marine Protected
-Area Yaganes ecosystem. Table 1 is the complete list of trophic
-interactions and references that confirm each of them. Table 2 is the
-species list with details on trophic species cases (aggregated taxa).
+Area Yaganes ecosystem. Details of some results are also included. Table
+1 is the complete list of trophic interactions and references that
+confirm each of them. Table 2 is the species list with details on
+trophic species cases (aggregated taxa) and its species-level properties
+(in-degree, out-degree, total degree, closeness, betweenness, trophic
+level and keystone species index). Table 3 shows the results of the
+degree distribution fit of the food web.
 
 \newpage
 \begin{landscape}
@@ -2158,10 +2162,10 @@ Weddell Sea ecosystem \\
   >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0588}}
   >{\centering\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0672}}
   >{\raggedleft\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0924}}@{}}
-\caption{List of species for the food web of the Marine Protected Area
-Yaganes. TotDegree: total degree; TL: Trophic Level; KSI: Keystone
-Species Index. TaxLevel: Taxonomic Level. Ordered by the
-KSI.}\tabularnewline
+\caption{List of species, including species-level properties, for the
+food web of the Marine Protected Area Yaganes. TotDegree: total degree;
+TL: Trophic Level; KSI: Keystone Species Index. TaxLevel: Taxonomic
+Level. Ordered by the KSI.}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Species
@@ -2423,8 +2427,8 @@ Species \\
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1250}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1250}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1528}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2083}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2083}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1528}}@{}}
 \caption{Results of the degree distribution fit. Exponential and power
 law model families were tested, and AIC (Akaike Information Criterion)
 and BIC (Bayesian Information Criterion) were used to select the best
@@ -2436,9 +2440,9 @@ AIC
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 BIC
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Model
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Model family
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Model
 \end{minipage} \\
 \midrule\noalign{}
 \endfirsthead
@@ -2448,18 +2452,18 @@ AIC
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 BIC
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Model
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Model family
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Model
 \end{minipage} \\
 \midrule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
--159 & -153.8 & Exp & Exponential \\
--41.82 & -36.83 & Power & PowerLaw \\
--31.17 & -26.18 & LogExp & Exponential \\
-80.55 & 85.54 & LogPower & PowerLaw \\
+-159 & -153.8 & Exponential & Exp \\
+-41.82 & -36.83 & PowerLaw & Power \\
+-31.17 & -26.18 & Exponential & LogExp \\
+80.55 & 85.54 & PowerLaw & LogPower \\
 \end{longtable}
 
 \end{document}
