@@ -39,7 +39,7 @@ require(kableExtra)
 require(pander)
 
 # Load data
-load("../Datos/datosdepurados_apr24.rda")
+load("../Datos/datosdepurados_dic24.rda")
 
 # Filter interaction list
 int_tbl <- lista_interaccionesok %>% 
@@ -58,7 +58,7 @@ pandoc.table(int_tbl %>% arrange(., (Predator)) %>%
 ```{r tableS2, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
 
 # Load data
-load("../Datos/analisis_datos_dec24.rda")
+load("../Datos/analisis_datos_dic24.rda")
 
 # Filter species list
 sp_tbl <- sp_level %>% 
@@ -90,7 +90,7 @@ pandoc.table(sp_tbl %>% arrange(., (IEC)) %>%
 ```{r tableS3, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
 
 # Load data
-load("../Datos/analisis_datos_dec24.rda")
+load("../Datos/analisis_datos_dic24.rda")
 
 # Table S3
 pandoc.table(dist_fit$models %>% 

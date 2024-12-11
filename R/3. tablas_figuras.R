@@ -128,7 +128,8 @@ tbl_s1 <- lista_interaccionesok %>%
 
 ## ---- Table S2 ----
 tbl_s2 <- sp_level %>% 
-  dplyr::select(name, degree.in, degree.out, degree.total, closeness, betweeness, TL, IEC)
+  dplyr::select(name, degree.in, degree.out, degree.total, closeness, betweeness, TL, IEC) %>% 
+  mutate_at(vars(closeness, betweeness), round, 5)
 
 ## ---- Table S3 ----
 tbl_s3 <- dist_fit$models %>% 
