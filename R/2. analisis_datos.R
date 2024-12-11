@@ -10,7 +10,7 @@ library(network)
 
 # ---- LOAD TIDY DATA ----
 
-load("Datos/datosdepurados_apr24.rda")
+load("Datos/datosdepurados_dic24.rda")
 
 
 # ---- NETWORK-LEVEL ANALYSES ----
@@ -95,4 +95,4 @@ sp_level <- ind_centralidad %>%
 
 # ---- SAVE RESULTS ----
 save(gok, fw_props, dist_fit, indices_centralidad, ind_centralidad, datos_sw, tl, sp_level,
-     file="Datos/analisis_datos_dec24.rda")
+     file="Datos/analisis_datos_dic24.rda")

@@ -9,8 +9,8 @@ library(network)
 
 # ---- LOAD DATA ----
 
-load("Datos/datosdepurados_apr24.rda")
-load("Datos/analisis_datos_dec24.rda")
+load("Datos/datosdepurados_dic24.rda")
+load("Datos/analisis_datos_dic24.rda")
 
 
 # ---- TABLES ----
@@ -31,15 +31,17 @@ Tabla_propestructura <- fw_props %>%
   rename(CC=Clustering, CPL=PathLength)
 
 ## ---- Table 3 ----
-names <- c("ID","degree.total", "degree.in","degree.out","closeness","betweeness",
+names <- c("ID","degree.total", "degree.in","degree.out","closeness","betweeness", "OI",
             "ranking_degree","ranking_closeness","ranking_betweeness")
-keysp_index <- ind_centralidad[ , !(names(ind_centralidad) %in% names)]
+keysp_index <- sp_level[ , !(names(sp_level) %in% names)]
 keysp_index <- keysp_index %>% 
   mutate(Ranking=dense_rank(IEC)) %>%
   rename(Trophic_species = name)
 Top10_IEC <- keysp_index %>% 
   dplyr::filter(Ranking <= 10) %>% 
-  mutate(across(c(IEC), ~ round(., 2))) %>% 
+  mutate(across(c(IEC, TL), ~ round(., 2))) %>% 
+  select(Trophic_species, IEC, Ranking, TL) %>% 
+  rename("Trophic species" = "Trophic_species", "KSI" = "IEC") %>% 
   arrange(Ranking)
 
 
