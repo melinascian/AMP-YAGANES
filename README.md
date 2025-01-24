@@ -1,4 +1,4 @@
-## Revisión bibliográfica red de interacciones presa-depredador AMP Yaganes
+## Literature Review: Predator-Prey Interaction Network of the Yaganes Marine Protected Area
 <a href="https://zenodo.org/doi/10.5281/zenodo.10696830"><img src="https://zenodo.org/badge/552628591.svg" alt="DOI"></a 
 
 Objective: Construct the predator-prey (trophic) interaction network for the Yaganes Marine Protected Area.
