@@ -1,10 +1,10 @@
 
-
+library(readxl)
 library(dplyr)
 library(igraph)
 
-lista_interacciones<-read.csv("Datos/lista_interacciones.csv", header = T)  # 'header = T' indica que la 1era fila corresponde a los nombres de las columnas 
-lista_especies<-read.csv("Datos/lista_especies.csv", header = T)
+lista_interacciones<-read_xlsx("Datos/lista_interacciones_ok.xlsx")  # 'header = T' indica que la 1era fila corresponde a los nombres de las columnas 
+lista_especies<-read.csv("Datos/lista_especies_ok.csv", header = T)
 
 
 ## Elimino duplicados segun columna especie trofica
@@ -41,5 +41,5 @@ gok<- gcomp[[1]] #permite seleccionar un item dentro de una lista
 gok #red con un solo componente, el mas grande
 
 
-save(lista_interaccionesok, gok, df,  file = "Datos/datosdepurados.rda") #generar archivo rda
+save(lista_interaccionesok, gok, df,  file = "Datos/dat, header = Tosdepurados.rda") #generar archivo rda
 

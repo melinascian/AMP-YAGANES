@@ -3,6 +3,7 @@
 load("Datos/datosdepurados.rda")
 library(dplyr)
 library(igraph)
+library(devtools)
 library(multiweb)
 library(NetIndices)
 library(NetworkExtinction)
@@ -101,6 +102,6 @@ tl <- round(TrophInd(m), digits = 3) # tl es el nivel trofico, y OI es el indice
 niveles_troficos<- TrophInd(m)
 
 
-save(gok, propcomplejidad, tablamundopeque, coeficientes_centralidad, niveles_troficos,coef_centralidad, file="Datos/analisisdatos.rda")
+save(gok, propcomplejidad,coeficientes_centralidad, niveles_troficos,coef_centralidad, file="Datos/analisisdatos.rda")
 
 

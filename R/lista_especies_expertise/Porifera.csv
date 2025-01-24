@@ -1,6 +1,0 @@
-"","ID","Filum","Clase","Orden","Familia","Género","Especie.trófica","Nombre.común","Hábitat","Dominio","Expertise","Referencia","Enlace","X","X.1"
-"1",9,"Porifera",NA,NA,NA,NA,"Porifera*",NA,"Bentónico ","CB","Porifera",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
-"2",70,"Porifera","Demospongiae","Haplosclerida",NA,NA,"Haplosclerida*",NA,NA,"","Porifera",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
-"3",87,"Porifera","Demospongiae ","Axinellida","Axinellidae",NA,"Axinellidae*",NA,"Bentónico","","Porifera",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
-"4",88,"Porifera","Demospongiae ","Tetractinellida","Tetillidae ","Cinachyra","Cinachyra*",NA,"Bentónico","","Porifera",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
-"5",89,"Porifera","Demospongiae ","Poecilosclerida","Mycalidae ","Mycale","Mycale_magellonica",NA,"Bentónico","","Porifera",1,"https://doi.org/10.3989/scimar.1999.63s1155",NA,""
