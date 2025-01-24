@@ -1,13 +1,14 @@
 ## Revisión bibliográfica red de interacciones presa-depredador AMP Yaganes
 <a href="https://zenodo.org/doi/10.5281/zenodo.10696830"><img src="https://zenodo.org/badge/552628591.svg" alt="DOI"></a 
 
-Objetivo: construir la red de interacciones presa-depredador (tróficas) para el Área Marina Protegida Yaganes
+Objective: Construct the predator-prey (trophic) interaction network for the Yaganes Marine Protected Area.
 
-El directorio Bibliografia contiene una lista de las referencias utilizadas para construir la red trófica.
+The Bibliography directory contains a list of references used to build the trophic network.
 
-El directorio Datos contiene las listas de especies e interaccioes tróficas como resultado de la revision bibliografica realizada.
+The Data directory contains species lists and trophic interactions as a result of the bibliographic review conducted.
 
-El directorio R contiene los códigos utilizados para construir y analizar la red trofica.
-El directorio Referentes contiene un listado de profesionales expertos en los distintos grupos funcionales (fitoplancton, zooplancton, equinodermos, peces, etc.) a los que se les consulto acerca de las especies e interacciones recopiladas de la bibliografía.
+The R directory includes the code used to construct and analyze the trophic network.
 
-El directorio Resultados presenta los resultados obtenidos del análisis de la red trófica.
+The Experts directory provides a list of professionals with expertise in various functional groups (phytoplankton, zooplankton, echinoderms, fish, etc.) who were consulted regarding the species and interactions compiled from the bibliography.
+
+The Results directory presents the outcomes of the trophic network analysis.
