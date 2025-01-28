@@ -1,5 +1,8 @@
 # Food web structure and species’ role in the sub-Antarctic Marine Protected Area Yaganes
-Objective: Construct the predator-prey (trophic) interaction network for the Yaganes Marine Protected Area.
+
+The primary objective of this work was to build and characterise the network of trophic interactions of the Marine Protected Area Yaganes, specifically its pelagic realm, while achieving the highest taxonomic resolution possible. The method used to construct the food web was based on a bibliographic review, so the obtained product is not exhaustive, but represents a baseline and solid knowledge about potential predator-prey interactions and the importance of them for the integrity of the entire ecosystem. To accomplish the objective, we analysed the food web at both(a) the network-level, aiming to provide insights into the complexity and structure of the food web, and at (b) the species-level, to better understand the roles of individual species.
+
+
 
 ## Authors
 Melina Scian, Luciana Riccialdelli, Tomas I. Marina
